@@ -1,0 +1,83 @@
+{
+ "version": 1,
+ "date": "2026-10-23",
+ "generated": "2026-10-23T07:50:19.319407-04:00",
+ "prices": [
+  {
+   "name": "VIX",
+   "last": "19.67",
+   "change": "▲ +0.64 (+3.36%)",
+   "asOf": "7:35 AM ET"
+  },
+  {
+   "name": "US10 (10-yr note futures)",
+   "last": "106.08",
+   "change": "▼ -0.33 (-0.31%)",
+   "asOf": "7:40 AM ET"
+  },
+  {
+   "name": "US10Y yield",
+   "last": "4.953%",
+   "change": "▼ -0.193 (-3.75%)",
+   "asOf": "2:55 PM ET"
+  },
+  {
+   "name": "Crude oil (WTI)",
+   "last": "100.97",
+   "change": "▲ +1.50 (+1.51%)",
+   "asOf": "7:40 AM ET"
+  },
+  {
+   "name": "SPY",
+   "last": "762.56",
+   "change": "▼ -10.53 (-1.36%)",
+   "asOf": "7:50 AM ET · premarket"
+  },
+  {
+   "name": "QQQ",
+   "last": "704.65",
+   "change": "▼ -20.55 (-2.83%)",
+   "asOf": "7:50 AM ET · premarket"
+  }
+ ],
+ "events": [],
+ "macro": [
+  {
+   "source": "Investing.com",
+   "time": "Fri 7:42 AM",
+   "text": "Wall Street futures edge lower after the AI selloff and a telecom slide.",
+   "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-dip-after-ai-rout-telecoms-slide-4968816"
+  },
+  {
+   "source": "CNBC Top News",
+   "time": "Fri 7:39 AM",
+   "text": "U.S. oil holds above $100 and Brent sits at a five-month high as Iran says it is prepared for warfare.",
+   "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+  },
+  {
+   "source": "CNBC Top News",
+   "time": "Fri 7:12 AM",
+   "text": "France is flashing euro-crisis signals, with different fault lines from 2011.",
+   "url": "https://www.cnbc.com/2026/10/23/france-debt-euro-zone-contagion.html"
+  },
+  {
+   "source": "MarketWatch",
+   "time": "Fri 7:01 AM",
+   "text": "Treasury yields log their biggest drop since the 2023 banking crisis.",
+   "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories"
+  },
+  {
+   "source": "FT Markets",
+   "time": "Fri 6:55 AM",
+   "text": "Oil hits $114 for the first time since May as global stocks are knocked by AI fears.",
+   "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1"
+  },
+  {
+   "source": "MarketWatch",
+   "time": "Fri 6:45 AM",
+   "text": "France's credit rating is under review today, with French debt turmoil helping turn U.S. Treasury yields around.",
+   "url": "https://www.marketwatch.com/story/france-is-getting-its-credit-rating-reviewed-by-moodys-what-to-expect-as-french-debt-turmoil-spills-overseas-e39de111?mod=mw_rss_topstories"
+  }
+ ],
+ "read": "The tone is firmly risk-off: QQQ is down close to 3% premarket against SPY's roughly 1.4%, the VIX is near 20, and the selling is concentrated in AI and tech after Calpers and others pulled back from the trade. Oil is the other pressure, with WTI above $100 and Brent reported at $114 on Iran warfare rhetoric, while the 10-year yield fell to about 4.95% in its biggest one-day drop since the 2023 banking crisis as money moved into Treasuries. There are no high-impact scheduled releases today, so there is no U.S. data catalyst; the items to watch are France's credit rating review, any oil or Iran headline, and whether the AI complex finds buyers at the open. With a gap this large, the thing to wait for before a setup is the first 15-minute range to settle and some sign of whether the tech selling extends or stalls, since a gap of this size often resolves one way or the other in the first half hour."
+}
