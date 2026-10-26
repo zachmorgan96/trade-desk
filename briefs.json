@@ -204,7 +204,125 @@
    "events": [],
    "macro": [],
    "read": "The morning's mild risk-on tone is still holding but has stalled since 10:00: SPY is 764.66 (+0.62% on the day, +0.32% since the 9:30 open near 762.2), a little below its 765.15 at 10:17 and above the 763.13 premarket print, while QQQ is unchanged at 709.53 (+0.73%, +0.35% since the open near 707.1), just above its 709.22 premarket level. The VIX has kept easing to 18.17 (down about 6.6% on the day and 3% since the open), the 10-year yield is a touch lower at 4.97%, and WTI has slipped just under $101 (down about 2.2%, -0.6% since the open). There are still no high-impact scheduled releases today, so the drivers remain headlines: Iran, Meta's $95 billion offering and the AI infrastructure names, and the Anthropic IPO filing."
+  },
+  {
+   "version": 1,
+   "date": "2026-10-26",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:37",
+   "generated": "2026-10-26T16:37:04.056050-04:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "18.39",
+     "change": "▼ -1.06 (-5.45%) · open -1.87%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.09",
+     "change": "▼ -0.06 (-0.06%) · open -0.06%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.986%",
+     "change": "▼ -0.002 (-0.04%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "101.39",
+     "change": "▼ -1.88 (-1.82%) · open -0.16%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "765.19",
+     "change": "▲ +5.22 (+0.69%) · open +0.39%",
+     "asOf": "4:36 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "712.69",
+     "change": "▲ +8.29 (+1.18%) · open +0.80%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [],
+   "macro": [
+    {
+     "source": "CNBC Top News",
+     "time": "Mon 4:12 PM",
+     "text": "Stocks close higher as excitement over the Anthropic IPO filing lifts the tech sector.",
+     "url": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html"
+    },
+    {
+     "source": "CNBC Top News",
+     "time": "Mon 2:51 PM",
+     "text": "The Federal Reserve is expected to hold interest rates steady at its October meeting.",
+     "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+    },
+    {
+     "source": "MarketWatch",
+     "time": "Mon 2:24 PM",
+     "text": "Nvidia, AMD and Broadcom could buy Meta shares as part of its stock offering.",
+     "url": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories"
+    },
+    {
+     "source": "CNBC Top News",
+     "time": "Mon 1:40 PM",
+     "text": "Microsoft offers voluntary buyouts to 60,000 employees in an AI-driven efficiency push.",
+     "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+    }
+   ],
+   "read": "The morning read held: it expected a mixed tone with a mild risk-on lean in tech and no scheduled data, and the day closed that way, with QQQ up 1.18% at 712.69 (+0.80% since the 9:30 open near 707.0) clearly ahead of SPY's +0.69% at 765.19 (+0.39% since the open near 762.2). There was no high-impact U.S. release today, so headlines drove the session; closing coverage credits the Anthropic IPO filing with lifting tech, and Meta's stock offering did not hold back the Nasdaq-heavy gains. The biggest change came after the 10:30 update: SPY stayed near 765, about where it was at 10:17, while QQQ climbed from about 709.5 at 10:35 to 712.69 at the close, though these snapshots cannot show exactly when that move happened. The VIX finished down about 5.5% at 18.39, a little above its 18.17 reading at 10:20, WTI held near $101 (down 1.8%), and the 10-year yield ended little changed near 4.99%. For tomorrow's preparation, note that tech carried the day while SPY went flat after mid-morning, and the Fed decision later this week, where a hold is widely expected, is the next big U.S. scheduled event. Tomorrow's first red event is Australian CPI at 8:30 PM ET; no U.S. high-impact releases are listed for Tuesday.",
+   "tomorrow": [
+    {
+     "time": "8:30 PM",
+     "currency": "AUD",
+     "event": "CPI m/m",
+     "forecast": "0.7%",
+     "previous": "0.4%"
+    },
+    {
+     "time": "8:30 PM",
+     "currency": "AUD",
+     "event": "CPI y/y",
+     "forecast": "4.2%",
+     "previous": "4.0%"
+    },
+    {
+     "time": "8:30 PM",
+     "currency": "AUD",
+     "event": "Trimmed Mean CPI m/m",
+     "forecast": "0.3%",
+     "previous": "0.2%"
+    },
+    {
+     "time": "9:00 PM",
+     "currency": "NZD",
+     "event": "Official Cash Rate",
+     "forecast": "3.00%",
+     "previous": "2.75%"
+    },
+    {
+     "time": "9:00 PM",
+     "currency": "NZD",
+     "event": "RBNZ Rate Statement",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "10:00 PM",
+     "currency": "NZD",
+     "event": "RBNZ Press Conference",
+     "forecast": "",
+     "previous": ""
+    }
+   ]
   }
  ],
- "updated": "2026-10-26T10:35:57.018436-04:00"
+ "updated": "2026-10-26T16:38:04.401235-04:00"
 }
