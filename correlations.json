@@ -1,0 +1,679 @@
+{
+ "updated": "2026-10-26T12:32:16+00:00",
+ "source": "Yahoo Finance daily closes; correlations of daily changes on common U.S. trading days",
+ "pairs": [
+  {
+   "x": "^VIX",
+   "y": "SPY",
+   "sign": -1,
+   "group": "Fear",
+   "rule": "VIX up = stocks down",
+   "why": "The VIX is the price of S&P 500 options insurance; traders pay up for it when stocks fall.",
+   "breaks": "Rarely. Both can rise briefly before a big event (earnings, Fed) as traders hedge.",
+   "xName": "VIX",
+   "yName": "S&P 500 (SPY)",
+   "xUnit": "%",
+   "yUnit": "%",
+   "c20": -0.88,
+   "c60": -0.68,
+   "c250": -0.81,
+   "bigThreshold": 7.57,
+   "bigUp": {
+    "days": 39,
+    "avg": -1.11,
+    "hitRate": 97
+   },
+   "bigDown": {
+    "days": 24,
+    "avg": 1.13,
+    "hitRate": 100
+   },
+   "holding": "yes, clearly",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": -7.754,
+     "y": 0.423
+    },
+    {
+     "date": "2026-10-20",
+     "x": -6.128,
+     "y": 0.335
+    },
+    {
+     "date": "2026-10-21",
+     "x": -3.64,
+     "y": 0.525
+    },
+    {
+     "date": "2026-10-22",
+     "x": 14.089,
+     "y": -1.181
+    },
+    {
+     "date": "2026-10-23",
+     "x": 2.207,
+     "y": -0.522
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "^TNX",
+   "y": "SPY",
+   "sign": -1,
+   "group": "Rates",
+   "rule": "Yields up = stocks down",
+   "why": "Higher yields raise borrowing costs and make bonds a better alternative to stocks.",
+   "breaks": "When yields rise because the economy is strong (good growth news), stocks can rise with them.",
+   "xName": "10-year yield",
+   "yName": "S&P 500 (SPY)",
+   "xUnit": "pts",
+   "yUnit": "%",
+   "c20": 0.3,
+   "c60": -0.21,
+   "c250": -0.3,
+   "bigThreshold": 0.043,
+   "bigUp": {
+    "days": 40,
+    "avg": -0.54,
+    "hitRate": 82
+   },
+   "bigDown": {
+    "days": 29,
+    "avg": 0.35,
+    "hitRate": 66
+   },
+   "holding": "yes, weakly",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 0.038,
+     "y": 0.423
+    },
+    {
+     "date": "2026-10-20",
+     "x": -0.019,
+     "y": 0.335
+    },
+    {
+     "date": "2026-10-21",
+     "x": 0.029,
+     "y": 0.525
+    },
+    {
+     "date": "2026-10-22",
+     "x": -0.193,
+     "y": -1.181
+    },
+    {
+     "date": "2026-10-23",
+     "x": 0.035,
+     "y": -0.522
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "^TNX",
+   "y": "QQQ",
+   "sign": -1,
+   "group": "Rates",
+   "rule": "Yields up = tech down (more than the S&P)",
+   "why": "Growth stocks are valued on profits far in the future, which are worth less when rates are higher.",
+   "breaks": "During AI or earnings-driven rallies tech can ignore yields for a while.",
+   "xName": "10-year yield",
+   "yName": "Nasdaq 100 (QQQ)",
+   "xUnit": "pts",
+   "yUnit": "%",
+   "c20": 0.53,
+   "c60": -0.03,
+   "c250": -0.19,
+   "bigThreshold": 0.043,
+   "bigUp": {
+    "days": 40,
+    "avg": -0.72,
+    "hitRate": 78
+   },
+   "bigDown": {
+    "days": 29,
+    "avg": 0.4,
+    "hitRate": 55
+   },
+   "holding": "no clear link right now",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 0.038,
+     "y": 1.206
+    },
+    {
+     "date": "2026-10-20",
+     "x": -0.019,
+     "y": -0.102
+    },
+    {
+     "date": "2026-10-21",
+     "x": 0.029,
+     "y": 1.055
+    },
+    {
+     "date": "2026-10-22",
+     "x": -0.193,
+     "y": -2.859
+    },
+    {
+     "date": "2026-10-23",
+     "x": 0.035,
+     "y": -0.01
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "^TNX",
+   "y": "IWM",
+   "sign": -1,
+   "group": "Rates",
+   "rule": "Yields up = small caps down",
+   "why": "Small companies carry more floating-rate debt, so higher rates hit their profits directly.",
+   "breaks": "Early in a recovery small caps can rally on growth hopes even as yields rise.",
+   "xName": "10-year yield",
+   "yName": "Small caps (IWM)",
+   "xUnit": "pts",
+   "yUnit": "%",
+   "c20": -0.14,
+   "c60": -0.41,
+   "c250": -0.37,
+   "bigThreshold": 0.043,
+   "bigUp": {
+    "days": 40,
+    "avg": -0.74,
+    "hitRate": 75
+   },
+   "bigDown": {
+    "days": 29,
+    "avg": 0.65,
+    "hitRate": 69
+   },
+   "holding": "yes, clearly",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 0.038,
+     "y": 0.311
+    },
+    {
+     "date": "2026-10-20",
+     "x": -0.019,
+     "y": 1.659
+    },
+    {
+     "date": "2026-10-21",
+     "x": 0.029,
+     "y": 0.254
+    },
+    {
+     "date": "2026-10-22",
+     "x": -0.193,
+     "y": 0.069
+    },
+    {
+     "date": "2026-10-23",
+     "x": 0.035,
+     "y": -0.333
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "^TNX",
+   "y": "XLF",
+   "sign": 1,
+   "group": "Rates",
+   "rule": "Yields up = banks up",
+   "why": "Banks earn more on loans when rates and the yield curve rise.",
+   "breaks": "When rates rise fast enough to cause credit or deposit stress (2023), banks fall.",
+   "xName": "10-year yield",
+   "yName": "Banks & financials (XLF)",
+   "xUnit": "pts",
+   "yUnit": "%",
+   "c20": -0.56,
+   "c60": -0.42,
+   "c250": -0.24,
+   "bigThreshold": 0.043,
+   "bigUp": {
+    "days": 40,
+    "avg": -0.32,
+    "hitRate": 32
+   },
+   "bigDown": {
+    "days": 29,
+    "avg": 0.16,
+    "hitRate": 38
+   },
+   "holding": "no, reversed right now",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 0.038,
+     "y": -0.829
+    },
+    {
+     "date": "2026-10-20",
+     "x": -0.019,
+     "y": 1.199
+    },
+    {
+     "date": "2026-10-21",
+     "x": 0.029,
+     "y": 0.574
+    },
+    {
+     "date": "2026-10-22",
+     "x": -0.193,
+     "y": 1.089
+    },
+    {
+     "date": "2026-10-23",
+     "x": 0.035,
+     "y": -1.324
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "CL=F",
+   "y": "SPY",
+   "sign": -1,
+   "group": "Oil",
+   "rule": "Oil up = stocks down (when it is a supply shock)",
+   "why": "Oil spikes from wars, OPEC cuts or sanctions act like a tax on consumers and push inflation and yields up.",
+   "breaks": "When oil rises because demand is strong (a booming economy), oil and stocks often rise together.",
+   "xName": "Oil (WTI)",
+   "yName": "S&P 500 (SPY)",
+   "xUnit": "%",
+   "yUnit": "%",
+   "c20": -0.46,
+   "c60": -0.55,
+   "c250": -0.39,
+   "bigThreshold": 3.5,
+   "bigUp": {
+    "days": 33,
+    "avg": -0.51,
+    "hitRate": 79
+   },
+   "bigDown": {
+    "days": 23,
+    "avg": 0.73,
+    "hitRate": 78
+   },
+   "holding": "yes, clearly",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 2.219,
+     "y": 0.423
+    },
+    {
+     "date": "2026-10-20",
+     "x": -1.804,
+     "y": 0.335
+    },
+    {
+     "date": "2026-10-21",
+     "x": -4.558,
+     "y": 0.525
+    },
+    {
+     "date": "2026-10-22",
+     "x": 2.388,
+     "y": -1.181
+    },
+    {
+     "date": "2026-10-23",
+     "x": 3.82,
+     "y": -0.522
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "CL=F",
+   "y": "XLE",
+   "sign": 1,
+   "group": "Oil",
+   "rule": "Oil up = energy stocks up",
+   "why": "Producers' profits rise with the oil price.",
+   "breaks": "Rarely for long; refiners can lag when crude rises faster than fuel prices.",
+   "xName": "Oil (WTI)",
+   "yName": "Energy stocks (XLE)",
+   "xUnit": "%",
+   "yUnit": "%",
+   "c20": 0.41,
+   "c60": 0.56,
+   "c250": 0.59,
+   "bigThreshold": 3.5,
+   "bigUp": {
+    "days": 33,
+    "avg": 1.4,
+    "hitRate": 88
+   },
+   "bigDown": {
+    "days": 23,
+    "avg": -1.51,
+    "hitRate": 83
+   },
+   "holding": "yes, clearly",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 2.219,
+     "y": -0.645
+    },
+    {
+     "date": "2026-10-20",
+     "x": -1.804,
+     "y": 0.251
+    },
+    {
+     "date": "2026-10-21",
+     "x": -4.558,
+     "y": 0.28
+    },
+    {
+     "date": "2026-10-22",
+     "x": 2.388,
+     "y": -0.866
+    },
+    {
+     "date": "2026-10-23",
+     "x": 3.82,
+     "y": 2.605
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "CL=F",
+   "y": "^TNX",
+   "sign": 1,
+   "group": "Oil",
+   "rule": "Oil up = yields up",
+   "why": "Higher oil lifts inflation expectations, so bond yields rise.",
+   "breaks": "If an oil spike scares markets into a growth slowdown, money runs into bonds and yields fall.",
+   "xName": "Oil (WTI)",
+   "yName": "10-year yield",
+   "xUnit": "%",
+   "yUnit": "pts",
+   "c20": -0.37,
+   "c60": 0.16,
+   "c250": 0.37,
+   "bigThreshold": 3.5,
+   "bigUp": {
+    "days": 33,
+    "avg": 0.036,
+    "hitRate": 88
+   },
+   "bigDown": {
+    "days": 23,
+    "avg": -0.037,
+    "hitRate": 83
+   },
+   "holding": "yes, weakly",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 2.219,
+     "y": 0.038
+    },
+    {
+     "date": "2026-10-20",
+     "x": -1.804,
+     "y": -0.019
+    },
+    {
+     "date": "2026-10-21",
+     "x": -4.558,
+     "y": 0.029
+    },
+    {
+     "date": "2026-10-22",
+     "x": 2.388,
+     "y": -0.193
+    },
+    {
+     "date": "2026-10-23",
+     "x": 3.82,
+     "y": 0.035
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "DX-Y.NYB",
+   "y": "SPY",
+   "sign": -1,
+   "group": "Dollar",
+   "rule": "Dollar up = stocks down",
+   "why": "A strong dollar cuts big U.S. companies' overseas earnings and tightens global financial conditions.",
+   "breaks": "When U.S. growth is much stronger than the rest of the world, the dollar and U.S. stocks can rise together.",
+   "xName": "US dollar",
+   "yName": "S&P 500 (SPY)",
+   "xUnit": "%",
+   "yUnit": "%",
+   "c20": -0.14,
+   "c60": -0.26,
+   "c250": -0.33,
+   "bigThreshold": 0.32,
+   "bigUp": {
+    "days": 35,
+    "avg": -0.5,
+    "hitRate": 74
+   },
+   "bigDown": {
+    "days": 34,
+    "avg": 0.41,
+    "hitRate": 76
+   },
+   "holding": "yes, weakly",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 0.137,
+     "y": 0.423
+    },
+    {
+     "date": "2026-10-20",
+     "x": -0.245,
+     "y": 0.335
+    },
+    {
+     "date": "2026-10-21",
+     "x": 0.049,
+     "y": 0.525
+    },
+    {
+     "date": "2026-10-22",
+     "x": -0.167,
+     "y": -1.181
+    },
+    {
+     "date": "2026-10-23",
+     "x": 0.197,
+     "y": -0.522
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "DX-Y.NYB",
+   "y": "GC=F",
+   "sign": -1,
+   "group": "Dollar",
+   "rule": "Dollar up = gold down",
+   "why": "Gold is priced in dollars; a stronger dollar makes it more expensive for everyone else.",
+   "breaks": "In a crisis both can rise as safe havens.",
+   "xName": "US dollar",
+   "yName": "Gold",
+   "xUnit": "%",
+   "yUnit": "%",
+   "c20": -0.31,
+   "c60": -0.5,
+   "c250": -0.38,
+   "bigThreshold": 0.32,
+   "bigUp": {
+    "days": 35,
+    "avg": -1.3,
+    "hitRate": 77
+   },
+   "bigDown": {
+    "days": 34,
+    "avg": 0.92,
+    "hitRate": 74
+   },
+   "holding": "yes, clearly",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 0.137,
+     "y": -0.502
+    },
+    {
+     "date": "2026-10-20",
+     "x": -0.245,
+     "y": -0.421
+    },
+    {
+     "date": "2026-10-21",
+     "x": 0.049,
+     "y": 0.179
+    },
+    {
+     "date": "2026-10-22",
+     "x": -0.167,
+     "y": -2.159
+    },
+    {
+     "date": "2026-10-23",
+     "x": 0.197,
+     "y": -1.293
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "^TNX",
+   "y": "GC=F",
+   "sign": -1,
+   "group": "Rates",
+   "rule": "Yields up = gold down",
+   "why": "Gold pays no interest, so it loses appeal when bonds pay more.",
+   "breaks": "Central-bank buying or fear can lift gold even with high yields.",
+   "xName": "10-year yield",
+   "yName": "Gold",
+   "xUnit": "pts",
+   "yUnit": "%",
+   "c20": -0.07,
+   "c60": -0.18,
+   "c250": -0.16,
+   "bigThreshold": 0.043,
+   "bigUp": {
+    "days": 40,
+    "avg": -0.64,
+    "hitRate": 70
+   },
+   "bigDown": {
+    "days": 29,
+    "avg": 0.33,
+    "hitRate": 59
+   },
+   "holding": "yes, weakly",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 0.038,
+     "y": -0.502
+    },
+    {
+     "date": "2026-10-20",
+     "x": -0.019,
+     "y": -0.421
+    },
+    {
+     "date": "2026-10-21",
+     "x": 0.029,
+     "y": 0.179
+    },
+    {
+     "date": "2026-10-22",
+     "x": -0.193,
+     "y": -2.159
+    },
+    {
+     "date": "2026-10-23",
+     "x": 0.035,
+     "y": -1.293
+    }
+   ],
+   "asOf": "2026-10-23"
+  },
+  {
+   "x": "QQQ",
+   "y": "BTC-USD",
+   "sign": 1,
+   "group": "Risk appetite",
+   "rule": "Tech up = bitcoin up",
+   "why": "Bitcoin tends to trade like a high-risk tech asset: both rise when traders take risk and fall when they cut it.",
+   "breaks": "Crypto-specific news (ETF flows, regulation, hacks) can break the link for weeks.",
+   "xName": "Nasdaq 100 (QQQ)",
+   "yName": "Bitcoin",
+   "xUnit": "%",
+   "yUnit": "%",
+   "c20": -0.05,
+   "c60": 0.04,
+   "c250": 0.1,
+   "bigThreshold": 1.26,
+   "bigUp": {
+    "days": 37,
+    "avg": 0.53,
+    "hitRate": 68
+   },
+   "bigDown": {
+    "days": 38,
+    "avg": -0.17,
+    "hitRate": 55
+   },
+   "holding": "no clear link right now",
+   "lastWeek": [
+    {
+     "date": "2026-10-19",
+     "x": 1.206,
+     "y": 1.915
+    },
+    {
+     "date": "2026-10-20",
+     "x": -0.102,
+     "y": 1.291
+    },
+    {
+     "date": "2026-10-21",
+     "x": 1.055,
+     "y": -3.214
+    },
+    {
+     "date": "2026-10-22",
+     "x": -2.859,
+     "y": -0.292
+    },
+    {
+     "date": "2026-10-23",
+     "x": -0.01,
+     "y": -0.349
+    }
+   ],
+   "asOf": "2026-10-23"
+  }
+ ],
+ "errors": []
+}
