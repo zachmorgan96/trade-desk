@@ -1,0 +1,93 @@
+{
+ "version": 2,
+ "date": "2026-10-26",
+ "briefs": [
+  {
+   "version": 1,
+   "date": "2026-10-26",
+   "slot": "morning",
+   "slotLabel": "Morning brief",
+   "time": "08:23",
+   "generated": "2026-10-26T08:23:57.970594-04:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "19.07",
+     "change": "▼ -0.38 (-1.95%)",
+     "asOf": "8:08 AM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.00",
+     "change": "▼ -0.16 (-0.15%)",
+     "asOf": "8:13 AM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.988%",
+     "change": "▲ +0.035 (+0.71%)",
+     "asOf": "?"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "101.04",
+     "change": "▼ -2.23 (-2.16%)",
+     "asOf": "8:13 AM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "763.13",
+     "change": "▼ -0.83 (-0.11%)",
+     "asOf": "8:23 AM ET · premarket"
+    },
+    {
+     "name": "QQQ",
+     "last": "709.22",
+     "change": "▲ +4.75 (+0.67%)",
+     "asOf": "8:23 AM ET · premarket"
+    }
+   ],
+   "events": [],
+   "macro": [
+    {
+     "source": "CNBC Top News",
+     "time": "Mon 8:22 AM",
+     "text": "Meta announces a $95 billion stock offering to fund its AI expansion.",
+     "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+    },
+    {
+     "source": "CNBC Top News",
+     "time": "Mon 8:10 AM",
+     "text": "Neocloud stocks fall after Elon Musk says more than 200 of them face \"guppy-level death\".",
+     "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
+    },
+    {
+     "source": "CNBC Top News",
+     "time": "Mon 7:49 AM",
+     "text": "Trump says he will soon decide whether to \"make a deal\" with Iran or \"finish it off\".",
+     "url": "https://www.cnbc.com/2026/10/26/us-iran-war-hormuz.html"
+    },
+    {
+     "source": "CNBC Top News",
+     "time": "Mon 7:09 AM",
+     "text": "Verizon lifts its annual forecasts and signs a more than $2 billion AI infrastructure deal with AWS.",
+     "url": "https://www.cnbc.com/2026/10/26/verizon-lifts-annual-forecasts-signs-more-than-2-billion-ai-infrastructure-deal-with-aws.html"
+    },
+    {
+     "source": "MarketWatch",
+     "time": "Mon 6:43 AM",
+     "text": "Goldman cuts its Kospi forecast by 25%, a read-through for the global AI trade.",
+     "url": "https://www.marketwatch.com/story/the-kospi-index-is-the-leading-indicator-for-the-global-ai-trade-and-goldman-just-slashed-its-forecast-by-25-ccfe2690?mod=mw_rss_topstories"
+    },
+    {
+     "source": "CNBC Top News",
+     "time": "Mon 1:18 AM",
+     "text": "Oil slides over 2% as traders weigh Saudi attack risks and demand destruction.",
+     "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html"
+    }
+   ],
+   "read": "The tone is mixed with a mild risk-on lean in tech: QQQ is up about 0.7% premarket while SPY is roughly flat, the VIX closed Friday a little lower near 19, and WTI is down about 2% to around $101, though the 10-year yield is slightly higher near 4.99%. There are no high-impact scheduled releases today, so the day has no single data event; the main items are company and headline driven, chiefly how the market takes Meta's $95 billion stock offering and the pressure on neocloud and AI infrastructure names. Iran is the open geopolitical risk, with Trump saying a decision on a deal or further action is coming soon, and any headline there could move oil and the indexes quickly. Before taking a setup, it is worth waiting for the first 15-minute range to form and seeing whether QQQ's premarket strength holds once Meta and the AI names trade at the open."
+  }
+ ],
+ "updated": "2026-10-26T08:25:02.270911-04:00"
+}
