@@ -1,86 +1,68 @@
 {
  "version": 1,
  "date": "2026-10-26",
- "slot": "morning",
- "slotLabel": "Morning brief",
- "time": "08:23",
- "generated": "2026-10-26T08:23:57.970594-04:00",
+ "slot": "1000",
+ "slotLabel": "10:00 update",
+ "time": "10:17",
+ "generated": "2026-10-26T10:17:38.535422-04:00",
  "prices": [
   {
    "name": "VIX",
-   "last": "19.07",
-   "change": "▼ -0.38 (-1.95%)",
-   "asOf": "8:08 AM ET"
+   "last": "18.63",
+   "change": "▼ -0.82 (-4.22%) · open -0.59%",
+   "asOf": "10:02 AM ET"
   },
   {
    "name": "US10 (10-yr note futures)",
-   "last": "106.00",
-   "change": "▼ -0.16 (-0.15%)",
-   "asOf": "8:13 AM ET"
+   "last": "106.23",
+   "change": "▲ +0.08 (+0.07%) · open +0.07%",
+   "asOf": "10:07 AM ET"
   },
   {
    "name": "US10Y yield",
-   "last": "4.988%",
-   "change": "▲ +0.035 (+0.71%)",
-   "asOf": "?"
+   "last": "4.972%",
+   "change": "▼ -0.016 (-0.32%)",
+   "asOf": "10:02 AM ET"
   },
   {
    "name": "Crude oil (WTI)",
-   "last": "101.04",
-   "change": "▼ -2.23 (-2.16%)",
-   "asOf": "8:13 AM ET"
+   "last": "101.43",
+   "change": "▼ -1.84 (-1.78%) · open -0.12%",
+   "asOf": "10:07 AM ET"
   },
   {
    "name": "SPY",
-   "last": "763.13",
-   "change": "▼ -0.83 (-0.11%)",
-   "asOf": "8:23 AM ET · premarket"
+   "last": "765.15",
+   "change": "▲ +5.18 (+0.68%) · open +0.38%",
+   "asOf": "10:17 AM ET"
   },
   {
    "name": "QQQ",
-   "last": "709.22",
-   "change": "▲ +4.75 (+0.67%)",
-   "asOf": "8:23 AM ET · premarket"
+   "last": "709.49",
+   "change": "▲ +5.09 (+0.72%) · open +0.34%",
+   "asOf": "10:17 AM ET"
   }
  ],
  "events": [],
  "macro": [
   {
    "source": "CNBC Top News",
-   "time": "Mon 8:22 AM",
-   "text": "Meta announces a $95 billion stock offering to fund its AI expansion.",
-   "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+   "time": "Mon 10:09 AM",
+   "text": "Brazilian stocks are rocked after Lula wins the presidential runoff; Bolsonaro reportedly refuses to concede.",
+   "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
+  },
+  {
+   "source": "FT Markets",
+   "time": "Mon 10:08 AM",
+   "text": "Anthropic files its prospectus, starting the countdown to a blockbuster IPO.",
+   "url": "https://www.ft.com/content/f6ecfecd-d797-4d2c-b427-d333297949cb?syn-25a6b1a6=1"
   },
   {
    "source": "CNBC Top News",
-   "time": "Mon 8:10 AM",
-   "text": "Neocloud stocks fall after Elon Musk says more than 200 of them face \"guppy-level death\".",
-   "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
-  },
-  {
-   "source": "CNBC Top News",
-   "time": "Mon 7:49 AM",
-   "text": "Trump says he will soon decide whether to \"make a deal\" with Iran or \"finish it off\".",
-   "url": "https://www.cnbc.com/2026/10/26/us-iran-war-hormuz.html"
-  },
-  {
-   "source": "CNBC Top News",
-   "time": "Mon 7:09 AM",
-   "text": "Verizon lifts its annual forecasts and signs a more than $2 billion AI infrastructure deal with AWS.",
-   "url": "https://www.cnbc.com/2026/10/26/verizon-lifts-annual-forecasts-signs-more-than-2-billion-ai-infrastructure-deal-with-aws.html"
-  },
-  {
-   "source": "MarketWatch",
-   "time": "Mon 6:43 AM",
-   "text": "Goldman cuts its Kospi forecast by 25%, a read-through for the global AI trade.",
-   "url": "https://www.marketwatch.com/story/the-kospi-index-is-the-leading-indicator-for-the-global-ai-trade-and-goldman-just-slashed-its-forecast-by-25-ccfe2690?mod=mw_rss_topstories"
-  },
-  {
-   "source": "CNBC Top News",
-   "time": "Mon 1:18 AM",
-   "text": "Oil slides over 2% as traders weigh Saudi attack risks and demand destruction.",
+   "time": "Mon 9:28 AM",
+   "text": "Oil falls as the Saudi defense minister travels to Iran for talks aimed at de-escalating the conflict.",
    "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html"
   }
  ],
- "read": "The tone is mixed with a mild risk-on lean in tech: QQQ is up about 0.7% premarket while SPY is roughly flat, the VIX closed Friday a little lower near 19, and WTI is down about 2% to around $101, though the 10-year yield is slightly higher near 4.99%. There are no high-impact scheduled releases today, so the day has no single data event; the main items are company and headline driven, chiefly how the market takes Meta's $95 billion stock offering and the pressure on neocloud and AI infrastructure names. Iran is the open geopolitical risk, with Trump saying a decision on a deal or further action is coming soon, and any headline there could move oil and the indexes quickly. Before taking a setup, it is worth waiting for the first 15-minute range to form and seeing whether QQQ's premarket strength holds once Meta and the AI names trade at the open."
+ "read": "The open held and broadened the morning's mild risk-on tone: SPY, roughly flat premarket at 763.13, is now 765.15 (+0.68% on the day, +0.38% since the 9:30 open near 762.2), and QQQ is 709.49 (+0.72%, +0.34% since the open near 707.1), only a touch above its 709.22 premarket print, so tech's early lead has been joined rather than extended. The VIX is down about 4% to 18.63, the 10-year yield has eased to 4.97% from about 4.99% premarket, and WTI is down about 1.8% at $101.43 but roughly flat since the open after news of Saudi-Iran de-escalation talks. There are no high-impact scheduled releases left today, so the remaining drivers are headlines: Iran, how Meta's $95 billion offering and the AI infrastructure names trade, and the Anthropic IPO filing."
 }
