@@ -155,7 +155,56 @@
     }
    ],
    "read": "The open held and broadened the morning's mild risk-on tone: SPY, roughly flat premarket at 763.13, is now 765.15 (+0.68% on the day, +0.38% since the 9:30 open near 762.2), and QQQ is 709.49 (+0.72%, +0.34% since the open near 707.1), only a touch above its 709.22 premarket print, so tech's early lead has been joined rather than extended. The VIX is down about 4% to 18.63, the 10-year yield has eased to 4.97% from about 4.99% premarket, and WTI is down about 1.8% at $101.43 but roughly flat since the open after news of Saudi-Iran de-escalation talks. There are no high-impact scheduled releases left today, so the remaining drivers are headlines: Iran, how Meta's $95 billion offering and the AI infrastructure names trade, and the Anthropic IPO filing."
+  },
+  {
+   "version": 1,
+   "date": "2026-10-26",
+   "slot": "1030",
+   "slotLabel": "10:30 update",
+   "time": "10:35",
+   "generated": "2026-10-26T10:35:28.799165-04:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "18.17",
+     "change": "▼ -1.28 (-6.58%) · open -3.04%",
+     "asOf": "10:20 AM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.23",
+     "change": "▲ +0.08 (+0.07%) · open +0.07%",
+     "asOf": "10:25 AM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.966%",
+     "change": "▼ -0.022 (-0.44%)",
+     "asOf": "10:20 AM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "100.97",
+     "change": "▼ -2.30 (-2.23%) · open -0.57%",
+     "asOf": "10:25 AM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "764.66",
+     "change": "▲ +4.69 (+0.62%) · open +0.32%",
+     "asOf": "10:35 AM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "709.53",
+     "change": "▲ +5.13 (+0.73%) · open +0.35%",
+     "asOf": "10:35 AM ET"
+    }
+   ],
+   "events": [],
+   "macro": [],
+   "read": "The morning's mild risk-on tone is still holding but has stalled since 10:00: SPY is 764.66 (+0.62% on the day, +0.32% since the 9:30 open near 762.2), a little below its 765.15 at 10:17 and above the 763.13 premarket print, while QQQ is unchanged at 709.53 (+0.73%, +0.35% since the open near 707.1), just above its 709.22 premarket level. The VIX has kept easing to 18.17 (down about 6.6% on the day and 3% since the open), the 10-year yield is a touch lower at 4.97%, and WTI has slipped just under $101 (down about 2.2%, -0.6% since the open). There are still no high-impact scheduled releases today, so the drivers remain headlines: Iran, Meta's $95 billion offering and the AI infrastructure names, and the Anthropic IPO filing."
   }
  ],
- "updated": "2026-10-26T10:18:07.349212-04:00"
+ "updated": "2026-10-26T10:35:57.018436-04:00"
 }
