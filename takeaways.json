@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-27T11:55:25.593301-04:00",
+ "updated": "2026-10-27T16:38:21.413414-04:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -10,9 +10,9 @@
   "chop": "Chop (up and down, going nowhere)"
  },
  "patterns": {
-  "days": 60,
+  "days": 61,
   "counts": {
-   "trend-up": 13,
+   "trend-up": 14,
    "trend-down": 15,
    "reversal-up": 3,
    "reversal-down": 6,
@@ -77,17 +77,17 @@
    },
    {
     "clue": "SPY and QQQ disagreed at 10:30",
-    "days": 18,
+    "days": 19,
     "counts": {
-     "trend-up": 2,
+     "trend-up": 3,
      "trend-down": 4,
      "reversal-up": 1,
      "reversal-down": 3,
      "chop": 8
     },
-    "trendRate": 33,
-    "chopRate": 44,
-    "followedLeanRate": 17
+    "trendRate": 37,
+    "chopRate": 42,
+    "followedLeanRate": 16
    },
    {
     "clue": "First 30 minutes wide (half or more of a usual day's whole range)",
@@ -133,16 +133,16 @@
    },
    {
     "clue": "Gap of 0.2%+ already filled by 10:30",
-    "days": 3,
+    "days": 4,
     "counts": {
-     "trend-up": 1,
+     "trend-up": 2,
      "trend-down": 0,
      "reversal-up": 1,
      "reversal-down": 0,
      "chop": 1
     },
-    "trendRate": 33,
-    "chopRate": 33,
+    "trendRate": 50,
+    "chopRate": 25,
     "followedLeanRate": 0
    },
    {
@@ -161,17 +161,17 @@
    },
    {
     "clue": "Narrow market: equal-weight S&P lagging SPY by 0.2%+",
-    "days": 18,
+    "days": 19,
     "counts": {
-     "trend-up": 5,
+     "trend-up": 6,
      "trend-down": 2,
      "reversal-up": 1,
      "reversal-down": 4,
      "chop": 6
     },
-    "trendRate": 39,
-    "chopRate": 33,
-    "followedLeanRate": 28
+    "trendRate": 42,
+    "chopRate": 32,
+    "followedLeanRate": 26
    },
    {
     "clue": "VIX confirming stocks at 10:30 (SPY up with VIX down, or SPY down with VIX up)",
@@ -204,6 +204,171 @@
   ]
  },
  "days": [
+  {
+   "measured": {
+    "date": "2026-10-27",
+    "type": "trend-up",
+    "typeLabel": "Rally all day",
+    "spy": {
+     "open": 767.34,
+     "high": 771.14,
+     "low": 765.21,
+     "close": 769.72,
+     "prevClose": 765.37,
+     "change": 0.568,
+     "openToClose": 0.31,
+     "rangePct": 0.775,
+     "usualRangePct": 0.801,
+     "rangeVsUsual": 0.97,
+     "closeLocation": 0.76,
+     "highAt": "15:45",
+     "lowAt": "10:20",
+     "vwapCrosses": 6,
+     "pctAboveVwapAfter10": 86
+    },
+    "expectedMovePct": 1.158,
+    "actualMoveVsExpected": 0.49,
+    "rangeVsExpected": 0.67,
+    "openingRange": {
+     "high": 768.36,
+     "low": 765.78,
+     "widthPct": 0.337,
+     "widthVsExpected": 0.29,
+     "widthVsUsual": 0.42,
+     "breakout": {
+      "side": "down",
+      "time": "10:20",
+      "held": false
+     }
+    },
+    "gap": {
+     "pct": 0.257,
+     "filled": true,
+     "filledAt": "10:20"
+    },
+    "levels": [
+     {
+      "name": "Yesterday's high",
+      "price": 767.73,
+      "touched": true,
+      "result": "broke and closed above"
+     },
+     {
+      "name": "Yesterday's low",
+      "price": 761.63,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's close",
+      "price": 765.37,
+      "touched": true,
+      "result": "closed above"
+     }
+    ],
+    "clues": {
+     "10:00": {
+      "spy": {
+       "last": 766.23,
+       "vsOpen": -0.145,
+       "vsPrevClose": 0.112,
+       "vwap": 766.7,
+       "aboveVwap": false,
+       "vwapCrosses": 1
+      },
+      "qqq": {
+       "last": 715.49,
+       "vsOpen": 0.055,
+       "vsPrevClose": 0.462,
+       "vwap": 715.68,
+       "aboveVwap": false,
+       "vwapCrosses": 1
+      },
+      "rsp": {
+       "last": 216.84,
+       "vsOpen": -0.276,
+       "vsPrevClose": -0.207
+      },
+      "iwm": {
+       "last": 277.37,
+       "vsOpen": -0.212,
+       "vsPrevClose": 0.137
+      },
+      "vix": {
+       "last": 17.95,
+       "vsPrevClose": -2.393
+      },
+      "oil": {
+       "last": 101.55,
+       "vsPrevClose": -0.206
+      },
+      "tnx": {
+       "last": 5.001,
+       "vsPrevClose": 0.301,
+       "bpChange": 1.5
+      },
+      "agree": false,
+      "breadthGap": -0.131
+     },
+     "10:30": {
+      "spy": {
+       "last": 766.63,
+       "vsOpen": -0.093,
+       "vsPrevClose": 0.165,
+       "vwap": 766.57,
+       "aboveVwap": true,
+       "vwapCrosses": 2
+      },
+      "qqq": {
+       "last": 716.3,
+       "vsOpen": 0.168,
+       "vsPrevClose": 0.576,
+       "vwap": 715.13,
+       "aboveVwap": true,
+       "vwapCrosses": 2
+      },
+      "rsp": {
+       "last": 216.58,
+       "vsOpen": -0.396,
+       "vsPrevClose": -0.327
+      },
+      "iwm": {
+       "last": 277.79,
+       "vsOpen": -0.061,
+       "vsPrevClose": 0.289
+      },
+      "vix": {
+       "last": 17.9,
+       "vsPrevClose": -2.664
+      },
+      "oil": {
+       "last": 100.51,
+       "vsPrevClose": -1.228
+      },
+      "tnx": {
+       "last": 4.995,
+       "vsPrevClose": 0.181,
+       "bpChange": 0.9
+      },
+      "agree": false,
+      "breadthGap": -0.303,
+      "orBreak": "down",
+      "gapFilled": true
+     }
+    },
+    "summary": "Rally all day. SPY closed +0.57% on the day (+0.31% from the open). High-to-low it moved 0.78%, about a normal range (1.0x the last 20 days). It broke the first 30 minutes' range down at 10:20 and that break did not hold. It crossed VWAP 6 times (lots of crossing is a chop sign).",
+    "usEvents": []
+   },
+   "written": {
+    "briefLean": "The morning brief expected a tech-led risk-on day with no U.S. red event, driven by earnings (Boeing, Coca-Cola, UPS) and Iran headlines, with the Fed decision as the bigger event later in the week.",
+    "verdict": "held",
+    "whatHappened": "SPY opened at 767.34, a gap up of about 0.26%, and spent the first half hour in a narrow 765.78–768.36 range. It broke that range down at 10:20, filled the gap and made the day's low at 765.21, but the break did not hold; SPY then rallied most of the day to a high of 771.14 at 3:45 PM and closed at 769.72 (+0.57%, +0.31% from the open), above yesterday's high of 767.73.",
+    "why": "The AI and chip trade carried the day: AMD, Broadcom and Cadence rallied on the Nvidia/AMD investment in Meta and Anthropic IPO enthusiasm, so QQQ (+1.19%) led SPY. The VIX fell about 4.7% to 17.52 and WTI dropped 1.6% to about $100, while Boeing's 11% drop and a lagging equal-weight index (RSP below its open at 10:00 and 10:30) kept SPY's early action soft.",
+    "earliestClue": "At 10:00 QQQ was already above its open while SPY and the equal-weight RSP were below theirs, and by 10:30 both SPY and QQQ were back above VWAP with the VIX down about 2.7%, so the 10:20 downside break looked like a gap fill rather than a reversal.",
+    "lesson": "On a small gap-up day led by one group, an early break below the opening range that only fills the gap is not automatically a reversal; check whether the leading index (here QQQ) holds its open and whether price reclaims VWAP before treating the break as real.",
+    "by": "Close review routine"
+   }
+  },
   {
    "measured": {
     "date": "2026-10-26",
