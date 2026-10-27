@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "date": "2026-10-26",
-  "slot": "close",
-  "slotLabel": "Close review",
-  "time": "16:37",
-  "generated": "2026-10-26T16:37:04.056050-04:00",
+  "date": "2026-10-27",
+  "slot": "morning",
+  "slotLabel": "Morning brief",
+  "time": "07:49",
+  "generated": "2026-10-27T07:49:44.172665-04:00",
   "prices": [
     {
       "name": "VIX",
-      "last": "18.39",
-      "change": "▼ -1.06 (-5.45%) · open -1.87%",
-      "asOf": "4:15 PM ET"
+      "last": "17.85",
+      "change": "▼ -0.54 (-2.94%)",
+      "asOf": "7:34 AM ET"
     },
     {
       "name": "US10 (10-yr note futures)",
-      "last": "106.09",
-      "change": "▼ -0.06 (-0.06%) · open -0.06%",
-      "asOf": "4:26 PM ET"
+      "last": "106.20",
+      "change": "▲ +0.09 (+0.09%)",
+      "asOf": "7:39 AM ET"
     },
     {
       "name": "US10Y yield",
@@ -26,56 +26,29 @@
     },
     {
       "name": "Crude oil (WTI)",
-      "last": "101.39",
-      "change": "▼ -1.88 (-1.82%) · open -0.16%",
-      "asOf": "4:26 PM ET"
+      "last": "101.04",
+      "change": "▼ -0.72 (-0.71%)",
+      "asOf": "7:39 AM ET"
     },
     {
       "name": "SPY",
-      "last": "765.19",
-      "change": "▲ +5.22 (+0.69%) · open +0.39%",
-      "asOf": "4:36 PM ET"
+      "last": "767.05",
+      "change": "▲ +7.08 (+0.93%)",
+      "asOf": "7:46 AM ET · premarket"
     },
     {
       "name": "QQQ",
-      "last": "712.69",
-      "change": "▲ +8.29 (+1.18%) · open +0.80%",
-      "asOf": "4:36 PM ET"
+      "last": "714.79",
+      "change": "▲ +10.39 (+1.48%)",
+      "asOf": "7:48 AM ET · premarket"
     }
   ],
-  "events": [],
-  "macro": [
-    {
-      "source": "CNBC Top News",
-      "time": "Mon 4:12 PM",
-      "text": "Stocks close higher as excitement over the Anthropic IPO filing lifts the tech sector.",
-      "url": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html"
-    },
-    {
-      "source": "CNBC Top News",
-      "time": "Mon 2:51 PM",
-      "text": "The Federal Reserve is expected to hold interest rates steady at its October meeting.",
-      "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
-    },
-    {
-      "source": "MarketWatch",
-      "time": "Mon 2:24 PM",
-      "text": "Nvidia, AMD and Broadcom could buy Meta shares as part of its stock offering.",
-      "url": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories"
-    },
-    {
-      "source": "CNBC Top News",
-      "time": "Mon 1:40 PM",
-      "text": "Microsoft offers voluntary buyouts to 60,000 employees in an AI-driven efficiency push.",
-      "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
-    }
-  ],
-  "read": "The morning read held: it expected a mixed tone with a mild risk-on lean in tech and no scheduled data, and the day closed that way, with QQQ up 1.18% at 712.69 (+0.80% since the 9:30 open near 707.0) clearly ahead of SPY's +0.69% at 765.19 (+0.39% since the open near 762.2). There was no high-impact U.S. release today, so headlines drove the session; closing coverage credits the Anthropic IPO filing with lifting tech, and Meta's stock offering did not hold back the Nasdaq-heavy gains. The biggest change came after the 10:30 update: SPY stayed near 765, about where it was at 10:17, while QQQ climbed from about 709.5 at 10:35 to 712.69 at the close, though these snapshots cannot show exactly when that move happened. The VIX finished down about 5.5% at 18.39, a little above its 18.17 reading at 10:20, WTI held near $101 (down 1.8%), and the 10-year yield ended little changed near 4.99%. For tomorrow's preparation, note that tech carried the day while SPY went flat after mid-morning, and the Fed decision later this week, where a hold is widely expected, is the next big U.S. scheduled event. Tomorrow's first red event is Australian CPI at 8:30 PM ET; no U.S. high-impact releases are listed for Tuesday.",
-  "tomorrow": [
+  "events": [
     {
       "time": "8:30 PM",
       "currency": "AUD",
       "event": "CPI m/m",
+      "actual": "",
       "forecast": "0.7%",
       "previous": "0.4%"
     },
@@ -83,6 +56,7 @@
       "time": "8:30 PM",
       "currency": "AUD",
       "event": "CPI y/y",
+      "actual": "",
       "forecast": "4.2%",
       "previous": "4.0%"
     },
@@ -90,6 +64,7 @@
       "time": "8:30 PM",
       "currency": "AUD",
       "event": "Trimmed Mean CPI m/m",
+      "actual": "",
       "forecast": "0.3%",
       "previous": "0.2%"
     },
@@ -97,6 +72,7 @@
       "time": "9:00 PM",
       "currency": "NZD",
       "event": "Official Cash Rate",
+      "actual": "",
       "forecast": "3.00%",
       "previous": "2.75%"
     },
@@ -104,6 +80,7 @@
       "time": "9:00 PM",
       "currency": "NZD",
       "event": "RBNZ Rate Statement",
+      "actual": "",
       "forecast": "",
       "previous": ""
     },
@@ -111,8 +88,48 @@
       "time": "10:00 PM",
       "currency": "NZD",
       "event": "RBNZ Press Conference",
+      "actual": "",
       "forecast": "",
       "previous": ""
     }
-  ]
+  ],
+  "macro": [
+    {
+      "source": "MarketWatch",
+      "time": "Tue 7:45 AM",
+      "text": "A reported Khamenei call to end Iran's \"neither war nor peace\" stance moved markets a little.",
+      "url": "https://www.marketwatch.com/story/why-reported-khamenei-call-for-end-to-neither-war-nor-peace-moved-markets-a-bit-dd94b602?mod=mw_rss_topstories"
+    },
+    {
+      "source": "CNBC Top News",
+      "time": "Tue 7:41 AM",
+      "text": "Stock futures rise as earnings season continues.",
+      "url": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html"
+    },
+    {
+      "source": "CNBC Top News",
+      "time": "Tue 7:06 AM",
+      "text": "The Fed is expected to hold rates steady this week, but Warsh may point the way to more hikes.",
+      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html"
+    },
+    {
+      "source": "CNBC Top News",
+      "time": "Tue 6:41 AM",
+      "text": "Oil prices seesaw amid renewed diplomatic efforts to end the Mideast conflict.",
+      "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html"
+    },
+    {
+      "source": "FT Markets",
+      "time": "Tue 6:23 AM",
+      "text": "Tech stocks rally as the AI trade revives.",
+      "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1"
+    },
+    {
+      "source": "CNBC Top News",
+      "time": "Tue 5:07 AM",
+      "text": "Nvidia to invest $3 billion in Meta as the two deepen their AI partnership.",
+      "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
+    }
+  ],
+  "read": "The tone is risk-on, led by tech: QQQ is up about 1.5% premarket at 714.79 and SPY about 0.9% at 767.05, both above yesterday's closes, while the VIX closed lower near 17.9 and WTI is down about 0.7% near $101 with the 10-year yield flat near 4.99%. There is no high-impact U.S. release today; the only red events are Australian CPI at 8:30 PM ET and the RBNZ rate decision at 9:00 PM ET, both after the U.S. close, so the session is driven by earnings (Boeing, Coca-Cola, UPS before the open) and headlines. The bigger scheduled event is the Fed decision later this week, where a hold is expected but rate-hike guidance from Warsh is the open question. Before taking a setup, it is worth waiting for the first 15-minute range to form and seeing whether QQQ's large premarket gap holds at the open, and keeping an eye on Iran diplomacy headlines, which can move oil and the indexes quickly."
 }
