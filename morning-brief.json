@@ -1,109 +1,137 @@
 {
   "version": 1,
   "date": "2026-10-27",
-  "slot": "1000",
-  "slotLabel": "10:00 update",
-  "time": "10:01",
-  "generated": "2026-10-27T10:01:41.753159-04:00",
+  "slot": "1030",
+  "slotLabel": "10:30 update",
+  "time": "10:32",
+  "generated": "2026-10-27T10:32:45.114750-04:00",
   "prices": [
     {
       "name": "VIX",
-      "last": "17.77",
-      "change": "▼ -0.62 (-3.37%) · open -0.34%",
-      "asOf": "9:46 AM ET"
+      "last": "18.13",
+      "change": "▼ -0.26 (-1.41%) · open +1.68%",
+      "asOf": "10:17 AM ET"
     },
     {
       "name": "US10 (10-yr note futures)",
       "last": "106.00",
       "change": "▼ -0.11 (-0.10%) · open -0.03%",
-      "asOf": "9:51 AM ET"
+      "asOf": "10:22 AM ET"
     },
     {
       "name": "US10Y yield",
       "last": "5.001%",
       "change": "▲ +0.015 (+0.30%)",
-      "asOf": "9:46 AM ET"
+      "asOf": "10:17 AM ET"
     },
     {
       "name": "Crude oil (WTI)",
-      "last": "101.24",
-      "change": "▼ -0.52 (-0.51%) · open +0.00%",
-      "asOf": "9:51 AM ET"
+      "last": "101.19",
+      "change": "▼ -0.57 (-0.56%) · open -0.05%",
+      "asOf": "10:22 AM ET"
     },
     {
       "name": "SPY",
-      "last": "765.70",
-      "change": "▲ +0.33 (+0.04%) · open -0.21%",
-      "asOf": "10:01 AM ET"
+      "last": "766.95",
+      "change": "▲ +1.58 (+0.21%) · open -0.05%",
+      "asOf": "10:32 AM ET"
     },
     {
       "name": "QQQ",
-      "last": "714.62",
-      "change": "▲ +2.42 (+0.34%) · open -0.07%",
-      "asOf": "10:01 AM ET"
+      "last": "716.65",
+      "change": "▲ +4.45 (+0.62%) · open +0.22%",
+      "asOf": "10:32 AM ET"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "time": "8:30 PM",
+      "currency": "AUD",
+      "event": "CPI m/m",
+      "actual": "",
+      "forecast": "0.7%",
+      "previous": "0.4%"
+    },
+    {
+      "time": "8:30 PM",
+      "currency": "AUD",
+      "event": "CPI y/y",
+      "actual": "",
+      "forecast": "4.2%",
+      "previous": "4.0%"
+    },
+    {
+      "time": "8:30 PM",
+      "currency": "AUD",
+      "event": "Trimmed Mean CPI m/m",
+      "actual": "",
+      "forecast": "0.3%",
+      "previous": "0.2%"
+    },
+    {
+      "time": "9:00 PM",
+      "currency": "NZD",
+      "event": "Official Cash Rate",
+      "actual": "",
+      "forecast": "3.00%",
+      "previous": "2.75%"
+    },
+    {
+      "time": "9:00 PM",
+      "currency": "NZD",
+      "event": "RBNZ Rate Statement",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "time": "10:00 PM",
+      "currency": "NZD",
+      "event": "RBNZ Press Conference",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    }
+  ],
   "macro": [
     {
-      "source": "Investing.com",
-      "time": "Tue 9:44 AM",
-      "text": "Global chip and AI stocks surge on Anthropic IPO cheer.",
-      "url": "https://www.investing.com/news/stock-market-news/asia-chipmaking-ai-stocks-surge-on-anthropic-ipo-cheer-4974130"
-    },
-    {
-      "source": "Investing.com",
-      "time": "Tue 9:41 AM",
-      "text": "European shares stall as HSBC and Reckitt slumps offset tech gains.",
-      "url": "https://www.investing.com/news/stock-market-news/european-shares-fall-as-hsbc-slump-and-energy-fears-offset-ai-glow-4974295"
-    },
-    {
-      "source": "Investing.com",
-      "time": "Tue 9:37 AM",
-      "text": "S&P 500 and Nasdaq open higher as oil pulls back ahead of the Fed decision.",
-      "url": "https://www.investing.com/news/stock-market-news/sp-500-nasdaq-open-higher-as-oil-pulls-back-ahead-of-fed-decision-4975858"
+      "source": "CNBC Top News",
+      "time": "Tue 10:19 AM",
+      "text": "Nvidia and AMD to invest $4 billion in Meta as the tech giants deepen their AI partnership (up from the $3 billion Nvidia-only figure this morning).",
+      "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
     },
     {
       "source": "CNBC Top News",
-      "time": "Tue 7:10 AM",
-      "text": "CNBC survey: Fed rate hikes are coming, but not this week.",
-      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html"
+      "time": "Tue 10:08 AM",
+      "text": "S&P 500 rises as chip stocks gain for a second day and oil prices ease.",
+      "url": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html"
     }
   ],
   "bigNames": [
     {
-      "symbol": "HSBC",
-      "move": "-6.79%",
-      "text": "shares slump, weighing on European markets",
-      "source": "Investing.com",
-      "time": "Tue 9:41 AM",
-      "url": "https://www.investing.com/news/stock-market-news/european-shares-fall-as-hsbc-slump-and-energy-fears-offset-ai-glow-4974295"
-    },
-    {
-      "symbol": "AVGO",
-      "move": "+3.32%",
-      "text": "DA Davidson upgrade with a $400 target tied to the Anthropic IPO",
-      "source": "24/7 Wall St.",
-      "time": "Tue 9:25 AM",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-rises-3-da-davidson-132319869.html"
-    },
-    {
-      "symbol": "AMD",
-      "move": "+3.26%",
-      "text": "AMD and Meta expand their strategic partnership on Meta's AI infrastructure",
-      "source": "GlobeNewswire",
-      "time": "Tue 9:20 AM",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amd-meta-advance-strategic-partnership-132000413.html"
-    },
-    {
       "symbol": "BA",
-      "move": "-1.93%",
-      "text": "Q3 core loss wider than expected; focus stays on 737 Max production",
+      "move": "-4.69%",
+      "text": "mixed Q3 with a record backlog; the stock's drop has deepened since 10:00",
+      "source": "Investor's Business Daily",
+      "time": "Tue 10:08 AM",
+      "url": "https://finance.yahoo.com/m/c405c137-48c6-3a98-8a48-41ab3910e8a9/boeing-reports-mixed-q3.html"
+    },
+    {
+      "symbol": "AAPL",
+      "move": "+0.33%",
+      "text": "launches M6 iMac and new MacBook Pro ahead of a November release",
       "source": "MT Newswires",
-      "time": "Tue 9:04 AM",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-shares-fall-pre-bell-130444536.html"
+      "time": "Tue 10:08 AM",
+      "url": "https://finance.yahoo.com/technology/articles/apple-launches-m6-imac-macbook-140823715.html"
+    },
+    {
+      "symbol": "KO",
+      "move": "-0.17%",
+      "text": "raises full-year earnings outlook after a Q3 beat, though North America demand is slowing",
+      "source": "CNBC Top News",
+      "time": "Tue 10:25 AM",
+      "url": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
     }
   ],
-  "read": "The morning's risk-on tone has faded rather than flipped: SPY at 765.70 is only +0.04% on the day and QQQ at 714.62 is +0.34%, both slightly below their 9:30 opens (-0.21% and -0.07%) and SPY under its 767.05 premarket print, with QQQ about level with its 714.79 premarket print (this morning's premarket percentages were measured against the wrong close; the real gap up was about +0.2% for SPY and +0.4% for QQQ). The VIX is lower at 17.77 (-3.4%), the 10-year yield has edged up to 5.00%, and WTI is slightly lower near $101.24, flat since the open. There is still no U.S. red event today (calendar check failed this run; the morning list had only Australian CPI at 8:30 PM ET and the RBNZ decision at 9:00 PM ET), and the Fed meeting that started today is the week's main event.",
-  "eventsError": "HTTP Error 429: Too Many Requests"
+  "read": "The morning's risk-on tone is holding, but mostly through tech: QQQ at 716.65 is +0.62% on the day, +0.22% since the 9:30 open and now above its 714.79 premarket print, while SPY at 766.95 is +0.21% on the day, about flat since the open (-0.05%) and just under its 767.05 premarket print. The VIX at 18.13 is still lower than yesterday (-1.4%) but has risen 1.7% since the open, the 10-year yield is steady at 5.00%, and WTI is down about 0.6% near $101.19, flat since the open. There is no U.S. red event left today; the only scheduled high-impact releases are Australian CPI at 8:30 PM ET and the RBNZ rate decision at 9:00 PM ET, with the Fed decision later this week still the main event."
 }
