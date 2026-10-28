@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-28T14:02:55.048120-04:00",
+ "updated": "2026-10-28T16:38:51.898003-04:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -10,11 +10,11 @@
   "chop": "Chop (up and down, going nowhere)"
  },
  "patterns": {
-  "days": 61,
+  "days": 62,
   "counts": {
    "trend-up": 14,
    "trend-down": 15,
-   "reversal-up": 3,
+   "reversal-up": 4,
    "reversal-down": 6,
    "chop": 23
   },
@@ -35,31 +35,31 @@
    },
    {
     "clue": "No break of the first 30-min range by 10:30",
-    "days": 17,
+    "days": 18,
     "counts": {
      "trend-up": 2,
      "trend-down": 5,
-     "reversal-up": 1,
+     "reversal-up": 2,
      "reversal-down": 2,
      "chop": 7
     },
-    "trendRate": 41,
-    "chopRate": 41,
-    "followedLeanRate": 29
+    "trendRate": 39,
+    "chopRate": 39,
+    "followedLeanRate": 28
    },
    {
     "clue": "SPY crossed VWAP 3+ times by 10:30",
-    "days": 21,
+    "days": 22,
     "counts": {
      "trend-up": 3,
      "trend-down": 8,
-     "reversal-up": 1,
+     "reversal-up": 2,
      "reversal-down": 3,
      "chop": 6
     },
-    "trendRate": 52,
-    "chopRate": 29,
-    "followedLeanRate": 33
+    "trendRate": 50,
+    "chopRate": 27,
+    "followedLeanRate": 32
    },
    {
     "clue": "SPY on one side of VWAP all morning (0-1 crosses by 10:30)",
@@ -133,31 +133,31 @@
    },
    {
     "clue": "Gap of 0.2%+ already filled by 10:30",
-    "days": 4,
+    "days": 5,
     "counts": {
      "trend-up": 2,
      "trend-down": 0,
-     "reversal-up": 1,
+     "reversal-up": 2,
      "reversal-down": 0,
      "chop": 1
     },
-    "trendRate": 50,
-    "chopRate": 25,
+    "trendRate": 40,
+    "chopRate": 20,
     "followedLeanRate": 0
    },
    {
     "clue": "Broad market: equal-weight S&P keeping up with SPY (within 0.1%)",
-    "days": 36,
+    "days": 37,
     "counts": {
      "trend-up": 5,
      "trend-down": 13,
-     "reversal-up": 2,
+     "reversal-up": 3,
      "reversal-down": 2,
      "chop": 14
     },
-    "trendRate": 50,
-    "chopRate": 39,
-    "followedLeanRate": 39
+    "trendRate": 49,
+    "chopRate": 38,
+    "followedLeanRate": 38
    },
    {
     "clue": "Narrow market: equal-weight S&P lagging SPY by 0.2%+",
@@ -189,21 +189,211 @@
    },
    {
     "clue": "High-impact U.S. news that day",
-    "days": 0,
+    "days": 1,
     "counts": {
      "trend-up": 0,
      "trend-down": 0,
-     "reversal-up": 0,
+     "reversal-up": 1,
      "reversal-down": 0,
      "chop": 0
     },
-    "trendRate": null,
-    "chopRate": null,
-    "followedLeanRate": null
+    "trendRate": 0,
+    "chopRate": 0,
+    "followedLeanRate": 0
    }
   ]
  },
  "days": [
+  {
+   "measured": {
+    "date": "2026-10-28",
+    "type": "reversal-up",
+    "typeLabel": "Reversal up (sold off, then rallied)",
+    "spy": {
+     "open": 771.43,
+     "high": 773.36,
+     "low": 769.24,
+     "close": 772.35,
+     "prevClose": 769.66,
+     "change": 0.35,
+     "openToClose": 0.119,
+     "rangePct": 0.535,
+     "usualRangePct": 0.809,
+     "rangeVsUsual": 0.66,
+     "closeLocation": 0.75,
+     "highAt": "14:35",
+     "lowAt": "09:45",
+     "vwapCrosses": 18,
+     "pctAboveVwapAfter10": 62
+    },
+    "expectedMovePct": 1.104,
+    "actualMoveVsExpected": 0.32,
+    "rangeVsExpected": 0.48,
+    "openingRange": {
+     "high": 771.7,
+     "low": 769.24,
+     "widthPct": 0.32,
+     "widthVsExpected": 0.29,
+     "widthVsUsual": 0.4,
+     "breakout": {
+      "side": "up",
+      "time": "12:55",
+      "held": true
+     }
+    },
+    "gap": {
+     "pct": 0.23,
+     "filled": true,
+     "filledAt": "09:50"
+    },
+    "levels": [
+     {
+      "name": "Yesterday's high",
+      "price": 771.14,
+      "touched": true,
+      "result": "broke and closed above"
+     },
+     {
+      "name": "Yesterday's low",
+      "price": 765.21,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's close",
+      "price": 769.66,
+      "touched": true,
+      "result": "closed above"
+     }
+    ],
+    "clues": {
+     "10:00": {
+      "spy": {
+       "last": 770.58,
+       "vsOpen": -0.11,
+       "vsPrevClose": 0.12,
+       "vwap": 770.72,
+       "aboveVwap": false,
+       "vwapCrosses": 1
+      },
+      "qqq": {
+       "last": 722.49,
+       "vsOpen": -0.224,
+       "vsPrevClose": 0.173,
+       "vwap": 722.96,
+       "aboveVwap": false,
+       "vwapCrosses": 1
+      },
+      "rsp": {
+       "last": 217.31,
+       "vsOpen": 0.014,
+       "vsPrevClose": -0.097
+      },
+      "iwm": {
+       "last": 281.1,
+       "vsOpen": 0.266,
+       "vsPrevClose": 0.327
+      },
+      "vix": {
+       "last": 17.47,
+       "vsPrevClose": -0.285
+      },
+      "oil": {
+       "last": 101.86,
+       "vsPrevClose": 1.962
+      },
+      "tnx": {
+       "last": 4.999,
+       "vsPrevClose": 0.12,
+       "bpChange": 0.6
+      },
+      "agree": true,
+      "breadthGap": 0.124
+     },
+     "10:30": {
+      "spy": {
+       "last": 770.74,
+       "vsOpen": -0.089,
+       "vsPrevClose": 0.14,
+       "vwap": 770.72,
+       "aboveVwap": true,
+       "vwapCrosses": 4
+      },
+      "qqq": {
+       "last": 722.12,
+       "vsOpen": -0.276,
+       "vsPrevClose": 0.121,
+       "vwap": 721.98,
+       "aboveVwap": true,
+       "vwapCrosses": 2
+      },
+      "rsp": {
+       "last": 217.35,
+       "vsOpen": 0.032,
+       "vsPrevClose": -0.078
+      },
+      "iwm": {
+       "last": 280.14,
+       "vsOpen": -0.075,
+       "vsPrevClose": -0.014
+      },
+      "vix": {
+       "last": 17.35,
+       "vsPrevClose": -0.97
+      },
+      "oil": {
+       "last": 102.39,
+       "vsPrevClose": 2.492
+      },
+      "tnx": {
+       "last": 5.02,
+       "vsPrevClose": 0.541,
+       "bpChange": 2.7
+      },
+      "agree": true,
+      "breadthGap": 0.121,
+      "orBreak": null,
+      "gapFilled": true
+     }
+    },
+    "summary": "Reversal up. SPY closed +0.35% on the day (+0.12% from the open). High-to-low it moved 0.54%, a smaller range than usual (0.7x the last 20 days). It broke the first 30 minutes' range up at 12:55 and that break held into the close. It crossed VWAP 18 times (lots of crossing is a chop sign).",
+    "usEvents": [
+     {
+      "time": "2:00 PM",
+      "currency": "USD",
+      "event": "Federal Funds Rate",
+      "actual": "",
+      "forecast": "4.00%",
+      "previous": "4.00%"
+     },
+     {
+      "time": "2:00 PM",
+      "currency": "USD",
+      "event": "FOMC Statement",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+     },
+     {
+      "time": "2:30 PM",
+      "currency": "USD",
+      "event": "FOMC Press Conference",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+     }
+    ]
+   },
+   "written": {
+    "briefLean": "The morning brief read a mildly risk-on, tech-led but narrow tone, with the Fed decision at 2:00 PM and Warsh's 2:30 PM press conference as the main event.",
+    "verdict": "partly",
+    "whatHappened": "SPY gapped up about 0.23% to open at 771.43, made its low of 769.24 at 9:45 AM and filled the gap by 9:50, then chopped in a narrow range, crossing VWAP 18 times. It broke above the first 30-minute range (771.70) at 12:55 PM and that break held, with the high of 773.36 at 2:35 PM during the Fed press conference. SPY closed at 772.35, +0.35% on the day and +0.12% from the open, with a range of only 0.54% (about 0.7x a usual day).",
+    "why": "The Fed held at 4.00% as expected, so the main event gave a modest lift rather than a big swing, while the 10-year yield rose to about 5.05% and WTI held near $102, keeping a lid on the move. QQQ's premarket lead from the SK Hynix-driven chip rally faded in the first hour as traders waited for the Fed and the Microsoft and Alphabet reports after the close.",
+    "earliestClue": "By 10:00 SPY and QQQ were both below their open and VWAP and the gap was already filled, and by 10:30 SPY had crossed VWAP four times with no opening-range break, pointing to a narrow, waiting-for-the-Fed session rather than the tech-led trend the premarket suggested.",
+    "lesson": "On a Fed afternoon with a narrow opening range and repeated VWAP crosses, the morning tone often shows up only after midday; a clean break of the first 30-minute range (here 12:55 PM) was a better signal than the premarket lead.",
+    "by": "Close review routine"
+   }
+  },
   {
    "measured": {
     "date": "2026-10-27",

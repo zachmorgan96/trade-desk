@@ -1,46 +1,46 @@
 {
   "version": 1,
   "date": "2026-10-28",
-  "slot": "1030",
-  "slotLabel": "10:30 update",
-  "time": "10:43",
-  "generated": "2026-10-28T10:43:38.727318-04:00",
+  "slot": "close",
+  "slotLabel": "Close review",
+  "time": "16:36",
+  "generated": "2026-10-28T16:36:46.070435-04:00",
   "prices": [
     {
       "name": "VIX",
-      "last": "17.34",
-      "change": "▼ -0.18 (-1.03%) · open -0.23%",
-      "asOf": "10:28 AM ET"
+      "last": "16.91",
+      "change": "▼ -0.61 (-3.48%) · open -2.70%",
+      "asOf": "4:15 PM ET"
     },
     {
       "name": "US10 (10-yr note futures)",
-      "last": "105.84",
-      "change": "▼ -0.20 (-0.19%) · open -0.16%",
-      "asOf": "10:33 AM ET"
+      "last": "105.98",
+      "change": "▼ -0.06 (-0.06%) · open -0.03%",
+      "asOf": "4:26 PM ET"
     },
     {
       "name": "US10Y yield",
-      "last": "5.020%",
-      "change": "▲ +0.027 (+0.54%)",
-      "asOf": "10:28 AM ET"
+      "last": "5.045%",
+      "change": "▲ +0.052 (+1.04%)",
+      "asOf": "2:55 PM ET"
     },
     {
       "name": "Crude oil (WTI)",
-      "last": "102.27",
-      "change": "▲ +2.37 (+2.37%) · open +0.48%",
-      "asOf": "10:33 AM ET"
+      "last": "101.72",
+      "change": "▲ +1.82 (+1.82%) · open -0.06%",
+      "asOf": "4:26 PM ET"
     },
     {
       "name": "SPY",
-      "last": "770.72",
-      "change": "▲ +1.06 (+0.14%) · open -0.09%",
-      "asOf": "10:43 AM ET"
+      "last": "770.39",
+      "change": "▲ +0.73 (+0.09%) · open -0.13%",
+      "asOf": "4:36 PM ET"
     },
     {
       "name": "QQQ",
-      "last": "721.88",
-      "change": "▲ +0.63 (+0.09%) · open -0.31%",
-      "asOf": "10:43 AM ET"
+      "last": "720.77",
+      "change": "▼ -0.48 (-0.07%) · open -0.46%",
+      "asOf": "4:36 PM ET"
     }
   ],
   "events": [
@@ -111,35 +111,185 @@
   ],
   "macro": [
     {
-      "source": "Investing.com",
-      "time": "Wed 10:16 AM",
-      "text": "European shares edge higher ahead of Big Tech earnings and the Fed decision.",
-      "url": "https://www.investing.com/news/stock-market-news/european-shares-stutter-as-bank-earnings-fail-to-offset-prefed-jitters-4977566"
+      "source": "CNBC Top News",
+      "time": "Wed 4:34 PM",
+      "text": "Alphabet's free cash flow falls further and Q3 capex comes in above expectations, a worry for the AI trade.",
+      "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
     },
     {
-      "source": "Yahoo Finance",
-      "time": "Wed 9:49 AM",
-      "text": "U.S. tech rises for a third day ahead of Microsoft and Alphabet earnings, with the Fed decision in focus.",
-      "url": "https://finance.yahoo.com/markets/article/tech-rises-for-third-day-in-a-row-ahead-of-microsoft-alphabet-earnings-fed-decision-in-focus-alphacheck-134910290.html"
+      "source": "CNBC Top News",
+      "time": "Wed 4:32 PM",
+      "text": "Treasury Secretary Bessent says it would 'not necessarily' be a mistake if the Fed hikes again.",
+      "url": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html"
+    },
+    {
+      "source": "CNBC Top News",
+      "time": "Wed 4:31 PM",
+      "text": "Microsoft rises about 4% after hours as cloud growth drives an earnings and revenue beat.",
+      "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
+    },
+    {
+      "source": "CNBC Top News",
+      "time": "Wed 3:43 PM",
+      "text": "Fed holds rates steady at 4.00% despite inflation concerns; Warsh says an 'information rich' period is coming.",
+      "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
     }
   ],
   "bigNames": [
     {
-      "symbol": "WEN",
-      "move": "about +15% per CNBC",
-      "text": "Nelson Peltz's Trian offers $1.4 billion to buy the burger chain",
-      "source": "CNBC Top News",
-      "time": "Wed 10:35 AM",
-      "url": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html"
+      "symbol": "FTNT",
+      "move": "-27.03%",
+      "text": "falling after hours on its Q3 report",
+      "source": "Associated Press",
+      "time": "0.3h ago",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fortinet-q3-earnings-snapshot-201820626.html"
     },
     {
-      "symbol": "AAPL / GOOGL",
-      "move": "-0.66% / +1.07%",
-      "text": "South Korea fines Google and Apple for pushing app developers onto their payment systems",
-      "source": "Euronews",
-      "time": "Wed 10:07 AM",
-      "url": "https://finance.yahoo.com/technology/articles/south-korea-fines-google-apple-140741941.html"
+      "symbol": "NOW",
+      "move": "-18.99%",
+      "text": "Q3 earnings missed despite a raised AI outlook; shares slide after hours",
+      "source": "MarketWatch",
+      "time": "Wed 4:22 PM",
+      "url": "https://www.marketwatch.com/story/servicenows-stock-slides-as-earnings-miss-clouds-a-raised-ai-outlook-96e48385?mod=mw_rss_topstories"
+    },
+    {
+      "symbol": "GOOGL",
+      "move": "-8.05%",
+      "text": "Q3 earnings missed and capex rose even as cloud sales doubled; shares down about 8% after hours",
+      "source": "BeInCrypto",
+      "time": "0.3h ago",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-falls-8-even-202108007.html"
+    },
+    {
+      "symbol": "ORCL",
+      "move": "+7.70%",
+      "text": "long-term revenue forecast and clarity on financing eased debt concerns",
+      "source": "CNBC Top News",
+      "time": "Wed 4:00 PM",
+      "url": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html"
     }
   ],
-  "read": "The fade seen at 10:00 has steadied rather than flipped: SPY at 770.72 and QQQ at 721.88 are still below their premarket levels (771.10 and 724.58) and down 0.09% and 0.31% since the 9:30 open, leaving both slightly up on the day (+0.14% and +0.09%). The VIX has eased back to 17.34 (-0.23% since the open), while the 10-year yield has crept up to about 5.02% and WTI has firmed to $102.27 (+2.37% on the day). The Bank of Canada press conference is under way at 10:30 AM; still ahead are the Fed decision and statement at 2:00 PM and Warsh's press conference at 2:30 PM, with Microsoft and Alphabet earnings still to come."
+  "read": "The morning expected a mildly risk-on, tech-led but narrow day, with the Fed decision at 2:00 PM and Warsh's 2:30 PM press conference as the main event; the tone partly held, as SPY finished the regular session at 772.35 (+0.35%), but the path was a slow chop rather than a tech-led trend, and QQQ gave up its premarket lead within the first hour. SPY opened about 0.23% higher at 771.43, made its low of 769.24 at 9:45 AM and filled the gap by 9:50, then crossed VWAP 18 times in a narrow range (about 0.7x a usual day) until it broke above the first 30-minute range at 12:55 PM and held there. The Fed held at 4.00% as forecast and SPY made its high of 773.36 at 2:35 PM during the press conference, while the VIX eased to 16.91 (-3.5%), the 10-year yield rose to about 5.05% and WTI closed up about 1.8% near $101.72. After the bell the picture shifted: Alphabet fell about 8% and ServiceNow about 19% on their reports while Microsoft rose about 4%, leaving SPY at 770.39 and QQQ at 720.77 in after-hours trading. One plain observation for tomorrow's preparation: the day's real signal was the 12:55 PM break of the opening range, not the early moves, and tomorrow starts from mega-cap earnings reactions pulling in opposite directions plus GDP and PCE data before the open. Tomorrow's first red event is U.S. Advance GDP q/q and Core PCE Price Index m/m at 8:30 AM ET.",
+  "tomorrow": [
+    {
+      "time": "8:30 AM",
+      "currency": "USD",
+      "event": "Advance GDP q/q",
+      "forecast": "3.2%",
+      "previous": "1.5%"
+    },
+    {
+      "time": "8:30 AM",
+      "currency": "USD",
+      "event": "Core PCE Price Index m/m",
+      "forecast": "0.3%",
+      "previous": "0.2%"
+    },
+    {
+      "time": "9:15 AM",
+      "currency": "EUR",
+      "event": "Main Refinancing Rate",
+      "forecast": "2.65%",
+      "previous": "2.65%"
+    },
+    {
+      "time": "9:15 AM",
+      "currency": "EUR",
+      "event": "Monetary Policy Statement",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "time": "9:45 AM",
+      "currency": "EUR",
+      "event": "ECB Press Conference",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "time": "10:30 PM",
+      "currency": "JPY",
+      "event": "BOJ Policy Rate",
+      "forecast": "<1.25%",
+      "previous": "<1.25%"
+    },
+    {
+      "time": "10:30 PM",
+      "currency": "JPY",
+      "event": "Monetary Policy Statement",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "time": "10:31 PM",
+      "currency": "JPY",
+      "event": "BOJ Outlook Report",
+      "forecast": "",
+      "previous": ""
+    }
+  ],
+  "readthroughNext": [
+    {
+      "symbol": "MSFT",
+      "time": "after close 2026-10-28",
+      "related": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "MU",
+        "SKHY",
+        "TSM",
+        "ANET",
+        "VRT",
+        "GEV",
+        "CRWV",
+        "NBIS"
+      ]
+    },
+    {
+      "symbol": "GOOG",
+      "time": "after close 2026-10-28",
+      "related": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "MU",
+        "SKHY",
+        "TSM",
+        "ANET",
+        "VRT",
+        "GEV",
+        "CRWV",
+        "NBIS"
+      ]
+    },
+    {
+      "symbol": "NOW",
+      "time": "after close 2026-10-28",
+      "related": [
+        "PLTR",
+        "CRM",
+        "SNOW",
+        "DDOG",
+        "MDB",
+        "ADBE",
+        "WDAY",
+        "MSFT"
+      ]
+    },
+    {
+      "symbol": "PWR",
+      "time": "before open 2026-10-29",
+      "related": [
+        "VRT",
+        "GEV",
+        "ETN",
+        "CEG",
+        "VST",
+        "NRG"
+      ]
+    }
+  ]
 }
