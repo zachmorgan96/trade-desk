@@ -210,7 +210,180 @@
     }
    ],
    "read": "The tone is mildly risk-on and tech-led but narrow: QQQ is up about 0.5% premarket at 724.58 and SPY about 0.2% at 771.10, while Dow futures are lower, the VIX is flat near 17.5, the 10-year yield sits near 4.99% and WTI is up about 1.8% near $102. The day's main event is the Fed: the rate decision and statement at 2:00 PM ET (a hold at 4.00% is forecast) and Warsh's press conference at 2:30 PM, where guidance on future hikes is the open question. Before that, the UK budget (8:30 AM) and the Bank of Canada decision (9:45 AM, press conference 10:30 AM) can nudge yields, and Microsoft and Alphabet earnings are on deck. It is worth waiting for the first 15-minute range to form and seeing whether QQQ's premarket lead holds into the open, and being aware that the session often goes quiet before 2:00 PM and then swings sharply in both directions through the press conference."
+  },
+  {
+   "version": 1,
+   "date": "2026-10-28",
+   "slot": "1000",
+   "slotLabel": "10:00 update",
+   "time": "10:08",
+   "generated": "2026-10-28T10:08:09.157154-04:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "17.65",
+     "change": "▲ +0.13 (+0.74%) · open +1.55%",
+     "asOf": "9:53 AM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "105.97",
+     "change": "▼ -0.08 (-0.07%) · open -0.04%",
+     "asOf": "9:58 AM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.999%",
+     "change": "▲ +0.006 (+0.12%)",
+     "asOf": "9:53 AM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "101.92",
+     "change": "▲ +2.02 (+2.02%) · open +0.14%",
+     "asOf": "9:58 AM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "770.46",
+     "change": "▲ +0.80 (+0.10%) · open -0.13%",
+     "asOf": "10:08 AM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "721.55",
+     "change": "▲ +0.30 (+0.04%) · open -0.35%",
+     "asOf": "10:08 AM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "8:30 AM",
+     "currency": "GBP",
+     "event": "Annual Budget Release",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "9:45 AM",
+     "currency": "CAD",
+     "event": "BOC Monetary Policy Report",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "9:45 AM",
+     "currency": "CAD",
+     "event": "BOC Rate Statement",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "9:45 AM",
+     "currency": "CAD",
+     "event": "Overnight Rate",
+     "actual": "",
+     "forecast": "2.50%",
+     "previous": "2.25%"
+    },
+    {
+     "time": "10:30 AM",
+     "currency": "CAD",
+     "event": "BOC Press Conference",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "2:00 PM",
+     "currency": "USD",
+     "event": "Federal Funds Rate",
+     "actual": "",
+     "forecast": "4.00%",
+     "previous": "4.00%"
+    },
+    {
+     "time": "2:00 PM",
+     "currency": "USD",
+     "event": "FOMC Statement",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "2:30 PM",
+     "currency": "USD",
+     "event": "FOMC Press Conference",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    }
+   ],
+   "macro": [
+    {
+     "source": "BBC Business",
+     "time": "Wed 9:48 AM",
+     "text": "UK Budget delivered; BBC has the key points at a glance.",
+     "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "Investing.com",
+     "time": "Wed 9:32 AM",
+     "text": "UBS now expects two more Fed rate hikes by mid-2027, ahead of today's 2:00 PM decision.",
+     "url": "https://finance.yahoo.com/economy/policy/articles/ubs-now-expects-two-additional-132939037.html"
+    },
+    {
+     "source": "CNBC Top News",
+     "time": "Wed 8:27 AM",
+     "text": "Israeli bonds and the shekel fall as the election leaves Netanyahu and rivals well short of a majority.",
+     "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html"
+    },
+    {
+     "source": "FT Markets",
+     "time": "Wed 7:51 AM",
+     "text": "Iran threatens a South Korean shipping group over transits through the Strait of Hormuz.",
+     "url": "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719?syn-25a6b1a6=1"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "GEV",
+     "move": "-4.10%",
+     "text": "agreed to buy Trench Group for $9 billion after a Q3 beat and raised 2026 guidance; the premarket gain has turned into a drop",
+     "source": "MT Newswires",
+     "time": "Wed 9:50 AM",
+     "url": "https://finance.yahoo.com/energy/articles/ge-vernova-acquire-trench-group-134759052.html"
+    },
+    {
+     "symbol": "APH",
+     "move": "+2.66%",
+     "text": "AI data-center supplier jumps on an earnings beat, though Evercore ISI cut its target to $90",
+     "source": "Investor's Business Daily",
+     "time": "Wed 9:38 AM",
+     "url": "https://finance.yahoo.com/m/896d4e02-530a-3728-a0a4-69f9b2c5ae67/ai-data-center-supplier.html"
+    },
+    {
+     "symbol": "GOOGL",
+     "move": "+1.39%",
+     "text": "rising on a report that OpenAI plans to buy Google's TPU chips, ahead of earnings",
+     "source": "Investing.com",
+     "time": "Wed 9:32 AM",
+     "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-stock-rises-openai-plans-133455553.html"
+    },
+    {
+     "symbol": "LLY",
+     "move": "+0.96%",
+     "text": "retatrutide more than doubled weight loss versus Novo's Ozempic in a head-to-head trial",
+     "source": "Stocktwits",
+     "time": "Wed 8:38 AM",
+     "url": "https://finance.yahoo.com/healthcare/articles/lly-vs-nvo-lilly-retatrutide-123559904.html"
+    }
+   ],
+   "read": "The morning's mildly risk-on, tech-led tone has faded since the bell: SPY at 770.46 and QQQ at 721.55 are both below their premarket levels (771.10 and 724.58) and down 0.13% and 0.35% since the 9:30 open, leaving them roughly flat on the day, with QQQ giving back its premarket lead. The VIX has edged up to 17.65 (+1.55% since the open), the 10-year yield is steady near 5.00%, and WTI holds about 2% higher near $102, little changed since the open. Chips such as MU and AVGO are still firm while TSLA, PLTR and GEV weigh. Still ahead today: the Bank of Canada press conference at 10:30 AM, then the Fed decision and statement at 2:00 PM and Warsh's press conference at 2:30 PM, with Microsoft and Alphabet earnings still to come."
   }
  ],
- "updated": "2026-10-28T07:52:53.068929-04:00"
+ "updated": "2026-10-28T10:10:02.531925-04:00"
 }
