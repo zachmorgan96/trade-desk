@@ -383,7 +383,152 @@
     }
    ],
    "read": "The morning's mildly risk-on, tech-led tone has faded since the bell: SPY at 770.46 and QQQ at 721.55 are both below their premarket levels (771.10 and 724.58) and down 0.13% and 0.35% since the 9:30 open, leaving them roughly flat on the day, with QQQ giving back its premarket lead. The VIX has edged up to 17.65 (+1.55% since the open), the 10-year yield is steady near 5.00%, and WTI holds about 2% higher near $102, little changed since the open. Chips such as MU and AVGO are still firm while TSLA, PLTR and GEV weigh. Still ahead today: the Bank of Canada press conference at 10:30 AM, then the Fed decision and statement at 2:00 PM and Warsh's press conference at 2:30 PM, with Microsoft and Alphabet earnings still to come."
+  },
+  {
+   "version": 1,
+   "date": "2026-10-28",
+   "slot": "1030",
+   "slotLabel": "10:30 update",
+   "time": "10:43",
+   "generated": "2026-10-28T10:43:38.727318-04:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "17.34",
+     "change": "▼ -0.18 (-1.03%) · open -0.23%",
+     "asOf": "10:28 AM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "105.84",
+     "change": "▼ -0.20 (-0.19%) · open -0.16%",
+     "asOf": "10:33 AM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "5.020%",
+     "change": "▲ +0.027 (+0.54%)",
+     "asOf": "10:28 AM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "102.27",
+     "change": "▲ +2.37 (+2.37%) · open +0.48%",
+     "asOf": "10:33 AM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "770.72",
+     "change": "▲ +1.06 (+0.14%) · open -0.09%",
+     "asOf": "10:43 AM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "721.88",
+     "change": "▲ +0.63 (+0.09%) · open -0.31%",
+     "asOf": "10:43 AM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "8:30 AM",
+     "currency": "GBP",
+     "event": "Annual Budget Release",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "9:45 AM",
+     "currency": "CAD",
+     "event": "BOC Monetary Policy Report",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "9:45 AM",
+     "currency": "CAD",
+     "event": "BOC Rate Statement",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "9:45 AM",
+     "currency": "CAD",
+     "event": "Overnight Rate",
+     "actual": "",
+     "forecast": "2.50%",
+     "previous": "2.25%"
+    },
+    {
+     "time": "10:30 AM",
+     "currency": "CAD",
+     "event": "BOC Press Conference",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "2:00 PM",
+     "currency": "USD",
+     "event": "Federal Funds Rate",
+     "actual": "",
+     "forecast": "4.00%",
+     "previous": "4.00%"
+    },
+    {
+     "time": "2:00 PM",
+     "currency": "USD",
+     "event": "FOMC Statement",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "2:30 PM",
+     "currency": "USD",
+     "event": "FOMC Press Conference",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    }
+   ],
+   "macro": [
+    {
+     "source": "Investing.com",
+     "time": "Wed 10:16 AM",
+     "text": "European shares edge higher ahead of Big Tech earnings and the Fed decision.",
+     "url": "https://www.investing.com/news/stock-market-news/european-shares-stutter-as-bank-earnings-fail-to-offset-prefed-jitters-4977566"
+    },
+    {
+     "source": "Yahoo Finance",
+     "time": "Wed 9:49 AM",
+     "text": "U.S. tech rises for a third day ahead of Microsoft and Alphabet earnings, with the Fed decision in focus.",
+     "url": "https://finance.yahoo.com/markets/article/tech-rises-for-third-day-in-a-row-ahead-of-microsoft-alphabet-earnings-fed-decision-in-focus-alphacheck-134910290.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "WEN",
+     "move": "about +15% per CNBC",
+     "text": "Nelson Peltz's Trian offers $1.4 billion to buy the burger chain",
+     "source": "CNBC Top News",
+     "time": "Wed 10:35 AM",
+     "url": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html"
+    },
+    {
+     "symbol": "AAPL / GOOGL",
+     "move": "-0.66% / +1.07%",
+     "text": "South Korea fines Google and Apple for pushing app developers onto their payment systems",
+     "source": "Euronews",
+     "time": "Wed 10:07 AM",
+     "url": "https://finance.yahoo.com/technology/articles/south-korea-fines-google-apple-140741941.html"
+    }
+   ],
+   "read": "The fade seen at 10:00 has steadied rather than flipped: SPY at 770.72 and QQQ at 721.88 are still below their premarket levels (771.10 and 724.58) and down 0.09% and 0.31% since the 9:30 open, leaving both slightly up on the day (+0.14% and +0.09%). The VIX has eased back to 17.34 (-0.23% since the open), while the 10-year yield has crept up to about 5.02% and WTI has firmed to $102.27 (+2.37% on the day). The Bank of Canada press conference is under way at 10:30 AM; still ahead are the Fed decision and statement at 2:00 PM and Warsh's press conference at 2:30 PM, with Microsoft and Alphabet earnings still to come."
   }
  ],
- "updated": "2026-10-28T10:10:02.531925-04:00"
+ "updated": "2026-10-28T10:46:03.984536-04:00"
 }

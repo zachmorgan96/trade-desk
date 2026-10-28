@@ -1,46 +1,46 @@
 {
   "version": 1,
   "date": "2026-10-28",
-  "slot": "1000",
-  "slotLabel": "10:00 update",
-  "time": "10:08",
-  "generated": "2026-10-28T10:08:09.157154-04:00",
+  "slot": "1030",
+  "slotLabel": "10:30 update",
+  "time": "10:43",
+  "generated": "2026-10-28T10:43:38.727318-04:00",
   "prices": [
     {
       "name": "VIX",
-      "last": "17.65",
-      "change": "▲ +0.13 (+0.74%) · open +1.55%",
-      "asOf": "9:53 AM ET"
+      "last": "17.34",
+      "change": "▼ -0.18 (-1.03%) · open -0.23%",
+      "asOf": "10:28 AM ET"
     },
     {
       "name": "US10 (10-yr note futures)",
-      "last": "105.97",
-      "change": "▼ -0.08 (-0.07%) · open -0.04%",
-      "asOf": "9:58 AM ET"
+      "last": "105.84",
+      "change": "▼ -0.20 (-0.19%) · open -0.16%",
+      "asOf": "10:33 AM ET"
     },
     {
       "name": "US10Y yield",
-      "last": "4.999%",
-      "change": "▲ +0.006 (+0.12%)",
-      "asOf": "9:53 AM ET"
+      "last": "5.020%",
+      "change": "▲ +0.027 (+0.54%)",
+      "asOf": "10:28 AM ET"
     },
     {
       "name": "Crude oil (WTI)",
-      "last": "101.92",
-      "change": "▲ +2.02 (+2.02%) · open +0.14%",
-      "asOf": "9:58 AM ET"
+      "last": "102.27",
+      "change": "▲ +2.37 (+2.37%) · open +0.48%",
+      "asOf": "10:33 AM ET"
     },
     {
       "name": "SPY",
-      "last": "770.46",
-      "change": "▲ +0.80 (+0.10%) · open -0.13%",
-      "asOf": "10:08 AM ET"
+      "last": "770.72",
+      "change": "▲ +1.06 (+0.14%) · open -0.09%",
+      "asOf": "10:43 AM ET"
     },
     {
       "name": "QQQ",
-      "last": "721.55",
-      "change": "▲ +0.30 (+0.04%) · open -0.35%",
-      "asOf": "10:08 AM ET"
+      "last": "721.88",
+      "change": "▲ +0.63 (+0.09%) · open -0.31%",
+      "asOf": "10:43 AM ET"
     }
   ],
   "events": [
@@ -111,63 +111,35 @@
   ],
   "macro": [
     {
-      "source": "BBC Business",
-      "time": "Wed 9:48 AM",
-      "text": "UK Budget delivered; BBC has the key points at a glance.",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss"
-    },
-    {
       "source": "Investing.com",
-      "time": "Wed 9:32 AM",
-      "text": "UBS now expects two more Fed rate hikes by mid-2027, ahead of today's 2:00 PM decision.",
-      "url": "https://finance.yahoo.com/economy/policy/articles/ubs-now-expects-two-additional-132939037.html"
+      "time": "Wed 10:16 AM",
+      "text": "European shares edge higher ahead of Big Tech earnings and the Fed decision.",
+      "url": "https://www.investing.com/news/stock-market-news/european-shares-stutter-as-bank-earnings-fail-to-offset-prefed-jitters-4977566"
     },
     {
-      "source": "CNBC Top News",
-      "time": "Wed 8:27 AM",
-      "text": "Israeli bonds and the shekel fall as the election leaves Netanyahu and rivals well short of a majority.",
-      "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html"
-    },
-    {
-      "source": "FT Markets",
-      "time": "Wed 7:51 AM",
-      "text": "Iran threatens a South Korean shipping group over transits through the Strait of Hormuz.",
-      "url": "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719?syn-25a6b1a6=1"
+      "source": "Yahoo Finance",
+      "time": "Wed 9:49 AM",
+      "text": "U.S. tech rises for a third day ahead of Microsoft and Alphabet earnings, with the Fed decision in focus.",
+      "url": "https://finance.yahoo.com/markets/article/tech-rises-for-third-day-in-a-row-ahead-of-microsoft-alphabet-earnings-fed-decision-in-focus-alphacheck-134910290.html"
     }
   ],
   "bigNames": [
     {
-      "symbol": "GEV",
-      "move": "-4.10%",
-      "text": "agreed to buy Trench Group for $9 billion after a Q3 beat and raised 2026 guidance; the premarket gain has turned into a drop",
-      "source": "MT Newswires",
-      "time": "Wed 9:50 AM",
-      "url": "https://finance.yahoo.com/energy/articles/ge-vernova-acquire-trench-group-134759052.html"
+      "symbol": "WEN",
+      "move": "about +15% per CNBC",
+      "text": "Nelson Peltz's Trian offers $1.4 billion to buy the burger chain",
+      "source": "CNBC Top News",
+      "time": "Wed 10:35 AM",
+      "url": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html"
     },
     {
-      "symbol": "APH",
-      "move": "+2.66%",
-      "text": "AI data-center supplier jumps on an earnings beat, though Evercore ISI cut its target to $90",
-      "source": "Investor's Business Daily",
-      "time": "Wed 9:38 AM",
-      "url": "https://finance.yahoo.com/m/896d4e02-530a-3728-a0a4-69f9b2c5ae67/ai-data-center-supplier.html"
-    },
-    {
-      "symbol": "GOOGL",
-      "move": "+1.39%",
-      "text": "rising on a report that OpenAI plans to buy Google's TPU chips, ahead of earnings",
-      "source": "Investing.com",
-      "time": "Wed 9:32 AM",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-stock-rises-openai-plans-133455553.html"
-    },
-    {
-      "symbol": "LLY",
-      "move": "+0.96%",
-      "text": "retatrutide more than doubled weight loss versus Novo's Ozempic in a head-to-head trial",
-      "source": "Stocktwits",
-      "time": "Wed 8:38 AM",
-      "url": "https://finance.yahoo.com/healthcare/articles/lly-vs-nvo-lilly-retatrutide-123559904.html"
+      "symbol": "AAPL / GOOGL",
+      "move": "-0.66% / +1.07%",
+      "text": "South Korea fines Google and Apple for pushing app developers onto their payment systems",
+      "source": "Euronews",
+      "time": "Wed 10:07 AM",
+      "url": "https://finance.yahoo.com/technology/articles/south-korea-fines-google-apple-140741941.html"
     }
   ],
-  "read": "The morning's mildly risk-on, tech-led tone has faded since the bell: SPY at 770.46 and QQQ at 721.55 are both below their premarket levels (771.10 and 724.58) and down 0.13% and 0.35% since the 9:30 open, leaving them roughly flat on the day, with QQQ giving back its premarket lead. The VIX has edged up to 17.65 (+1.55% since the open), the 10-year yield is steady near 5.00%, and WTI holds about 2% higher near $102, little changed since the open. Chips such as MU and AVGO are still firm while TSLA, PLTR and GEV weigh. Still ahead today: the Bank of Canada press conference at 10:30 AM, then the Fed decision and statement at 2:00 PM and Warsh's press conference at 2:30 PM, with Microsoft and Alphabet earnings still to come."
+  "read": "The fade seen at 10:00 has steadied rather than flipped: SPY at 770.72 and QQQ at 721.88 are still below their premarket levels (771.10 and 724.58) and down 0.09% and 0.31% since the 9:30 open, leaving both slightly up on the day (+0.14% and +0.09%). The VIX has eased back to 17.34 (-0.23% since the open), while the 10-year yield has crept up to about 5.02% and WTI has firmed to $102.27 (+2.37% on the day). The Bank of Canada press conference is under way at 10:30 AM; still ahead are the Fed decision and statement at 2:00 PM and Warsh's press conference at 2:30 PM, with Microsoft and Alphabet earnings still to come."
 }
