@@ -1,407 +1,26 @@
 {
  "version": 2,
- "date": "2026-10-27",
+ "date": "2026-10-28",
  "briefs": [
   {
    "version": 1,
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "slot": "morning",
    "slotLabel": "Morning brief",
-   "time": "07:49",
-   "generated": "2026-10-27T07:49:44.172665-04:00",
+   "time": "07:51",
+   "generated": "2026-10-28T07:51:05.748604-04:00",
    "prices": [
     {
      "name": "VIX",
-     "last": "17.85",
-     "change": "▼ -0.54 (-2.94%)",
-     "asOf": "7:34 AM ET"
+     "last": "17.47",
+     "change": "▼ -0.05 (-0.29%)",
+     "asOf": "7:36 AM ET"
     },
     {
      "name": "US10 (10-yr note futures)",
-     "last": "106.20",
-     "change": "▲ +0.09 (+0.09%)",
-     "asOf": "7:39 AM ET"
-    },
-    {
-     "name": "US10Y yield",
-     "last": "4.986%",
-     "change": "▼ -0.002 (-0.04%)",
-     "asOf": "2:55 PM ET"
-    },
-    {
-     "name": "Crude oil (WTI)",
-     "last": "101.04",
-     "change": "▼ -0.72 (-0.71%)",
-     "asOf": "7:39 AM ET"
-    },
-    {
-     "name": "SPY",
-     "last": "767.05",
-     "change": "▲ +7.08 (+0.93%)",
-     "asOf": "7:46 AM ET · premarket"
-    },
-    {
-     "name": "QQQ",
-     "last": "714.79",
-     "change": "▲ +10.39 (+1.48%)",
-     "asOf": "7:48 AM ET · premarket"
-    }
-   ],
-   "events": [
-    {
-     "time": "8:30 PM",
-     "currency": "AUD",
-     "event": "CPI m/m",
-     "actual": "",
-     "forecast": "0.7%",
-     "previous": "0.4%"
-    },
-    {
-     "time": "8:30 PM",
-     "currency": "AUD",
-     "event": "CPI y/y",
-     "actual": "",
-     "forecast": "4.2%",
-     "previous": "4.0%"
-    },
-    {
-     "time": "8:30 PM",
-     "currency": "AUD",
-     "event": "Trimmed Mean CPI m/m",
-     "actual": "",
-     "forecast": "0.3%",
-     "previous": "0.2%"
-    },
-    {
-     "time": "9:00 PM",
-     "currency": "NZD",
-     "event": "Official Cash Rate",
-     "actual": "",
-     "forecast": "3.00%",
-     "previous": "2.75%"
-    },
-    {
-     "time": "9:00 PM",
-     "currency": "NZD",
-     "event": "RBNZ Rate Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "10:00 PM",
-     "currency": "NZD",
-     "event": "RBNZ Press Conference",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    }
-   ],
-   "macro": [
-    {
-     "source": "MarketWatch",
-     "time": "Tue 7:45 AM",
-     "text": "A reported Khamenei call to end Iran's \"neither war nor peace\" stance moved markets a little.",
-     "url": "https://www.marketwatch.com/story/why-reported-khamenei-call-for-end-to-neither-war-nor-peace-moved-markets-a-bit-dd94b602?mod=mw_rss_topstories"
-    },
-    {
-     "source": "CNBC Top News",
-     "time": "Tue 7:41 AM",
-     "text": "Stock futures rise as earnings season continues.",
-     "url": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html"
-    },
-    {
-     "source": "CNBC Top News",
-     "time": "Tue 7:06 AM",
-     "text": "The Fed is expected to hold rates steady this week, but Warsh may point the way to more hikes.",
-     "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html"
-    },
-    {
-     "source": "CNBC Top News",
-     "time": "Tue 6:41 AM",
-     "text": "Oil prices seesaw amid renewed diplomatic efforts to end the Mideast conflict.",
-     "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html"
-    },
-    {
-     "source": "FT Markets",
-     "time": "Tue 6:23 AM",
-     "text": "Tech stocks rally as the AI trade revives.",
-     "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1"
-    },
-    {
-     "source": "CNBC Top News",
-     "time": "Tue 5:07 AM",
-     "text": "Nvidia to invest $3 billion in Meta as the two deepen their AI partnership.",
-     "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
-    }
-   ],
-   "read": "The tone is risk-on, led by tech: QQQ is up about 1.5% premarket at 714.79 and SPY about 0.9% at 767.05, both above yesterday's closes, while the VIX closed lower near 17.9 and WTI is down about 0.7% near $101 with the 10-year yield flat near 4.99%. There is no high-impact U.S. release today; the only red events are Australian CPI at 8:30 PM ET and the RBNZ rate decision at 9:00 PM ET, both after the U.S. close, so the session is driven by earnings (Boeing, Coca-Cola, UPS before the open) and headlines. The bigger scheduled event is the Fed decision later this week, where a hold is expected but rate-hike guidance from Warsh is the open question. Before taking a setup, it is worth waiting for the first 15-minute range to form and seeing whether QQQ's large premarket gap holds at the open, and keeping an eye on Iran diplomacy headlines, which can move oil and the indexes quickly."
-  },
-  {
-   "version": 1,
-   "date": "2026-10-27",
-   "slot": "1000",
-   "slotLabel": "10:00 update",
-   "time": "10:01",
-   "generated": "2026-10-27T10:01:41.753159-04:00",
-   "prices": [
-    {
-     "name": "VIX",
-     "last": "17.77",
-     "change": "▼ -0.62 (-3.37%) · open -0.34%",
-     "asOf": "9:46 AM ET"
-    },
-    {
-     "name": "US10 (10-yr note futures)",
-     "last": "106.00",
-     "change": "▼ -0.11 (-0.10%) · open -0.03%",
-     "asOf": "9:51 AM ET"
-    },
-    {
-     "name": "US10Y yield",
-     "last": "5.001%",
-     "change": "▲ +0.015 (+0.30%)",
-     "asOf": "9:46 AM ET"
-    },
-    {
-     "name": "Crude oil (WTI)",
-     "last": "101.24",
-     "change": "▼ -0.52 (-0.51%) · open +0.00%",
-     "asOf": "9:51 AM ET"
-    },
-    {
-     "name": "SPY",
-     "last": "765.70",
-     "change": "▲ +0.33 (+0.04%) · open -0.21%",
-     "asOf": "10:01 AM ET"
-    },
-    {
-     "name": "QQQ",
-     "last": "714.62",
-     "change": "▲ +2.42 (+0.34%) · open -0.07%",
-     "asOf": "10:01 AM ET"
-    }
-   ],
-   "events": [],
-   "macro": [
-    {
-     "source": "Investing.com",
-     "time": "Tue 9:44 AM",
-     "text": "Global chip and AI stocks surge on Anthropic IPO cheer.",
-     "url": "https://www.investing.com/news/stock-market-news/asia-chipmaking-ai-stocks-surge-on-anthropic-ipo-cheer-4974130"
-    },
-    {
-     "source": "Investing.com",
-     "time": "Tue 9:41 AM",
-     "text": "European shares stall as HSBC and Reckitt slumps offset tech gains.",
-     "url": "https://www.investing.com/news/stock-market-news/european-shares-fall-as-hsbc-slump-and-energy-fears-offset-ai-glow-4974295"
-    },
-    {
-     "source": "Investing.com",
-     "time": "Tue 9:37 AM",
-     "text": "S&P 500 and Nasdaq open higher as oil pulls back ahead of the Fed decision.",
-     "url": "https://www.investing.com/news/stock-market-news/sp-500-nasdaq-open-higher-as-oil-pulls-back-ahead-of-fed-decision-4975858"
-    },
-    {
-     "source": "CNBC Top News",
-     "time": "Tue 7:10 AM",
-     "text": "CNBC survey: Fed rate hikes are coming, but not this week.",
-     "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html"
-    }
-   ],
-   "bigNames": [
-    {
-     "symbol": "HSBC",
-     "move": "-6.79%",
-     "text": "shares slump, weighing on European markets",
-     "source": "Investing.com",
-     "time": "Tue 9:41 AM",
-     "url": "https://www.investing.com/news/stock-market-news/european-shares-fall-as-hsbc-slump-and-energy-fears-offset-ai-glow-4974295"
-    },
-    {
-     "symbol": "AVGO",
-     "move": "+3.32%",
-     "text": "DA Davidson upgrade with a $400 target tied to the Anthropic IPO",
-     "source": "24/7 Wall St.",
-     "time": "Tue 9:25 AM",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-rises-3-da-davidson-132319869.html"
-    },
-    {
-     "symbol": "AMD",
-     "move": "+3.26%",
-     "text": "AMD and Meta expand their strategic partnership on Meta's AI infrastructure",
-     "source": "GlobeNewswire",
-     "time": "Tue 9:20 AM",
-     "url": "https://finance.yahoo.com/technology/ai/articles/amd-meta-advance-strategic-partnership-132000413.html"
-    },
-    {
-     "symbol": "BA",
-     "move": "-1.93%",
-     "text": "Q3 core loss wider than expected; focus stays on 737 Max production",
-     "source": "MT Newswires",
-     "time": "Tue 9:04 AM",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-shares-fall-pre-bell-130444536.html"
-    }
-   ],
-   "read": "The morning's risk-on tone has faded rather than flipped: SPY at 765.70 is only +0.04% on the day and QQQ at 714.62 is +0.34%, both slightly below their 9:30 opens (-0.21% and -0.07%) and SPY under its 767.05 premarket print, with QQQ about level with its 714.79 premarket print (this morning's premarket percentages were measured against the wrong close; the real gap up was about +0.2% for SPY and +0.4% for QQQ). The VIX is lower at 17.77 (-3.4%), the 10-year yield has edged up to 5.00%, and WTI is slightly lower near $101.24, flat since the open. There is still no U.S. red event today (calendar check failed this run; the morning list had only Australian CPI at 8:30 PM ET and the RBNZ decision at 9:00 PM ET), and the Fed meeting that started today is the week's main event.",
-   "eventsError": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "version": 1,
-   "date": "2026-10-27",
-   "slot": "1030",
-   "slotLabel": "10:30 update",
-   "time": "10:32",
-   "generated": "2026-10-27T10:32:45.114750-04:00",
-   "prices": [
-    {
-     "name": "VIX",
-     "last": "18.13",
-     "change": "▼ -0.26 (-1.41%) · open +1.68%",
-     "asOf": "10:17 AM ET"
-    },
-    {
-     "name": "US10 (10-yr note futures)",
-     "last": "106.00",
-     "change": "▼ -0.11 (-0.10%) · open -0.03%",
-     "asOf": "10:22 AM ET"
-    },
-    {
-     "name": "US10Y yield",
-     "last": "5.001%",
-     "change": "▲ +0.015 (+0.30%)",
-     "asOf": "10:17 AM ET"
-    },
-    {
-     "name": "Crude oil (WTI)",
-     "last": "101.19",
-     "change": "▼ -0.57 (-0.56%) · open -0.05%",
-     "asOf": "10:22 AM ET"
-    },
-    {
-     "name": "SPY",
-     "last": "766.95",
-     "change": "▲ +1.58 (+0.21%) · open -0.05%",
-     "asOf": "10:32 AM ET"
-    },
-    {
-     "name": "QQQ",
-     "last": "716.65",
-     "change": "▲ +4.45 (+0.62%) · open +0.22%",
-     "asOf": "10:32 AM ET"
-    }
-   ],
-   "events": [
-    {
-     "time": "8:30 PM",
-     "currency": "AUD",
-     "event": "CPI m/m",
-     "actual": "",
-     "forecast": "0.7%",
-     "previous": "0.4%"
-    },
-    {
-     "time": "8:30 PM",
-     "currency": "AUD",
-     "event": "CPI y/y",
-     "actual": "",
-     "forecast": "4.2%",
-     "previous": "4.0%"
-    },
-    {
-     "time": "8:30 PM",
-     "currency": "AUD",
-     "event": "Trimmed Mean CPI m/m",
-     "actual": "",
-     "forecast": "0.3%",
-     "previous": "0.2%"
-    },
-    {
-     "time": "9:00 PM",
-     "currency": "NZD",
-     "event": "Official Cash Rate",
-     "actual": "",
-     "forecast": "3.00%",
-     "previous": "2.75%"
-    },
-    {
-     "time": "9:00 PM",
-     "currency": "NZD",
-     "event": "RBNZ Rate Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "10:00 PM",
-     "currency": "NZD",
-     "event": "RBNZ Press Conference",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    }
-   ],
-   "macro": [
-    {
-     "source": "CNBC Top News",
-     "time": "Tue 10:19 AM",
-     "text": "Nvidia and AMD to invest $4 billion in Meta as the tech giants deepen their AI partnership (up from the $3 billion Nvidia-only figure this morning).",
-     "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
-    },
-    {
-     "source": "CNBC Top News",
-     "time": "Tue 10:08 AM",
-     "text": "S&P 500 rises as chip stocks gain for a second day and oil prices ease.",
-     "url": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html"
-    }
-   ],
-   "bigNames": [
-    {
-     "symbol": "BA",
-     "move": "-4.69%",
-     "text": "mixed Q3 with a record backlog; the stock's drop has deepened since 10:00",
-     "source": "Investor's Business Daily",
-     "time": "Tue 10:08 AM",
-     "url": "https://finance.yahoo.com/m/c405c137-48c6-3a98-8a48-41ab3910e8a9/boeing-reports-mixed-q3.html"
-    },
-    {
-     "symbol": "AAPL",
-     "move": "+0.33%",
-     "text": "launches M6 iMac and new MacBook Pro ahead of a November release",
-     "source": "MT Newswires",
-     "time": "Tue 10:08 AM",
-     "url": "https://finance.yahoo.com/technology/articles/apple-launches-m6-imac-macbook-140823715.html"
-    },
-    {
-     "symbol": "KO",
-     "move": "-0.17%",
-     "text": "raises full-year earnings outlook after a Q3 beat, though North America demand is slowing",
-     "source": "CNBC Top News",
-     "time": "Tue 10:25 AM",
-     "url": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
-    }
-   ],
-   "read": "The morning's risk-on tone is holding, but mostly through tech: QQQ at 716.65 is +0.62% on the day, +0.22% since the 9:30 open and now above its 714.79 premarket print, while SPY at 766.95 is +0.21% on the day, about flat since the open (-0.05%) and just under its 767.05 premarket print. The VIX at 18.13 is still lower than yesterday (-1.4%) but has risen 1.7% since the open, the 10-year yield is steady at 5.00%, and WTI is down about 0.6% near $101.19, flat since the open. There is no U.S. red event left today; the only scheduled high-impact releases are Australian CPI at 8:30 PM ET and the RBNZ rate decision at 9:00 PM ET, with the Fed decision later this week still the main event."
-  },
-  {
-   "version": 1,
-   "date": "2026-10-27",
-   "slot": "close",
-   "slotLabel": "Close review",
-   "time": "16:35",
-   "generated": "2026-10-27T16:35:56.192867-04:00",
-   "prices": [
-    {
-     "name": "VIX",
-     "last": "17.52",
-     "change": "▼ -0.87 (-4.73%) · open -1.74%",
-     "asOf": "4:15 PM ET"
-    },
-    {
-     "name": "US10 (10-yr note futures)",
-     "last": "106.02",
-     "change": "▼ -0.09 (-0.09%) · open -0.01%",
-     "asOf": "4:25 PM ET"
+     "last": "105.98",
+     "change": "▼ -0.06 (-0.06%)",
+     "asOf": "7:40 AM ET"
     },
     {
      "name": "US10Y yield",
@@ -411,68 +30,84 @@
     },
     {
      "name": "Crude oil (WTI)",
-     "last": "100.11",
-     "change": "▼ -1.65 (-1.62%) · open -1.12%",
-     "asOf": "4:25 PM ET"
+     "last": "101.74",
+     "change": "▲ +1.84 (+1.84%)",
+     "asOf": "7:41 AM ET"
     },
     {
      "name": "SPY",
-     "last": "769.52",
-     "change": "▲ +4.15 (+0.54%) · open +0.28%",
-     "asOf": "4:34 PM ET"
+     "last": "771.10",
+     "change": "▲ +1.44 (+0.19%)",
+     "asOf": "7:50 AM ET · premarket"
     },
     {
      "name": "QQQ",
-     "last": "720.65",
-     "change": "▲ +8.45 (+1.19%) · open +0.78%",
-     "asOf": "4:35 PM ET"
+     "last": "724.58",
+     "change": "▲ +3.33 (+0.46%)",
+     "asOf": "7:50 AM ET · premarket"
     }
    ],
    "events": [
     {
-     "time": "8:30 PM",
-     "currency": "AUD",
-     "event": "CPI m/m",
-     "actual": "",
-     "forecast": "0.7%",
-     "previous": "0.4%"
-    },
-    {
-     "time": "8:30 PM",
-     "currency": "AUD",
-     "event": "CPI y/y",
-     "actual": "",
-     "forecast": "4.2%",
-     "previous": "4.0%"
-    },
-    {
-     "time": "8:30 PM",
-     "currency": "AUD",
-     "event": "Trimmed Mean CPI m/m",
-     "actual": "",
-     "forecast": "0.3%",
-     "previous": "0.2%"
-    },
-    {
-     "time": "9:00 PM",
-     "currency": "NZD",
-     "event": "Official Cash Rate",
-     "actual": "",
-     "forecast": "3.00%",
-     "previous": "2.75%"
-    },
-    {
-     "time": "9:00 PM",
-     "currency": "NZD",
-     "event": "RBNZ Rate Statement",
+     "time": "8:30 AM",
+     "currency": "GBP",
+     "event": "Annual Budget Release",
      "actual": "",
      "forecast": "",
      "previous": ""
     },
     {
-     "time": "10:00 PM",
-     "currency": "NZD",
-     "event": "RBNZ Press Conference",
+     "time": "9:45 AM",
+     "currency": "CAD",
+     "event": "BOC Monetary Policy Report",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "9:45 AM",
+     "currency": "CAD",
+     "event": "BOC Rate Statement",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "9:45 AM",
+     "currency": "CAD",
+     "event": "Overnight Rate",
+     "actual": "",
+     "forecast": "2.50%",
+     "previous": "2.25%"
+    },
+    {
+     "time": "10:30 AM",
+     "currency": "CAD",
+     "event": "BOC Press Conference",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "2:00 PM",
+     "currency": "USD",
+     "event": "Federal Funds Rate",
+     "actual": "",
+     "forecast": "4.00%",
+     "previous": "4.00%"
+    },
+    {
+     "time": "2:00 PM",
+     "currency": "USD",
+     "event": "FOMC Statement",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "2:30 PM",
+     "currency": "USD",
+     "event": "FOMC Press Conference",
      "actual": "",
      "forecast": "",
      "previous": ""
@@ -481,123 +116,101 @@
    "macro": [
     {
      "source": "CNBC Top News",
-     "time": "Tue 3:57 PM",
-     "text": "AI debt fears ease ahead of Oracle, Alphabet and Amazon earnings updates.",
-     "url": "https://www.cnbc.com/2026/10/27/ai-debt-hyperscaler-earnings.html"
+     "time": "Wed 7:43 AM",
+     "text": "Fed decision day: no hike is expected, and the focus is on what Warsh signals for next steps.",
+     "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
     },
     {
-     "source": "FT Markets",
-     "time": "Tue 3:06 PM",
-     "text": "Washington discusses Russian deals for U.S. oil majors as part of Ukraine peace talks.",
-     "url": "https://www.ft.com/content/d703aaae-f607-4b30-9830-ac2a25472d44?syn-25a6b1a6=1"
+     "source": "Investor's Business Daily",
+     "time": "Wed 7:26 AM",
+     "text": "Dow futures fall while tech rises after SK Hynix crushes estimates; Fed, Microsoft and Google are on deck.",
+     "url": "https://finance.yahoo.com/m/7066a700-b33b-3fa1-858d-f75f49b920da/dow-jones-futures-fall%2C-techs.html"
+    },
+    {
+     "source": "Reuters",
+     "time": "Wed 7:26 AM",
+     "text": "Global stocks get an AI boost ahead of a packed 48 hours of central banks and mega-cap earnings.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-ai-lift-dollar-holds-014425181.html"
     },
     {
      "source": "CNBC Top News",
-     "time": "Tue 1:53 PM",
-     "text": "Honda warns that 50% U.S. tariffs on Canadian autos would be catastrophic for the industry.",
-     "url": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html"
+     "time": "Wed 2:56 AM",
+     "text": "SK Hynix shares jump 11% after a record quarterly profit.",
+     "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html"
     },
     {
      "source": "FT Markets",
-     "time": "Tue 11:01 AM",
-     "text": "Iran threatens a South Korean shipping group over Strait of Hormuz transits.",
-     "url": "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719?syn-25a6b1a6=1"
+     "time": "Tue 11:54 PM",
+     "text": "China rushes to shore up its markets as the AI trade sours there.",
+     "url": "https://www.ft.com/content/2bb82c45-04b2-4ccc-9002-f54483fb044e?syn-25a6b1a6=1"
+    },
+    {
+     "source": "CNBC Top News",
+     "time": "Tue 11:02 PM",
+     "text": "Trump says the Iran war will end \"when I want it to\" as its cost reportedly reaches $47 billion.",
+     "url": "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html"
     }
    ],
    "bigNames": [
     {
-     "symbol": "BA",
-     "move": "-10.83%",
-     "text": "worst day since 2020 after saying the 737 Max production ramp slips to late 2027, plus a weak cash-flow update",
-     "source": "Yahoo Finance",
-     "time": "Tue 4:17 PM",
-     "url": "https://finance.yahoo.com/markets/article/boeing-stock-has-its-worst-day-since-2020-as-the-737-ramp-slips-into-2027-201809009.html"
-    },
-    {
-     "symbol": "UPS",
-     "move": "+5.59%",
-     "text": "Q3 beat on pricing and a raised full-year outlook; CEO sees a $15 billion yearly opportunity from data centers",
-     "source": "24/7 Wall St.",
-     "time": "Tue 1:59 PM",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/ups-rises-5-q3-beat-175749615.html"
+     "symbol": "VRT",
+     "move": "+15.22%",
+     "text": "Q3 beat expectations; stock up about 15% premarket",
+     "source": "StockStory",
+     "time": "Wed 6:56 AM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-nyse-vrt-beats-expectations-105935914.html"
     },
     {
      "symbol": "NXPI",
-     "move": "-5.22%",
-     "text": "reported Q3 after the close, with adjusted earnings and revenue up and Q4 guidance issued",
-     "source": "GlobeNewswire",
-     "time": "Tue 4:11 PM",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-reports-third-quarter-201000618.html"
+     "move": "-7.30%",
+     "text": "sliding premarket after results; Morgan Stanley and Citi cut price targets",
+     "source": "MT Newswires",
+     "time": "Wed 6:14 AM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-price-target-101358603.html"
     },
     {
-     "symbol": "V",
-     "move": "-2.73%",
-     "text": "fiscal Q4 results after the close, with adjusted earnings and revenue higher",
-     "source": "Business Wire",
-     "time": "Tue 4:05 PM",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/visa-fiscal-fourth-quarter-full-200500032.html"
+     "symbol": "HOOD",
+     "move": "-6.82%",
+     "text": "crypto slump weighed on Q3 profit; Scotiabank, Needham and Deutsche Bank cut targets",
+     "source": "CNBC",
+     "time": "Wed 5:29 AM",
+     "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html"
+    },
+    {
+     "symbol": "BSX",
+     "move": "-5.97%",
+     "text": "Q3 sales beat, but quarterly revenue guidance missed expectations",
+     "source": "StockStory",
+     "time": "Wed 7:14 AM",
+     "url": "https://finance.yahoo.com/healthcare/articles/boston-scientific-nyse-bsx-posts-111351819.html"
+    },
+    {
+     "symbol": "MU",
+     "move": "+3.86%",
+     "text": "memory names rally after SK Hynix's 632% profit jump and $45 billion shareholder pledge",
+     "source": "24/7 Wall St.",
+     "time": "Wed 7:02 AM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-jumps-8-632-110421148.html"
+    },
+    {
+     "symbol": "GEV",
+     "move": "+1.89%",
+     "text": "Q3 earnings beat and raised 2026 revenue outlook",
+     "source": "Investing.com",
+     "time": "Wed 6:56 AM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-stock-gains-earnings-105934112.html"
+    },
+    {
+     "symbol": "META",
+     "move": "+0.37%",
+     "text": "$25 billion stock sale drew five times the demand; reported plan to raise $95 billion for AI infrastructure",
+     "source": "24/7 Wall St.",
+     "time": "Wed 7:08 AM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/meta-25-billion-stock-sale-110657604.html"
     }
    ],
-   "read": "The morning expected a tech-led risk-on day with no U.S. red event, driven by earnings and Iran headlines, and that tone held, though not in a straight line. SPY opened about 0.26% higher, slipped below its opening range and filled the gap at 10:20 AM (low 765.21), then turned and climbed most of the day to a 771.14 high at 3:45 PM, closing at 769.52 (+0.54%, +0.28% from the open) while QQQ led at 720.65 (+1.19%). There was no U.S. scheduled event to grade; earnings and the AI trade did the work, with chip and AI names (AMD, AVGO, CDNS) lifting QQQ while Boeing fell almost 11% and the equal-weight RSP lagged through 10:30. The VIX eased to 17.52 (-4.7%), WTI fell 1.6% to about $100.11, and the 10-year yield ended flat near 4.99%. One plain observation: the 10:20 dip to fill the gap was the day's turn, and it came while QQQ held above its open, so the tech lead showed up early even when SPY looked soft; note also that the Fed decision is tomorrow, not later in the week as this morning's read put it. Tomorrow's first red event is the UK Annual Budget Release at 8:30 AM ET; the first U.S. one is the Fed rate decision at 2:00 PM ET, with the press conference at 2:30 PM.",
-   "tomorrow": [
-    {
-     "time": "8:30 AM",
-     "currency": "GBP",
-     "event": "Annual Budget Release",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "9:45 AM",
-     "currency": "CAD",
-     "event": "BOC Monetary Policy Report",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "9:45 AM",
-     "currency": "CAD",
-     "event": "BOC Rate Statement",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "9:45 AM",
-     "currency": "CAD",
-     "event": "Overnight Rate",
-     "forecast": "2.50%",
-     "previous": "2.25%"
-    },
-    {
-     "time": "10:30 AM",
-     "currency": "CAD",
-     "event": "BOC Press Conference",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "2:00 PM",
-     "currency": "USD",
-     "event": "Federal Funds Rate",
-     "forecast": "4.00%",
-     "previous": "4.00%"
-    },
-    {
-     "time": "2:00 PM",
-     "currency": "USD",
-     "event": "FOMC Statement",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "2:30 PM",
-     "currency": "USD",
-     "event": "FOMC Press Conference",
-     "forecast": "",
-     "previous": ""
-    }
-   ]
+   "read": "The tone is mildly risk-on and tech-led but narrow: QQQ is up about 0.5% premarket at 724.58 and SPY about 0.2% at 771.10, while Dow futures are lower, the VIX is flat near 17.5, the 10-year yield sits near 4.99% and WTI is up about 1.8% near $102. The day's main event is the Fed: the rate decision and statement at 2:00 PM ET (a hold at 4.00% is forecast) and Warsh's press conference at 2:30 PM, where guidance on future hikes is the open question. Before that, the UK budget (8:30 AM) and the Bank of Canada decision (9:45 AM, press conference 10:30 AM) can nudge yields, and Microsoft and Alphabet earnings are on deck. It is worth waiting for the first 15-minute range to form and seeing whether QQQ's premarket lead holds into the open, and being aware that the session often goes quiet before 2:00 PM and then swings sharply in both directions through the press conference."
   }
  ],
- "updated": "2026-10-27T16:37:43.316597-04:00"
+ "updated": "2026-10-28T07:52:53.068929-04:00"
 }
