@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-28T16:38:51.898003-04:00",
+ "updated": "2026-10-28T21:04:30.257778-04:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -224,7 +224,7 @@
      "highAt": "14:35",
      "lowAt": "09:45",
      "vwapCrosses": 18,
-     "pctAboveVwapAfter10": 62
+     "pctAboveVwapAfter10": 68
     },
     "expectedMovePct": 1.104,
     "actualMoveVsExpected": 0.32,
@@ -323,9 +323,9 @@
        "last": 722.12,
        "vsOpen": -0.276,
        "vsPrevClose": 0.121,
-       "vwap": 721.98,
+       "vwap": 721.97,
        "aboveVwap": true,
-       "vwapCrosses": 2
+       "vwapCrosses": 4
       },
       "rsp": {
        "last": 217.35,
