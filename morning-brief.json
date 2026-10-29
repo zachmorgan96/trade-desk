@@ -690,6 +690,23 @@
       "options": "Data unavailable; check after 9:30",
       "calls": "Reclaims VWAP and the opening range high",
       "puts": "Holds below 630.11 after the opening range"
+    },
+    {
+      "symbol": "MRVL",
+      "linkedTo": "Report of talks to buy Lumentum (LITE)",
+      "why": "Reuters, citing Bloomberg: advanced talks to buy Lumentum (~$83B value), deal possible next week. Unconfirmed; Bernstein says hard to fund with cash alone (MRVL ~$3.9B cash), so dilution fear. Also hit by the GOOGL capex read.",
+      "gap": "-12.06%",
+      "pmHigh": "233.27",
+      "pmLow": "219.21",
+      "prevHigh": "253.66",
+      "prevLow": "246.22",
+      "prevClose": "251.65",
+      "setup": "Gap fill (unconfirmed report) / ORB",
+      "target": "calls side: 233.27, then the 246.22 gap edge and 251.65 close; puts side: new lows below 219.21",
+      "momentum": "5d +2.8%, 20d -4.8%, -1.0% vs 20d, +3.1% vs 50d, rel vol 0.77",
+      "options": "Weekly ±5.53%, spread 69% (stale premarket), vol/OI 166/1147; check spread after 9:30",
+      "calls": "Holds above 219.21 and reclaims the opening range high and VWAP, then 233.27",
+      "puts": "Breaks 219.21 after the opening range, or an official deal with heavy stock dilution"
     }
   ],
   "swings": [
