@@ -740,7 +740,125 @@
      "thesis": "Custom-chip pressure from Amazon and Google until Nvidia reports."
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-10-30",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:35",
+   "generated": "2026-10-30T16:35:49.208291-04:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "19.42",
+     "change": "▲ +2.22 (+12.91%) · open +2.59%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.62",
+     "change": "▲ +0.44 (+0.41%) · open +0.01%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.927%",
+     "change": "▼ -0.062 (-1.24%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "103.38",
+     "change": "▲ +1.38 (+1.35%) · open -0.35%",
+     "asOf": "3:32 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "756.14",
+     "change": "▼ -13.22 (-1.72%) · open -0.69%",
+     "asOf": "4:08 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "690.83",
+     "change": "▼ -24.51 (-3.43%) · open -0.90%",
+     "asOf": "4:35 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "2:30 AM",
+     "currency": "JPY",
+     "event": "BOJ Press Conference",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    }
+   ],
+   "macro": [
+    {
+     "source": "Investing.com",
+     "time": "4:24 PM",
+     "text": "Wall Street closes sharply lower as AI cash-burn fears spark a tech selloff; Nasdaq down over 5% for its worst month since March 2025.",
+     "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+    },
+    {
+     "source": "CNBC",
+     "time": "2:18 PM",
+     "text": "Fed officials, including Musalem, say they will need to get back to hiking rates.",
+     "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "2:28 PM",
+     "text": "Tankers defy a sharp escalation of Iranian attacks to keep crude flowing through the Strait of Hormuz.",
+     "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html"
+    },
+    {
+     "source": "MarketWatch",
+     "time": "3:39 PM",
+     "text": "Wage growth hits a 5-year low as take-home pay lags inflation.",
+     "url": "https://www.marketwatch.com/story/american-workers-are-finding-their-take-home-pay-isnt-keeping-up-with-inflation-with-their-wallets-stretching-thinner-and-thinner-6a1af690?mod=mw_rss_topstories"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "AMD",
+     "move": "-10.9%",
+     "text": "Fell in sympathy with Intel; MarketWatch says Intel's report revealed two big issues for AMD ahead of its Nov 3 report.",
+     "source": "MarketWatch",
+     "time": "4:28 PM",
+     "url": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories"
+    },
+    {
+     "symbol": "INTC",
+     "move": "-28.6%",
+     "text": "Worst day since the 1970s, wiping about $12B off the government's stake; analysts see no reason to buy the dip.",
+     "source": "CNBC",
+     "time": "4:30 PM",
+     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    },
+    {
+     "symbol": "AMZN",
+     "move": "-1.4%",
+     "text": "Reversed from -7% premarket: reclaimed 232.90 early and reached 241.55 at 11:25, just through the 241.24 gap edge, as chips kept falling.",
+     "source": "Yahoo Finance chart",
+     "time": "4:00 PM"
+    },
+    {
+     "symbol": "XOM / CVX",
+     "move": "+2.1% / +1.6%",
+     "text": "All-time highs as refining profits soar on the Iran and Ukraine wars.",
+     "source": "CNBC",
+     "time": "12:44 PM",
+     "url": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html"
+    }
+   ],
+   "read": "Tech risk-off held and deepened: SPY broke its opening range down at 10:15, low 750.36 at 2:50, closed -1.77%; QQQ -3.47%, SMH -7%. Puts sides held on INTC (63.20), RDDT (89.28), NVDA (200.92) and MU (861.59). AMZN went the other way, reclaiming 232.90 to 241.55; REGN broke 887 to 935. Money stayed in energy and staples. No red U.S. events Monday.",
+   "tomorrow": [],
+   "readthroughNext": []
   }
  ],
- "updated": "2026-10-30T08:27:00.942331-04:00"
+ "updated": "2026-10-30T16:38:14.887433-04:00"
 }
