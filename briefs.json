@@ -1,50 +1,50 @@
 {
  "version": 2,
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "briefs": [
   {
    "version": 1,
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "slot": "morning",
    "slotLabel": "Morning brief",
-   "time": "08:34",
-   "generated": "2026-10-29T08:34:36.339338-04:00",
+   "time": "08:22",
+   "generated": "2026-10-30T08:22:05.232706-04:00",
    "prices": [
     {
      "name": "VIX",
-     "last": "17.20",
-     "change": "▲ +0.29 (+1.71%)",
-     "asOf": "8:19 AM ET"
+     "last": "18.68",
+     "change": "▲ +1.48 (+8.60%)",
+     "asOf": "8:07 AM ET"
     },
     {
      "name": "US10 (10-yr note futures)",
-     "last": "105.92",
-     "change": "▲ +0.12 (+0.12%)",
-     "asOf": "8:24 AM ET"
+     "last": "106.70",
+     "change": "▲ +0.52 (+0.49%)",
+     "asOf": "8:12 AM ET"
     },
     {
      "name": "US10Y yield",
-     "last": "5.045%",
-     "change": "• +0.000 (+0.00%)",
+     "last": "4.989%",
+     "change": "▼ -0.056 (-1.11%)",
      "asOf": "?"
     },
     {
      "name": "Crude oil (WTI)",
-     "last": "101.80",
-     "change": "▼ -0.98 (-0.95%)",
-     "asOf": "8:24 AM ET"
+     "last": "103.85",
+     "change": "▲ +1.85 (+1.81%)",
+     "asOf": "8:12 AM ET"
     },
     {
      "name": "SPY",
-     "last": "769.22",
-     "change": "▼ -3.09 (-0.40%)",
-     "asOf": "8:34 AM ET · premarket"
+     "last": "761.28",
+     "change": "▼ -8.08 (-1.05%)",
+     "asOf": "8:21 AM ET · premarket"
     },
     {
      "name": "QQQ",
-     "last": "716.32",
-     "change": "▼ -9.29 (-1.28%)",
-     "asOf": "8:34 AM ET · premarket"
+     "last": "696.92",
+     "change": "▼ -18.42 (-2.57%)",
+     "asOf": "8:21 AM ET · premarket"
     },
     {
      "name": "US2Y yield (futures)",
@@ -54,96 +54,40 @@
     },
     {
      "name": "US30Y yield",
-     "last": "5.361%",
-     "change": "• +0.000 (+0.00%)",
+     "last": "5.329%",
+     "change": "▼ -0.032 (-0.60%)",
      "asOf": "?"
     },
     {
      "name": "Brent crude",
-     "last": "110.50",
-     "change": "▼ -1.14 (-1.02%)",
-     "asOf": "8:24 AM ET"
+     "last": "113.05",
+     "change": "▲ +2.25 (+2.03%)",
+     "asOf": "8:12 AM ET"
     },
     {
      "name": "US dollar index",
-     "last": "102.21",
-     "change": "▲ +0.02 (+0.02%)",
-     "asOf": "8:24 AM ET"
+     "last": "101.70",
+     "change": "▼ -0.34 (-0.33%)",
+     "asOf": "8:12 AM ET"
     },
     {
      "name": "Gold",
-     "last": "4,033.40",
-     "change": "▼ -18.20 (-0.45%)",
-     "asOf": "8:24 AM ET"
+     "last": "3,974.10",
+     "change": "▼ -57.30 (-1.42%)",
+     "asOf": "8:12 AM ET"
     },
     {
      "name": "IWM (small caps)",
-     "last": "281.71",
-     "change": "▲ +0.42 (+0.15%)",
-     "asOf": "8:34 AM ET · premarket"
+     "last": "282.31",
+     "change": "▼ -1.70 (-0.60%)",
+     "asOf": "8:21 AM ET · premarket"
     }
    ],
    "events": [
     {
-     "time": "8:30 AM",
-     "currency": "USD",
-     "event": "Advance GDP q/q",
-     "actual": "",
-     "forecast": "3.2%",
-     "previous": "1.5%"
-    },
-    {
-     "time": "8:30 AM",
-     "currency": "USD",
-     "event": "Core PCE Price Index m/m",
-     "actual": "",
-     "forecast": "0.3%",
-     "previous": "0.2%"
-    },
-    {
-     "time": "9:15 AM",
-     "currency": "EUR",
-     "event": "Main Refinancing Rate",
-     "actual": "",
-     "forecast": "2.65%",
-     "previous": "2.65%"
-    },
-    {
-     "time": "9:15 AM",
-     "currency": "EUR",
-     "event": "Monetary Policy Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "9:45 AM",
-     "currency": "EUR",
-     "event": "ECB Press Conference",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "10:30 PM",
+     "time": "2:30 AM",
      "currency": "JPY",
-     "event": "BOJ Policy Rate",
-     "actual": "",
-     "forecast": "<1.25%",
-     "previous": "<1.25%"
-    },
-    {
-     "time": "10:30 PM",
-     "currency": "JPY",
-     "event": "Monetary Policy Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "10:31 PM",
-     "currency": "JPY",
-     "event": "BOJ Outlook Report",
+     "event": "BOJ Press Conference",
      "actual": "",
      "forecast": "",
      "previous": ""
@@ -151,850 +95,652 @@
    ],
    "macro": [
     {
-     "source": "Movers Report / Yahoo Finance",
-     "time": "Wed 2:00 PM",
-     "text": "Fed held at 3.75-4.00% in a 10-2 vote (Cook, Hammack wanted a hike); Warsh won't commit; futures price ~83-85% odds of a Dec 9 hike.",
-     "url": "https://finance.yahoo.com/economy/policy/article/fed-votes-in-split-decision-to-hold-interest-rates-steady-despite-sticky-inflation-180108960.html"
-    },
-    {
-     "source": "CNBC",
-     "time": "Thu 8:32 AM",
-     "text": "Q3 GDP +3.4%, above the 3.2% forecast, as September inflation accelerates (core PCE consensus +0.3% m/m).",
-     "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+     "source": "CNBC / brief.py",
+     "time": "Fri 3:12 AM",
+     "text": "Brent 113.05 (+2.0%), WTI 103.85 (+1.8%) after Iran claimed four tankers struck mines in Hormuz, with strike fears growing after the U.S. midterms.",
+     "url": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html"
     },
     {
      "source": "brief.py",
-     "time": "Thu 8:34 AM",
-     "text": "10-year 5.045%, 30-year 5.361%, 2-year ~4.75%: a steep curve weighs on long-duration and debt-funded AI names.",
+     "time": "Fri 8:22 AM",
+     "text": "10-year 4.989% (-5.6 bp), 30-year 5.329% (-3.2 bp), 2-year near 4.75%; easing long yields help real estate and utilities.",
      "url": ""
     },
     {
-     "source": "Engine / Reuters",
-     "time": "Thu AM",
-     "text": "Brent 110.50 (-1.0%), WTI 101.80: Iran calls Qatar's draft 'unacceptable ideas', reply due by week's end; Trump downplays talks.",
-     "url": "https://www.engine.online/news/brent-inches-lower-as-qatar-presents-iran-with-new-peace-deal-8354"
+     "source": "Movers Report / Investing.com",
+     "time": "Fri 7:48 AM",
+     "text": "Fed: ~84% odds of a Dec 9 hike after Wednesday's 10-2 hold; LSEG shows >50 bp of hikes priced by mid-2027.",
+     "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
     },
     {
-     "source": "Oilprice.com",
-     "time": "Thu 7:30 AM",
-     "text": "Shell profit nearly doubles to $10.8B on record refining margins; TotalEnergies profit doubles; European majors lift buybacks.",
-     "url": "https://finance.yahoo.com/energy/articles/shell-profits-nearly-double-10-113000366.html"
+     "source": "CNBC",
+     "time": "Fri 12:19 AM",
+     "text": "BOJ held rates as underlying inflation met 2% for the first time since 2013; euro zone Q3 GDP +0.4%, France -0.1%.",
+     "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html"
+    },
+    {
+     "source": "FT",
+     "time": "Fri 7:31 AM",
+     "text": "Binance halted withdrawals after a record $6.3B hack; FBI and Secret Service are working with it.",
+     "url": "https://www.ft.com/content/c7f5e395-c3a9-430e-b757-5014527b4d49"
     },
     {
      "source": "brief.py",
-     "time": "Thu 8:24 AM",
-     "text": "Dollar index 102.21 (flat); gold 4,033 (-0.45%).",
+     "time": "Fri 8:12 AM",
+     "text": "Dollar index 101.70 (-0.33%), gold 3,974 (-1.42%).",
      "url": ""
     }
    ],
    "bigNames": [],
-   "read": "Risk-off for tech, bid for defensives: QQQ -1.28% premarket on Alphabet's miss and the ServiceNow/Fortinet software rout, SPY -0.40%, IWM +0.15%. VIX 17.20, 10-year near 5.05%. Q3 GDP 3.4% beat the 3.2% forecast as September inflation accelerated, which hurts the case for the Fed waiting in December. ECB at 9:15 and 9:45. Amazon and Intel report tonight. Let the first 15 minutes set the range.",
+   "read": "Risk-off in tech, risk-on in defensives and energy. QQQ -2.57% premarket, SPY -1.05%, IWM -0.60%: selling is concentrated in chips after Intel's guide (-25%) and Amazon's cash burn (-7%). VIX 18.68, 10-yr ~4.99% (-5.6 bp), Brent $113 (+2%) on Iran's Hormuz mine claim. No red U.S. events today; let the first 5-15 minutes set the range before taking a setup.",
    "readthrough": {
     "reporters": [
      {
-      "symbol": "MSFT",
-      "time": "after close 2026-10-28",
-      "move": "+1.54%"
+      "symbol": "AMZN",
+      "time": "after close 2026-10-29",
+      "move": "-6.91%"
      },
      {
-      "symbol": "GOOG",
-      "time": "after close 2026-10-28",
-      "move": "-11.39%"
+      "symbol": "INTC",
+      "time": "after close 2026-10-29",
+      "move": "-25.20%"
      },
      {
-      "symbol": "NOW",
-      "time": "after close 2026-10-28",
-      "move": "-18.96%"
+      "symbol": "XOM",
+      "time": "before open 2026-10-30",
+      "move": "+1.95%"
      },
      {
-      "symbol": "PWR",
-      "time": "before open 2026-10-29",
-      "move": "+5.19%"
+      "symbol": "CVX",
+      "time": "before open 2026-10-30",
+      "move": "+1.38%"
      }
     ],
     "rows": [
      {
-      "symbol": "MRVL",
-      "group": "AI cloud & capex",
-      "linkedTo": [
-       "MSFT",
-       "GOOG"
-      ],
-      "last": "220.51",
-      "gap": -12.37,
-      "pmHigh": "233.27",
-      "pmLow": "219.99"
-     },
-     {
-      "symbol": "NBIS",
-      "group": "AI cloud & capex",
-      "linkedTo": [
-       "MSFT",
-       "GOOG"
-      ],
-      "last": "169.50",
-      "gap": -7.04,
-      "pmHigh": "173.00",
-      "pmLow": "168.20"
-     },
-     {
-      "symbol": "CRWV",
-      "group": "AI cloud & capex",
-      "linkedTo": [
-       "MSFT",
-       "GOOG"
-      ],
-      "last": "59.60",
-      "gap": -6.77,
-      "pmHigh": "61.02",
-      "pmLow": "59.10"
-     },
-     {
-      "symbol": "WDAY",
-      "group": "AI software",
-      "linkedTo": [
-       "NOW"
-      ],
-      "last": "192.00",
-      "gap": -6.05,
-      "pmHigh": "196.52",
-      "pmLow": "191.40"
-     },
-     {
-      "symbol": "CRM",
-      "group": "AI software",
-      "linkedTo": [
-       "NOW"
-      ],
-      "last": "228.31",
-      "gap": -5.7,
-      "pmHigh": "242.11",
-      "pmLow": "227.00"
-     },
-     {
-      "symbol": "MDB",
-      "group": "AI software",
-      "linkedTo": [
-       "NOW"
-      ],
-      "last": "377.11",
-      "gap": -4.15,
-      "pmHigh": "379.77",
-      "pmLow": "376.81"
-     },
-     {
-      "symbol": "VRT",
-      "group": "AI cloud & capex",
-      "linkedTo": [
-       "MSFT",
-       "GOOG",
-       "PWR"
-      ],
-      "last": "233.52",
-      "gap": -3.88,
-      "pmHigh": "238.00",
-      "pmLow": "232.01"
-     },
-     {
-      "symbol": "SNOW",
-      "group": "AI software",
-      "linkedTo": [
-       "NOW"
-      ],
-      "last": "326.82",
-      "gap": -3.85,
-      "pmHigh": "331.00",
-      "pmLow": "325.23"
-     },
-     {
-      "symbol": "ADBE",
-      "group": "AI software",
-      "linkedTo": [
-       "NOW"
-      ],
-      "last": "241.72",
-      "gap": -3.22,
-      "pmHigh": "244.76",
-      "pmLow": "241.02"
-     },
-     {
-      "symbol": "GEV",
-      "group": "AI cloud & capex",
-      "linkedTo": [
-       "MSFT",
-       "GOOG",
-       "PWR"
-      ],
-      "last": "850.00",
-      "gap": -3.19,
-      "pmHigh": "868.00",
-      "pmLow": "847.84"
-     },
-     {
-      "symbol": "MU",
-      "group": "AI cloud & capex",
-      "linkedTo": [
-       "MSFT",
-       "GOOG"
-      ],
-      "last": "953.30",
-      "gap": -3.04,
-      "pmHigh": "961.00",
-      "pmLow": "943.87"
-     },
-     {
       "symbol": "DELL",
       "group": "AI cloud & capex",
       "linkedTo": [
-       "MSFT",
-       "GOOG"
+       "AMZN"
       ],
-      "last": "480.00",
-      "gap": -2.79,
-      "pmHigh": "493.79",
-      "pmLow": "478.00"
-     },
-     {
-      "symbol": "AVGO",
-      "group": "AI cloud & capex",
-      "linkedTo": [
-       "MSFT",
-       "GOOG"
-      ],
-      "last": "342.23",
-      "gap": -2.72,
-      "pmHigh": "344.50",
-      "pmLow": "340.35"
+      "last": "418.13",
+      "gap": -12.07,
+      "pmHigh": "447.52",
+      "pmLow": "415.26"
      },
      {
       "symbol": "AMD",
       "group": "AI cloud & capex",
       "linkedTo": [
-       "MSFT",
-       "GOOG"
+       "AMZN",
+       "INTC"
       ],
-      "last": "563.40",
-      "gap": -2.6,
-      "pmHigh": "576.99",
-      "pmLow": "556.00"
+      "last": "517.60",
+      "gap": -8.62,
+      "pmHigh": "534.61",
+      "pmLow": "514.08"
+     },
+     {
+      "symbol": "NBIS",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AMZN"
+      ],
+      "last": "158.60",
+      "gap": -7.79,
+      "pmHigh": "165.00",
+      "pmLow": "157.75"
+     },
+     {
+      "symbol": "SKHY",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AMZN",
+       "INTC"
+      ],
+      "last": "149.70",
+      "gap": -7.64,
+      "pmHigh": "154.70",
+      "pmLow": "149.12"
+     },
+     {
+      "symbol": "LRCX",
+      "group": "AI chips & memory",
+      "linkedTo": [
+       "INTC"
+      ],
+      "last": "235.41",
+      "gap": -7.46,
+      "pmHigh": "246.00",
+      "pmLow": "234.78"
+     },
+     {
+      "symbol": "CRWV",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AMZN"
+      ],
+      "last": "56.49",
+      "gap": -7.0,
+      "pmHigh": "58.58",
+      "pmLow": "55.75"
+     },
+     {
+      "symbol": "SMCI",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AMZN",
+       "INTC"
+      ],
+      "last": "32.26",
+      "gap": -6.3,
+      "pmHigh": "33.19",
+      "pmLow": "32.21"
+     },
+     {
+      "symbol": "VRT",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AMZN",
+       "INTC"
+      ],
+      "last": "230.50",
+      "gap": -6.27,
+      "pmHigh": "234.60",
+      "pmLow": "228.81"
+     },
+     {
+      "symbol": "MU",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AMZN",
+       "INTC"
+      ],
+      "last": "876.00",
+      "gap": -6.24,
+      "pmHigh": "912.42",
+      "pmLow": "874.03"
+     },
+     {
+      "symbol": "AMAT",
+      "group": "AI chips & memory",
+      "linkedTo": [
+       "INTC"
+      ],
+      "last": "396.28",
+      "gap": -6.02,
+      "pmHigh": "407.49",
+      "pmLow": "395.42"
+     },
+     {
+      "symbol": "MRVL",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AMZN",
+       "INTC"
+      ],
+      "last": "205.43",
+      "gap": -5.91,
+      "pmHigh": "210.50",
+      "pmLow": "204.81"
+     },
+     {
+      "symbol": "KLAC",
+      "group": "AI chips & memory",
+      "linkedTo": [
+       "INTC"
+      ],
+      "last": "158.29",
+      "gap": -5.46,
+      "pmHigh": "163.35",
+      "pmLow": "157.80"
+     },
+     {
+      "symbol": "ASML",
+      "group": "AI chips & memory",
+      "linkedTo": [
+       "INTC"
+      ],
+      "last": "1,585.52",
+      "gap": -5.38,
+      "pmHigh": "1,628.39",
+      "pmLow": "1,585.00"
      },
      {
       "symbol": "ANET",
       "group": "AI cloud & capex",
       "linkedTo": [
-       "MSFT",
-       "GOOG"
+       "AMZN",
+       "INTC"
       ],
-      "last": "182.60",
-      "gap": -2.21,
-      "pmHigh": "186.72",
-      "pmLow": "181.61"
+      "last": "175.41",
+      "gap": -4.78,
+      "pmHigh": "178.23",
+      "pmLow": "175.03"
+     },
+     {
+      "symbol": "GEV",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AMZN"
+      ],
+      "last": "850.20",
+      "gap": -4.24,
+      "pmHigh": "866.00",
+      "pmLow": "850.20"
      }
     ],
     "reportUrl": "https://claude.ai/artifact/XSmsugS1Sv2dWpMhcvEZqT",
     "reportName": "Market & Sector Movers Report",
-    "note": "Alphabet's capex and cash-flow miss drives the biggest supplier gaps (MRVL -12.4%, NBIS, CRWV), while ServiceNow's guide pulls software (WDAY, CRM, MDB) and Quanta's raise only partly offsets the AI-power names."
+    "note": "Intel's Q4 guide drives the biggest chip-equipment and memory gaps (LRCX, AMAT, KLAC, ASML, SKHY), while Amazon's cash burn hits AI servers and neoclouds (DELL -12%, NBIS, CRWV)."
    },
    "flows": [
     {
-     "symbol": "XLV",
-     "name": "Health care",
-     "premarket": 2.17,
-     "yesterday": 0.3,
-     "d5": 0.44,
-     "d20": 6.71
-    },
-    {
      "symbol": "XLP",
      "name": "Consumer staples",
-     "premarket": 1.57,
-     "yesterday": -0.36,
-     "d5": -0.31,
-     "d20": 7.74
+     "premarket": 2.29,
+     "yesterday": 1.54,
+     "d5": -2.01,
+     "d20": 9.77
     },
     {
-     "symbol": "XLF",
-     "name": "Financials",
-     "premarket": 1.39,
-     "yesterday": 0.45,
-     "d5": 0.16,
-     "d20": 5.11
-    },
-    {
-     "symbol": "XLU",
-     "name": "Utilities (power)",
-     "premarket": 1.08,
-     "yesterday": -0.84,
-     "d5": 1.17,
-     "d20": 7.73
+     "symbol": "XLV",
+     "name": "Health care",
+     "premarket": 1.71,
+     "yesterday": 2.4,
+     "d5": 1.51,
+     "d20": 10.73
     },
     {
      "symbol": "XLE",
      "name": "Energy",
-     "premarket": 1.07,
-     "yesterday": 0.35,
-     "d5": 0.43,
-     "d20": 11.3
+     "premarket": 1.46,
+     "yesterday": 0.38,
+     "d5": 1.69,
+     "d20": 9.59
     },
     {
      "symbol": "XLRE",
      "name": "Real estate",
-     "premarket": 1.04,
-     "yesterday": -0.73,
-     "d5": 0.17,
-     "d20": 2.98
+     "premarket": 0.93,
+     "yesterday": 2.21,
+     "d5": 1.27,
+     "d20": 5.85
     },
     {
-     "symbol": "XLY",
-     "name": "Consumer discretionary",
-     "premarket": 0.68,
-     "yesterday": -0.1,
-     "d5": -0.17,
-     "d20": 5.96
+     "symbol": "XLU",
+     "name": "Utilities (power)",
+     "premarket": 0.86,
+     "yesterday": 1.53,
+     "d5": 0.63,
+     "d20": 8.72
+    },
+    {
+     "symbol": "XLF",
+     "name": "Financials",
+     "premarket": 0.7,
+     "yesterday": 1.44,
+     "d5": 0.51,
+     "d20": 6.51
     },
     {
      "symbol": "XLB",
      "name": "Materials",
-     "premarket": 0.15,
-     "yesterday": 0.15,
-     "d5": 1.05,
-     "d20": 6.49
-    },
-    {
-     "symbol": "IWM",
-     "name": "Small caps",
-     "premarket": 0.15,
-     "yesterday": 0.4,
-     "d5": 1.74,
-     "d20": 1.22
+     "premarket": 0.3,
+     "yesterday": 1.29,
+     "d5": 1.63,
+     "d20": 8.22
     },
     {
      "symbol": "XLI",
      "name": "Industrials",
-     "premarket": -0.07,
-     "yesterday": 0.34,
-     "d5": 0.11,
-     "d20": 0.9
+     "premarket": -0.42,
+     "yesterday": 0.97,
+     "d5": 2.04,
+     "d20": 0.88
     },
     {
-     "symbol": "XLK",
-     "name": "Technology",
-     "premarket": -1.32,
-     "yesterday": 0.8,
-     "d5": 1.3,
-     "d20": -2.43
-    },
-    {
-     "symbol": "ARKK",
-     "name": "High-growth tech",
-     "premarket": -1.61,
-     "yesterday": 1.58,
-     "d5": 0.82,
-     "d20": -3.34
+     "symbol": "IWM",
+     "name": "Small caps",
+     "premarket": -0.6,
+     "yesterday": 0.97,
+     "d5": 2.65,
+     "d20": 1.79
     },
     {
      "symbol": "XLC",
      "name": "Communication",
-     "premarket": -1.78,
-     "yesterday": -0.42,
-     "d5": -5.35,
-     "d20": -7.06
-    },
-    {
-     "symbol": "SMH",
-     "name": "Semiconductors",
-     "premarket": -1.99,
-     "yesterday": 1.74,
-     "d5": 1.97,
-     "d20": -6.79
+     "premarket": -0.85,
+     "yesterday": -1.87,
+     "d5": -5.78,
+     "d20": -7.94
     },
     {
      "symbol": "IGV",
      "name": "Software",
-     "premarket": -4.51,
-     "yesterday": 0.12,
-     "d5": 2.84,
-     "d20": 5.1
+     "premarket": -1.12,
+     "yesterday": -3.52,
+     "d5": -0.69,
+     "d20": -0.24
+    },
+    {
+     "symbol": "XLY",
+     "name": "Consumer discretionary",
+     "premarket": -1.33,
+     "yesterday": 0.75,
+     "d5": 1.03,
+     "d20": 6.79
+    },
+    {
+     "symbol": "XLK",
+     "name": "Technology",
+     "premarket": -3.67,
+     "yesterday": -1.18,
+     "d5": 3.51,
+     "d20": -4.59
+    },
+    {
+     "symbol": "ARKK",
+     "name": "High-growth tech",
+     "premarket": -4.11,
+     "yesterday": -0.17,
+     "d5": 5.02,
+     "d20": -2.95
+    },
+    {
+     "symbol": "SMH",
+     "name": "Semiconductors",
+     "premarket": -5.24,
+     "yesterday": -1.06,
+     "d5": 7.32,
+     "d20": -9.09
     }
    ],
+   "scenario": "Scenario in play: if hyperscalers raise capex while their cash flow weakens (Amazon overnight), the report expects MU, SKHY, VRT, GEV, AVGO, CRWV to lead; premarket they are falling with Amazon instead.",
    "earnings": [
     {
-     "symbol": "GOOGL",
-     "move": "-11.6%",
-     "result": "EPS $2.12 vs ~$3.01; revenue $127.6B vs $127.9B; ads $82.0B vs $83.5B; Cloud $30.7B beat; capex $51.4B, FCF more negative. Anthropic/SpaceX stake marks cut EPS $0.55 (I'm built by Anthropic).",
-     "meaning": "AI spend is hitting cash flow and search; hyperscaler and AI-supplier group repriced.",
+     "symbol": "INTC",
+     "move": "-25.1%",
+     "result": "Adj. EPS $0.52 vs $0.40; revenue $16.5B vs $16.48B. Q4 guide $15-16B vs $17.08B, adj. EPS $0.25 vs $0.44, 38% margin; cash burn this year.",
+     "meaning": "Memory costs and supply limits squeeze chip buyers; chip equipment and Asian memory fell in sympathy (SK Hynix -7.1%, ASML -5%).",
+     "source": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/global-chip-stocks-slide-after-intels-weak-outlook-4987152"
+    },
+    {
+     "symbol": "AMZN",
+     "move": "-7.0%",
+     "result": "Revenue $201.9B vs ~$202.2B; EPS $1.89 (GAAP) vs ~$1.97; AWS +39% to $46.0B, backlog $578B; Q3 capex $77.3B, 2027 'meaningfully more'; trailing FCF -$42.4B. (Amazon is a major Anthropic investor; I'm built by Anthropic.)",
+     "meaning": "Suppliers get a bigger 2027 order book, but the market is selling hyperscaler cash burn.",
+     "source": "Amazon IR / Movers Report",
+     "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+    },
+    {
+     "symbol": "RDDT",
+     "move": "-21.9%",
+     "result": "Warned daily active unique visitors (~130M) could fall a low double-digit % in Q4 as Google search referrals drop.",
+     "meaning": "AI search is eating referral traffic; Piper calls for a reset in expectations.",
+     "source": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/reddit-pinterest-shares-tumble-on-weak-user-and-revenue-growth-4987225"
+    },
+    {
+     "symbol": "REGN",
+     "move": "+6.9%",
+     "result": "Adj. EPS $20.07 vs $16.06; revenue $5.12B vs $4.54B; Dupixent +35% to $6.54B; Eylea HD +62%.",
+     "meaning": "Clean beat; part of the health-care bid (SNY, AZN, LLY up).",
+     "source": "Investing.com via Yahoo",
+     "url": "https://finance.yahoo.com/healthcare/articles/regeneron-q3-revenue-tops-estimates-111308591.html"
+    },
+    {
+     "symbol": "CVX",
+     "move": "+1.4%",
+     "result": "Adj. EPS $5.28 vs $4.88; revenue $67.8B vs $60.55B; record U.S. refinery throughput 1.09M bpd.",
+     "meaning": "War-driven refining margins keep lifting the majors.",
      "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/live/earnings-live-updates-eli-lilly-stock-pops-as-strong-glp-1-drug-demand-lifts-results-servicenow-stock-plunges-114628789.html"
+     "url": "https://finance.yahoo.com/markets/stocks/live/earnings-live-updates-exxon-chevron-refining-margins-jump-lifting-earnings-120334734.html"
     },
     {
-     "symbol": "FTNT",
-     "move": "-27.7%",
-     "result": "Beat and raised, but Q4 guide 'very underwhelming' and services growth slowing; stock was +119% YTD.",
-     "meaning": "High-expectation software gets punished for any deceleration.",
+     "symbol": "XOM",
+     "move": "+2.0%",
+     "result": "Adj. EPS $4.23 vs $4.13; refining margins added ~$4.5B; $5.1B buybacks planned.",
+     "meaning": "Same as Chevron; both remain a bet on the Iran conflict lasting.",
+     "source": "Investing.com via Yahoo",
+     "url": "https://finance.yahoo.com/energy/articles/exxonmobil-earnings-top-estimates-diesel-110944238.html"
+    },
+    {
+     "symbol": "PINS",
+     "move": "-7.8%",
+     "result": "Revenue $1.17B vs $1.21B; Q4 guide $1.425-1.475B, below estimates; Europe flat.",
+     "meaning": "Ad platforms outside the megacaps are losing share.",
      "source": "Investing.com",
-     "url": "https://www.investing.com/news/stock-market-news/sap-stock-drops-after-servicenow-fortinet-results-weigh-4983403"
+     "url": "https://www.investing.com/news/stock-market-news/reddit-pinterest-shares-tumble-on-weak-user-and-revenue-growth-4987225"
     },
     {
-     "symbol": "NOW",
-     "move": "-18.2%",
-     "result": "Revenue $4.1B in line; EPS $0.27 vs $0.35; 2026 subscription guide raised to ~$15.79B; subscription and backlog growth lag.",
-     "meaning": "Revives AI-disruption fears for seat-based software (CRM, WDAY, ADBE lower).",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/live/earnings-live-updates-eli-lilly-stock-pops-as-strong-glp-1-drug-demand-lifts-results-servicenow-stock-plunges-114628789.html"
-    },
-    {
-     "symbol": "CAT",
-     "move": "-11.7%",
-     "result": "Adj. EPS $7.20 vs $7.04 (incl. $128M tariff refunds); revenue $20.68B in line; Power Gen +30%; Q4 'moderate' growth outlook.",
-     "meaning": "AI-power trade de-rates (VRT, GEV lower); worst day in 7 years.",
-     "source": "24/7 Wall St.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-beat-earnings-still-dropped-114959929.html"
-    },
-    {
-     "symbol": "LLY",
-     "move": "+4.5%",
-     "result": "Revenue $24.4B (+39%) vs $22.6B; EPS $7.48 vs ~$6.35; 2026 revenue raised to $91-92B from $85-87B.",
-     "meaning": "Third raise this year; leads the health-care bid; record high premarket.",
+     "symbol": "ABBV",
+     "move": "-0.6%",
+     "result": "Adj. EPS $3.82 vs $3.74; revenue $17.4B vs $17.36B; 2026 adj. EPS raised to $13.95-13.99, in line.",
+     "meaning": "The raise was expected, so no pop.",
      "source": "Investing.com",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-eli-lilly-stock-surging-today-93CH-4983340"
+     "url": "https://www.investing.com/news/stock-market-news/abbvie-beats-estimates-but-stock-dips-4987289"
     },
     {
-     "symbol": "PWR",
-     "move": "+4.7%",
-     "result": "Adj. EPS $6.06 vs $5.02; revenue $12.02B vs $11.03B; 2026 EPS guide $17.90-18.30 from $16.45-16.95.",
-     "meaning": "Grid build-out demand intact even as AI chip names sell off.",
-     "source": "MT Newswires",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/quanta-services-apos-q3-adjusted-112127128.html"
+     "symbol": "CL",
+     "move": "+5.0%",
+     "result": "Net sales $5.37B vs $5.34B; diluted (GAAP) EPS $0.94 vs $0.93 adj. consensus; adj. EPS growth outlook lifted to 5-7%.",
+     "meaning": "Staples are where money hides today.",
+     "source": "Investing.com via Yahoo",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/colgate-palmolive-net-sales-top-113558472.html"
     },
     {
-     "symbol": "MSFT",
-     "move": "+1.65%",
-     "result": "Revenue $92.28B (+19%), adj. EPS $4.89, both beats; Azure +48%; capex ~$45.2B below the ~$50B bar; buyouts planned.",
-     "meaning": "The hyperscaler money hides in; lighter capex weighs on suppliers.",
+     "symbol": "CPRI",
+     "move": "~+10%",
+     "result": "Adj. EPS $0.42 vs $0.21; revenue $809M vs $786M; FY adj. EPS raised to ~$2.20.",
+     "meaning": "Turnaround beat in a weak tape.",
      "source": "Investing.com",
-     "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4981271"
-    },
-    {
-     "symbol": "MA / MRK / MO",
-     "move": "+3.1% / +2.4% / +1.9%",
-     "result": "All beat; Merck and Altria raised outlooks.",
-     "meaning": "Defensive and financial beats line up with the rotation.",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html"
-    },
-    {
-     "symbol": "Samsung (MU)",
-     "move": "MU -3.1%",
-     "result": "Chip operating profit missed lofty expectations; Korean shares -4%.",
-     "meaning": "Pressures memory peers despite SK Hynix's sold-out outlook.",
-     "source": "Investing.com",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-shares-dip-samsung-post-121157603.html"
+     "url": "https://www.investing.com/news/stock-market-news/why-is-capri-holdings-stock-surging-today-93CH-4987383"
     }
    ],
-   "flowNote": "Money is rotating out of AI software and megacap ad/cloud names into defensives and cash-flow businesses: health care (XLV +2.17%, Lilly and Merck beats), staples (XLP +1.57%), financials (XLF +1.39%, Mastercard), utilities and energy (XLE +11.3% over a month on $100+ oil and record refining profits). Software (IGV -4.51%) is hit hardest by ServiceNow and Fortinet, then communication (XLC -1.78%, Alphabet) and semis (SMH -1.99%, Alphabet cash flow plus Samsung's miss). With 5% yields and December hike odds high, long-duration tech is the funding source.",
-   "inPlay": [
+   "capex": [
     {
-     "symbol": "GOOGL",
-     "linkedTo": "Own Q3 report",
-     "why": "EPS $2.12 vs $3.01; capex $51.4B, negative FCF",
-     "gap": "-11.62%",
-     "pmHigh": "294.03",
-     "pmLow": "287.14",
-     "prevHigh": "326.41",
-     "prevLow": "322.66",
-     "prevClose": "324.89",
-     "setup": "Gap and go (down)",
-     "target": "calls side 294.03; 322.66 gap edge only on a full reversal (real news, fills rarely)",
-     "momentum": "Below 20d/50d (-4.4%/-4.9%), rel vol 2.48",
-     "options": "Weekly ±4.14%, spread 48.6% (stale), vol/OI 5119/3092",
-     "calls": "Reclaims and holds 294.03",
-     "puts": "Holds below 287.14 after the opening range"
+     "company": "Amazon (Q3)",
+     "capex": "$77.3B (vs $35.1B a year ago)",
+     "vsBar": "2026 held ~$220B; trailing FCF -$42.4B",
+     "guide": "Raised: 2027 'meaningfully more'"
     },
     {
-     "symbol": "MSFT",
-     "linkedTo": "Own report",
-     "why": "Azure +48%, EPS $4.89 beat, capex below the bar",
-     "gap": "+1.65%",
-     "pmHigh": "554.20",
-     "pmLow": "534.00",
-     "prevHigh": "535.00",
-     "prevLow": "526.14",
-     "prevClose": "531.01",
-     "setup": "Premarket high/low break",
-     "target": "554.20 up; 531.01 close down",
-     "momentum": "Above 20d/50d, rel vol 1.38; relative strength vs QQQ",
-     "options": "Weekly ±2.63%, vol/OI 6720/12647, deepest book",
-     "calls": "Holds above 535.00 and breaks 554.20",
-     "puts": "Loses 534.00, opening a fill toward 531.01"
+     "company": "Alphabet (Q3)",
+     "capex": "$51.4B",
+     "vsBar": "2026 held $195-205B; FCF -$9.1B",
+     "guide": "Raised: 2027 to 'rise significantly'"
+    },
+    {
+     "company": "Microsoft (FQ1)",
+     "capex": "$45.2B incl. leases",
+     "vsBar": "Below ~$50B+ expected",
+     "guide": "Flat"
+    },
+    {
+     "company": "Meta (Q3, Oct 21)",
+     "capex": "-",
+     "vsBar": "FCF -$2.1B",
+     "guide": "2026 now $135-145B"
+    }
+   ],
+   "flowNote": "Money is leaving chips and AI hardware for defensives, health care and energy. Semiconductors (SMH -5.24%), high-growth tech (ARKK -4.11%) and tech (XLK -3.67%) fund the move after Intel's guide and Amazon's cash burn; consumer discretionary (XLY -1.33%) and communication (Reddit, Pinterest) lag. Staples (XLP +2.29%, Colgate), health care (XLV +1.71%, Regeneron, AstraZeneca, Lilly) and energy (XLE +1.46%, Exxon and Chevron beats, Brent $113) lead; easing long yields help real estate and utilities.",
+   "weekMovers": [
+    {
+     "symbol": "INTC",
+     "catalyst": "Q3 report",
+     "when": "Oct 29 after close",
+     "why": "Q4 guide $15-16B vs ~$17.1B; fell about twice its ±9.4% implied move."
+    },
+    {
+     "symbol": "AMZN",
+     "catalyst": "Q3 report",
+     "when": "Oct 29 after close",
+     "why": "AWS +39% and $578B backlog vs EPS miss and -$42.4B trailing FCF."
+    },
+    {
+     "symbol": "MU / SKHY / AVGO / MRVL",
+     "catalyst": "Amazon 2027 capex, Intel memory-cost warning",
+     "when": "This week",
+     "why": "Suppliers trade on rising capex; memory is a crowded trade."
+    },
+    {
+     "symbol": "AMD / AAPL",
+     "catalyst": "Earnings",
+     "when": "AAPL Nov 2, AMD Nov 3 after close",
+     "why": "Intel's PC memory-cost warning is a risk to AMD client and Apple margins."
+    },
+    {
+     "symbol": "NOW / PLTR",
+     "catalyst": "PLTR earnings",
+     "when": "Nov 2 after close",
+     "why": "NOW fell >20% Oct 29; PLTR implied ±11.7%."
+    }
+   ],
+   "inPlay": [
+    {
+     "symbol": "INTC",
+     "linkedTo": "Own Q3 report",
+     "why": "Q4 guide $15-16B vs $17.08B, adj. EPS $0.25 vs $0.44, 38% margin, cash burn",
+     "gap": "-25.07%",
+     "pmHigh": "71.57",
+     "pmLow": "66.85",
+     "prevHigh": "93.50",
+     "prevLow": "90.84",
+     "prevClose": "92.07",
+     "setup": "Gap and go (down) / ORB",
+     "target": "71.57 up, or new lows below 66.85; the 90.84 gap edge is unrealistic on real guidance news",
+     "momentum": "Below 20d/50d (-7.1%/-9.4%), rel vol 1.30",
+     "options": "Weekly ±20.96% by Nov 6, spread 104% (stale), vol/OI 1054/1615",
+     "calls": "Reclaims and holds 71.57 and VWAP",
+     "puts": "Breaks 66.85 after the opening range",
+     "thesis": "Memory-cost squeeze on chip buyers the report flags."
+    },
+    {
+     "symbol": "AMZN",
+     "linkedTo": "Own Q3 report",
+     "why": "Trailing FCF -$42.4B and 2027 capex 'meaningfully more' vs AWS +39%",
+     "gap": "-6.97%",
+     "pmHigh": "232.90",
+     "pmLow": "225.01",
+     "prevHigh": "249.14",
+     "prevLow": "241.24",
+     "prevClose": "243.79",
+     "setup": "Gap and go (down) / PM high-low break",
+     "target": "Below 225.01 extends; calls side 232.90, then the 241.24 gap edge only on a full reversal",
+     "momentum": "Below 20d/50d (-4.4%/-4.3%), rel vol 2.35",
+     "options": "Weekly ±4.13% by Nov 2, spread 55.8% (stale), vol/OI 769/449; Nov 20 OI 10414",
+     "calls": "Reclaims and holds 232.90",
+     "puts": "Holds below 225.01 after the opening range",
+     "thesis": "Hyperscaler cash-burn selling, as with GOOGL."
     },
     {
      "symbol": "MU",
-     "linkedTo": "Samsung miss, GOOGL/MSFT capex",
-     "why": "-3.1% sympathy gap with no new Micron news",
-     "gap": "-3.13%",
-     "pmHigh": "961.00",
-     "pmLow": "943.87",
-     "prevHigh": "990.00",
-     "prevLow": "959.34",
-     "prevClose": "983.23",
-     "setup": "Gap fill (sympathy)",
-     "target": "fills toward 959.34, then the 983.23 close",
-     "momentum": "5d +7.6%, just above 20d/50d, rel vol 1.13",
-     "options": "Weekly ±3.93%, spread 20.7% (stale), vol/OI 21155/11040",
-     "calls": "Reclaims 961.00 and holds 959.34-961",
-     "puts": "Breaks 943.87"
+     "linkedTo": "INTC, AMZN",
+     "why": "-6.18% gap with no Micron news; Intel blaming memory costs is a pricing signal for Micron",
+     "gap": "-6.18%",
+     "pmHigh": "912.42",
+     "pmLow": "874.03",
+     "prevHigh": "971.01",
+     "prevLow": "927.24",
+     "prevClose": "934.27",
+     "setup": "Sympathy / Gap fill",
+     "target": "fills toward 927.24, then the 934.27 close; puts side new lows below 874.03",
+     "momentum": "5d +9.1%, below 20d/50d (-2.7%/-4.7%), rel vol 0.81",
+     "options": "Weekly ±4.18% by Nov 2, spread 55.0% (stale), vol/OI 735/411",
+     "calls": "Holds 874.03 and reclaims 912.42",
+     "puts": "Breaks 874.03 after the opening range",
+     "thesis": "Memory pricing power from Amazon's 2027 capex and Intel's warning."
     },
     {
-     "symbol": "NOW",
-     "linkedTo": "Own report; software selloff",
-     "why": "EPS $0.27 vs $0.35; subscription/backlog growth lag",
-     "gap": "-18.21%",
-     "pmHigh": "150.13 (prior close, not a real PM print)",
-     "pmLow": "119.75",
-     "prevHigh": "155.15",
-     "prevLow": "148.22",
-     "prevClose": "150.13",
+     "symbol": "NVDA",
+     "linkedTo": "INTC, AMZN, chip selloff",
+     "why": "-3.0% with no Nvidia-specific negative; chatter on backing a $30B Nscale project for Anthropic (I'm built by Anthropic)",
+     "gap": "-3.00%",
+     "pmHigh": "209.50",
+     "pmLow": "206.50",
+     "prevHigh": "215.33",
+     "prevLow": "212.08",
+     "prevClose": "213.66",
+     "setup": "Sympathy / PM high-low break",
+     "target": "212.08 gap edge, then the 213.66 close; puts side new lows below 206.50",
+     "momentum": "Below 20d/50d (-4.2%/-3.8%), rel vol 0.76",
+     "options": "Weekly ±2.30% by Nov 2, spread 18.7%, vol/OI 4591/2886 (most liquid)",
+     "calls": "Reclaims 209.50 and VWAP",
+     "puts": "Breaks 206.50 after the opening range"
+    },
+    {
+     "symbol": "RDDT",
+     "linkedTo": "Own Q3 report",
+     "why": "Warns daily visitors could fall a low double-digit % in Q4 as Google referrals drop",
+     "gap": "-21.91%",
+     "pmHigh": "106.79",
+     "pmLow": "98.80",
+     "prevHigh": "131.89",
+     "prevLow": "126.37",
+     "prevClose": "129.60",
      "setup": "Gap and go (down) / ORB",
-     "target": "opening-range extremes; 148.22 gap edge unlikely on real news",
-     "momentum": "Rel vol 2.41; was +12% over 20 days",
+     "target": "106.79 up, or new lows below 98.80; 126.37 gap edge unlikely on real news",
+     "momentum": "Below 20d/50d (-13.4%/-14.5%), rel vol 4.14",
      "options": "Data unavailable; check spread after 9:30",
-     "calls": "Holds above the 15-min opening range high and VWAP",
-     "puts": "Breaks the 15-min opening range low and 119.75"
+     "calls": "Reclaims 106.79",
+     "puts": "Breaks 98.80 and the round 100 after the opening range"
     },
     {
-     "symbol": "LLY",
-     "linkedTo": "Own beat-and-raise, retatrutide data",
-     "why": "Revenue $24.4B vs $22.6B; 2026 guide to $91-92B",
-     "gap": "+4.52%",
-     "pmHigh": "1360.19",
-     "pmLow": "1277.00",
-     "prevHigh": "1299.43",
-     "prevLow": "1260.34",
-     "prevClose": "1288.30",
+     "symbol": "REGN",
+     "linkedTo": "Own Q3 beat",
+     "why": "Adj. EPS $20.07 vs $16.06, revenue $5.12B vs $4.54B, Dupixent +35%",
+     "gap": "+6.88%",
+     "pmHigh": "887.00",
+     "pmLow": "833.50",
+     "prevHigh": "828.19",
+     "prevLow": "811.63",
+     "prevClose": "818.77",
      "setup": "Gap and go (up)",
-     "target": "1360.19 up; 1299.43 gap edge down",
-     "momentum": "Above 20d/50d (+5.5%/+8.1%), record high",
+     "target": "887.00 up, or 833.50 down (828.19 gap edge only on a full fade)",
+     "momentum": "Above 20d/50d (+5.1%/+3.5%), rel vol 1.22; health care leads",
      "options": "Data unavailable; check after 9:30",
-     "calls": "Holds above 1346.50 and breaks 1360.19",
-     "puts": "Fails under the opening range low, toward 1299.43"
-    },
-    {
-     "symbol": "CAT",
-     "linkedTo": "Own report; AI-power de-rating (VRT, GEV)",
-     "why": "Revenue in line, Q4 'moderate' growth; worst day in 7 years",
-     "gap": "-11.67%",
-     "pmHigh": "720.73 (pre-report)",
-     "pmLow": "630.11",
-     "prevHigh": "732.73",
-     "prevLow": "707.63",
-     "prevClose": "713.38",
-     "setup": "Opening range breakout / VWAP",
-     "target": "partial fill toward 707.63 only on a sustained reclaim; else new lows below 630.11",
-     "momentum": "Below 20d/50d, -12% over 20 days",
-     "options": "Data unavailable; check after 9:30",
-     "calls": "Reclaims VWAP and the opening range high",
-     "puts": "Holds below 630.11 after the opening range"
-    },
-    {
-     "symbol": "MRVL",
-     "linkedTo": "Report of talks to buy Lumentum (LITE)",
-     "why": "Reuters, citing Bloomberg: advanced talks to buy Lumentum (~$83B value), deal possible next week. Unconfirmed; Bernstein says hard to fund with cash alone (MRVL ~$3.9B cash), so dilution fear. Also hit by the GOOGL capex read.",
-     "gap": "-12.06%",
-     "pmHigh": "233.27",
-     "pmLow": "219.21",
-     "prevHigh": "253.66",
-     "prevLow": "246.22",
-     "prevClose": "251.65",
-     "setup": "Gap fill (unconfirmed report) / ORB",
-     "target": "calls side: 233.27, then the 246.22 gap edge and 251.65 close; puts side: new lows below 219.21",
-     "momentum": "5d +2.8%, 20d -4.8%, -1.0% vs 20d, +3.1% vs 50d, rel vol 0.77",
-     "options": "Weekly ±5.53%, spread 69% (stale premarket), vol/OI 166/1147; check spread after 9:30",
-     "calls": "Holds above 219.21 and reclaims the opening range high and VWAP, then 233.27",
-     "puts": "Breaks 219.21 after the opening range, or an official deal with heavy stock dilution"
+     "calls": "Holds above the opening range high and breaks 887.00",
+     "puts": "Fails under the opening range low and VWAP"
     }
    ],
    "swings": [
     {
-     "symbol": "MSFT",
-     "linkedTo": "Own report vs GOOGL",
-     "why": "Azure +48% and below-bar capex: the hyperscaler money hides in",
-     "setup": "Post-earnings drift",
-     "trend": "+0.2% vs 20d, +3.9% vs 50d",
-     "options": "Nov 20 ±5.3%, spread 20.9% (stale), OI 12171; no earnings in window",
-     "confirm": "Holds 535.00 as support into next week",
-     "invalidate": "Close back below 526.14"
-    },
-    {
      "symbol": "AMZN",
-     "linkedTo": "Reports tonight; GOOGL read",
-     "why": "AWS judged against Alphabet's cash-flow reaction",
-     "setup": "Earnings event, then drift",
-     "trend": "At 20d/50d (-0.2%)",
-     "options": "Weekly ±7.89%, Nov 20 ±9.9%, spreads 10.7%/8.5%, OI 15512/47928; earnings inside window",
-     "confirm": "Gaps and holds above 255.36 (or below 248.77 for the downside)",
-     "invalidate": "Gap fades back inside 248.77-255.36 in Friday's first hour"
+     "linkedTo": "Own Q3 report",
+     "why": "Multi-day test of cash burn vs AWS growth",
+     "setup": "Post-earnings drift",
+     "trend": "-4.4% vs 20d, -4.3% vs 50d",
+     "options": "Nov 20 ±7.18%, spread 30.3% (stale), OI 10414; no earnings in window",
+     "confirm": "Daily closes stay below 225.01 (down drift)",
+     "invalidate": "Close back above the 241.24 gap edge",
+     "thesis": "Amazon must show AWS acceleration can outrun its spending."
     },
     {
      "symbol": "MU",
-     "linkedTo": "SK Hynix vs Samsung",
-     "why": "Memory-shortage thesis vs capex-peak worry",
-     "setup": "Trend pullback to the 20/50-day average",
-     "trend": "+1.5% vs 20d, +0.3% vs 50d",
-     "options": "Nov 20 ±10.87%, spread 13.4%, OI 7384; no earnings in window",
-     "confirm": "Holds 943.87 and reclaims 983.23",
-     "invalidate": "Close below the 50-day (~950) with follow-through"
-    }
-   ]
-  },
-  {
-   "version": 1,
-   "date": "2026-10-29",
-   "slot": "close",
-   "slotLabel": "Close review",
-   "time": "16:35",
-   "generated": "2026-10-29T16:35:44.165594-04:00",
-   "prices": [
-    {
-     "name": "VIX",
-     "last": "17.20",
-     "change": "▲ +0.29 (+1.71%) · open +0.00%",
-     "asOf": "4:15 PM ET"
+     "linkedTo": "AMZN 2027 capex, INTC memory costs",
+     "why": "Memory pricing power vs a crowded-trade unwind",
+     "setup": "Sector rotation / range reclaim",
+     "trend": "-2.7% vs 20d, -4.7% vs 50d; 20d -14.9%",
+     "options": "Nov 20 ±10.98%, spread 20.3% (stale), OI 469; no earnings in window",
+     "confirm": "Close back above 927.24, then the 20-day average",
+     "invalidate": "Close below 874.03",
+     "thesis": "The report's top supplier read-through: memory pricing power."
     },
     {
-     "name": "US10 (10-yr note futures)",
-     "last": "106.48",
-     "change": "▲ +0.69 (+0.65%) · open +0.35%",
-     "asOf": "4:25 PM ET"
-    },
-    {
-     "name": "US10Y yield",
-     "last": "4.989%",
-     "change": "▼ -0.056 (-1.11%)",
-     "asOf": "2:55 PM ET"
-    },
-    {
-     "name": "Crude oil (WTI)",
-     "last": "102.93",
-     "change": "▲ +0.15 (+0.15%) · open +2.49%",
-     "asOf": "4:25 PM ET"
-    },
-    {
-     "name": "SPY",
-     "last": "765.75",
-     "change": "▼ -6.56 (-0.85%) · open -0.40%",
-     "asOf": "4:35 PM ET"
-    },
-    {
-     "name": "QQQ",
-     "last": "707.47",
-     "change": "▼ -18.14 (-2.50%) · open -1.27%",
-     "asOf": "4:35 PM ET"
-    }
-   ],
-   "events": [
-    {
-     "time": "8:30 AM",
-     "currency": "USD",
-     "event": "Advance GDP q/q",
-     "actual": "",
-     "forecast": "3.2%",
-     "previous": "1.5%"
-    },
-    {
-     "time": "8:30 AM",
-     "currency": "USD",
-     "event": "Core PCE Price Index m/m",
-     "actual": "",
-     "forecast": "0.3%",
-     "previous": "0.2%"
-    },
-    {
-     "time": "9:15 AM",
-     "currency": "EUR",
-     "event": "Main Refinancing Rate",
-     "actual": "",
-     "forecast": "2.65%",
-     "previous": "2.65%"
-    },
-    {
-     "time": "9:15 AM",
-     "currency": "EUR",
-     "event": "Monetary Policy Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "9:45 AM",
-     "currency": "EUR",
-     "event": "ECB Press Conference",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "10:30 PM",
-     "currency": "JPY",
-     "event": "BOJ Policy Rate",
-     "actual": "",
-     "forecast": "<1.25%",
-     "previous": "<1.25%"
-    },
-    {
-     "time": "10:30 PM",
-     "currency": "JPY",
-     "event": "Monetary Policy Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "10:31 PM",
-     "currency": "JPY",
-     "event": "BOJ Outlook Report",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    }
-   ],
-   "macro": [
-    {
-     "source": "CNBC",
-     "time": "4:35 PM",
-     "text": "Amazon misses on earnings and holds capex steady, adding to AI spending jitters; Q4 sales guide below estimates.",
-     "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
-    },
-    {
-     "source": "CNBC",
-     "time": "4:06 PM",
-     "text": "Intel stock plunges about 20% as weak Q4 guidance blames a PC slowdown and an Israel fab blast.",
-     "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html"
-    },
-    {
-     "source": "FT",
-     "time": "4:10 PM",
-     "text": "US tech stocks fall after earnings fuel AI spending concerns; Nasdaq closes over 1% lower.",
-     "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1"
-    },
-    {
-     "source": "MarketWatch",
-     "time": "4:01 PM",
-     "text": "Microsoft raises $25 billion in the bond market as investors get pickier about AI debt.",
-     "url": "https://www.marketwatch.com/story/microsoft-to-raise-up-to-25-billion-in-bond-market-as-investors-get-pickier-about-ai-debt-binge-7c6ae777?mod=mw_rss_topstories"
-    },
-    {
-     "source": "MarketWatch",
-     "time": "3:12 PM",
-     "text": "'The $100 level is ours for a while': oil won't get cheap soon, whatever happens in the Gulf.",
-     "url": "https://www.marketwatch.com/story/the-100-level-is-ours-for-awhile-oil-wont-be-getting-cheap-anytime-soon-no-matter-what-happens-in-the-gulf-99d628bf?mod=mw_rss_topstories"
-    }
-   ],
-   "bigNames": [
-    {
-     "symbol": "AMZN",
-     "move": "-9.3% AH",
-     "text": "EPS missed, capex held steady and the Q4 sales forecast came in below estimates. AWS still grew solidly.",
-     "source": "CNBC",
-     "time": "4:35 PM",
-     "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
-    },
-    {
-     "symbol": "INTC",
-     "move": "-17.7% AH",
-     "text": "It beat on Q3, but the Q4 forecast disappointed on PC weakness and an Israel fab blast.",
-     "source": "Investing.com",
-     "time": "4:13 PM",
-     "url": "https://www.investing.com/news/stock-market-news/intel-plunges-20-as-weak-q4-forecast-overshadows-earnings-beat-4984988"
-    },
-    {
-     "symbol": "MSFT",
-     "move": "-0.11%",
-     "text": "Finalized a $25B bond sale as investors get pickier about AI debt.",
-     "source": "MarketWatch",
-     "time": "4:01 PM",
-     "url": "https://www.marketwatch.com/story/microsoft-to-raise-up-to-25-billion-in-bond-market-as-investors-get-pickier-about-ai-debt-binge-7c6ae777?mod=mw_rss_topstories"
-    },
-    {
-     "symbol": "GOOGL",
-     "move": "-12.7%",
-     "text": "Worst day ever, losing about $500B in market value after its Q3 miss.",
-     "source": "CNBC",
-     "time": "4:15 PM",
-     "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
-    }
-   ],
-   "read": "Tech sold off and defensives were bought, as the morning brief expected, but SPY chopped (-0.36%, high at 11:30, 9 VWAP crosses) and QQQ fell 1.42%. Puts-side triggers held on NOW, MU, MRVL and MSFT. LLY's calls side ran to 1408 at 9:35, then gave back half. GOOGL fell 12.7%, and CAT partly filled its gap. After hours, AMZN fell 9% and INTC 18%. Tonight: BOJ at 10:30 PM.",
-   "readthroughNext": [
-    {
-     "symbol": "AMZN",
-     "time": "after close 2026-10-29",
-     "related": [
-      "NVDA",
-      "AMD",
-      "AVGO",
-      "MRVL",
-      "MU",
-      "SKHY",
-      "TSM",
-      "ANET",
-      "VRT",
-      "GEV",
-      "CRWV",
-      "NBIS"
-     ]
-    },
-    {
-     "symbol": "INTC",
-     "time": "after close 2026-10-29",
-     "related": [
-      "NVDA",
-      "AMD",
-      "AVGO",
-      "MRVL",
-      "MU",
-      "SKHY",
-      "TSM",
-      "ASML",
-      "AMAT",
-      "LRCX",
-      "KLAC",
-      "ANET"
-     ]
-    },
-    {
-     "symbol": "XOM",
-     "time": "before open 2026-10-30",
-     "related": [
-      "CVX",
-      "COP",
-      "OXY",
-      "EOG",
-      "VLO",
-      "PSX",
-      "MPC",
-      "SLB",
-      "HAL",
-      "BKR"
-     ]
-    },
-    {
-     "symbol": "CVX",
-     "time": "before open 2026-10-30",
-     "related": [
-      "XOM",
-      "COP",
-      "OXY",
-      "EOG",
-      "VLO",
-      "PSX",
-      "MPC",
-      "SLB",
-      "HAL",
-      "BKR"
-     ]
+     "symbol": "NVDA",
+     "linkedTo": "Chip selloff",
+     "why": "Pullback below its averages while hyperscalers push their own chips",
+     "setup": "Trend pullback",
+     "trend": "-4.2% vs 20d, -3.8% vs 50d; 20d -7.5%",
+     "options": "Nov 20 ±8.77%, spread 5.8%, OI 3563; earnings late Nov (unconfirmed), likely after expiry",
+     "confirm": "Reclaims 213.66 and closes above 215.33",
+     "invalidate": "Close below 206.50",
+     "thesis": "Custom-chip pressure from Amazon and Google until Nvidia reports."
     }
    ]
   }
  ],
- "updated": "2026-10-29T16:38:41.443314-04:00"
+ "updated": "2026-10-30T08:27:00.942331-04:00"
 }

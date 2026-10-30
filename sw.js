@@ -1,7 +1,7 @@
 // Trade Desk service worker (home-screen web app). The app shell is served from the cache and refreshed in the
 // background (the page itself is fetched fresh when online); the news cache and the morning brief are fetched fresh and fall back to the last copy offline.
 // tools/publish-pages.py stamps VERSION with the source commit, so every publish refreshes the cache.
-const VERSION='td-e40a8a2';
+const VERSION='td-a903413';
 const SHELL=['./','./index.html','./manifest.webmanifest','./icons/icon-180.png','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(VERSION).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==VERSION).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
