@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-30T16:39:23.913442-04:00",
+ "updated": "2026-10-30T20:53:27.789105-04:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -210,20 +210,20 @@
     "type": "chop",
     "typeLabel": "Chop (up and down, going nowhere)",
     "spy": {
-     "open": 761.4,
+     "open": 761.38,
      "high": 761.46,
      "low": 750.36,
-     "close": 755.7,
+     "close": 755.71,
      "prevClose": 769.36,
-     "change": -1.775,
-     "openToClose": -0.749,
+     "change": -1.774,
+     "openToClose": -0.745,
      "rangePct": 1.443,
      "usualRangePct": 0.77,
      "rangeVsUsual": 1.87,
      "closeLocation": 0.48,
      "highAt": "09:30",
      "lowAt": "14:50",
-     "vwapCrosses": 8,
+     "vwapCrosses": 10,
      "pctAboveVwapAfter10": 6
     },
     "expectedMovePct": 1.083,
@@ -242,7 +242,7 @@
      }
     },
     "gap": {
-     "pct": -1.035,
+     "pct": -1.037,
      "filled": false,
      "filledAt": null
     },
@@ -270,9 +270,9 @@
      "10:00": {
       "spy": {
        "last": 761.12,
-       "vsOpen": -0.037,
+       "vsOpen": -0.034,
        "vsPrevClose": -1.071,
-       "vwap": 760.35,
+       "vwap": 760.44,
        "aboveVwap": true,
        "vwapCrosses": 3
       },
@@ -280,7 +280,7 @@
        "last": 698.18,
        "vsOpen": 0.151,
        "vsPrevClose": -2.399,
-       "vwap": 695.94,
+       "vwap": 696.07,
        "aboveVwap": true,
        "vwapCrosses": 1
       },
@@ -291,7 +291,7 @@
       },
       "iwm": {
        "last": 281.52,
-       "vsOpen": -0.248,
+       "vsOpen": -0.16,
        "vsPrevClose": -0.877
       },
       "vix": {
@@ -308,14 +308,14 @@
        "bpChange": -4.6
       },
       "agree": false,
-      "breadthGap": -0.095
+      "breadthGap": -0.098
      },
      "10:30": {
       "spy": {
        "last": 758.06,
-       "vsOpen": -0.439,
+       "vsOpen": -0.436,
        "vsPrevClose": -1.469,
-       "vwap": 759.91,
+       "vwap": 759.76,
        "aboveVwap": false,
        "vwapCrosses": 4
       },
@@ -323,7 +323,7 @@
        "last": 694.09,
        "vsOpen": -0.436,
        "vsPrevClose": -2.971,
-       "vwap": 694.72,
+       "vwap": 694.66,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -334,7 +334,7 @@
       },
       "iwm": {
        "last": 279.98,
-       "vsOpen": -0.794,
+       "vsOpen": -0.706,
        "vsPrevClose": -1.419
       },
       "vix": {
@@ -342,8 +342,8 @@
        "vsPrevClose": 15.174
       },
       "oil": {
-       "last": 104.3,
-       "vsPrevClose": 2.255
+       "last": 104.29,
+       "vsPrevClose": 2.245
       },
       "tnx": {
        "last": 4.933,
@@ -351,12 +351,12 @@
        "bpChange": -5.6
       },
       "agree": true,
-      "breadthGap": -0.039,
+      "breadthGap": -0.042,
       "orBreak": "down",
       "gapFilled": false
      }
     },
-    "summary": "Chop. SPY closed -1.77% on the day (-0.75% from the open). High-to-low it moved 1.44%, a bigger range than usual (1.9x the last 20 days). It broke the first 30 minutes' range down at 10:15 and that break held into the close. It crossed VWAP 8 times (lots of crossing is a chop sign).",
+    "summary": "Chop. SPY closed -1.77% on the day (-0.74% from the open). High-to-low it moved 1.44%, a bigger range than usual (1.9x the last 20 days). It broke the first 30 minutes' range down at 10:15 and that break held into the close. It crossed VWAP 10 times (lots of crossing is a chop sign).",
     "usEvents": []
    },
    "written": {
