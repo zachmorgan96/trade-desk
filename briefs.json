@@ -739,6 +739,89 @@
      "invalidate": "Close below 206.50",
      "thesis": "Custom-chip pressure from Amazon and Google until Nvidia reports."
     }
+   ],
+   "snapshot": {
+    "focus": [
+     "Tech rout extends: Nasdaq futures −2.3%, Dow flat",
+     "Amazon −7%, Intel −25% premarket on earnings",
+     "Alphabet keeps sliding after its worst day ever (−13%)",
+     "Exxon and Chevron beat on refining margins",
+     "Oil firm on Iran / Hormuz risk",
+     "Fed held Wednesday; Dec. hike ~85% priced"
+    ],
+    "bigPicture": [
+     "AI demand is strong (AWS +39%, Azure +48%, Google Cloud ~2×), but spending is outrunning cash flow. Alphabet and Amazon both posted negative free cash flow.",
+     "The market now punishes the spenders while the capex still flows to suppliers.",
+     "Money is rotating into defensives: in October HD +13%, WMT +12%, V +12%, MCD +11%.",
+     "Rate risk is rising, not falling: two Fed dissents wanted a hike."
+    ],
+    "takeaway": "AI demand isn't the problem; cash flow is. Expect suppliers with direct capex exposure to recover before the spenders do, and oil and defensives to keep leading while yields sit near 5%."
+   },
+   "sectors": [
+    {
+     "sector": "AI chips",
+     "tone": "Mixed: demand up, stocks down",
+     "bias": "mixed",
+     "text": "Hyperscaler capex keeps rising, so orders stay strong, but the group was sold hard in October. Memory and custom silicon move most if sentiment turns; Intel is the weak link on PC exposure.",
+     "names": [
+      "NVDA",
+      "AVGO",
+      "MU",
+      "MRVL",
+      "AMD",
+      "INTC"
+     ]
+    },
+    {
+     "sector": "AI cloud",
+     "tone": "Under pressure",
+     "bias": "down",
+     "text": "Cloud growth is accelerating at all three hyperscalers, but negative cash flow and rising debt drive the selling. Microsoft is the cleanest print; neoclouds fall hardest on capex doubt.",
+     "names": [
+      "MSFT",
+      "AMZN",
+      "GOOGL",
+      "ORCL",
+      "CRWV",
+      "NBIS"
+     ]
+    },
+    {
+     "sector": "AI infrastructure",
+     "tone": "Capex tailwind",
+     "bias": "up",
+     "text": "Bigger 2027 budgets flow to power, cooling and networking; the GPU shortage pushes spend into 2027 rather than cutting it.",
+     "names": [
+      "VRT",
+      "ETN",
+      "ANET",
+      "SNDK"
+     ]
+    },
+    {
+     "sector": "AI software",
+     "tone": "Rotation risk",
+     "bias": "mixed",
+     "text": "The market wants proof AI spending earns a return; software multiples track the megacap selloff until monetization numbers show up.",
+     "names": [
+      "MSFT",
+      "ORCL",
+      "META"
+     ]
+    },
+    {
+     "sector": "Oil & gas",
+     "tone": "Strongest tape",
+     "bias": "up",
+     "text": "Brent above $110 and record refining margins drove both majors' beats; refiners have the most direct exposure. Risk: a US-Iran de-escalation hits crude fast.",
+     "names": [
+      "XOM",
+      "CVX",
+      "VLO",
+      "MPC",
+      "PSX"
+     ]
+    }
    ]
   },
   {
