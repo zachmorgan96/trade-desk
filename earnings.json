@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T00:53:20+00:00",
+ "updated": "2026-11-01T23:53:45+00:00",
  "source": "Nasdaq earnings calendar",
  "minMarketCap": 10000000000.0,
  "days": {
@@ -4499,12 +4499,14 @@
    {
     "symbol": "XOM",
     "name": "ExxonMobil Holdings Corporation",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 753672320000.0,
     "quarter": "Sep/2026",
     "epsForecast": 3.9,
     "estimates": 6,
-    "lastYearEps": 1.88,
+    "lastYearEps": null,
+    "eps": 4.23,
+    "surprise": 8.46,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -4521,12 +4523,14 @@
    {
     "symbol": "ABBV",
     "name": "AbbVie Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 513860043000.0,
     "quarter": "Sep/2026",
     "epsForecast": 3.74,
     "estimates": 5,
-    "lastYearEps": 1.86,
+    "lastYearEps": null,
+    "eps": 3.82,
+    "surprise": 2.14,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -4543,12 +4547,14 @@
    {
     "symbol": "CVX",
     "name": "Chevron Corporation",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 457312010000.0,
     "quarter": "Sep/2026",
     "epsForecast": 4.78,
     "estimates": 7,
-    "lastYearEps": 1.85,
+    "lastYearEps": null,
+    "eps": 5.28,
+    "surprise": 10.46,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -4565,12 +4571,14 @@
    {
     "symbol": "AZN",
     "name": "AstraZeneca PLC",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 263788495000.0,
     "quarter": "Sep/2026",
     "epsForecast": 2.6,
     "estimates": 3,
-    "lastYearEps": 2.38,
+    "lastYearEps": null,
+    "eps": 2.79,
+    "surprise": 7.31,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-27",
@@ -4587,12 +4595,14 @@
    {
     "symbol": "BP",
     "name": "BP p.l.c.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 129767219000.0,
     "quarter": "Sep/2026",
     "epsForecast": 2.66,
     "estimates": 5,
-    "lastYearEps": 0.85,
+    "lastYearEps": null,
+    "eps": 3.26,
+    "surprise": 22.56,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-08-04",
@@ -4609,12 +4619,14 @@
    {
     "symbol": "SNY",
     "name": "Sanofi",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 105187779000.0,
     "quarter": "Sep/2026",
     "epsForecast": 1.63,
     "estimates": 4,
-    "lastYearEps": 1.7,
+    "lastYearEps": null,
+    "eps": 2.04,
+    "surprise": 25.15,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-30",
@@ -4631,12 +4643,14 @@
    {
     "symbol": "GD",
     "name": "General Dynamics Corporation",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 100328022000.0,
     "quarter": "Sep/2026",
     "epsForecast": 4.14,
     "estimates": 8,
-    "lastYearEps": 3.88,
+    "lastYearEps": null,
+    "eps": 4.49,
+    "surprise": 8.45,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-29",
@@ -4653,12 +4667,14 @@
    {
     "symbol": "REGN",
     "name": "Regeneron Pharmaceuticals, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 84296458000.0,
     "quarter": "Sep/2026",
     "epsForecast": 13.76,
     "estimates": 6,
-    "lastYearEps": 9.63,
+    "lastYearEps": null,
+    "eps": 18.43,
+    "surprise": 33.94,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-30",
@@ -4675,12 +4691,14 @@
    {
     "symbol": "CNI",
     "name": "Canadian National Railway Company",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 75012301000.0,
     "quarter": "Sep/2026",
     "epsForecast": 1.49,
     "estimates": 9,
-    "lastYearEps": 1.33,
+    "lastYearEps": null,
+    "eps": 1.54,
+    "surprise": 3.36,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-24",
@@ -4697,12 +4715,14 @@
    {
     "symbol": "CL",
     "name": "Colgate-Palmolive Company",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 74264617000.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.92,
     "estimates": 9,
-    "lastYearEps": 0.91,
+    "lastYearEps": null,
+    "eps": 0.97,
+    "surprise": 5.43,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -4719,12 +4739,14 @@
    {
     "symbol": "NWG",
     "name": "NatWest Group plc",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 68529086000.0,
     "quarter": "Sep/2026",
-    "epsForecast": 0.5,
+    "epsForecast": 0.51,
     "estimates": 2,
-    "lastYearEps": 0.53,
+    "lastYearEps": null,
+    "eps": 0.52,
+    "surprise": 1.96,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -4741,12 +4763,14 @@
    {
     "symbol": "IMO",
     "name": "Imperial Oil Limited",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 63485395000.0,
     "quarter": "Sep/2026",
     "epsForecast": 3.43,
     "estimates": 2,
-    "lastYearEps": 1.57,
+    "lastYearEps": null,
+    "eps": 3.65,
+    "surprise": 6.41,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -4763,12 +4787,14 @@
    {
     "symbol": "D",
     "name": "Dominion Energy, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 57274728000.0,
     "quarter": "Sep/2026",
     "epsForecast": 1.2,
     "estimates": 4,
-    "lastYearEps": 1.06,
+    "lastYearEps": null,
+    "eps": 1.28,
+    "surprise": 6.67,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -4785,122 +4811,146 @@
    {
     "symbol": "EXC",
     "name": "Exelon Corporation",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 47390781000.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.8,
     "estimates": 5,
-    "lastYearEps": 0.86
+    "lastYearEps": null,
+    "eps": 0.87,
+    "surprise": 8.75
    },
    {
     "symbol": "KVUE",
     "name": "Kenvue Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 37570331000.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.28,
     "estimates": 4,
-    "lastYearEps": 0.28
+    "lastYearEps": null,
+    "eps": 0.29,
+    "surprise": 3.57
    },
    {
     "symbol": "CCJ",
     "name": "Cameco Corporation",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 36316598000.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.23,
     "estimates": 3,
-    "lastYearEps": 0.05
+    "lastYearEps": null,
+    "eps": 0.0,
+    "surprise": null
    },
    {
     "symbol": "CHD",
     "name": "Church & Dwight Company, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 25143613400.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.9,
     "estimates": 9,
-    "lastYearEps": 0.81
+    "lastYearEps": null,
+    "eps": 0.92,
+    "surprise": 2.22
    },
    {
     "symbol": "NVT",
     "name": "nVent Electric plc",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 22360674300.0,
     "quarter": "Sep/2026",
     "epsForecast": 1.4,
     "estimates": 6,
-    "lastYearEps": 0.91
+    "lastYearEps": null,
+    "eps": 1.52,
+    "surprise": 8.57
    },
    {
     "symbol": "LYB",
     "name": "LyondellBasell Industries NV",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 21116991500.0,
     "quarter": "Sep/2026",
     "epsForecast": 2.73,
     "estimates": 6,
-    "lastYearEps": 1.01
+    "lastYearEps": null,
+    "eps": 2.54,
+    "surprise": -6.96
    },
    {
     "symbol": "BCH",
     "name": "Banco De Chile",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 19329617900.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.66,
     "estimates": 3,
-    "lastYearEps": 0.6
+    "lastYearEps": null,
+    "eps": 0.85,
+    "surprise": 28.79
    },
    {
     "symbol": "MGA",
     "name": "Magna International, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 17139554300.0,
     "quarter": "Sep/2026",
     "epsForecast": 1.58,
     "estimates": 4,
-    "lastYearEps": 1.33
+    "lastYearEps": null,
+    "eps": 1.83,
+    "surprise": 15.82
    },
    {
     "symbol": "RBC",
     "name": "RBC Bearings Incorporated",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 15694753800.0,
     "quarter": "Sep/2026",
     "epsForecast": 3.39,
     "estimates": 5,
-    "lastYearEps": 2.7
+    "lastYearEps": null,
+    "eps": 3.53,
+    "surprise": 4.13
    },
    {
     "symbol": "BSAC",
     "name": "Banco Santander Chile",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 14835421200.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.65,
     "estimates": 3,
-    "lastYearEps": 0.5
+    "lastYearEps": null,
+    "eps": 0.52,
+    "surprise": -20.0
    },
    {
     "symbol": "BTSG",
     "name": "BrightSpring Health Services, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 11915384800.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.45,
     "estimates": 5,
-    "lastYearEps": 0.3
+    "lastYearEps": null,
+    "eps": 0.54,
+    "surprise": 20.0
    },
    {
     "symbol": "CBOE",
     "name": "Cboe Global Markets, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 11636977312.0,
     "quarter": "Sep/2026",
     "epsForecast": 3.43,
     "estimates": 10,
-    "lastYearEps": 2.67
+    "lastYearEps": null,
+    "eps": 3.63,
+    "surprise": 5.83
    }
   ],
   "2026-11-02": [
@@ -6081,7 +6131,7 @@
     "marketCap": 13716294700.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.87,
-    "estimates": 2,
+    "estimates": 1,
     "lastYearEps": 0.3
    },
    {
@@ -6697,7 +6747,7 @@
     "marketCap": 42070639000.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.32,
-    "estimates": 2,
+    "estimates": 3,
     "lastYearEps": null
    },
    {
@@ -7147,7 +7197,7 @@
     "marketCap": 13935900700.0,
     "quarter": "Sep/2026",
     "epsForecast": null,
-    "estimates": 2,
+    "estimates": 3,
     "lastYearEps": 2.06
    },
    {
@@ -7247,7 +7297,7 @@
     "marketCap": 11041550300.0,
     "quarter": "Sep/2026",
     "epsForecast": null,
-    "estimates": 2,
+    "estimates": 3,
     "lastYearEps": 0.49
    },
    {
@@ -7307,7 +7357,7 @@
     "marketCap": 10278154200.0,
     "quarter": "Sep/2026",
     "epsForecast": null,
-    "estimates": 2,
+    "estimates": 3,
     "lastYearEps": 2.26
    },
    {
@@ -8331,7 +8381,7 @@
     "marketCap": 12322307100.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.3,
-    "estimates": 3,
+    "estimates": 2,
     "lastYearEps": null
    },
    {
