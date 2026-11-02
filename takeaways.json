@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-02T15:25:05.418913-05:00",
+ "updated": "2026-11-02T16:30:56.944287-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -13,9 +13,9 @@
   "days": 65,
   "counts": {
    "trend-up": 14,
-   "trend-down": 15,
+   "trend-down": 16,
    "reversal-up": 4,
-   "reversal-down": 7,
+   "reversal-down": 6,
    "chop": 25
   },
   "rows": [
@@ -24,12 +24,12 @@
     "days": 33,
     "counts": {
      "trend-up": 10,
-     "trend-down": 6,
+     "trend-down": 7,
      "reversal-up": 1,
-     "reversal-down": 3,
+     "reversal-down": 2,
      "chop": 13
     },
-    "trendRate": 48,
+    "trendRate": 52,
     "chopRate": 39,
     "followedLeanRate": 45
    },
@@ -66,12 +66,12 @@
     "days": 21,
     "counts": {
      "trend-up": 7,
-     "trend-down": 3,
+     "trend-down": 4,
      "reversal-up": 2,
-     "reversal-down": 4,
+     "reversal-down": 3,
      "chop": 5
     },
-    "trendRate": 48,
+    "trendRate": 52,
     "chopRate": 24,
     "followedLeanRate": 38
    },
@@ -122,12 +122,12 @@
     "days": 39,
     "counts": {
      "trend-up": 10,
-     "trend-down": 7,
+     "trend-down": 8,
      "reversal-up": 0,
-     "reversal-down": 5,
+     "reversal-down": 4,
      "chop": 17
     },
-    "trendRate": 44,
+    "trendRate": 46,
     "chopRate": 44,
     "followedLeanRate": 33
    },
@@ -150,12 +150,12 @@
     "days": 40,
     "counts": {
      "trend-up": 5,
-     "trend-down": 13,
+     "trend-down": 14,
      "reversal-up": 3,
-     "reversal-down": 3,
+     "reversal-down": 2,
      "chop": 16
     },
-    "trendRate": 45,
+    "trendRate": 48,
     "chopRate": 40,
     "followedLeanRate": 35
    },
@@ -178,12 +178,12 @@
     "days": 35,
     "counts": {
      "trend-up": 6,
-     "trend-down": 9,
+     "trend-down": 10,
      "reversal-up": 1,
-     "reversal-down": 3,
+     "reversal-down": 2,
      "chop": 16
     },
-    "trendRate": 43,
+    "trendRate": 46,
     "chopRate": 46,
     "followedLeanRate": 31
    },
@@ -207,28 +207,28 @@
   {
    "measured": {
     "date": "2026-11-02",
-    "type": "reversal-down",
-    "typeLabel": "Reversal down (rallied, then sold off)",
+    "type": "trend-down",
+    "typeLabel": "Sell-off all day",
     "spy": {
      "open": 759.45,
      "high": 763.86,
-     "low": 753.11,
-     "close": 755.24,
+     "low": 751.6,
+     "close": 752.12,
      "prevClose": 755.72,
-     "change": -0.064,
-     "openToClose": -0.554,
-     "rangePct": 1.422,
+     "change": -0.476,
+     "openToClose": -0.965,
+     "rangePct": 1.622,
      "usualRangePct": 0.807,
-     "rangeVsUsual": 1.76,
-     "closeLocation": 0.2,
+     "rangeVsUsual": 2.01,
+     "closeLocation": 0.04,
      "highAt": "10:25",
-     "lowAt": "14:50",
+     "lowAt": "15:55",
      "vwapCrosses": 1,
-     "pctAboveVwapAfter10": 21
+     "pctAboveVwapAfter10": 19
     },
     "expectedMovePct": 1.223,
-    "actualMoveVsExpected": 0.05,
-    "rangeVsExpected": 1.16,
+    "actualMoveVsExpected": 0.39,
+    "rangeVsExpected": 1.33,
     "openingRange": {
      "high": 760.57,
      "low": 758.72,
@@ -356,7 +356,7 @@
       "gapFilled": false
      }
     },
-    "summary": "Reversal down. SPY closed -0.06% on the day (-0.55% from the open). High-to-low it moved 1.42%, a bigger range than usual (1.8x the last 20 days). It broke the first 30 minutes' range up at 10:10 and that break did not hold. It crossed VWAP 1 times.",
+    "summary": "Sell-off all day. SPY closed -0.48% on the day (-0.96% from the open). High-to-low it moved 1.62%, a bigger range than usual (2.0x the last 20 days). It broke the first 30 minutes' range up at 10:10 and that break did not hold. It crossed VWAP 1 times.",
     "usEvents": []
    },
    "written": null
