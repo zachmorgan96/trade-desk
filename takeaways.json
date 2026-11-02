@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-02T16:30:56.944287-05:00",
+ "updated": "2026-11-02T16:38:19.523380-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -359,7 +359,15 @@
     "summary": "Sell-off all day. SPY closed -0.48% on the day (-0.96% from the open). High-to-low it moved 1.62%, a bigger range than usual (2.0x the last 20 days). It broke the first 30 minutes' range up at 10:10 and that break did not hold. It crossed VWAP 1 times.",
     "usEvents": []
    },
-   "written": null
+   "written": {
+    "briefLean": "The morning brief read a mild risk-on relief bounce after Friday's tech rout, with nothing new behind it, and said to wait for the 10:00 ISM print and the first 15 minutes before trusting long setups.",
+    "verdict": "partly",
+    "whatHappened": "SPY gapped up 0.49% and opened at 759.45, broke its first 30-minute range up at 10:10 and peaked at 763.86 at 10:25, but the break did not hold. It slid all afternoon, filled the gap at 14:20 and made its low of 751.60 at 15:55, closing at 752.12 (-0.48%, -0.97% from the open) on a range twice the usual, with only one VWAP cross.",
+    "why": "The bounce had no earnings behind it, and AI funding worries came back: Oracle filed to raise $20B in stock and bonds and Marvell and Lumentum kept sliding on their all-stock deal, so chips (SMH -2.7%) and software led the drop into Apple and Palantir's reports. Oil's 7.7% drop on Iran-talk hopes and slightly lower yields helped airlines, consumer and bank stocks, but not tech, and VIX rose to 21.15.",
+    "earliestClue": "At 10:00 the clues disagreed: SPY, small caps and equal-weight were above their opens, but QQQ was already below its open and under VWAP, a sign the tech bounce was weak even while the broad market looked fine.",
+    "lesson": "On a relief bounce with no new catalyst, check whether QQQ is holding its open and VWAP in the first 30 minutes; when the broad market is up but tech is not, an upside opening-range break in SPY is more likely to fail.",
+    "by": "Close review routine"
+   }
   },
   {
    "measured": {

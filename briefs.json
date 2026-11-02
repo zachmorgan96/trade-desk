@@ -604,7 +604,227 @@
      "down": "Loses 204.13 as the bounce fails."
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-02",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:35",
+   "generated": "2026-11-02T16:35:53.773474-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "21.15",
+     "change": "▲ +1.73 (+8.91%) · open +11.02%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.77",
+     "change": "▲ +0.12 (+0.12%) · open -0.06%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.894%",
+     "change": "▼ -0.035 (-0.71%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "96.07",
+     "change": "▼ -8.05 (-7.73%) · open -1.40%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "752.92",
+     "change": "▼ -2.80 (-0.37%) · open -0.86%",
+     "asOf": "4:35 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "682.64",
+     "change": "▼ -7.85 (-1.14%) · open -1.82%",
+     "asOf": "4:35 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "10:30 PM",
+     "currency": "AUD",
+     "event": "Cash Rate",
+     "actual": "",
+     "forecast": "4.85%",
+     "previous": "4.60%"
+    },
+    {
+     "time": "10:30 PM",
+     "currency": "AUD",
+     "event": "RBA Monetary Policy Statement",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "10:30 PM",
+     "currency": "AUD",
+     "event": "RBA Rate Statement",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "11:30 PM",
+     "currency": "AUD",
+     "event": "RBA Press Conference",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    }
+   ],
+   "macro": [
+    {
+     "source": "CNBC",
+     "time": "3:19 PM",
+     "text": "Crude sells off more than 7% on Iran peace-talk hopes ahead of the midterms; WTI ends near $96.",
+     "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "4:10 PM",
+     "text": "Oracle files to sell $20 billion in new stock and bonds to finance its AI buildout; ORCL −8.8%.",
+     "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+    },
+    {
+     "source": "Investing.com",
+     "time": "4:13 PM",
+     "text": "Nasdaq ends lower as tech slumps again, offsetting the rotation trade and the slide in oil.",
+     "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-edge-high-after-bruising-oct-earnings-elections-in-focus-4989789"
+    },
+    {
+     "source": "CNBC",
+     "time": "3:48 PM",
+     "text": "Prediction markets see nearly a 75% chance of Democrats winning the Senate in Tuesday's midterms.",
+     "url": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "PLTR",
+     "move": "−3.1%",
+     "text": "Q3 revenue +96% and a raised full-year outlook; U.S. commercial revenue topped government for the first time.",
+     "source": "CNBC",
+     "time": "4:30 PM",
+     "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html"
+    },
+    {
+     "symbol": "AAPL",
+     "move": "−1.8%",
+     "text": "Beat on quarterly revenue in John Ternus' first report as CEO; early after-hours print slightly lower.",
+     "source": "CNBC",
+     "time": "4:33 PM",
+     "url": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html"
+    },
+    {
+     "symbol": "ORCL",
+     "move": "−8.8%",
+     "text": "Filed to raise $20B in stock and bonds for its AI buildout, after this morning's $10B bond sale.",
+     "source": "CNBC",
+     "time": "4:10 PM",
+     "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+    },
+    {
+     "symbol": "MRVL / LITE",
+     "move": "−12.7% / −18.6%",
+     "text": "Both slid all day after the $115B all-stock Lumentum deal; MarketWatch likens it to the dot-com era.",
+     "source": "MarketWatch",
+     "time": "12:32 PM",
+     "url": "https://www.marketwatch.com/story/marvell-and-lumentum-officially-plan-to-combine-heres-what-to-know-5599b98a?mod=mw_rss_topstories"
+    }
+   ],
+   "read": "Bounce failed after 10:25. SPY broke its range up at 10:10, peaked 763.86 at 10:25, then slid and closed near the low at 752.12 (−0.48%); QQQ −1.2%, SMH −2.7%, VIX 21.15 despite WTI −7.7%. MRVL, ORCL, MU and PLTR setups all went puts side; NVDA hit 209.98 then lost 204.13. Money left tech and energy for airlines, discretionary and banks. Tomorrow: midterms; AMD reports after close.",
+   "tomorrow": [
+    {
+     "time": "10:16 AM",
+     "currency": "USD",
+     "event": "Congressional Elections",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "4:45 PM",
+     "currency": "NZD",
+     "event": "Employment Change q/q",
+     "forecast": "0.4%",
+     "previous": "0.5%"
+    },
+    {
+     "time": "4:45 PM",
+     "currency": "NZD",
+     "event": "Unemployment Rate",
+     "forecast": "5.5%",
+     "previous": "5.6%"
+    }
+   ],
+   "readthroughNext": [
+    {
+     "symbol": "AAPL",
+     "time": "after close 2026-11-02",
+     "related": [
+      "MU",
+      "SKHY",
+      "AVGO",
+      "QCOM",
+      "TSM",
+      "SNDK"
+     ]
+    },
+    {
+     "symbol": "PLTR",
+     "time": "after close 2026-11-02",
+     "related": [
+      "NOW",
+      "CRM",
+      "SNOW",
+      "DDOG",
+      "MDB",
+      "ADBE",
+      "WDAY",
+      "MSFT"
+     ]
+    },
+    {
+     "symbol": "ETN",
+     "time": "before open 2026-11-03",
+     "related": [
+      "VRT",
+      "GEV",
+      "PWR",
+      "CEG",
+      "VST",
+      "NRG"
+     ]
+    },
+    {
+     "symbol": "MPC",
+     "time": "before open 2026-11-03",
+     "related": [
+      "XOM",
+      "CVX",
+      "COP",
+      "OXY",
+      "EOG",
+      "VLO",
+      "PSX",
+      "SLB",
+      "HAL",
+      "BKR"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-02T08:32:06.416517-05:00"
+ "updated": "2026-11-02T16:37:45.394245-05:00"
 }
