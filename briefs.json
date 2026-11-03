@@ -820,7 +820,175 @@
      "down": "Loses 202.55 and 202.06."
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-03",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:36",
+   "generated": "2026-11-03T16:36:37.695970-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "20.83",
+     "change": "▼ -0.32 (-1.51%) · open -0.57%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.44",
+     "change": "▼ -0.42 (-0.39%) · open -0.23%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.952%",
+     "change": "▲ +0.058 (+1.19%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "96.90",
+     "change": "▲ +0.44 (+0.46%) · open +0.79%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "755.29",
+     "change": "▲ +3.19 (+0.42%) · open +0.34%",
+     "asOf": "4:36 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "687.77",
+     "change": "▲ +6.68 (+0.98%) · open +0.52%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "10:16 AM",
+     "currency": "USD",
+     "event": "Congressional Elections",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "4:45 PM",
+     "currency": "NZD",
+     "event": "Employment Change q/q",
+     "actual": "",
+     "forecast": "0.4%",
+     "previous": "0.5%"
+    },
+    {
+     "time": "4:45 PM",
+     "currency": "NZD",
+     "event": "Unemployment Rate",
+     "actual": "",
+     "forecast": "5.5%",
+     "previous": "5.6%"
+    }
+   ],
+   "macro": [
+    {
+     "source": "CNBC",
+     "time": "4:15 PM",
+     "text": "S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
+     "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "2:15 PM",
+     "text": "Job openings posted big September gain ahead of the payrolls report; 10-year yield up ~6 bp to 4.95%",
+     "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "3:02 PM",
+     "text": "Crude prices ease as market hopes for a diplomatic resolution with Iran; WTI ends near $96.90",
+     "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "4:16 PM",
+     "text": "Texas race results could hit the AI data-center trade; midterm results come overnight",
+     "url": "https://www.cnbc.com/2026/11/03/texas-election-could-pressure-ai-data-center-trade.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "AMD",
+     "move": "+3.8%, ~+8% AH",
+     "text": "Record Q3 revenue $13.38B vs $12.7–13.3B guide; data center ~$8.5B, up ~97%.",
+     "source": "CNBC",
+     "time": "4:20 PM",
+     "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+    },
+    {
+     "symbol": "ANET",
+     "move": "+3.5%, ~+7% AH",
+     "text": "Q3 earnings and revenue outlook topped estimates.",
+     "source": "Investor's Business Daily",
+     "time": "4:25 PM",
+     "url": "https://finance.yahoo.com/m/5baa16f1-9219-32d6-ad37-2dcaf617f88d/arista-networks-earnings.html"
+    },
+    {
+     "symbol": "SMCI",
+     "move": "+3.4%, ~+6% AH",
+     "text": "Revenue forecast above estimates on strong AI server demand.",
+     "source": "Investing.com",
+     "time": "4:18 PM",
+     "url": "https://www.investing.com/news/stock-market-news/super-micro-forecasts-quarterly-revenue-above-estimates-on-strong-ai-server-demand-4996409"
+    },
+    {
+     "symbol": "META",
+     "move": "+2.5%",
+     "text": "Seeking up to $25B in a debt sale as AI spending jumps.",
+     "source": "CNBC",
+     "time": "1:33 PM",
+     "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html"
+    }
+   ],
+   "read": "Flat chop as expected (SPY +0.31%, 0.62% range), but the gap-downs bounced: SHOP, PLTR and AAPL all triggered calls-side (SHOP to 149.34, PLTR 176.54, AAPL 334.50); none broke puts levels. MU's 868.88 break failed; AMD held 483.25. Fade after 2:00 as the 10-yr hit 4.95% on JOLTS. Money: AI power/optics, chips, software; out of energy. AMD ~+8% after hours. No red event tomorrow.",
+   "tomorrow": [],
+   "readthroughNext": [
+    {
+     "symbol": "AMD",
+     "time": "after close 2026-11-03",
+     "related": [
+      "NVDA",
+      "AVGO",
+      "MRVL",
+      "MU",
+      "SKHY",
+      "TSM",
+      "INTC",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "KLAC",
+      "ANET"
+     ]
+    },
+    {
+     "symbol": "DDOG",
+     "time": "before open 2026-11-04",
+     "related": [
+      "PLTR",
+      "NOW",
+      "CRM",
+      "SNOW",
+      "MDB",
+      "ADBE",
+      "WDAY",
+      "MSFT"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-03T08:26:19.344639-05:00"
+ "updated": "2026-11-03T16:38:53.936874-05:00"
 }

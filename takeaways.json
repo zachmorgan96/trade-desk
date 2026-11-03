@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-03T14:15:05.812045-05:00",
+ "updated": "2026-11-03T16:39:30.454116-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -10,13 +10,13 @@
   "chop": "Chop (up and down, going nowhere)"
  },
  "patterns": {
-  "days": 65,
+  "days": 66,
   "counts": {
    "trend-up": 14,
    "trend-down": 16,
    "reversal-up": 4,
    "reversal-down": 6,
-   "chop": 25
+   "chop": 26
   },
   "rows": [
    {
@@ -35,17 +35,17 @@
    },
    {
     "clue": "No break of the first 30-min range by 10:30",
-    "days": 18,
+    "days": 19,
     "counts": {
      "trend-up": 2,
      "trend-down": 5,
      "reversal-up": 2,
      "reversal-down": 2,
-     "chop": 7
+     "chop": 8
     },
-    "trendRate": 39,
-    "chopRate": 39,
-    "followedLeanRate": 28
+    "trendRate": 37,
+    "chopRate": 42,
+    "followedLeanRate": 26
    },
    {
     "clue": "SPY crossed VWAP 3+ times by 10:30",
@@ -161,49 +161,222 @@
    },
    {
     "clue": "Narrow market: equal-weight S&P lagging SPY by 0.2%+",
-    "days": 19,
+    "days": 20,
     "counts": {
      "trend-up": 6,
      "trend-down": 2,
      "reversal-up": 1,
      "reversal-down": 4,
-     "chop": 6
+     "chop": 7
     },
-    "trendRate": 42,
-    "chopRate": 32,
-    "followedLeanRate": 26
+    "trendRate": 40,
+    "chopRate": 35,
+    "followedLeanRate": 25
    },
    {
     "clue": "VIX confirming stocks at 10:30 (SPY up with VIX down, or SPY down with VIX up)",
-    "days": 35,
+    "days": 36,
     "counts": {
      "trend-up": 6,
      "trend-down": 10,
      "reversal-up": 1,
      "reversal-down": 2,
-     "chop": 16
+     "chop": 17
     },
-    "trendRate": 46,
-    "chopRate": 46,
+    "trendRate": 44,
+    "chopRate": 47,
     "followedLeanRate": 31
    },
    {
     "clue": "High-impact U.S. news that day",
-    "days": 2,
+    "days": 3,
     "counts": {
      "trend-up": 0,
      "trend-down": 0,
      "reversal-up": 1,
      "reversal-down": 0,
-     "chop": 1
+     "chop": 2
     },
     "trendRate": 0,
-    "chopRate": 50,
+    "chopRate": 67,
     "followedLeanRate": 0
    }
   ]
  },
  "days": [
+  {
+   "measured": {
+    "date": "2026-11-03",
+    "type": "chop",
+    "typeLabel": "Chop (up and down, going nowhere)",
+    "spy": {
+     "open": 752.73,
+     "high": 757.07,
+     "low": 752.39,
+     "close": 754.41,
+     "prevClose": 752.1,
+     "change": 0.307,
+     "openToClose": 0.223,
+     "rangePct": 0.622,
+     "usualRangePct": 0.842,
+     "rangeVsUsual": 0.74,
+     "closeLocation": 0.43,
+     "highAt": "13:30",
+     "lowAt": "09:30",
+     "vwapCrosses": 9,
+     "pctAboveVwapAfter10": 62
+    },
+    "expectedMovePct": 1.332,
+    "actualMoveVsExpected": 0.23,
+    "rangeVsExpected": 0.47,
+    "openingRange": {
+     "high": 754.68,
+     "low": 752.39,
+     "widthPct": 0.304,
+     "widthVsExpected": 0.23,
+     "widthVsUsual": 0.36,
+     "breakout": {
+      "side": "up",
+      "time": "10:45",
+      "held": false
+     }
+    },
+    "gap": {
+     "pct": 0.084,
+     "filled": null,
+     "filledAt": null
+    },
+    "levels": [
+     {
+      "name": "Yesterday's high",
+      "price": 763.86,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's low",
+      "price": 751.6,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's close",
+      "price": 752.1,
+      "touched": false,
+      "result": "not reached"
+     }
+    ],
+    "clues": {
+     "10:00": {
+      "spy": {
+       "last": 753.82,
+       "vsOpen": 0.144,
+       "vsPrevClose": 0.228,
+       "vwap": 753.46,
+       "aboveVwap": true,
+       "vwapCrosses": 0
+      },
+      "qqq": {
+       "last": 684.89,
+       "vsOpen": 0.1,
+       "vsPrevClose": 0.557,
+       "vwap": 684.94,
+       "aboveVwap": false,
+       "vwapCrosses": 1
+      },
+      "rsp": {
+       "last": 219.26,
+       "vsOpen": -0.178,
+       "vsPrevClose": -0.327
+      },
+      "iwm": {
+       "last": 280.56,
+       "vsOpen": 0.257,
+       "vsPrevClose": 0.509
+      },
+      "vix": {
+       "last": 20.86,
+       "vsPrevClose": -1.371
+      },
+      "oil": {
+       "last": 95.86,
+       "vsPrevClose": -0.622
+      },
+      "tnx": {
+       "last": 4.939,
+       "vsPrevClose": 0.919,
+       "bpChange": 4.5
+      },
+      "agree": false,
+      "breadthGap": -0.322
+     },
+     "10:30": {
+      "spy": {
+       "last": 754.56,
+       "vsOpen": 0.243,
+       "vsPrevClose": 0.327,
+       "vwap": 754.06,
+       "aboveVwap": true,
+       "vwapCrosses": 2
+      },
+      "qqq": {
+       "last": 686.11,
+       "vsOpen": 0.279,
+       "vsPrevClose": 0.737,
+       "vwap": 685.55,
+       "aboveVwap": true,
+       "vwapCrosses": 4
+      },
+      "rsp": {
+       "last": 219.61,
+       "vsOpen": -0.018,
+       "vsPrevClose": -0.168
+      },
+      "iwm": {
+       "last": 280.95,
+       "vsOpen": 0.397,
+       "vsPrevClose": 0.648
+      },
+      "vix": {
+       "last": 20.54,
+       "vsPrevClose": -2.884
+      },
+      "oil": {
+       "last": 96.41,
+       "vsPrevClose": -0.052
+      },
+      "tnx": {
+       "last": 4.954,
+       "vsPrevClose": 1.226,
+       "bpChange": 6.0
+      },
+      "agree": true,
+      "breadthGap": -0.261,
+      "orBreak": null
+     }
+    },
+    "summary": "Chop. SPY closed +0.31% on the day (+0.22% from the open). High-to-low it moved 0.62%, a smaller range than usual (0.7x the last 20 days). It broke the first 30 minutes' range up at 10:45 and that break did not hold. It crossed VWAP 9 times (lots of crossing is a chop sign).",
+    "usEvents": [
+     {
+      "time": "10:16 AM",
+      "currency": "USD",
+      "event": "Congressional Elections",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+     }
+    ]
+   },
+   "written": {
+    "briefLean": "Flat, wait-and-see tape into the midterms and AMD: memory, power gear and optics favored, Apple and software (SHOP, PLTR) under pressure; let JOLTS and the first 15 minutes set direction.",
+    "verdict": "partly",
+    "whatHappened": "SPY opened 752.73 (+0.08% gap), made its low at the 9:30 bar (752.39), broke the 30-minute range up at 10:45 but the break did not hold, then topped at 757.07 at 13:30 and faded to close 754.41 (+0.31%). The range was only 0.62% (0.7x usual) with 9 VWAP crosses. The gap-down earnings names SHOP, PLTR and AAPL all bounced off their opens instead of breaking lower.",
+    "why": "The election and AMD's report after the close kept positioning light, so the index went nowhere. The 10-year rose about 6 bp to 4.95% after a strong JOLTS gain, capping the rally; chips (SMH +2.0%) and AI power and optics (FN +15.5%, ETN +7.0%) led, while energy lagged (XLE -0.8%) and software bounced (IGV +0.8%).",
+    "earliestClue": "At 10:00 SPY was above VWAP but QQQ was below it and RSP was negative (clues disagreed, breadth gap -0.32), with a tight opening range (0.36x usual) and yields up 4.5 bp: a mixed, narrow start that pointed to chop rather than trend.",
+    "lesson": "On an event-wait day with a tight opening range and indexes disagreeing at 10:00, expect chop: index breakouts fail, and big earnings gap-downs tend to bounce off the open, so judge single names by the first 15 minutes, not the premarket gap.",
+    "by": "Close review routine"
+   }
+  },
   {
    "measured": {
     "date": "2026-11-02",
