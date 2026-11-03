@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-02T16:38:19.523380-05:00",
+ "updated": "2026-11-02T21:58:24.145102-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -223,8 +223,8 @@
      "closeLocation": 0.04,
      "highAt": "10:25",
      "lowAt": "15:55",
-     "vwapCrosses": 1,
-     "pctAboveVwapAfter10": 19
+     "vwapCrosses": 3,
+     "pctAboveVwapAfter10": 17
     },
     "expectedMovePct": 1.223,
     "actualMoveVsExpected": 0.39,
@@ -272,7 +272,7 @@
        "last": 760.45,
        "vsOpen": 0.132,
        "vsPrevClose": 0.626,
-       "vwap": 759.89,
+       "vwap": 759.65,
        "aboveVwap": true,
        "vwapCrosses": 0
       },
@@ -315,7 +315,7 @@
        "last": 763.64,
        "vsOpen": 0.551,
        "vsPrevClose": 1.047,
-       "vwap": 760.5,
+       "vwap": 760.64,
        "aboveVwap": true,
        "vwapCrosses": 0
       },
@@ -323,7 +323,7 @@
        "last": 699.32,
        "vsOpen": 0.575,
        "vsPrevClose": 1.278,
-       "vwap": 696.84,
+       "vwap": 695.51,
        "aboveVwap": true,
        "vwapCrosses": 2
       },
@@ -356,7 +356,7 @@
       "gapFilled": false
      }
     },
-    "summary": "Sell-off all day. SPY closed -0.48% on the day (-0.96% from the open). High-to-low it moved 1.62%, a bigger range than usual (2.0x the last 20 days). It broke the first 30 minutes' range up at 10:10 and that break did not hold. It crossed VWAP 1 times.",
+    "summary": "Sell-off all day. SPY closed -0.48% on the day (-0.96% from the open). High-to-low it moved 1.62%, a bigger range than usual (2.0x the last 20 days). It broke the first 30 minutes' range up at 10:10 and that break did not hold. It crossed VWAP 3 times.",
     "usEvents": []
    },
    "written": {
