@@ -1,50 +1,50 @@
 {
  "version": 2,
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "briefs": [
   {
    "version": 1,
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "slot": "morning",
    "slotLabel": "Morning brief",
-   "time": "08:26",
-   "generated": "2026-11-02T08:26:31.006131-05:00",
+   "time": "08:20",
+   "generated": "2026-11-03T08:20:17.937906-05:00",
    "prices": [
     {
      "name": "VIX",
-     "last": "19.43",
-     "change": "▲ +0.01 (+0.05%)",
-     "asOf": "8:11 AM ET"
+     "last": "21.45",
+     "change": "▲ +0.30 (+1.42%)",
+     "asOf": "8:05 AM ET"
     },
     {
      "name": "US10 (10-yr note futures)",
-     "last": "106.72",
-     "change": "▲ +0.08 (+0.07%)",
-     "asOf": "8:16 AM ET"
+     "last": "106.61",
+     "change": "▼ -0.25 (-0.23%)",
+     "asOf": "8:10 AM ET"
     },
     {
      "name": "US10Y yield",
-     "last": "4.929%",
-     "change": "• +0.000 (+0.00%)",
+     "last": "4.894%",
+     "change": "▼ -0.035 (-0.71%)",
      "asOf": "?"
     },
     {
      "name": "Crude oil (WTI)",
-     "last": "99.36",
-     "change": "▼ -4.76 (-4.57%)",
-     "asOf": "8:16 AM ET"
+     "last": "97.11",
+     "change": "▲ +0.65 (+0.67%)",
+     "asOf": "8:10 AM ET"
     },
     {
      "name": "SPY",
-     "last": "758.35",
-     "change": "▲ +2.63 (+0.35%)",
-     "asOf": "8:26 AM ET · premarket"
+     "last": "751.29",
+     "change": "▼ -0.81 (-0.11%)",
+     "asOf": "8:19 AM ET · premarket"
     },
     {
      "name": "QQQ",
-     "last": "694.75",
-     "change": "▲ +4.26 (+0.62%)",
-     "asOf": "8:26 AM ET · premarket"
+     "last": "683.35",
+     "change": "▲ +2.26 (+0.33%)",
+     "asOf": "8:20 AM ET · premarket"
     },
     {
      "name": "US2Y yield (futures)",
@@ -54,702 +54,41 @@
     },
     {
      "name": "US30Y yield",
-     "last": "5.309%",
-     "change": "• +0.000 (+0.00%)",
+     "last": "5.269%",
+     "change": "▼ -0.040 (-0.75%)",
      "asOf": "?"
     },
     {
      "name": "Brent crude",
-     "last": "108.45",
-     "change": "▼ -4.98 (-4.39%)",
-     "asOf": "8:16 AM ET"
+     "last": "104.87",
+     "change": "▲ +0.10 (+0.10%)",
+     "asOf": "8:10 AM ET"
     },
     {
      "name": "US dollar index",
-     "last": "101.63",
-     "change": "▼ -0.25 (-0.24%)",
-     "asOf": "8:16 AM ET"
+     "last": "101.86",
+     "change": "▲ +0.11 (+0.11%)",
+     "asOf": "8:10 AM ET"
     },
     {
      "name": "Gold",
-     "last": "3,908.20",
-     "change": "▲ +9.30 (+0.24%)",
-     "asOf": "8:16 AM ET"
+     "last": "3,944.80",
+     "change": "▼ -24.80 (-0.62%)",
+     "asOf": "8:10 AM ET"
     },
     {
      "name": "IWM (small caps)",
-     "last": "280.73",
-     "change": "▲ +1.40 (+0.50%)",
-     "asOf": "8:26 AM ET · premarket"
+     "last": "279.21",
+     "change": "▲ +0.07 (+0.02%)",
+     "asOf": "8:20 AM ET · premarket"
     }
    ],
    "events": [
-    {
-     "time": "10:30 PM",
-     "currency": "AUD",
-     "event": "Cash Rate",
-     "actual": "",
-     "forecast": "4.85%",
-     "previous": "4.60%"
-    },
-    {
-     "time": "10:30 PM",
-     "currency": "AUD",
-     "event": "RBA Monetary Policy Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "10:30 PM",
-     "currency": "AUD",
-     "event": "RBA Rate Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "11:30 PM",
-     "currency": "AUD",
-     "event": "RBA Press Conference",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    }
-   ],
-   "macro": [
-    {
-     "source": "CNBC",
-     "time": "Mon 7:40 AM",
-     "text": "WTI 99.36 (-4.6%), Brent 108.45 (-4.4%) as Rubio says Trump prefers diplomacy and Iran says a deal is still possible; WSJ/NYT report possible strikes after the midterms.",
-     "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
-    },
-    {
-     "source": "brief.py / Investing.com",
-     "time": "Mon 7:42 AM",
-     "text": "10-year ~4.93%, 30-year ~5.31% (2-year quote stale, ~4.75%). ISM manufacturing at 10:00 ET; jobs report Friday.",
-     "url": "https://www.investing.com/news/stock-market-news/asia-shares-bend-under-ai-stress-apple-earnings-loom-4989790"
-    },
-    {
-     "source": "Movers Report",
-     "time": "Sun 4:57 PM",
-     "text": "Fed: futures price ~75-85% odds of a Dec 9 hike; hawks Hammack (Thu) and Musalem (Fri) speak this week.",
-     "url": "https://claude.ai/artifact/XSmsugS1Sv2dWpMhcvEZqT"
-    },
-    {
-     "source": "Investing.com",
-     "time": "Mon 7:42 AM",
-     "text": "Midterms Tuesday: Democrats favored for the House, Senate too close to call; petrol prices near a record.",
-     "url": "https://www.investing.com/news/stock-market-news/asia-shares-bend-under-ai-stress-apple-earnings-loom-4989790"
-    },
-    {
-     "source": "CNBC",
-     "time": "Mon 12:09 AM",
-     "text": "Binance sees ~$3.6B net outflows after its record hack; Morgan Stanley cuts Coinbase to underweight (target $120 from $258), COIN -1.8%.",
-     "url": "https://www.cnbc.com/2026/11/02/binance-outflow-hack-bitcoin.html"
-    },
-    {
-     "source": "brief.py",
-     "time": "Mon 8:16 AM",
-     "text": "Dollar index 101.63 (-0.24%), gold 3,908 (+0.24%); Europe flat after Fitch cut France's outlook."
-    }
-   ],
-   "bigNames": [],
-   "read": "Mildly risk-on: SPY +0.35%, QQQ +0.62%, IWM +0.50% premarket after Friday's -1.8% S&P and -2.9% Nasdaq, a bounce inside a tech downtrend (SMH -17% in a month). VIX 19.43, 10-year ~4.93%, WTI under $100. No red U.S. events listed, but ISM manufacturing is at 10:00 ET: let the first 15 minutes and the ISM print set the range. Apple and Palantir report after the close; midterms tomorrow.",
-   "readthrough": {
-    "reporters": [],
-    "rows": [],
-    "note": "No mapped company reported; today's biggest gaps come from deal and financing news (Marvell-Lumentum, Oracle's bond sale) and upgrades, not earnings."
-   },
-   "flows": [
-    {
-     "symbol": "ARKK",
-     "name": "High-growth tech",
-     "premarket": 1.14,
-     "yesterday": -6.07,
-     "d5": -1.51,
-     "d20": -10.11
-    },
-    {
-     "symbol": "SMH",
-     "name": "Semiconductors",
-     "premarket": 1.0,
-     "yesterday": -6.98,
-     "d5": -0.89,
-     "d20": -17.14
-    },
-    {
-     "symbol": "XLI",
-     "name": "Industrials",
-     "premarket": 0.72,
-     "yesterday": -1.6,
-     "d5": 1.69,
-     "d20": -1.5
-    },
-    {
-     "symbol": "XLK",
-     "name": "Technology",
-     "premarket": 0.65,
-     "yesterday": -4.89,
-     "d5": -2.03,
-     "d20": -10.16
-    },
-    {
-     "symbol": "XLY",
-     "name": "Consumer discretionary",
-     "premarket": 0.62,
-     "yesterday": -0.71,
-     "d5": 2.02,
-     "d20": 4.85
-    },
-    {
-     "symbol": "IGV",
-     "name": "Software",
-     "premarket": 0.59,
-     "yesterday": -3.41,
-     "d5": -5.7,
-     "d20": -3.82
-    },
-    {
-     "symbol": "IWM",
-     "name": "Small caps",
-     "premarket": 0.5,
-     "yesterday": -1.65,
-     "d5": 1.3,
-     "d20": -0.78
-    },
-    {
-     "symbol": "XLF",
-     "name": "Financials",
-     "premarket": 0.39,
-     "yesterday": -0.76,
-     "d5": 1.09,
-     "d20": 5.65
-    },
-    {
-     "symbol": "XLB",
-     "name": "Materials",
-     "premarket": 0.38,
-     "yesterday": 0.4,
-     "d5": 2.79,
-     "d20": 7.94
-    },
-    {
-     "symbol": "XLP",
-     "name": "Consumer staples",
-     "premarket": 0.37,
-     "yesterday": 1.41,
-     "d5": 1.31,
-     "d20": 11.04
-    },
-    {
-     "symbol": "XLV",
-     "name": "Health care",
-     "premarket": 0.18,
-     "yesterday": 0.45,
-     "d5": 3.12,
-     "d20": 11.25
-    },
-    {
-     "symbol": "XLU",
-     "name": "Utilities (power)",
-     "premarket": 0.13,
-     "yesterday": 0.67,
-     "d5": 2.04,
-     "d20": 9.04
-    },
-    {
-     "symbol": "XLC",
-     "name": "Communication",
-     "premarket": 0.02,
-     "yesterday": -1.29,
-     "d5": -5.32,
-     "d20": -9.45
-    },
-    {
-     "symbol": "XLRE",
-     "name": "Real estate",
-     "premarket": -0.2,
-     "yesterday": 0.26,
-     "d5": 1.41,
-     "d20": 5.78
-    },
-    {
-     "symbol": "XLE",
-     "name": "Energy",
-     "premarket": -1.29,
-     "yesterday": 1.91,
-     "d5": 1.0,
-     "d20": 11.46
-    }
-   ],
-   "scenario": "Scenario in play: if an Iran deal is reached, the report expects airlines and consumers to lead and VLO, MPC, PSX to fall hardest; premarket VLO -1.8%, MPC -1.5%, XOM -1.3%.",
-   "earnings": [
-    {
-     "symbol": "MAR",
-     "move": "+3.9%",
-     "result": "Adj. EPS $3.02 vs its own $2.74-2.82 guide; RevPAR +6.5% (U.S. & Canada +7.4%); raised full-year room revenue growth forecast.",
-     "meaning": "Travel demand holding up despite record petrol prices.",
-     "source": "Marriott 8-K / Investing.com",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001048286/000104828626000040/mar-2026q3xex99earningsrel.htm"
-    },
-    {
-     "symbol": "EL",
-     "move": "+2.5%",
-     "result": "Fiscal Q1 adj. EPS $0.72 vs $0.51 expected; revenue $3.72B vs $3.65B; raised full-year earnings outlook.",
-     "meaning": "Margin-led turnaround keeps beating; stock near highs (+18.8% in 20 days).",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-premarket-crwd-rivn-mu.html"
-    },
-    {
-     "symbol": "ETR",
-     "move": "+0.2%",
-     "result": "Beat Q3 earnings and revenue estimates; narrowed 2026 adjusted EPS guidance.",
-     "meaning": "Steady utility, little read-through.",
-     "source": "Zacks via Yahoo",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/entergy-etr-beats-q3-earnings-114502059.html"
-    }
-   ],
-   "flowNote": "Money is coming back into the hardest-hit AI groups after Friday's rout: ARKK +1.14%, SMH +1.00% and XLK +0.65% lead premarket, with industrials (XLI +0.72%) and discretionary (XLY +0.62%) helped by cheaper oil. Energy is the funding source (XLE -1.29%) as WTI drops below $100 on Iran diplomacy; real estate lags. Defensives lead over a month but are flat-to-up today, so this reads as a relief bounce, not a full rotation.",
-   "inPlay": [
-    {
-     "symbol": "MRVL",
-     "linkedTo": "Lumentum deal",
-     "why": "$115B all-stock deal for LITE (4.5 MRVL per share, ~24% premium to Oct 28), >$1B savings, close 1H 2028; traded +3% early, then reversed.",
-     "gap": "-3.26%",
-     "pmHigh": "205.66",
-     "pmLow": "189.00",
-     "prevHigh": "207.61",
-     "prevLow": "190.15",
-     "prevClose": "196.40",
-     "setup": "Gap and go (down) / PM high-low break",
-     "target": "new lows below 189.00 down; 196.40, then 205.66 up (real news, full fill less likely)",
-     "momentum": "5d -14.1%, 20d -27.9%, ~20% below 20d/50d, rel vol 1.99",
-     "options": "Weekly ±9.11% by Nov 6, spread 52.9% (stale), vol/OI 5235/4051",
-     "calls": "Holds 189.00 and reclaims 196.40",
-     "puts": "Breaks 189.00 after the opening range, stays below VWAP",
-     "thesis": "The report flagged deal dilution weighing on MRVL in its AI chips and optics row."
-    },
-    {
-     "symbol": "PLTR",
-     "linkedTo": "Own report after close",
-     "why": "Reports after the close; needs another sizable full-year raise and U.S. commercial growth well above 100%.",
-     "gap": "+1.88%",
-     "pmHigh": "187.96",
-     "pmLow": "185.63",
-     "prevHigh": "193.92",
-     "prevLow": "180.81",
-     "prevClose": "184.11",
-     "setup": "PM high break / ORB into earnings",
-     "target": "~190.43 (50d) up; 184.11 close down",
-     "momentum": "5d -6.4%, below 20d (-6.7%), near 50d (-1.5%), rel vol 1.20",
-     "options": "Weekly ±13.19% by Nov 6 (earnings premium), spread 30.3% (stale), vol/OI 12722/13195",
-     "calls": "Holds above 187.96 after the opening range",
-     "puts": "Loses 185.63 and the report's 186.49 level",
-     "thesis": "The report's uptrend line is ~186.49."
-    },
-    {
-     "symbol": "MU",
-     "linkedTo": "Memory bounce (SNDK, WDC)",
-     "why": "No Micron news; memory names +~2% as traders return after Friday's unwind.",
-     "gap": "+1.13%",
-     "pmHigh": "914.00",
-     "pmLow": "892.87",
-     "prevHigh": "906.54",
-     "prevLow": "861.59",
-     "prevClose": "884.74",
-     "setup": "Break and retest",
-     "target": "914.00 then extension up; 884.74 down",
-     "momentum": "5d +0.8%, 20d -17.7%, below 20d (~961) and 50d (~990), rel vol 1.19",
-     "options": "Weekly ±5.28% by Nov 4, spread 43.6% (stale), vol/OI 1273/392",
-     "calls": "Breaks 914.00, or retests 906.54 and holds",
-     "puts": "Loses 892.87, then 884.74",
-     "thesis": "Memory as the crowded trade the report flags."
-    },
-    {
-     "symbol": "ORCL",
-     "linkedTo": "$10B bond offering",
-     "why": "$10B high-grade bond sale vs a Stephens upgrade to overweight (target $213); new debt is real information, so a full fill is not a given.",
-     "gap": "-3.83%",
-     "pmHigh": "133.06",
-     "pmLow": "125.27",
-     "prevHigh": "135.20",
-     "prevLow": "129.00",
-     "prevClose": "130.67",
-     "setup": "Gap fill",
-     "target": "fills toward 129.00, then the 130.67 close; new lows below 125.27 down",
-     "momentum": "Below 20d (-3.0%) and 50d (-7.9%), rel vol 1.30",
-     "options": "Weekly ±6.98% by Nov 6, spread 117% (stale, check after 9:30), vol/OI 451/1227",
-     "calls": "Holds 125.27, reclaims VWAP, then 129.00",
-     "puts": "Breaks 125.27 after the opening range",
-     "thesis": "Debt-funded AI builders are what a December hike hurts most, per the report's scenarios."
-    },
-    {
-     "symbol": "NVDA",
-     "linkedTo": "Chip bounce",
-     "why": "Relief rally after SMH -7.0% Friday; Melius cut target to $315 (still buy), Bernstein reiterated overweight.",
-     "gap": "+0.74%",
-     "pmHigh": "208.11",
-     "pmLow": "204.13",
-     "prevHigh": "209.06",
-     "prevLow": "200.92",
-     "prevClose": "204.64",
-     "setup": "Opening range breakout",
-     "target": "209.06 up; 200.92 down",
-     "momentum": "5d -3.0%, 20d -12.5%, ~7.6% below 20d/50d (~223), rel vol 1.69",
-     "options": "Weekly ±3.58% by Nov 4, spread 28.2% (stale), vol/OI 11936/4776",
-     "calls": "Breaks 208.11, then 209.06, after the opening range",
-     "puts": "Loses 204.13 and the 204.64 close"
-    }
-   ],
-   "swings": [
-    {
-     "symbol": "AAPL",
-     "linkedTo": "Own report tonight",
-     "why": "First report under CEO John Ternus; last guide 47-48% gross margin; Barclays reiterated underweight.",
-     "setup": "Post-earnings drift",
-     "trend": "Above 20d (+0.7%, ~342) and 50d (+3.5%, ~333)",
-     "options": "±6.35% by Nov 27, spread 32.7% (stale), vol/OI 1427/1203; earnings tonight, inside the window",
-     "confirm": "Holds above ~342 after the report and builds above 349.19",
-     "invalidate": "Close below the ~333 50-day after the report",
-     "thesis": "The report's memory-cost row tests Apple's margin guide."
-    },
-    {
-     "symbol": "AMD",
-     "linkedTo": "Own report Tue after close",
-     "why": "Helios (MI450) ships this quarter, data center guided to more than double in 2027; Intel's memory-cost warning is the risk. AMD names Anthropic (which builds me) as an anchor customer.",
-     "setup": "Post-earnings drift / trend reclaim",
-     "trend": "20d -20.4%; below 20d (~577) and 50d (~555)",
-     "options": "±13.84% by Nov 27, spread 24.6% (stale), vol/OI 232/406; earnings Nov 3 inside the window",
-     "confirm": "Reclaims and holds the ~555 50-day after the report",
-     "invalidate": "Post-report close below 492.21",
-     "thesis": "The report's memory-cost row (client chips) vs the Helios data-center ramp."
-    },
-    {
-     "symbol": "MU",
-     "linkedTo": "Memory read-through (AMD, AAPL, QCOM)",
-     "why": "This week's reports show whether memory price rises stick.",
-     "setup": "Trend pullback",
-     "trend": "20d -17.7%; below 20d (~961) and 50d (~990)",
-     "options": "±11.55% by Nov 27, spread 15.6%, vol/OI 192/320; no earnings in the window",
-     "confirm": "Holds above 906.54 and works back toward the ~961 20-day",
-     "invalidate": "Close below 861.59",
-     "thesis": "Memory pricing power vs the crowded-trade unwind the report flags."
-    }
-   ],
-   "snapshot": {
-    "focus": [
-     "Marvell buys Lumentum for $115B in stock (4.5 MRVL per LITE); MRVL -3.3%, LITE -5.8%",
-     "Oil slides on U.S.-Iran talk: WTI $99.36 (-4.6%), Brent $108.45 (-4.4%); XLE -1.3%",
-     "Chips bounce after Friday's rout (SMH -7.0%): SMH +1.0%, QQQ +0.6% premarket",
-     "Palantir (±13.2% priced) and Apple (±4.3%) report after the close",
-     "Oracle -3.8% on a $10B bond sale; CrowdStrike +2.6% on a Deutsche Bank upgrade",
-     "ISM manufacturing 10:00 ET; midterms tomorrow; AMD, SMCI, ANET report Tuesday"
-    ],
-    "bigPicture": [
-     "The market punishes debt-funded, cash-burning AI spenders (Oracle's bond sale, Alphabet and Amazon's negative free cash flow) and pays suppliers only when orders are confirmed.",
-     "October was the Nasdaq's worst month in over a year and Friday closed S&P -1.8%, Nasdaq -2.9%; today's bounce is a relief bid with no new AI earnings behind it yet.",
-     "With a Dec 9 hike the base case (~75-85% in futures) and the 10-year near 4.93%, high-multiple tech is the funding source whenever yields rise.",
-     "Oil is the swing factor: an Iran deal eases inflation and helps rate-sensitive tech, but U.S. reports say strikes are being prepared after the midterms."
-    ],
-    "takeaway": "A relief bounce with no new AI earnings behind it: the tests are Palantir and Apple tonight and AMD, SMCI and ANET tomorrow, with the midterms in between. Let the 10:00 ISM print and the first 15 minutes show whether buyers hold the premarket highs before trusting any long-side setup."
-   },
-   "sectors": [
-    {
-     "sector": "AI cloud",
-     "tone": "Credit worries",
-     "bias": "mixed",
-     "text": "Oracle's $10B bond sale (-3.8%) is a reminder that the AI build is debt-funded; Citi gave up on its hyperscaler bet while PhillipCapital upgraded Amazon.",
-     "names": [
-      "ORCL",
-      "CRWV",
-      "AMZN",
-      "MSFT",
-      "GOOGL"
-     ]
-    },
-    {
-     "sector": "AI infrastructure",
-     "tone": "Oversold bounce",
-     "bias": "up",
-     "text": "Vertiv (+1.5%, +19.7% in 5 days) and Bloom rebound after Friday's slide; SMCI and ANET report Tuesday after close and Eaton before Tuesday's open.",
-     "names": [
-      "VRT",
-      "ANET",
-      "SMCI",
-      "ETN",
-      "GEV"
-     ]
-    },
-    {
-     "sector": "AI chips and memory",
-     "tone": "Relief rally",
-     "bias": "up",
-     "text": "SMH +1.0% after -7.0% Friday; MU +1.1%, AMD +1.2%, NVDA +0.7% with no new news. Marvell is the exception, -3.3% on dilution from its Lumentum deal.",
-     "names": [
-      "NVDA",
-      "AMD",
-      "MU",
-      "MRVL",
-      "LITE",
-      "SNDK"
-     ]
-    },
-    {
-     "sector": "AI software",
-     "tone": "Upgrades lift security",
-     "bias": "up",
-     "text": "Deutsche Bank's CrowdStrike upgrade (+2.6%) lifts Palo Alto (+1.2%); Palantir +1.9% into tonight's report. IGV still -5.7% over 5 days.",
-     "names": [
-      "PLTR",
-      "CRWD",
-      "PANW",
-      "NOW"
-     ]
-    },
-    {
-     "sector": "Oil & gas",
-     "tone": "Under pressure",
-     "bias": "down",
-     "text": "WTI under $100 (-4.6%) on U.S.-Iran diplomacy; XLE -1.3%, refiners worst (VLO -1.8%, MPC -1.5%; MPC reports Tuesday).",
-     "names": [
-      "XOM",
-      "CVX",
-      "VLO",
-      "MPC",
-      "COP",
-      "OXY"
-     ]
-    }
-   ],
-   "likelyMovers": [
-    {
-     "symbol": "PLTR",
-     "sector": "AI software",
-     "tailwind": "Reports after the close; options price ±13.2% by Friday.",
-     "momentum": "+1.9% PM; 5d -6.4%; below 20d (-6.7%), near 50d (-1.5%); rel vol 1.2",
-     "up": "Another sizable full-year raise and U.S. commercial growth well above 100%.",
-     "down": "An in-line guide; a close below ~186.49 breaks its uptrend (report)."
-    },
-    {
-     "symbol": "MRVL",
-     "sector": "AI chips",
-     "tailwind": "$115B all-stock Lumentum deal; >$1B savings, accretive in year one.",
-     "momentum": "-3.3% PM after +3% earlier; 5d -14.1%, 20d -27.9%; ~20% below 20d/50d; rel vol 1.99",
-     "up": "Holds 189.00 and reclaims 196.40.",
-     "down": "Breaks 189.00 as dilution and a 2028 close weigh."
-    },
-    {
-     "symbol": "AAPL",
-     "sector": "Hardware",
-     "tailwind": "Reports after the close; options price ±4.3% by Wednesday.",
-     "momentum": "Flat PM; above 20d (+0.7%) and 50d (+3.5%); rel vol 1.75",
-     "up": "iPhone strength and a margin guide near 47-48% despite memory costs.",
-     "down": "Memory costs dent the margin guide, as Intel warned."
-    },
-    {
-     "symbol": "LITE",
-     "sector": "AI optics",
-     "tailwind": "Deal target at 4.5 MRVL shares; reports Nov 5.",
-     "momentum": "-5.8% PM to 792 vs ~855 implied by MRVL at 190; rel vol 1.52",
-     "up": "The deal spread narrows as MRVL firms.",
-     "down": "MRVL keeps falling, dragging the implied value down."
-    },
-    {
-     "symbol": "AMD",
-     "sector": "AI chips",
-     "tailwind": "Reports Tuesday after close; options price ±8.4%.",
-     "momentum": "+1.2% PM; 20d -20.4%; 11.5% below 20d; rel vol 2.03",
-     "up": "Chips extend the bounce above 519.58 into the report.",
-     "down": "Breaks 510.05 and Friday's selling resumes."
-    },
-    {
-     "symbol": "MU",
-     "sector": "Memory",
-     "tailwind": "Memory bounce with SNDK and WDC after Friday's unwind.",
-     "momentum": "+1.1% PM; PM high 914 above Friday's 906.54 high; 20d -17.7%; rel vol 1.19",
-     "up": "Holds above 906.54 after the open.",
-     "down": "Loses 892.87 and the unwind continues."
-    },
-    {
-     "symbol": "ORCL",
-     "sector": "AI cloud",
-     "tailwind": "$10B bond sale vs a Stephens upgrade (target $213).",
-     "momentum": "-3.8% PM; below 20d (-3.0%) and 50d (-7.9%); rel vol 1.3",
-     "up": "Reclaims 129.00 as the bond sale is absorbed.",
-     "down": "Stays below 125.27 as credit worries spread."
-    },
-    {
-     "symbol": "CRWD",
-     "sector": "Cybersecurity",
-     "tailwind": "Deutsche Bank upgrade to buy, target $300.",
-     "momentum": "+2.6% PM; above 50d (+4.2%), just under 20d (-1.8%); rel vol 1.44",
-     "up": "Holds above 260.00 and pushes toward 264.90.",
-     "down": "Fades below 254.00."
-    },
-    {
-     "symbol": "VLO",
-     "sector": "Oil refiners",
-     "tailwind": "Iran-deal reports hit refiners hardest, as the report's scenario says.",
-     "momentum": "-1.8% PM; 5d -4.7%; 6.2% below 20d; rel vol 1.64",
-     "up": "Talks stall and oil rebounds above $100.",
-     "down": "Diplomacy headlines push WTI further below $100."
-    },
-    {
-     "symbol": "NVDA",
-     "sector": "AI chips",
-     "tailwind": "Chip bounce; Melius cut target to $315 (still buy), Bernstein overweight.",
-     "momentum": "+0.7% PM; ~7.6% below 20d/50d; rel vol 1.69",
-     "up": "Reclaims 208.11 with the chip group.",
-     "down": "Loses 204.13 as the bounce fails."
-    }
-   ]
-  },
-  {
-   "version": 1,
-   "date": "2026-11-02",
-   "slot": "close",
-   "slotLabel": "Close review",
-   "time": "16:35",
-   "generated": "2026-11-02T16:35:53.773474-05:00",
-   "prices": [
-    {
-     "name": "VIX",
-     "last": "21.15",
-     "change": "▲ +1.73 (+8.91%) · open +11.02%",
-     "asOf": "4:15 PM ET"
-    },
-    {
-     "name": "US10 (10-yr note futures)",
-     "last": "106.77",
-     "change": "▲ +0.12 (+0.12%) · open -0.06%",
-     "asOf": "4:25 PM ET"
-    },
-    {
-     "name": "US10Y yield",
-     "last": "4.894%",
-     "change": "▼ -0.035 (-0.71%)",
-     "asOf": "2:55 PM ET"
-    },
-    {
-     "name": "Crude oil (WTI)",
-     "last": "96.07",
-     "change": "▼ -8.05 (-7.73%) · open -1.40%",
-     "asOf": "4:25 PM ET"
-    },
-    {
-     "name": "SPY",
-     "last": "752.92",
-     "change": "▼ -2.80 (-0.37%) · open -0.86%",
-     "asOf": "4:35 PM ET"
-    },
-    {
-     "name": "QQQ",
-     "last": "682.64",
-     "change": "▼ -7.85 (-1.14%) · open -1.82%",
-     "asOf": "4:35 PM ET"
-    }
-   ],
-   "events": [
-    {
-     "time": "10:30 PM",
-     "currency": "AUD",
-     "event": "Cash Rate",
-     "actual": "",
-     "forecast": "4.85%",
-     "previous": "4.60%"
-    },
-    {
-     "time": "10:30 PM",
-     "currency": "AUD",
-     "event": "RBA Monetary Policy Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "10:30 PM",
-     "currency": "AUD",
-     "event": "RBA Rate Statement",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    },
-    {
-     "time": "11:30 PM",
-     "currency": "AUD",
-     "event": "RBA Press Conference",
-     "actual": "",
-     "forecast": "",
-     "previous": ""
-    }
-   ],
-   "macro": [
-    {
-     "source": "CNBC",
-     "time": "3:19 PM",
-     "text": "Crude sells off more than 7% on Iran peace-talk hopes ahead of the midterms; WTI ends near $96.",
-     "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
-    },
-    {
-     "source": "CNBC",
-     "time": "4:10 PM",
-     "text": "Oracle files to sell $20 billion in new stock and bonds to finance its AI buildout; ORCL −8.8%.",
-     "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
-    },
-    {
-     "source": "Investing.com",
-     "time": "4:13 PM",
-     "text": "Nasdaq ends lower as tech slumps again, offsetting the rotation trade and the slide in oil.",
-     "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-edge-high-after-bruising-oct-earnings-elections-in-focus-4989789"
-    },
-    {
-     "source": "CNBC",
-     "time": "3:48 PM",
-     "text": "Prediction markets see nearly a 75% chance of Democrats winning the Senate in Tuesday's midterms.",
-     "url": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html"
-    }
-   ],
-   "bigNames": [
-    {
-     "symbol": "PLTR",
-     "move": "−3.1%",
-     "text": "Q3 revenue +96% and a raised full-year outlook; U.S. commercial revenue topped government for the first time.",
-     "source": "CNBC",
-     "time": "4:30 PM",
-     "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html"
-    },
-    {
-     "symbol": "AAPL",
-     "move": "−1.8%",
-     "text": "Beat on quarterly revenue in John Ternus' first report as CEO; early after-hours print slightly lower.",
-     "source": "CNBC",
-     "time": "4:33 PM",
-     "url": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html"
-    },
-    {
-     "symbol": "ORCL",
-     "move": "−8.8%",
-     "text": "Filed to raise $20B in stock and bonds for its AI buildout, after this morning's $10B bond sale.",
-     "source": "CNBC",
-     "time": "4:10 PM",
-     "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
-    },
-    {
-     "symbol": "MRVL / LITE",
-     "move": "−12.7% / −18.6%",
-     "text": "Both slid all day after the $115B all-stock Lumentum deal; MarketWatch likens it to the dot-com era.",
-     "source": "MarketWatch",
-     "time": "12:32 PM",
-     "url": "https://www.marketwatch.com/story/marvell-and-lumentum-officially-plan-to-combine-heres-what-to-know-5599b98a?mod=mw_rss_topstories"
-    }
-   ],
-   "read": "Bounce failed after 10:25. SPY broke its range up at 10:10, peaked 763.86 at 10:25, then slid and closed near the low at 752.12 (−0.48%); QQQ −1.2%, SMH −2.7%, VIX 21.15 despite WTI −7.7%. MRVL, ORCL, MU and PLTR setups all went puts side; NVDA hit 209.98 then lost 204.13. Money left tech and energy for airlines, discretionary and banks. Tomorrow: midterms; AMD reports after close.",
-   "tomorrow": [
     {
      "time": "10:16 AM",
      "currency": "USD",
      "event": "Congressional Elections",
+     "actual": "",
      "forecast": "",
      "previous": ""
     },
@@ -757,6 +96,7 @@
      "time": "4:45 PM",
      "currency": "NZD",
      "event": "Employment Change q/q",
+     "actual": "",
      "forecast": "0.4%",
      "previous": "0.5%"
     },
@@ -764,67 +104,723 @@
      "time": "4:45 PM",
      "currency": "NZD",
      "event": "Unemployment Rate",
+     "actual": "",
      "forecast": "5.5%",
      "previous": "5.6%"
     }
    ],
-   "readthroughNext": [
+   "macro": [
     {
-     "symbol": "AAPL",
-     "time": "after close 2026-11-02",
-     "related": [
-      "MU",
-      "SKHY",
-      "AVGO",
-      "QCOM",
-      "TSM",
-      "SNDK"
-     ]
+     "source": "CNBC",
+     "time": "Tue 4:58 AM",
+     "text": "WTI 97.11 (+0.7%), Brent ~$105-106 after WSJ reports a U.S. strike on Iran's Qeshm Island; Vance 'feels really good' about a settlement. Oil fell 7%+ Monday.",
+     "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+    },
+    {
+     "source": "Yahoo Finance",
+     "time": "Tue 7:32 AM",
+     "text": "10-year 4.894% (-3.5 bp), 30-year 5.269%; 2-year quote stale (~4.75%). JOLTS (7.1M expected) and factory orders (+1.1%) at 10:00 ET.",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html"
+    },
+    {
+     "source": "Movers Report / FT",
+     "time": "Tue",
+     "text": "No Fed speakers today; futures price ~75-85% odds of a Dec 9 hike; Hammack Thu, jobs and Musalem Fri. Australia hiked overnight to the highest since 2008.",
+     "url": "https://www.ft.com/content/60283bdf-e45d-4723-a68e-5a857a5b949e"
+    },
+    {
+     "source": "Yahoo Finance",
+     "time": "Tue 7:32 AM",
+     "text": "Midterms: prediction markets put Democratic Senate control at 73.1%, polling models 80.3%; Democrats favored for the House. Results after the close.",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-090846378.html"
+    },
+    {
+     "source": "Investing.com",
+     "time": "Tue 8:02 AM",
+     "text": "Anthropic (which makes me) aims to double compute to ~7 GW in 2027 from 3.5 GW+, per NYT; supportive for power and data center suppliers.",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-targets-doubling-computing-capacity-to-7-gigawatts-next-year-nyt-report-4994999"
+    },
+    {
+     "source": "brief.py",
+     "time": "Tue 8:10 AM",
+     "text": "Dollar index 101.86 (+0.11%), gold 3,944.80 (-0.62%)."
+    }
+   ],
+   "bigNames": [],
+   "read": "Mixed: SPY -0.11% premarket (751.29), QQQ +0.33%, IWM flat, Dow futures ~-0.7%, partly reversing Monday's rotation out of tech (SMH +2.44% after -2.71%). VIX closed at 21.45; 10-year 4.894%. Congressional elections today, results after the close; JOLTS and factory orders at 10:00 ET. Let the first 15 minutes and the yield reaction to JOLTS set direction; AMD reports tonight.",
+   "readthrough": {
+    "reporters": [
+     {
+      "symbol": "AAPL",
+      "time": "after close 2026-11-02",
+      "move": "-3.85%"
+     },
+     {
+      "symbol": "PLTR",
+      "time": "after close 2026-11-02",
+      "move": "-5.55%"
+     },
+     {
+      "symbol": "ETN",
+      "time": "before open 2026-11-03",
+      "move": "+1.84%"
+     },
+     {
+      "symbol": "MPC",
+      "time": "before open 2026-11-03",
+      "move": "+1.54%"
+     }
+    ],
+    "rows": [
+     {
+      "symbol": "SNDK",
+      "group": "Memory costs (devices)",
+      "linkedTo": [
+       "AAPL"
+      ],
+      "last": "1,124.00",
+      "gap": 4.55,
+      "pmHigh": "1,134.73",
+      "pmLow": "1,074.17"
+     },
+     {
+      "symbol": "MU",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AAPL"
+      ],
+      "last": "864.26",
+      "gap": 3.68,
+      "pmHigh": "868.88",
+      "pmLow": "825.25"
+     },
+     {
+      "symbol": "DDOG",
+      "group": "AI software",
+      "linkedTo": [
+       "PLTR"
+      ],
+      "last": "209.91",
+      "gap": -2.86,
+      "pmHigh": "218.93",
+      "pmLow": "207.06"
+     },
+     {
+      "symbol": "SKHY",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AAPL"
+      ],
+      "last": "151.80",
+      "gap": 2.77,
+      "pmHigh": "152.85",
+      "pmLow": "146.75"
+     },
+     {
+      "symbol": "CRM",
+      "group": "AI software",
+      "linkedTo": [
+       "PLTR"
+      ],
+      "last": "220.66",
+      "gap": -2.44,
+      "pmHigh": "224.42",
+      "pmLow": "220.08"
+     },
+     {
+      "symbol": "VRT",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "ETN"
+      ],
+      "last": "229.24",
+      "gap": 2.23,
+      "pmHigh": "231.33",
+      "pmLow": "222.01"
+     },
+     {
+      "symbol": "GEV",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "ETN"
+      ],
+      "last": "880.00",
+      "gap": 2.06,
+      "pmHigh": "880.00",
+      "pmLow": "859.19"
+     },
+     {
+      "symbol": "AVGO",
+      "group": "AI cloud & capex",
+      "linkedTo": [
+       "AAPL"
+      ],
+      "last": "328.50",
+      "gap": 1.95,
+      "pmHigh": "329.00",
+      "pmLow": "322.07"
+     },
+     {
+      "symbol": "SNOW",
+      "group": "AI software",
+      "linkedTo": [
+       "PLTR"
+      ],
+      "last": "285.39",
+      "gap": -1.82,
+      "pmHigh": "290.50",
+      "pmLow": "282.90"
+     },
+     {
+      "symbol": "NOW",
+      "group": "AI software",
+      "linkedTo": [
+       "PLTR"
+      ],
+      "last": "104.40",
+      "gap": -1.52,
+      "pmHigh": "106.01",
+      "pmLow": "103.70"
+     },
+     {
+      "symbol": "QCOM",
+      "group": "Memory costs (devices)",
+      "linkedTo": [
+       "AAPL"
+      ],
+      "last": "164.50",
+      "gap": 1.49,
+      "pmHigh": "165.33",
+      "pmLow": "161.74"
+     },
+     {
+      "symbol": "BKR",
+      "group": "Oil & gas",
+      "linkedTo": [
+       "MPC"
+      ],
+      "last": "53.81",
+      "gap": 1.43,
+      "pmHigh": "53.81",
+      "pmLow": "53.48"
+     },
+     {
+      "symbol": "ADBE",
+      "group": "AI software",
+      "linkedTo": [
+       "PLTR"
+      ],
+      "last": "248.08",
+      "gap": -1.35,
+      "pmHigh": "251.65",
+      "pmLow": "247.27"
+     },
+     {
+      "symbol": "MDB",
+      "group": "AI software",
+      "linkedTo": [
+       "PLTR"
+      ],
+      "last": "326.25",
+      "gap": -1.27,
+      "pmHigh": "332.00",
+      "pmLow": "323.00"
+     },
+     {
+      "symbol": "CEG",
+      "group": "AI power & cooling",
+      "linkedTo": [
+       "ETN"
+      ],
+      "last": "260.30",
+      "gap": 1.19,
+      "pmHigh": "261.58",
+      "pmLow": "256.36"
+     }
+    ],
+    "reportUrl": "https://claude.ai/artifact/XSmsugS1Sv2dWpMhcvEZqT",
+    "reportName": "Market & Sector Movers Report",
+    "note": "Apple's memory-cost warning drives the biggest gaps (SNDK, MU, SKHY up), while Palantir's slower bookings pull AI software (DDOG, CRM, SNOW) lower."
+   },
+   "flows": [
+    {
+     "symbol": "SMH",
+     "name": "Semiconductors",
+     "premarket": 2.44,
+     "yesterday": -2.71,
+     "d5": -6.15,
+     "d20": -19.81
+    },
+    {
+     "symbol": "XLK",
+     "name": "Technology",
+     "premarket": 0.42,
+     "yesterday": -2.95,
+     "d5": -6.49,
+     "d20": -13.29
+    },
+    {
+     "symbol": "XLE",
+     "name": "Energy",
+     "premarket": 0.37,
+     "yesterday": -3.96,
+     "d5": -3.43,
+     "d20": 5.99
+    },
+    {
+     "symbol": "XLC",
+     "name": "Communication",
+     "premarket": 0.35,
+     "yesterday": 0.36,
+     "d5": -3.46,
+     "d20": -10.17
+    },
+    {
+     "symbol": "XLI",
+     "name": "Industrials",
+     "premarket": 0.31,
+     "yesterday": 1.38,
+     "d5": 1.65,
+     "d20": -0.23
+    },
+    {
+     "symbol": "XLU",
+     "name": "Utilities (power)",
+     "premarket": 0.14,
+     "yesterday": 0.55,
+     "d5": 2.63,
+     "d20": 9.26
+    },
+    {
+     "symbol": "IWM",
+     "name": "Small caps",
+     "premarket": 0.02,
+     "yesterday": -0.07,
+     "d5": 0.78,
+     "d20": -1.5
+    },
+    {
+     "symbol": "ARKK",
+     "name": "High-growth tech",
+     "premarket": -0.11,
+     "yesterday": -2.22,
+     "d5": -3.52,
+     "d20": -14.9
+    },
+    {
+     "symbol": "XLRE",
+     "name": "Real estate",
+     "premarket": -0.27,
+     "yesterday": 1.09,
+     "d5": 1.96,
+     "d20": 7.3
+    },
+    {
+     "symbol": "XLY",
+     "name": "Consumer discretionary",
+     "premarket": -0.35,
+     "yesterday": 2.41,
+     "d5": 3.41,
+     "d20": 7.01
+    },
+    {
+     "symbol": "XLB",
+     "name": "Materials",
+     "premarket": -0.48,
+     "yesterday": 1.76,
+     "d5": 4.46,
+     "d20": 8.42
+    },
+    {
+     "symbol": "XLV",
+     "name": "Health care",
+     "premarket": -0.5,
+     "yesterday": -0.15,
+     "d5": 2.97,
+     "d20": 10.29
+    },
+    {
+     "symbol": "XLF",
+     "name": "Financials",
+     "premarket": -0.62,
+     "yesterday": 1.86,
+     "d5": 2.75,
+     "d20": 6.83
+    },
+    {
+     "symbol": "XLP",
+     "name": "Consumer staples",
+     "premarket": -0.8,
+     "yesterday": 1.58,
+     "d5": 3.26,
+     "d20": 12.08
+    },
+    {
+     "symbol": "IGV",
+     "name": "Software",
+     "premarket": -1.28,
+     "yesterday": -2.29,
+     "d5": -8.52,
+     "d20": -7.13
+    }
+   ],
+   "scenario": "Scenario in play: if memory costs squeeze chip buyers, the report expects MU and SKHY to lead and AAPL margins, AMD client, QCOM to lag; MU +3.7%, SKHY +2.8%, AAPL -3.8% so far, AMD/QCOM not yet.",
+   "earnings": [
+    {
+     "symbol": "SHOP",
+     "move": "-15.2%",
+     "result": "Adj. EPS $0.49 vs $0.47; revenue $3.74B (+32%) in line; GMV $119.15B vs $120.08B and subscriptions $836M vs $850.2M missed; Q4 guide low-30s% growth.",
+     "meaning": "Slowing GMV outweighs the profit beat at Shopify's multiple.",
+     "source": "Investing.com via Yahoo",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-tanks-19-premarket-q3-125409592.html"
     },
     {
      "symbol": "PLTR",
-     "time": "after close 2026-11-02",
-     "related": [
-      "NOW",
-      "CRM",
-      "SNOW",
-      "DDOG",
-      "MDB",
-      "ADBE",
-      "WDAY",
-      "MSFT"
-     ]
+     "move": "-6.3%",
+     "result": "Revenue $2.313B (+96%) vs ~$2.18B; adj. EPS $0.44 vs ~$0.40-0.41; U.S. commercial +148% to $984M; FY revenue raised to $8.530-8.534B; TCV only +6%.",
+     "meaning": "The market trades forward bookings, not the beat.",
+     "source": "Palantir 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+    },
+    {
+     "symbol": "AAPL",
+     "move": "-3.8%",
+     "result": "Revenue $114.5B (+12%), GAAP EPS $2.10; GM 47.9% incl ~1pt tariff refunds; Dec-qtr guide: revenue +7-10%, GM 45-46% vs ~46.3% expected; memory pricing 'unprecedented'.",
+     "meaning": "Memory makers have pricing power; device makers absorb it.",
+     "source": "Apple 8-K / Seeking Alpha",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm"
     },
     {
      "symbol": "ETN",
-     "time": "before open 2026-11-03",
-     "related": [
-      "VRT",
-      "GEV",
-      "PWR",
-      "CEG",
-      "VST",
-      "NRG"
-     ]
+     "move": "+1.8%",
+     "result": "Adj. EPS $3.68 vs own $3.46-3.56 guide; sales $8.9B (+28%), organic +19%; FY adj. EPS raised to $13.70-13.80; rolling orders +39% Americas, +51% Global.",
+     "meaning": "Data center power demand still accelerating.",
+     "source": "Eaton 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001551182/000155118226000037/etn09302026exhibit99.htm"
     },
     {
      "symbol": "MPC",
-     "time": "before open 2026-11-03",
-     "related": [
+     "move": "+1.5%",
+     "result": "Adj. EPS $26.93 vs ~$25.40; R&M margin $45.70/bbl vs $17.60 a year ago; $5B more buyback authorization.",
+     "meaning": "Refining margins at a war-driven peak; the stock trades on Iran headlines.",
+     "source": "MPC 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001510295/000151029526000069/mpcq32026earningsrelease.htm"
+    },
+    {
+     "symbol": "FN",
+     "move": "+8.4%",
+     "result": "Non-GAAP EPS $4.34 vs $4.19; revenue $1.474B (+51%); Q2 guide $1.6-1.65B vs ~$1.48B.",
+     "meaning": "AI optics demand strong.",
+     "source": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-fabrinet-stock-surging-today-93CH-4994956"
+    },
+    {
+     "symbol": "PFE",
+     "move": "flat",
+     "result": "Adj. EPS $0.87 vs $0.73; revenue $16.58B vs $15.87B; raised full-year outlook.",
+     "meaning": "Beat with little reaction; defensives lag today.",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html"
+    },
+    {
+     "symbol": "ZBRA",
+     "move": "-6%",
+     "result": "EPS $4.95 vs $4.89; revenue $1.61B vs $1.57B; FY free cash flow guide (>=$1B) slightly under $1.02B.",
+     "meaning": "Small guide shortfalls are punished.",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html"
+    }
+   ],
+   "flowNote": "Money is moving into semiconductors (SMH +2.44%) on Apple's memory-price confirmation and the AMD run-up, with smaller bids in tech (XLK +0.42%), industrials (XLI +0.31%) on Eaton's beat, and energy (XLE +0.37%) after Monday's -4% drop. It is leaving software (IGV -1.28%) after Palantir and Shopify, and Monday's defensive leaders: staples (XLP -0.80%), financials (XLF -0.62%), health care (XLV -0.50%). A partial reversal of Monday's rotation, not a new trend.",
+   "inPlay": [
+    {
+     "symbol": "SHOP",
+     "linkedTo": "Own report",
+     "why": "GMV $119.15B vs $120.08B and subscriptions $836M vs $850.2M missed; adj. EPS $0.49 beat.",
+     "gap": "-15.20%",
+     "pmHigh": "158.50",
+     "pmLow": "125.10",
+     "prevHigh": "160.88",
+     "prevLow": "153.33",
+     "prevClose": "156.22",
+     "setup": "Gap and go (down)",
+     "target": "new lows below 125.10 down; opening range high, then 153.33 gap edge up (real news, full fill less likely)",
+     "momentum": "5d -7.1%, ~7.6% below 20d, just above 50d (~129.7), rel vol 1.74",
+     "options": "Feed returned no chain; check spread and OI after 9:30",
+     "calls": "Holds 125.10 and the ~129.7 50-day, then reclaims VWAP",
+     "puts": "Stays below VWAP and breaks 125.10 after the opening range"
+    },
+    {
+     "symbol": "PLTR",
+     "linkedTo": "Own report",
+     "why": "Beat and raise (revenue $2.313B, FY $8.53B) but TCV +6% and slower U.S. commercial bookings.",
+     "gap": "-6.25%",
+     "pmHigh": "170.80",
+     "pmLow": "162.00",
+     "prevHigh": "187.55",
+     "prevLow": "178.13",
+     "prevClose": "178.34",
+     "setup": "Gap and go (down) / PM low break",
+     "target": "extension below 162.00 down; ~175 (50d), then 178.13 gap edge up",
+     "momentum": "5d -10.3%, ~9.3% below 20d, ~4.6% below 50d, rel vol 1.58",
+     "options": "Weekly ±6.88% by Nov 6, spread 55.9% (stale), vol/OI 1037/1929",
+     "calls": "Reclaims 170.80 and holds it",
+     "puts": "Breaks 162.00 after the opening range and stays below VWAP",
+     "thesis": "The report's ~186.49 uptrend line is broken; AI-outcome software is not being separated from SaaS."
+    },
+    {
+     "symbol": "AAPL",
+     "linkedTo": "Own report",
+     "why": "Dec-quarter gross margin guide 45-46% vs ~46.3% expected; memory pricing 'unprecedented'.",
+     "gap": "-3.82%",
+     "pmHigh": "330.77",
+     "pmLow": "321.00",
+     "prevHigh": "343.80",
+     "prevLow": "335.82",
+     "prevClose": "338.32",
+     "setup": "Gap and go (down) / ORB",
+     "target": "321.00 then lower down; 335.82 gap edge up",
+     "momentum": "5d -1.6%, just under 20d (~329), above 50d (~321), rel vol 1.58",
+     "options": "Weekly ±2.51% by Nov 4, spread 28.7% (stale), vol/OI 14993/8274",
+     "calls": "Reclaims 330.77 and holds above VWAP",
+     "puts": "Loses 321.00 and the ~321 50-day after the first 15 minutes",
+     "thesis": "The report's memory-cost row hits Apple's margins."
+    },
+    {
+     "symbol": "MU",
+     "linkedTo": "AAPL (memory costs)",
+     "why": "Apple expects memory purchase prices to keep rising after December; SNDK +4.6%, SKHY +2.8%.",
+     "gap": "+3.65%",
+     "pmHigh": "868.88",
+     "pmLow": "825.25",
+     "prevHigh": "892.08",
+     "prevLow": "829.24",
+     "prevClose": "833.59",
+     "setup": "PM high/low break (sympathy)",
+     "target": "892.08 up; 829.24, then 825.25 down",
+     "momentum": "5d -7.8%, 20d -21.7%, ~11% below 20d, rel vol 1.14",
+     "options": "Weekly ±5.01% by Nov 4, spread 35.0% (stale), vol/OI 4896/1905",
+     "calls": "Breaks 868.88 after the opening range and holds above it",
+     "puts": "Loses VWAP and 833.59 (yesterday's close)",
+     "thesis": "The report's memory-cost row names MU and SKHY as winners."
+    },
+    {
+     "symbol": "AMD",
+     "linkedTo": "Own report tonight",
+     "why": "Reports after the close; chip bounce; Intel's memory warning is the risk to the client guide. AMD names Anthropic (which makes me) as an anchor Helios customer.",
+     "gap": "+3.38%",
+     "pmHigh": "483.25",
+     "pmLow": "468.31",
+     "prevHigh": "512.82",
+     "prevLow": "466.07",
+     "prevClose": "466.84",
+     "setup": "PM high break / ORB into earnings",
+     "target": "toward 512.82 up; 466.07 down",
+     "momentum": "5d -12.1%, 20d -26.1%, ~17% below 20d, rel vol 1.56",
+     "options": "Weekly ±8.71% by Nov 4 (earnings premium), spread 30.6% (stale), vol/OI 838/183",
+     "calls": "Holds above 483.25 after the opening range",
+     "puts": "Loses 468.31 and 466.84",
+     "thesis": "The report's memory-cost row (client chips) against the Helios ramp."
+    }
+   ],
+   "swings": [
+    {
+     "symbol": "AAPL",
+     "linkedTo": "Own report",
+     "why": "Margin guide down to 45-46% with memory prices rising beyond December; supply limits on iPhone Duo, Mac, iPad.",
+     "setup": "Post-earnings drift",
+     "trend": "Just under 20d (~329), above 50d (~321); 20d +1.6%",
+     "options": "±5.76% by Nov 27, spread 34.1% (stale), vol/OI 485/974; no earnings in window",
+     "confirm": "Drift lower: closes below 321.00 and the 50-day; recovery: closes back above 335.82",
+     "invalidate": "The opposite close of whichever side is taken",
+     "thesis": "The report's memory-cost row (Apple margins)."
+    },
+    {
+     "symbol": "MU",
+     "linkedTo": "AAPL memory read-through",
+     "why": "Apple's 'unprecedented' memory pricing; AMD tonight and QCOM Wednesday give more reads.",
+     "setup": "Sector rotation / trend reclaim",
+     "trend": "20d -21.7%; ~11% below 20d (~973), ~15% below 50d (~1012)",
+     "options": "±12.52% by Nov 27, spread 23.8%, vol/OI 264/382; no MU earnings listed in window",
+     "confirm": "Closes above 892.08 and works toward the ~973 20-day",
+     "invalidate": "A close below 825.25",
+     "thesis": "Memory pricing power vs the crowded-trade unwind the report flags."
+    },
+    {
+     "symbol": "AMD",
+     "linkedTo": "Own report tonight",
+     "why": "Helios (MI450) shipments start this quarter; data center guided to more than double in 2027.",
+     "setup": "Post-earnings drift",
+     "trend": "20d -26.1%; ~17% below 20d (~581), ~15% below 50d (~567)",
+     "options": "±14.47% by Nov 27, spread 23.2%, vol/OI 105/581; earnings tonight, inside window",
+     "confirm": "Holds above 512.82 after the report and works toward the ~567 50-day",
+     "invalidate": "A post-report close below 466.07",
+     "thesis": "The report's memory-cost row against the Helios data-center ramp."
+    }
+   ],
+   "snapshot": {
+    "focus": [
+     "Apple -3.8% premarket: December gross margin guided to 45-46% on 'unprecedented' memory costs",
+     "Memory jumps on that read-through: SanDisk +4.6%, Micron +3.7%, SK Hynix ADR +2.8%; SMH +2.4%",
+     "Software sold again: Shopify -15.2% (GMV miss), Palantir -6.3% (bookings +6%); IGV -1.3%",
+     "Eaton +1.8% after beating and raising (organic +19%); Fabrinet +8.4% on a big guide",
+     "Midterm voting today, results tonight; oil firm after a U.S. strike on Iran's Qeshm Island (WTI 97.11)",
+     "AMD (±8.7% priced by Wednesday), SMCI, ANET and ALAB report after the close; JOLTS 10:00 ET"
+    ],
+    "bigPicture": [
+     "The market pays for pricing power and punishes anyone absorbing costs or slowing down: memory makers rise on Apple's cost warning while Apple's own margin guide falls short.",
+     "Growth at any multiple is not enough for software: Palantir beat and raised and Shopify beat on profit, yet both drop on one slowing number (bookings, GMV). IGV is -8.5% in five days.",
+     "Chips are bouncing inside a correction (Nasdaq-100 in its third correction this year, SMH -19.8% in a month); AMD tonight is the first real test of whether the bounce has earnings behind it.",
+     "Rates and oil set the ceiling: the 10-year near 4.89%, a December 9 hike still the base case (~75-85% per the Movers Report), and oil swinging on each Iran headline."
+    ],
+    "takeaway": "Today pays the sellers of scarce inputs (memory, power gear, optics) and punishes those who pay for them or are slowing down (Apple, software). The broad market is flat ahead of election results and AMD tonight, so let the 10:00 JOLTS print and the first 15 minutes confirm a direction before trusting either side."
+   },
+   "sectors": [
+    {
+     "sector": "AI cloud",
+     "tone": "Funding in focus",
+     "bias": "mixed",
+     "text": "No hyperscaler news; Oracle priced a $10B stock sale at $116 after last week's bond deal, and Blackstone's president called for more equity to fund the AI build. Anthropic (which makes me) targets ~7 GW of compute in 2027, per the NYT.",
+     "names": [
+      "ORCL",
+      "AMZN",
+      "MSFT",
+      "GOOGL",
+      "CRWV"
+     ]
+    },
+    {
+     "sector": "AI infrastructure",
+     "tone": "Orders confirmed",
+     "bias": "up",
+     "text": "Eaton beat (adj. EPS $3.68) and raised its full-year range; Electrical Global backlog +121%. VRT +2.2%, GEV +2.1%, CEG +1.2%, Fabrinet +8.4%. SMCI, ANET and ALAB report tonight.",
+     "names": [
+      "ETN",
+      "VRT",
+      "GEV",
+      "FN",
+      "ANET",
+      "SMCI"
+     ]
+    },
+    {
+     "sector": "AI chips and memory",
+     "tone": "Memory pricing power",
+     "bias": "up",
+     "text": "Apple says memory prices are 'unprecedented' and will keep rising beyond December: SNDK +4.6%, MU +3.7%, SKHY +2.8%. SMH +2.4% after -2.7% Monday; AMD +3.4% into tonight's report.",
+     "names": [
+      "MU",
+      "SNDK",
+      "SKHY",
+      "AMD",
+      "NVDA",
+      "AVGO"
+     ]
+    },
+    {
+     "sector": "AI software",
+     "tone": "Under pressure",
+     "bias": "down",
+     "text": "Palantir's TCV grew only 6% despite a raised guide, and Shopify missed on GMV and subscriptions; DDOG -3.1%, CRM -2.4%, SNOW -1.8%, NOW -1.5% in sympathy. DDOG reports tomorrow morning.",
+     "names": [
+      "PLTR",
+      "SHOP",
+      "DDOG",
+      "CRM",
+      "NOW",
+      "SNOW"
+     ]
+    },
+    {
+     "sector": "Oil & gas",
+     "tone": "Headline whipsaw",
+     "bias": "mixed",
+     "text": "WSJ reports a U.S. strike on Qeshm Island while Vance feels 'really good' about a settlement; WTI 97.11 (+0.7%) after a 7%+ drop Monday. XLE +0.4% after -4.0%. MPC beat (adj. EPS $26.93).",
+     "names": [
+      "MPC",
+      "VLO",
       "XOM",
       "CVX",
       "COP",
-      "OXY",
-      "EOG",
-      "VLO",
-      "PSX",
-      "SLB",
-      "HAL",
-      "BKR"
+      "OXY"
      ]
+    }
+   ],
+   "likelyMovers": [
+    {
+     "symbol": "AMD",
+     "sector": "AI chips",
+     "tailwind": "Reports after the close; weeklies price ±8.71% by Wednesday.",
+     "momentum": "+3.4% PM; 5d -12.1%, 20d -26.1%; ~17% below 20d, ~15% below 50d; rel vol 1.56",
+     "up": "Data center guide and the Helios ramp show share gains; memory costs don't dent the client guide.",
+     "down": "A soft Q4 guide repeats Intel's memory-cost pattern."
+    },
+    {
+     "symbol": "SHOP",
+     "sector": "E-commerce software",
+     "tailwind": "GMV $119.15B vs $120.08B expected; subscriptions miss.",
+     "momentum": "-15.2% PM; PM range 158.50-125.10; just above ~129.7 50d; rel vol 1.74",
+     "up": "Buyers defend 125.10 and the 50-day as the profit beat gets credit.",
+     "down": "Breaks 125.10 and the sell-off extends."
+    },
+    {
+     "symbol": "PLTR",
+     "sector": "AI software",
+     "tailwind": "Beat and raise, but TCV +6% and U.S. commercial bookings slowed.",
+     "momentum": "-6.3% PM; 5d -10.3%; ~9% below 20d, ~4.6% below 50d; rel vol 1.58",
+     "up": "Reclaims 170.80 as the raised $8.53B guide gets credit.",
+     "down": "Breaks 162.00; the report's ~186.49 uptrend line is already lost."
+    },
+    {
+     "symbol": "AAPL",
+     "sector": "Hardware",
+     "tailwind": "December GM guide 45-46% vs 46.3% expected; revenue +7-10%.",
+     "momentum": "-3.8% PM; just below 20d (~329), above 50d (~321); rel vol 1.58",
+     "up": "Holds 321.00 and reclaims 330.77 as analysts defend it.",
+     "down": "Loses 321.00 and the 50-day."
+    },
+    {
+     "symbol": "MU",
+     "sector": "Memory",
+     "tailwind": "Apple confirms memory prices still rising.",
+     "momentum": "+3.7% PM; 5d -7.8%, 20d -21.7%; ~11% below 20d; rel vol 1.14",
+     "up": "Breaks 868.88 and moves toward 892.08.",
+     "down": "Loses 833.59 as the crowded-trade unwind resumes."
+    },
+    {
+     "symbol": "SNDK",
+     "sector": "Memory",
+     "tailwind": "Same Apple read-through; biggest gap in the table.",
+     "momentum": "+4.6% PM; 5d -14.4%, 20d -36.9%; ~22% below 20d; rel vol 1.2",
+     "up": "Holds above 1,134.73.",
+     "down": "Falls back under 1,075.08 (yesterday's close)."
+    },
+    {
+     "symbol": "FN",
+     "sector": "AI optics",
+     "tailwind": "Revenue +51%, Q2 guide $1.6-1.65B vs ~$1.48B expected.",
+     "momentum": "+8.4% PM, above yesterday's 337.09 high; 20d -30.7%; rel vol 1.53",
+     "up": "Holds above 337.09 and breaks 351.00.",
+     "down": "Fades below 336.97 into the gap."
+    },
+    {
+     "symbol": "ETN",
+     "sector": "AI power",
+     "tailwind": "Beat and raise; full-year adj. EPS $13.70-13.80.",
+     "momentum": "+1.8% PM; 20d -15.4%; ~8% below 20d; rel vol 1.26",
+     "up": "Clears 375.38 and 377.89.",
+     "down": "Loses 365.78 as the beat is sold."
+    },
+    {
+     "symbol": "NVDA",
+     "sector": "AI chips",
+     "tailwind": "Chip bounce; AMD and SMCI read-through tonight.",
+     "momentum": "+1.9% PM; ~8% below 20d, ~9% below 50d; rel vol 1.17",
+     "up": "Breaks 206.30 and pushes to 209.98.",
+     "down": "Loses 202.55 and 202.06."
     }
    ]
   }
  ],
- "updated": "2026-11-02T16:37:45.394245-05:00"
+ "updated": "2026-11-03T08:26:19.344639-05:00"
 }
