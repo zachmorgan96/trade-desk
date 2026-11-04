@@ -838,7 +838,206 @@
      "down": "Guide repeats the memory squeeze Apple flagged."
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-04",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:35",
+   "generated": "2026-11-04T16:35:55.263721-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "16.61",
+     "change": "▼ -4.22 (-20.26%) · open -6.53%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.94",
+     "change": "▲ +0.44 (+0.41%) · open +0.23%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.894%",
+     "change": "▼ -0.058 (-1.17%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "88.42",
+     "change": "▼ -7.67 (-7.98%) · open -5.36%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "768.05",
+     "change": "▲ +13.70 (+1.82%) · open +0.66%",
+     "asOf": "4:35 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "693.30",
+     "change": "▲ +8.02 (+1.17%) · open +0.71%",
+     "asOf": "4:35 PM ET"
+    }
+   ],
+   "events": [],
+   "macro": [
+    {
+     "source": "CNBC",
+     "time": "4:16 PM",
+     "text": "Dow soars 1,500 points for best day since April 2025 on clear-cut Democratic win, falling oil",
+     "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+    },
+    {
+     "source": "FT",
+     "time": "3:18 PM",
+     "text": "Oil tumbles below $100 (Brent) on post-election peace hopes; WTI closed near 88.42, −8%",
+     "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7"
+    },
+    {
+     "source": "CNBC",
+     "time": "2:51 PM",
+     "text": "Voters rebuff data centers in every ballot measure except one during the 2026 midterms",
+     "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "4:28 PM",
+     "text": "Trump tells CNBC he can work with Democrats on 'many more things than people understand'",
+     "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "MSFT / AMZN / AAPL",
+     "move": "+6.7% / +6.2% / +5.3%",
+     "text": "Hyperscalers and Apple surged as the election removed uncertainty; Apple's best day in over a year.",
+     "source": "CNBC",
+     "time": "2:37 PM",
+     "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html"
+    },
+    {
+     "symbol": "QCOM",
+     "move": "+5.7%, −5% after hours",
+     "text": "Weak forecast as the memory shortage weighs on smartphone sales; handset revenue missed.",
+     "source": "CNBC",
+     "time": "4:16 PM",
+     "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html"
+    },
+    {
+     "symbol": "ARM",
+     "move": "−5.0%, lower after hours",
+     "text": "Beat Q2 revenue estimates on AI and data-center demand; after-hours quote near 184.71 vs ~192.3 close.",
+     "source": "Investing.com",
+     "time": "4:12 PM",
+     "url": "https://www.investing.com/news/stock-market-news/arm-beats-secondquarter-revenue-estimates-on-ai-and-datacenter-demand-5001267"
+    },
+    {
+     "symbol": "CVS",
+     "move": "−12%",
+     "text": "Fell on its plan to split off the drugstore business from insurance while health care rallied.",
+     "source": "CNBC",
+     "time": "4:04 PM",
+     "url": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html"
+    }
+   ],
+   "read": "Half right: AI infra sold (VRT −12.9%, CRWV −10%) and health care led, but megacaps (MSFT +6.7%, AAPL +5.3%) carried SPY +1.6% while small caps faded. Calls sides of ORCL, AMD, ANET hit early, then faded; TSLA part-filled; CRWV whipsawed; DDOG neither. Oil was the turn: WTI −8% to 88.42. Early pops were sold by midday. First red event: BoE 7:00 AM.",
+   "tomorrow": [
+    {
+     "time": "7:00 AM",
+     "currency": "GBP",
+     "event": "BOE Monetary Policy Report",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "7:00 AM",
+     "currency": "GBP",
+     "event": "Monetary Policy Summary",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "7:00 AM",
+     "currency": "GBP",
+     "event": "MPC Official Bank Rate Votes",
+     "forecast": "7-0-2",
+     "previous": "3-0-6"
+    },
+    {
+     "time": "7:00 AM",
+     "currency": "GBP",
+     "event": "Official Bank Rate",
+     "forecast": "4.00%",
+     "previous": "3.75%"
+    },
+    {
+     "time": "7:30 AM",
+     "currency": "GBP",
+     "event": "BOE Gov Bailey Speaks",
+     "forecast": "",
+     "previous": ""
+    }
+   ],
+   "readthroughNext": [
+    {
+     "symbol": "ARM",
+     "time": "after close 2026-11-04",
+     "related": [
+      "NVDA",
+      "AMD",
+      "AVGO",
+      "MRVL",
+      "MU",
+      "SKHY",
+      "TSM",
+      "INTC",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "KLAC"
+     ]
+    },
+    {
+     "symbol": "QCOM",
+     "time": "after close 2026-11-04",
+     "related": [
+      "NVDA",
+      "AMD",
+      "AVGO",
+      "MRVL",
+      "MU",
+      "SKHY",
+      "TSM",
+      "INTC",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "KLAC"
+     ]
+    },
+    {
+     "symbol": "COP",
+     "time": "before open 2026-11-05",
+     "related": [
+      "XOM",
+      "CVX",
+      "OXY",
+      "EOG",
+      "VLO",
+      "PSX",
+      "MPC",
+      "SLB",
+      "HAL",
+      "BKR"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-04T08:24:42.610444-05:00"
+ "updated": "2026-11-04T16:38:35.621338-05:00"
 }

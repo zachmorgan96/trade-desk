@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-04T14:30:53.721069-05:00",
+ "updated": "2026-11-04T16:38:35.442033-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -10,28 +10,28 @@
   "chop": "Chop (up and down, going nowhere)"
  },
  "patterns": {
-  "days": 66,
+  "days": 67,
   "counts": {
    "trend-up": 14,
    "trend-down": 16,
    "reversal-up": 4,
    "reversal-down": 6,
-   "chop": 26
+   "chop": 27
   },
   "rows": [
    {
     "clue": "SPY broke the first 30-min range by 10:30, and SPY and QQQ agreed",
-    "days": 33,
+    "days": 34,
     "counts": {
      "trend-up": 10,
      "trend-down": 7,
      "reversal-up": 1,
      "reversal-down": 2,
-     "chop": 13
+     "chop": 14
     },
-    "trendRate": 52,
-    "chopRate": 39,
-    "followedLeanRate": 45
+    "trendRate": 50,
+    "chopRate": 41,
+    "followedLeanRate": 44
    },
    {
     "clue": "No break of the first 30-min range by 10:30",
@@ -63,17 +63,17 @@
    },
    {
     "clue": "SPY on one side of VWAP all morning (0-1 crosses by 10:30)",
-    "days": 21,
+    "days": 22,
     "counts": {
      "trend-up": 7,
      "trend-down": 4,
      "reversal-up": 2,
      "reversal-down": 3,
-     "chop": 5
+     "chop": 6
     },
-    "trendRate": 52,
-    "chopRate": 24,
-    "followedLeanRate": 38
+    "trendRate": 50,
+    "chopRate": 27,
+    "followedLeanRate": 36
    },
    {
     "clue": "SPY and QQQ disagreed at 10:30",
@@ -91,17 +91,17 @@
    },
    {
     "clue": "First 30 minutes wide (half or more of a usual day's whole range)",
-    "days": 13,
+    "days": 14,
     "counts": {
      "trend-up": 3,
      "trend-down": 3,
      "reversal-up": 0,
      "reversal-down": 2,
-     "chop": 5
+     "chop": 6
     },
-    "trendRate": 46,
-    "chopRate": 38,
-    "followedLeanRate": 38
+    "trendRate": 43,
+    "chopRate": 43,
+    "followedLeanRate": 36
    },
    {
     "clue": "First 30 minutes tight (under 27% of a usual day's range)",
@@ -119,17 +119,17 @@
    },
    {
     "clue": "Gap of 0.2%+ still open at 10:30",
-    "days": 39,
+    "days": 40,
     "counts": {
      "trend-up": 10,
      "trend-down": 8,
      "reversal-up": 0,
      "reversal-down": 4,
-     "chop": 17
+     "chop": 18
     },
-    "trendRate": 46,
-    "chopRate": 44,
-    "followedLeanRate": 33
+    "trendRate": 45,
+    "chopRate": 45,
+    "followedLeanRate": 32
    },
    {
     "clue": "Gap of 0.2%+ already filled by 10:30",
@@ -161,31 +161,31 @@
    },
    {
     "clue": "Narrow market: equal-weight S&P lagging SPY by 0.2%+",
-    "days": 20,
+    "days": 21,
     "counts": {
      "trend-up": 6,
      "trend-down": 2,
      "reversal-up": 1,
      "reversal-down": 4,
-     "chop": 7
+     "chop": 8
     },
-    "trendRate": 40,
-    "chopRate": 35,
-    "followedLeanRate": 25
+    "trendRate": 38,
+    "chopRate": 38,
+    "followedLeanRate": 24
    },
    {
     "clue": "VIX confirming stocks at 10:30 (SPY up with VIX down, or SPY down with VIX up)",
-    "days": 36,
+    "days": 37,
     "counts": {
      "trend-up": 6,
      "trend-down": 10,
      "reversal-up": 1,
      "reversal-down": 2,
-     "chop": 17
+     "chop": 18
     },
-    "trendRate": 44,
-    "chopRate": 47,
-    "followedLeanRate": 31
+    "trendRate": 43,
+    "chopRate": 49,
+    "followedLeanRate": 30
    },
    {
     "clue": "High-impact U.S. news that day",
@@ -204,6 +204,171 @@
   ]
  },
  "days": [
+  {
+   "measured": {
+    "date": "2026-11-04",
+    "type": "chop",
+    "typeLabel": "Chop (up and down, going nowhere)",
+    "spy": {
+     "open": 762.99,
+     "high": 775.64,
+     "low": 762.64,
+     "close": 766.73,
+     "prevClose": 754.35,
+     "change": 1.641,
+     "openToClose": 0.49,
+     "rangePct": 1.723,
+     "usualRangePct": 0.85,
+     "rangeVsUsual": 2.03,
+     "closeLocation": 0.31,
+     "highAt": "10:00",
+     "lowAt": "09:35",
+     "vwapCrosses": 7,
+     "pctAboveVwapAfter10": 88
+    },
+    "expectedMovePct": 1.312,
+    "actualMoveVsExpected": 1.25,
+    "rangeVsExpected": 1.31,
+    "openingRange": {
+     "high": 768.11,
+     "low": 762.64,
+     "widthPct": 0.725,
+     "widthVsExpected": 0.55,
+     "widthVsUsual": 0.85,
+     "breakout": {
+      "side": "up",
+      "time": "10:15",
+      "held": false
+     }
+    },
+    "gap": {
+     "pct": 1.145,
+     "filled": false,
+     "filledAt": null
+    },
+    "levels": [
+     {
+      "name": "Yesterday's high",
+      "price": 757.07,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's low",
+      "price": 752.39,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's close",
+      "price": 754.35,
+      "touched": false,
+      "result": "not reached"
+     }
+    ],
+    "clues": {
+     "10:00": {
+      "spy": {
+       "last": 767.23,
+       "vsOpen": 0.556,
+       "vsPrevClose": 1.707,
+       "vwap": 764.94,
+       "aboveVwap": true,
+       "vwapCrosses": 1
+      },
+      "qqq": {
+       "last": 697.68,
+       "vsOpen": 1.342,
+       "vsPrevClose": 1.809,
+       "vwap": 692.7,
+       "aboveVwap": true,
+       "vwapCrosses": 1
+      },
+      "rsp": {
+       "last": 221.88,
+       "vsOpen": 0.133,
+       "vsPrevClose": 1.195
+      },
+      "iwm": {
+       "last": 284.04,
+       "vsOpen": -0.046,
+       "vsPrevClose": 1.519
+      },
+      "vix": {
+       "last": 17.24,
+       "vsPrevClose": -17.235
+      },
+      "oil": {
+       "last": 93.37,
+       "vsPrevClose": -2.831
+      },
+      "tnx": {
+       "last": 4.929,
+       "vsPrevClose": -0.464,
+       "bpChange": -2.3
+      },
+      "agree": true,
+      "breadthGap": -0.423
+     },
+     "10:30": {
+      "spy": {
+       "last": 766.53,
+       "vsOpen": 0.464,
+       "vsPrevClose": 1.615,
+       "vwap": 765.91,
+       "aboveVwap": true,
+       "vwapCrosses": 1
+      },
+      "qqq": {
+       "last": 697.74,
+       "vsOpen": 1.351,
+       "vsPrevClose": 1.818,
+       "vwap": 697.03,
+       "aboveVwap": true,
+       "vwapCrosses": 1
+      },
+      "rsp": {
+       "last": 221.23,
+       "vsOpen": -0.159,
+       "vsPrevClose": 0.899
+      },
+      "iwm": {
+       "last": 282.06,
+       "vsOpen": -0.743,
+       "vsPrevClose": 0.811
+      },
+      "vix": {
+       "last": 17.29,
+       "vsPrevClose": -16.995
+      },
+      "oil": {
+       "last": 93.92,
+       "vsPrevClose": -2.258
+      },
+      "tnx": {
+       "last": 4.952,
+       "vsPrevClose": 0.0,
+       "bpChange": 0.0
+      },
+      "agree": true,
+      "breadthGap": -0.623,
+      "orBreak": "up",
+      "gapFilled": false
+     }
+    },
+    "summary": "Chop. SPY closed +1.64% on the day (+0.49% from the open). High-to-low it moved 1.72%, a bigger range than usual (2.0x the last 20 days). It broke the first 30 minutes' range up at 10:15 and that break did not hold. It crossed VWAP 7 times (lots of crossing is a chop sign).",
+    "usEvents": []
+   },
+   "written": {
+    "briefLean": "The morning expected a rotation rather than broad risk-on after the Democratic sweep: Dow and small caps up, AI infrastructure and software down on data-center policy risk.",
+    "verdict": "partly",
+    "whatHappened": "SPY gapped +1.1%, made its low at 9:35 and its high (775.64) at 10:00, broke the opening range up at 10:15 but the break did not hold. It crossed VWAP 7 times and closed 766.73, +1.64% on the day but only +0.49% from the open.",
+    "why": "The election result and falling oil (WTI −8% to 88.42 on peace hopes) cut the VIX 20% to 16.61, and megacaps led (MSFT +6.7%, AAPL +5.3%). AI infrastructure sold as the brief expected (VRT −12.9%, SMH −2.7%), but small caps faded after 9:45 instead of leading.",
+    "earliestClue": "By 10:30 IWM was −0.7% from its open and RSP −0.2% while QQQ was +1.4%: the equal-weight and small caps were not following the gap, so leadership was narrow and the index stalled near its 10:00 high.",
+    "lesson": "On a big political gap, check equal-weight and small caps against QQQ by 10:30; when only megacaps carry the index, expect early pops in single names to fade and the index to chop rather than trend.",
+    "by": "Close review routine"
+   }
+  },
   {
    "measured": {
     "date": "2026-11-03",
