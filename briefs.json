@@ -858,7 +858,243 @@
      "down": "Oil fades and it loses 137.14"
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-05",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:35",
+   "generated": "2026-11-05T16:35:37.582643-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "28.18",
+     "change": "▲ +11.57 (+69.66%) · open +63.08%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "107.34",
+     "change": "▲ +0.45 (+0.42%) · open +0.60%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.837%",
+     "change": "▼ -0.057 (-1.16%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "90.86",
+     "change": "▲ +2.74 (+3.11%) · open +1.26%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "732.03",
+     "change": "▼ -34.78 (-4.54%) · open -4.37%",
+     "asOf": "4:35 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "646.34",
+     "change": "▼ -45.61 (-6.59%) · open -5.39%",
+     "asOf": "4:35 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "7:00 AM",
+     "currency": "GBP",
+     "event": "BOE Monetary Policy Report",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "7:00 AM",
+     "currency": "GBP",
+     "event": "Monetary Policy Summary",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "7:00 AM",
+     "currency": "GBP",
+     "event": "MPC Official Bank Rate Votes",
+     "actual": "",
+     "forecast": "7-0-2",
+     "previous": "3-0-6"
+    },
+    {
+     "time": "7:00 AM",
+     "currency": "GBP",
+     "event": "Official Bank Rate",
+     "actual": "",
+     "forecast": "4.00%",
+     "previous": "3.75%"
+    },
+    {
+     "time": "7:30 AM",
+     "currency": "GBP",
+     "event": "BOE Gov Bailey Speaks",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    }
+   ],
+   "macro": [
+    {
+     "source": "CNBC",
+     "time": "4:18 PM",
+     "text": "Dow −1,833 (−3.44%), S&P 500 −4.36%, Nasdaq −5.52% into correction on AI regulation fears; December hike odds ~70% from 83%",
+     "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "3:17 PM",
+     "text": "Top Democrats, Sanders among them, call for a national data center moratorium after the midterm sweep",
+     "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+    },
+    {
+     "source": "MarketWatch",
+     "time": "4:19 PM",
+     "text": "Traders flock to Treasuries for safety; 10-year near 4.84% (−5.7 bp)",
+     "url": "https://www.marketwatch.com/story/traders-flock-to-treasury-market-for-safety-as-tech-led-stock-selloff-deepens-cf548c8b"
+    },
+    {
+     "source": "CNBC",
+     "time": "11:34 AM",
+     "text": "Fed's Barkin sees rate hikes ahead, but at a gradual pace",
+     "url": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "4:20 PM",
+     "text": "Retail traders dump the most stocks in a single day since the Covid sell-off",
+     "url": "https://www.cnbc.com/2026/11/05/retail-traders-dump-the-most-stocks-in-single-day-since-covid-sell-off.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "NVDA",
+     "move": "−9.3%",
+     "text": "House Republican chairs asked Jensen Huang to a closed-door Nov 18 briefing on reported ties to a Megaspeed executive officials allegedly believe works for Beijing.",
+     "source": "CNBC",
+     "time": "4:09 PM",
+     "url": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html"
+    },
+    {
+     "symbol": "AMD / MU / TSLA",
+     "move": "−17.7% / −17.2% / −10.8%",
+     "text": "AI build-out names crushed on calls for a data center moratorium; chip ETFs had their worst day since March 2020.",
+     "source": "CNBC",
+     "time": "3:17 PM",
+     "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+    },
+    {
+     "symbol": "ABNB",
+     "move": "+7.2% after hours",
+     "text": "Lifted its annual revenue growth forecast on resilient travel demand.",
+     "source": "Investing.com",
+     "time": "4:06 PM",
+     "url": "https://www.investing.com/news/stock-market-news/airbnb-lifts-annual-revenue-growth-forecast-on-resilient-global-travel-demand-5005564"
+    },
+    {
+     "symbol": "AMZN / UBER / DASH",
+     "move": "−2.1% / −2.2%",
+     "text": "Amazon switched its restaurant delivery perks to Uber Eats; DoorDash had its biggest drop in a year.",
+     "source": "Yahoo Finance",
+     "time": "2:14 PM",
+     "url": "https://finance.yahoo.com/media-advertising/articles/amazon-switches-uber-eats-restaurant-181401995.html"
+    }
+   ],
+   "read": "Broad sell-off, not rotation: SPY topped at 9:30, broke its range down at 10:05 and closed at the low (−4.39%); VIX +70% to 28.18. Chip setups triggered puts side at the open (AMD −17.7%, MU −17.2%, NVDA −9.3%); APP's gap held (+31%); QCOM did both. Defensives sold too; money went to Treasuries. Tomorrow: payrolls 8:30 AM (65K expected).",
+   "tomorrow": [
+    {
+     "time": "8:30 AM",
+     "currency": "CAD",
+     "event": "Employment Change",
+     "forecast": "14.6K",
+     "previous": "-68.3K"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "CAD",
+     "event": "Unemployment Rate",
+     "forecast": "6.5%",
+     "previous": "6.5%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Average Hourly Earnings m/m",
+     "forecast": "0.3%",
+     "previous": "0.1%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Non-Farm Employment Change",
+     "forecast": "65K",
+     "previous": "29K"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Unemployment Rate",
+     "forecast": "4.2%",
+     "previous": "4.2%"
+    },
+    {
+     "time": "11:00 AM",
+     "currency": "JPY",
+     "event": "BOJ Gov Ueda Speaks",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "4:45 PM",
+     "currency": "NZD",
+     "event": "Parliamentary Elections",
+     "forecast": "",
+     "previous": ""
+    }
+   ],
+   "readthroughNext": [
+    {
+     "symbol": "EOG",
+     "time": "after close 2026-11-05",
+     "related": [
+      "XOM",
+      "CVX",
+      "COP",
+      "OXY",
+      "VLO",
+      "PSX",
+      "MPC",
+      "SLB",
+      "HAL",
+      "BKR"
+     ]
+    },
+    {
+     "symbol": "VST",
+     "time": "before open 2026-11-06",
+     "related": [
+      "VRT",
+      "GEV",
+      "ETN",
+      "PWR",
+      "CEG",
+      "NRG"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-05T08:25:53.848617-05:00"
+ "updated": "2026-11-05T16:38:28.290846-05:00"
 }

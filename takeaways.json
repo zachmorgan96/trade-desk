@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-05T14:40:40.132123-05:00",
+ "updated": "2026-11-05T16:38:38.176229-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -10,10 +10,10 @@
   "chop": "Chop (up and down, going nowhere)"
  },
  "patterns": {
-  "days": 67,
+  "days": 68,
   "counts": {
    "trend-up": 14,
-   "trend-down": 16,
+   "trend-down": 17,
    "reversal-up": 4,
    "reversal-down": 6,
    "chop": 27
@@ -21,17 +21,17 @@
   "rows": [
    {
     "clue": "SPY broke the first 30-min range by 10:30, and SPY and QQQ agreed",
-    "days": 34,
+    "days": 35,
     "counts": {
      "trend-up": 10,
-     "trend-down": 7,
+     "trend-down": 8,
      "reversal-up": 1,
      "reversal-down": 2,
      "chop": 14
     },
-    "trendRate": 50,
-    "chopRate": 41,
-    "followedLeanRate": 44
+    "trendRate": 51,
+    "chopRate": 40,
+    "followedLeanRate": 46
    },
    {
     "clue": "No break of the first 30-min range by 10:30",
@@ -63,17 +63,17 @@
    },
    {
     "clue": "SPY on one side of VWAP all morning (0-1 crosses by 10:30)",
-    "days": 22,
+    "days": 23,
     "counts": {
      "trend-up": 7,
-     "trend-down": 4,
+     "trend-down": 5,
      "reversal-up": 2,
      "reversal-down": 3,
      "chop": 6
     },
-    "trendRate": 50,
-    "chopRate": 27,
-    "followedLeanRate": 36
+    "trendRate": 52,
+    "chopRate": 26,
+    "followedLeanRate": 39
    },
    {
     "clue": "SPY and QQQ disagreed at 10:30",
@@ -91,17 +91,17 @@
    },
    {
     "clue": "First 30 minutes wide (half or more of a usual day's whole range)",
-    "days": 14,
+    "days": 15,
     "counts": {
      "trend-up": 3,
-     "trend-down": 3,
+     "trend-down": 4,
      "reversal-up": 0,
      "reversal-down": 2,
      "chop": 6
     },
-    "trendRate": 43,
-    "chopRate": 43,
-    "followedLeanRate": 36
+    "trendRate": 47,
+    "chopRate": 40,
+    "followedLeanRate": 40
    },
    {
     "clue": "First 30 minutes tight (under 27% of a usual day's range)",
@@ -147,17 +147,17 @@
    },
    {
     "clue": "Broad market: equal-weight S&P keeping up with SPY (within 0.1%)",
-    "days": 40,
+    "days": 41,
     "counts": {
      "trend-up": 5,
-     "trend-down": 14,
+     "trend-down": 15,
      "reversal-up": 3,
      "reversal-down": 2,
      "chop": 16
     },
-    "trendRate": 48,
-    "chopRate": 40,
-    "followedLeanRate": 35
+    "trendRate": 49,
+    "chopRate": 39,
+    "followedLeanRate": 37
    },
    {
     "clue": "Narrow market: equal-weight S&P lagging SPY by 0.2%+",
@@ -175,17 +175,17 @@
    },
    {
     "clue": "VIX confirming stocks at 10:30 (SPY up with VIX down, or SPY down with VIX up)",
-    "days": 37,
+    "days": 38,
     "counts": {
      "trend-up": 6,
-     "trend-down": 10,
+     "trend-down": 11,
      "reversal-up": 1,
      "reversal-down": 2,
      "chop": 18
     },
-    "trendRate": 43,
-    "chopRate": 49,
-    "followedLeanRate": 30
+    "trendRate": 45,
+    "chopRate": 47,
+    "followedLeanRate": 32
    },
    {
     "clue": "High-impact U.S. news that day",
@@ -204,6 +204,171 @@
   ]
  },
  "days": [
+  {
+   "measured": {
+    "date": "2026-11-05",
+    "type": "trend-down",
+    "typeLabel": "Sell-off all day",
+    "spy": {
+     "open": 765.47,
+     "high": 765.97,
+     "low": 732.71,
+     "close": 733.13,
+     "prevClose": 766.81,
+     "change": -4.392,
+     "openToClose": -4.225,
+     "rangePct": 4.337,
+     "usualRangePct": 0.901,
+     "rangeVsUsual": 4.82,
+     "closeLocation": 0.01,
+     "highAt": "09:30",
+     "lowAt": "15:55",
+     "vwapCrosses": 0,
+     "pctAboveVwapAfter10": 0
+    },
+    "expectedMovePct": 1.046,
+    "actualMoveVsExpected": 4.2,
+    "rangeVsExpected": 4.15,
+    "openingRange": {
+     "high": 765.97,
+     "low": 752.83,
+     "widthPct": 1.714,
+     "widthVsExpected": 1.64,
+     "widthVsUsual": 1.9,
+     "breakout": {
+      "side": "down",
+      "time": "10:05",
+      "held": true
+     }
+    },
+    "gap": {
+     "pct": -0.175,
+     "filled": false,
+     "filledAt": null
+    },
+    "levels": [
+     {
+      "name": "Yesterday's high",
+      "price": 775.64,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's low",
+      "price": 762.64,
+      "touched": true,
+      "result": "broke and closed below"
+     },
+     {
+      "name": "Yesterday's close",
+      "price": 766.81,
+      "touched": false,
+      "result": "not reached"
+     }
+    ],
+    "clues": {
+     "10:00": {
+      "spy": {
+       "last": 754.13,
+       "vsOpen": -1.481,
+       "vsPrevClose": -1.654,
+       "vwap": 758.0,
+       "aboveVwap": false,
+       "vwapCrosses": 0
+      },
+      "qqq": {
+       "last": 666.83,
+       "vsOpen": -2.117,
+       "vsPrevClose": -3.63,
+       "vwap": 673.04,
+       "aboveVwap": false,
+       "vwapCrosses": 0
+      },
+      "rsp": {
+       "last": 222.45,
+       "vsOpen": -0.73,
+       "vsPrevClose": -0.394
+      },
+      "iwm": {
+       "last": 280.4,
+       "vsOpen": -1.181,
+       "vsPrevClose": -1.275
+      },
+      "vix": {
+       "last": 20.5,
+       "vsPrevClose": 23.42
+      },
+      "oil": {
+       "last": 89.73,
+       "vsPrevClose": 1.827
+      },
+      "tnx": {
+       "last": 4.863,
+       "vsPrevClose": -0.633,
+       "bpChange": -3.1
+      },
+      "agree": true,
+      "breadthGap": 0.751
+     },
+     "10:30": {
+      "spy": {
+       "last": 747.35,
+       "vsOpen": -2.367,
+       "vsPrevClose": -2.537,
+       "vwap": 752.33,
+       "aboveVwap": false,
+       "vwapCrosses": 0
+      },
+      "qqq": {
+       "last": 659.49,
+       "vsOpen": -3.195,
+       "vsPrevClose": -4.691,
+       "vwap": 667.76,
+       "aboveVwap": false,
+       "vwapCrosses": 0
+      },
+      "rsp": {
+       "last": 220.93,
+       "vsOpen": -1.408,
+       "vsPrevClose": -1.075
+      },
+      "iwm": {
+       "last": 278.0,
+       "vsOpen": -2.026,
+       "vsPrevClose": -2.12
+      },
+      "vix": {
+       "last": 23.89,
+       "vsPrevClose": 43.829
+      },
+      "oil": {
+       "last": 90.31,
+       "vsPrevClose": 2.485
+      },
+      "tnx": {
+       "last": 4.871,
+       "vsPrevClose": -0.47,
+       "bpChange": -2.3
+      },
+      "agree": true,
+      "breadthGap": 0.959,
+      "orBreak": "down",
+      "gapFilled": false
+     }
+    },
+    "summary": "Sell-off all day. SPY closed -4.39% on the day (-4.22% from the open). High-to-low it moved 4.34%, a bigger range than usual (4.8x the last 20 days). It broke the first 30 minutes' range down at 10:05 and that break held into the close. It crossed VWAP 0 times.",
+    "usEvents": []
+   },
+   "written": {
+    "briefLean": "The morning expected another rotation day: chips gapping lower on Qualcomm's memory-hit guide and data center ballot limits, while banks, staples, health care and the megacap spenders stayed bid.",
+    "verdict": "missed",
+    "whatHappened": "SPY opened 765.47 (−0.2% gap), made its high at 9:30 (765.97), broke the first 30 minutes' range down at 10:05 and that break held. It never crossed VWAP, bounced briefly from 11:00 to 11:30, and closed at its 3:55 low of 733.13, −4.39% (4.8x the usual range).",
+    "why": "The chip selling spread into a broad AI unwind as Democrats called for a national data center moratorium after the midterms and Nvidia's CEO was asked to brief Congress; NVDA −9.3%, AMD −17.7%, MU −17.2%, SMH −11.6%. The defensives bid premarket (XLF, XLP, XLV) also sold, the VIX rose 70% to 28.18 and money went to Treasuries (10-year ~4.84%) even as oil rose 3%.",
+    "earliestClue": "By 10:00 SPY was −1.5% from its open and below VWAP with no crosses, QQQ −2.1% from its open, the VIX up 23%, and equal-weight RSP and small caps falling with them: every gauge agreed on the downside, unlike a rotation day where RSP and IWM hold up.",
+    "lesson": "When a sector gap meant as rotation has SPY, QQQ, RSP and IWM all below their opens and VWAP by 10:00 with VIX up 20%+, treat it as a broad risk-off trend day: the first-range break tends to hold, and the premarket leaders are not a safe side.",
+    "by": "Close review routine"
+   }
+  },
   {
    "measured": {
     "date": "2026-11-04",
