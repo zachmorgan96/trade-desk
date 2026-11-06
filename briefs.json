@@ -860,7 +860,193 @@
      "down": "Breaks 148.00"
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-06",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:37",
+   "generated": "2026-11-06T16:37:13.979216-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "25.64",
+     "change": "▼ -2.54 (-9.01%) · open -2.77%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "107.11",
+     "change": "▼ -0.22 (-0.20%) · open +0.04%",
+     "asOf": "4:27 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.859%",
+     "change": "▲ +0.022 (+0.45%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "90.49",
+     "change": "▼ -0.03 (-0.03%) · open -0.23%",
+     "asOf": "4:27 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "735.50",
+     "change": "▲ +2.50 (+0.34%) · open +0.09%",
+     "asOf": "4:36 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "656.20",
+     "change": "▲ +9.15 (+1.41%) · open -0.33%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "8:30 AM",
+     "currency": "CAD",
+     "event": "Employment Change",
+     "actual": "",
+     "forecast": "14.6K",
+     "previous": "-68.3K"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "CAD",
+     "event": "Unemployment Rate",
+     "actual": "",
+     "forecast": "6.5%",
+     "previous": "6.5%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Average Hourly Earnings m/m",
+     "actual": "",
+     "forecast": "0.3%",
+     "previous": "0.1%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Non-Farm Employment Change",
+     "actual": "",
+     "forecast": "65K",
+     "previous": "29K"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Unemployment Rate",
+     "actual": "",
+     "forecast": "4.2%",
+     "previous": "4.2%"
+    },
+    {
+     "time": "11:00 AM",
+     "currency": "JPY",
+     "event": "BOJ Gov Ueda Speaks",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "4:45 PM",
+     "currency": "NZD",
+     "event": "Parliamentary Elections",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    }
+   ],
+   "macro": [
+    {
+     "source": "CNBC",
+     "time": "4:22 PM",
+     "text": "Nasdaq +1.1%, S&P +0.3%, Dow −0.5%; Nasdaq down 3.4% on the week. October payrolls 165K vs 59K expected, unemployment 4.1%; Dec hike odds ~70%.",
+     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "1:40 PM",
+     "text": "Microsoft plans to use fewer neoclouds as the AI build-out shows signs of strain.",
+     "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "12:09 PM",
+     "text": "CoreWeave bond yield tops 16% as AI credit stress rises.",
+     "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+    },
+    {
+     "source": "FT",
+     "time": "12:20 PM",
+     "text": "US warns China it must 'immediately' meet the terms of the Busan trade deal.",
+     "url": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603"
+    },
+    {
+     "source": "FT",
+     "time": "11:31 AM",
+     "text": "Copper prices fall on fears of an AI backlash.",
+     "url": "https://www.ft.com/content/0a4e2a58-f83f-4445-8f32-892657cf8c27"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "MSFT / CRWV",
+     "move": "MSFT −0.9%",
+     "text": "Microsoft plans to use fewer neoclouds; a CoreWeave bond yield topped 16% on AI credit stress.",
+     "source": "CNBC",
+     "time": "1:40 PM",
+     "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html"
+    },
+    {
+     "symbol": "TSLA",
+     "move": "+4.2%",
+     "text": "Musk says Tesla will wind down Cybertruck production in Texas next year to ramp the Cybercab.",
+     "source": "CNBC",
+     "time": "10:06 AM",
+     "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html"
+    },
+    {
+     "symbol": "LLY / HIMS",
+     "move": "LLY −0.6%",
+     "text": "Eli Lilly picked Hims & Hers to sell its obesity drugs, days before Hims reports.",
+     "source": "Yahoo Finance",
+     "time": "2:40 PM",
+     "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-picks-hims-hers-194024042.html"
+    },
+    {
+     "symbol": "OpenAI / Anthropic",
+     "move": "private",
+     "text": "OpenAI reportedly closed $11B at a $1.25T valuation; Anthropic (which built me) presses ahead with an IPO targeting $1.5T, which some investors call a stretch.",
+     "source": "Investing.com / FT",
+     "time": "4:07 PM",
+     "url": "https://www.investing.com/news/stock-market-news/openai-closes-11-billion-funding-at-125-trillion-valuation--report-5009147"
+    }
+   ],
+   "read": "Chop after hot payrolls (165K vs 59K): SPY peaked 9:50 (742.21), then faded to 735.29 (+0.3%). Morning setups: NVDA, AMD, MU calls sides hit at the open then faded; NET, ABNB, VRT puts sides triggered but missed targets; VST held all day (+10.6%). Money left chips after 9:50 for health care, staples, utilities. No red event Monday; CEG reports premarket.",
+   "tomorrow": [],
+   "readthroughNext": [
+    {
+     "symbol": "CEG",
+     "time": "before open 2026-11-09",
+     "related": [
+      "VRT",
+      "GEV",
+      "ETN",
+      "PWR",
+      "VST",
+      "NRG"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-06T08:26:13.108995-05:00"
+ "updated": "2026-11-06T16:40:07.781532-05:00"
 }
