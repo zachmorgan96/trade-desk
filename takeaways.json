@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-06T16:41:00.635937-05:00",
+ "updated": "2026-11-06T19:59:38.009194-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -49,31 +49,31 @@
    },
    {
     "clue": "SPY crossed VWAP 3+ times by 10:30",
-    "days": 25,
+    "days": 24,
     "counts": {
      "trend-up": 3,
      "trend-down": 8,
      "reversal-up": 2,
      "reversal-down": 3,
-     "chop": 9
+     "chop": 8
     },
-    "trendRate": 44,
-    "chopRate": 36,
-    "followedLeanRate": 28
+    "trendRate": 46,
+    "chopRate": 33,
+    "followedLeanRate": 29
    },
    {
     "clue": "SPY on one side of VWAP all morning (0-1 crosses by 10:30)",
-    "days": 23,
+    "days": 24,
     "counts": {
      "trend-up": 7,
      "trend-down": 5,
      "reversal-up": 2,
      "reversal-down": 3,
-     "chop": 6
+     "chop": 7
     },
-    "trendRate": 52,
-    "chopRate": 26,
-    "followedLeanRate": 39
+    "trendRate": 50,
+    "chopRate": 29,
+    "followedLeanRate": 38
    },
    {
     "clue": "SPY and QQQ disagreed at 10:30",
@@ -223,8 +223,8 @@
      "closeLocation": 0.1,
      "highAt": "09:50",
      "lowAt": "09:30",
-     "vwapCrosses": 9,
-     "pctAboveVwapAfter10": 25
+     "vwapCrosses": 7,
+     "pctAboveVwapAfter10": 38
     },
     "expectedMovePct": 1.775,
     "actualMoveVsExpected": 0.18,
@@ -268,7 +268,7 @@
        "last": 740.57,
        "vsOpen": 0.783,
        "vsPrevClose": 1.033,
-       "vwap": 739.11,
+       "vwap": 737.52,
        "aboveVwap": true,
        "vwapCrosses": 0
       },
@@ -276,7 +276,7 @@
        "last": 662.61,
        "vsOpen": 0.648,
        "vsPrevClose": 2.406,
-       "vwap": 659.05,
+       "vwap": 659.94,
        "aboveVwap": true,
        "vwapCrosses": 1
       },
@@ -287,7 +287,7 @@
       },
       "iwm": {
        "last": 272.04,
-       "vsOpen": 0.029,
+       "vsOpen": 0.022,
        "vsPrevClose": 0.391
       },
       "vix": {
@@ -311,17 +311,17 @@
        "last": 739.0,
        "vsOpen": 0.569,
        "vsPrevClose": 0.819,
-       "vwap": 739.16,
-       "aboveVwap": false,
-       "vwapCrosses": 3
+       "vwap": 738.16,
+       "aboveVwap": true,
+       "vwapCrosses": 0
       },
       "qqq": {
        "last": 658.27,
        "vsOpen": -0.012,
        "vsPrevClose": 1.734,
-       "vwap": 660.02,
+       "vwap": 660.01,
        "aboveVwap": false,
-       "vwapCrosses": 2
+       "vwapCrosses": 4
       },
       "rsp": {
        "last": 216.71,
@@ -330,7 +330,7 @@
       },
       "iwm": {
        "last": 272.67,
-       "vsOpen": 0.263,
+       "vsOpen": 0.256,
        "vsPrevClose": 0.625
       },
       "vix": {
@@ -338,8 +338,8 @@
        "vsPrevClose": -13.059
       },
       "oil": {
-       "last": 90.03,
-       "vsPrevClose": -0.541
+       "last": 90.04,
+       "vsPrevClose": -0.53
       },
       "tnx": {
        "last": 4.864,
@@ -352,7 +352,7 @@
       "gapFilled": false
      }
     },
-    "summary": "Chop. SPY closed +0.32% on the day (+0.07% from the open). High-to-low it moved 1.04%, about a normal range (1.0x the last 20 days). It never broke out of the first 30 minutes' range. It crossed VWAP 9 times (lots of crossing is a chop sign).",
+    "summary": "Chop. SPY closed +0.32% on the day (+0.07% from the open). High-to-low it moved 1.04%, about a normal range (1.0x the last 20 days). It never broke out of the first 30 minutes' range. It crossed VWAP 7 times (lots of crossing is a chop sign).",
     "usEvents": [
      {
       "time": "8:30 AM",
