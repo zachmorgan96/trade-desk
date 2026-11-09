@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T00:59:30+00:00",
+ "updated": "2026-11-08T23:53:38+00:00",
  "source": "Nasdaq earnings calendar",
  "minMarketCap": 10000000000.0,
  "days": {
@@ -3997,12 +3997,14 @@
    {
     "symbol": "ENB",
     "name": "Enbridge Inc",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 104905523000.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.36,
     "estimates": 5,
-    "lastYearEps": 0.33,
+    "lastYearEps": null,
+    "eps": 0.39,
+    "surprise": 8.33,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -4019,12 +4021,14 @@
    {
     "symbol": "MRNA",
     "name": "Moderna, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 96399499000.0,
     "quarter": "Sep/2026",
     "epsForecast": -1.1,
     "estimates": 7,
-    "lastYearEps": -0.51,
+    "lastYearEps": null,
+    "eps": 0.38,
+    "surprise": 134.55,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -4041,12 +4045,14 @@
    {
     "symbol": "BAM",
     "name": "Brookfield Asset Management",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 83872907000.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.44,
     "estimates": 5,
-    "lastYearEps": 0.41,
+    "lastYearEps": null,
+    "eps": 0.47,
+    "surprise": 6.82,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-08-05",
@@ -4063,12 +4069,14 @@
    {
     "symbol": "HUM",
     "name": "Humana Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 49447870000.0,
     "quarter": "Sep/2026",
     "epsForecast": -1.03,
     "estimates": 10,
-    "lastYearEps": 3.24
+    "lastYearEps": null,
+    "eps": -0.7,
+    "surprise": 32.04
    },
    {
     "symbol": "HMC",
@@ -4078,7 +4086,9 @@
     "quarter": "Sep/2026",
     "epsForecast": null,
     "estimates": 0,
-    "lastYearEps": 0.6
+    "lastYearEps": null,
+    "eps": 0.6,
+    "surprise": null
    },
    {
     "symbol": "VST",
@@ -4088,7 +4098,9 @@
     "quarter": "Sep/2026",
     "epsForecast": 2.94,
     "estimates": 4,
-    "lastYearEps": 1.75
+    "lastYearEps": null,
+    "eps": 1.75,
+    "surprise": null
    },
    {
     "symbol": "UI",
@@ -4098,17 +4110,21 @@
     "quarter": "Sep/2026",
     "epsForecast": 3.82,
     "estimates": 1,
-    "lastYearEps": 3.42
+    "lastYearEps": null,
+    "eps": 5.29,
+    "surprise": 38.48
    },
    {
     "symbol": "PPL",
     "name": "PPL Corporation",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 27091613700.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.53,
     "estimates": 5,
-    "lastYearEps": 0.48
+    "lastYearEps": null,
+    "eps": 0.54,
+    "surprise": 1.89
    },
    {
     "symbol": "ECHO",
@@ -4118,77 +4134,93 @@
     "quarter": "Sep/2026",
     "epsForecast": -0.42,
     "estimates": 4,
-    "lastYearEps": 0.83
+    "lastYearEps": null,
+    "eps": 0.83,
+    "surprise": null
    },
    {
     "symbol": "BIP",
     "name": "Brookfield Infrastructure Partners LP",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 17312106500.0,
     "quarter": "Sep/2026",
-    "epsForecast": 0.89,
+    "epsForecast": 0.9,
     "estimates": 2,
-    "lastYearEps": 0.83
+    "lastYearEps": null,
+    "eps": 0.91,
+    "surprise": 1.11
    },
    {
     "symbol": "PAA",
     "name": "Plains All American Pipeline, L.P.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 17307545600.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.4,
     "estimates": 5,
-    "lastYearEps": 0.39
+    "lastYearEps": null,
+    "eps": -0.04,
+    "surprise": -110.0
    },
    {
     "symbol": "BEN",
     "name": "Franklin Templeton, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 16365157400.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.78,
     "estimates": 6,
-    "lastYearEps": 0.67
+    "lastYearEps": null,
+    "eps": 0.94,
+    "surprise": 20.51
    },
    {
     "symbol": "EMA",
     "name": "Emera Incorporated",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 15741372400.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.64,
     "estimates": 3,
-    "lastYearEps": 0.64
+    "lastYearEps": null,
+    "eps": 0.61,
+    "surprise": -4.69
    },
    {
     "symbol": "TU",
     "name": "TELUS Corporation",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 14951480300.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.13,
     "estimates": 6,
-    "lastYearEps": 0.17
+    "lastYearEps": null,
+    "eps": 0.11,
+    "surprise": -15.38
    },
    {
     "symbol": "CHTR",
     "name": "Charter Communications, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 14420722700.0,
     "quarter": "Sep/2026",
-    "epsForecast": 10.21,
+    "epsForecast": 9.08,
     "estimates": 4,
-    "lastYearEps": 8.34
+    "lastYearEps": null,
+    "eps": 21.7,
+    "surprise": 138.99
    },
    {
     "symbol": "ELAN",
     "name": "Elanco Animal Health Incorporated",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 11831045100.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.2,
     "estimates": 8,
-    "lastYearEps": 0.19
+    "lastYearEps": null,
+    "eps": 0.27,
+    "surprise": 35.0
    },
    {
     "symbol": "FRHC",
@@ -4198,7 +4230,9 @@
     "quarter": "Sep/2026",
     "epsForecast": null,
     "estimates": 1,
-    "lastYearEps": 0.63
+    "lastYearEps": null,
+    "eps": 0.63,
+    "surprise": null
    }
   ],
   "2026-11-09": [
@@ -4615,7 +4649,7 @@
     "marketCap": 45730271000.0,
     "quarter": "Sep/2026",
     "epsForecast": -0.44,
-    "estimates": 0,
+    "estimates": 1,
     "lastYearEps": null
    },
    {
