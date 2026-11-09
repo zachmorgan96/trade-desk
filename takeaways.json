@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-09T15:50:06.474658-05:00",
+ "updated": "2026-11-09T16:38:06.102847-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -213,21 +213,21 @@
      "open": 741.95,
      "high": 755.42,
      "low": 741.03,
-     "close": 754.1,
+     "close": 752.61,
      "prevClose": 735.29,
-     "change": 2.558,
-     "openToClose": 1.638,
+     "change": 2.356,
+     "openToClose": 1.437,
      "rangePct": 1.958,
      "usualRangePct": 1.099,
      "rangeVsUsual": 1.78,
-     "closeLocation": 0.91,
+     "closeLocation": 0.8,
      "highAt": "15:15",
      "lowAt": "09:30",
      "vwapCrosses": 0,
      "pctAboveVwapAfter10": 100
     },
     "expectedMovePct": 1.615,
-    "actualMoveVsExpected": 1.58,
+    "actualMoveVsExpected": 1.46,
     "rangeVsExpected": 1.21,
     "openingRange": {
      "high": 747.98,
@@ -356,10 +356,18 @@
       "gapFilled": false
      }
     },
-    "summary": "Rally all day. SPY closed +2.56% on the day (+1.64% from the open). High-to-low it moved 1.96%, a bigger range than usual (1.8x the last 20 days). It broke the first 30 minutes' range up at 10:05 and that break held into the close. It crossed VWAP 0 times.",
+    "summary": "Rally all day. SPY closed +2.36% on the day (+1.44% from the open). High-to-low it moved 1.96%, a bigger range than usual (1.8x the last 20 days). It broke the first 30 minutes' range up at 10:05 and that break held into the close. It crossed VWAP 0 times.",
     "usEvents": []
    },
-   "written": null
+   "written": {
+    "briefLean": "The morning expected a broad, oil-driven bounce with Nvidia as the exception and no data, warning that Monday gaps before CPI often fade and that money was leaving chips.",
+    "verdict": "held",
+    "whatHappened": "SPY gapped up 0.9% and made its low on the first bar (741.03 at 9:30), broke the 30-minute range up at 10:05 and that break held. It never crossed VWAP, peaked at 755.42 at 3:15 and closed 752.61 (+2.36% on the day, +1.44% from the open), 1.8x its usual range.",
+    "why": "Oil held its overnight slide (WTI −4% to about 87) after Trump called strikes on Iran 'highly unlikely', and VIX fell 22% to 19.92 with the 10-year flat near 4.86%. The bounce broadened from power and hyperscalers into chips (SMH +4.8% from the open) and small caps, with Nvidia the only big laggard on its CEO probe.",
+    "earliestClue": "At 10:00 and 10:30 SPY and QQQ were both above VWAP with zero crosses, VIX was down 16–18%, oil stayed down about 3.5% and the clues agreed; the opening range broke up at 10:05 and the gap was never close to filling.",
+    "lesson": "When the gap holds its first bar and SPY stays above VWAP through 10:30 with VIX falling hard, treat it as a trend day: the 'gaps fade' warning no longer applies, and pullbacks to VWAP are the only dips.",
+    "by": "Close review routine"
+   }
   },
   {
    "measured": {

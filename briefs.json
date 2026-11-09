@@ -637,7 +637,141 @@
      "down": "Loses 625.60 (Friday's high) and fills toward 610.15"
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-09",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:35",
+   "generated": "2026-11-09T16:35:46.029598-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "19.92",
+     "change": "▼ -5.72 (-22.31%) · open -14.76%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.95",
+     "change": "▼ -0.16 (-0.15%) · open -0.29%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.864%",
+     "change": "▲ +0.005 (+0.10%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "87.14",
+     "change": "▼ -3.69 (-4.06%) · open +0.32%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "752.91",
+     "change": "▲ +17.62 (+2.40%) · open +1.48%",
+     "asOf": "4:35 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "678.70",
+     "change": "▲ +22.60 (+3.44%) · open +2.42%",
+     "asOf": "4:35 PM ET"
+    }
+   ],
+   "events": [],
+   "macro": [
+    {
+     "source": "Reuters",
+     "time": "4:20 PM",
+     "text": "Wall St jumps as oil slide cools inflation worries; Dow about +1,100, S&P +2.4%, Nasdaq +2%+; Nvidia slumps.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
+    },
+    {
+     "source": "FT",
+     "time": "2:56 PM",
+     "text": "Oil at a 10-week low (WTI 87.14, −4%) after Trump says strikes on Iran 'highly unlikely'.",
+     "url": "https://www.ft.com/content/1b818c16-5197-45f4-857a-49f99a10252f"
+    },
+    {
+     "source": "FT",
+     "time": "1:19 PM",
+     "text": "Saudi Arabia's East-West pipeline struck in an attack; oil held its losses.",
+     "url": "https://www.ft.com/content/45dce79e-2758-43f2-a06c-3c56db392f39"
+    },
+    {
+     "source": "CNBC",
+     "time": "4:03 PM",
+     "text": "October CPI Tue 8:30 (headline 0.3%, core 0.2% expected), the last before the Dec 9 Fed meeting.",
+     "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "NRG",
+     "move": "+10.4%",
+     "text": "Q3: reaffirmed 2026 guidance, set 2027 guidance, $4B generation asset sale for buybacks and debt cuts; 1.2 GW data center project on track.",
+     "source": "SEC 8-K",
+     "time": "Mon",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001013871/000101387126000022/nrgq32026ex991.htm"
+    },
+    {
+     "symbol": "NVDA / AMD",
+     "move": "NVDA −4.3%, AMD +13.4%",
+     "text": "Nvidia missed the rally on the Huang probe and succession questions; AMD erased its post-earnings drop in two sessions.",
+     "source": "CNBC",
+     "time": "4:04 PM",
+     "url": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html"
+    },
+    {
+     "symbol": "TSM / MU",
+     "move": "TSM +3.9%, MU +6.5%",
+     "text": "Taiwan curbed short selling and deployed its stabilization fund; Micron rose as TSMC stays in logic, not memory.",
+     "source": "Yahoo Finance",
+     "time": "Mon",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-rise-4-68-185010441.html"
+    }
+   ],
+   "read": "Rally all day on cheaper oil: SPY low at the 9:30 open, closed +2.4% (752.61); VIX −22%. Calls sides triggered and ran on AMD (+13.4%), NRG (+10.4%, broke 95.00), CEG (+10.4%, cleared 263.16); AMZN broke 267.95 then faded. NVDA's puts side failed after the open (−4.3%). Money went into chips (SMH +4.8% from open) and AI power. CPI 8:30 Tue.",
+   "tomorrow": [
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Core CPI m/m",
+     "forecast": "0.2%",
+     "previous": "0.3%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "CPI m/m",
+     "forecast": "0.3%",
+     "previous": "0.6%"
+    }
+   ],
+   "readthroughNext": [
+    {
+     "symbol": "OXY",
+     "time": "after close 2026-11-09",
+     "related": [
+      "XOM",
+      "CVX",
+      "COP",
+      "EOG",
+      "VLO",
+      "PSX",
+      "MPC",
+      "SLB",
+      "HAL",
+      "BKR"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-09T08:28:13.580624-05:00"
+ "updated": "2026-11-09T16:38:06.164487-05:00"
 }
