@@ -1,186 +1,636 @@
 {
  "version": 1,
- "date": "2026-11-06",
- "slot": "close",
- "slotLabel": "Close review",
- "time": "16:37",
- "generated": "2026-11-06T16:37:13.979216-05:00",
+ "date": "2026-11-09",
+ "slot": "morning",
+ "slotLabel": "Morning brief",
+ "time": "08:22",
+ "generated": "2026-11-09T08:22:46.084545-05:00",
  "prices": [
   {
    "name": "VIX",
-   "last": "25.64",
-   "change": "▼ -2.54 (-9.01%) · open -2.77%",
-   "asOf": "4:15 PM ET"
+   "last": "23.04",
+   "change": "▼ -2.60 (-10.14%)",
+   "asOf": "8:07 AM ET"
   },
   {
    "name": "US10 (10-yr note futures)",
-   "last": "107.11",
-   "change": "▼ -0.22 (-0.20%) · open +0.04%",
-   "asOf": "4:27 PM ET"
+   "last": "107.17",
+   "change": "▲ +0.06 (+0.06%)",
+   "asOf": "8:12 AM ET"
   },
   {
    "name": "US10Y yield",
    "last": "4.859%",
    "change": "▲ +0.022 (+0.45%)",
-   "asOf": "2:55 PM ET"
+   "asOf": "?"
   },
   {
    "name": "Crude oil (WTI)",
-   "last": "90.49",
-   "change": "▼ -0.03 (-0.03%) · open -0.23%",
-   "asOf": "4:27 PM ET"
+   "last": "87.63",
+   "change": "▼ -3.20 (-3.52%)",
+   "asOf": "8:12 AM ET"
   },
   {
    "name": "SPY",
-   "last": "735.50",
-   "change": "▲ +2.50 (+0.34%) · open +0.09%",
-   "asOf": "4:36 PM ET"
+   "last": "740.63",
+   "change": "▲ +5.34 (+0.73%)",
+   "asOf": "8:22 AM ET · premarket"
   },
   {
    "name": "QQQ",
-   "last": "656.20",
-   "change": "▲ +9.15 (+1.41%) · open -0.33%",
-   "asOf": "4:36 PM ET"
+   "last": "660.32",
+   "change": "▲ +4.22 (+0.64%)",
+   "asOf": "8:22 AM ET · premarket"
+  },
+  {
+   "name": "US2Y yield (futures)",
+   "last": "4.75",
+   "change": "• +0.00 (+0.00%)",
+   "asOf": "?"
+  },
+  {
+   "name": "US30Y yield",
+   "last": "5.260%",
+   "change": "▲ +0.009 (+0.17%)",
+   "asOf": "?"
+  },
+  {
+   "name": "Brent crude",
+   "last": "94.30",
+   "change": "▼ -4.02 (-4.09%)",
+   "asOf": "8:12 AM ET"
+  },
+  {
+   "name": "US dollar index",
+   "last": "101.85",
+   "change": "▼ -0.45 (-0.44%)",
+   "asOf": "8:12 AM ET"
+  },
+  {
+   "name": "Gold",
+   "last": "4,129.40",
+   "change": "▲ +54.50 (+1.34%)",
+   "asOf": "8:12 AM ET"
+  },
+  {
+   "name": "IWM (small caps)",
+   "last": "277.03",
+   "change": "▲ +3.36 (+1.23%)",
+   "asOf": "8:22 AM ET · premarket"
   }
  ],
- "events": [
-  {
-   "time": "8:30 AM",
-   "currency": "CAD",
-   "event": "Employment Change",
-   "actual": "",
-   "forecast": "14.6K",
-   "previous": "-68.3K"
-  },
-  {
-   "time": "8:30 AM",
-   "currency": "CAD",
-   "event": "Unemployment Rate",
-   "actual": "",
-   "forecast": "6.5%",
-   "previous": "6.5%"
-  },
-  {
-   "time": "8:30 AM",
-   "currency": "USD",
-   "event": "Average Hourly Earnings m/m",
-   "actual": "",
-   "forecast": "0.3%",
-   "previous": "0.1%"
-  },
-  {
-   "time": "8:30 AM",
-   "currency": "USD",
-   "event": "Non-Farm Employment Change",
-   "actual": "",
-   "forecast": "65K",
-   "previous": "29K"
-  },
-  {
-   "time": "8:30 AM",
-   "currency": "USD",
-   "event": "Unemployment Rate",
-   "actual": "",
-   "forecast": "4.2%",
-   "previous": "4.2%"
-  },
-  {
-   "time": "11:00 AM",
-   "currency": "JPY",
-   "event": "BOJ Gov Ueda Speaks",
-   "actual": "",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "time": "4:45 PM",
-   "currency": "NZD",
-   "event": "Parliamentary Elections",
-   "actual": "",
-   "forecast": "",
-   "previous": ""
-  }
- ],
+ "events": [],
  "macro": [
   {
    "source": "CNBC",
-   "time": "4:22 PM",
-   "text": "Nasdaq +1.1%, S&P +0.3%, Dow −0.5%; Nasdaq down 3.4% on the week. October payrolls 165K vs 59K expected, unemployment 4.1%; Dec hike odds ~70%.",
-   "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+   "time": "Mon 8:10 AM",
+   "text": "Nvidia −5.2% premarket after its board opened an independent probe into reports CEO Huang was the target of a foreign intelligence effort; earnings Nov 17.",
+   "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
   },
   {
    "source": "CNBC",
-   "time": "1:40 PM",
-   "text": "Microsoft plans to use fewer neoclouds as the AI build-out shows signs of strain.",
-   "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html"
+   "time": "Mon 6:09 AM",
+   "text": "Oil: WTI 87.63 (−3.5%), Brent 94.30 (−4.1%). Tehran proposed cutting the talks restart timetable to two days; Rubio calls its demands 'outrageous'; Trump says new strikes 'highly unlikely' if talks progress.",
+   "url": "https://www.cnbc.com/2026/11/09/us-iran-war-trump-hormuz.html"
   },
   {
    "source": "CNBC",
-   "time": "12:09 PM",
-   "text": "CoreWeave bond yield tops 16% as AI credit stress rises.",
-   "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+   "time": "Mon 3:19 AM",
+   "text": "Bonds: 10-year 4.859% and 30-year 5.260% (Friday close); Goldman says the 10-year could settle in a 4.75–5.0% range if risk assets calm. Dollar index 101.85 (−0.4%), gold 4,129.40 (+1.3%).",
+   "url": "https://www.cnbc.com/2026/11/09/goldman-treasury-yields-bonds.html"
   },
   {
-   "source": "FT",
-   "time": "12:20 PM",
-   "text": "US warns China it must 'immediately' meet the terms of the Busan trade deal.",
-   "url": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603"
+   "source": "Investing.com",
+   "time": "Mon 8:13 AM",
+   "text": "Citi cut US equities and global tech to neutral on AI positioning risk, and raised global health care to overweight.",
+   "url": "https://www.investing.com/news/stock-market-news/citigroup-downgrades-us-equities-to-neutral-on-ai-concerns-5012010"
   },
   {
-   "source": "FT",
-   "time": "11:31 AM",
-   "text": "Copper prices fall on fears of an AI backlash.",
-   "url": "https://www.ft.com/content/0a4e2a58-f83f-4445-8f32-892657cf8c27"
+   "source": "Movers Report",
+   "time": "Sun 4:55 PM",
+   "text": "Fed: December 9 hike odds near 70–80% after hot payrolls; Bowman and Barkin speak today; October CPI Tue 8:30 (0.3% m/m, core 0.2%), PPI Fri."
+  },
+  {
+   "source": "CNBC",
+   "time": "Sun 9:50 PM",
+   "text": "China's October producer prices rose 5.7% vs 5.3% expected, the highest in over four years; consumer prices 0.7% vs 0.8%.",
+   "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
   }
  ],
- "bigNames": [
+ "bigNames": [],
+ "read": "Risk-on premarket: SPY +0.7% (740.63), QQQ +0.6% (660.32), IWM +1.2% (277.03), Dow futures about +500 points, led by cheaper oil (Brent −4.1%). VIX 23.04 at Friday's close (−10%). Nvidia −5.5% keeps QQQ behind. No red events today; Fed's Bowman and Barkin speak, and CPI is tomorrow at 8:30. Wait for the 15-minute range, since Monday gaps before a CPI day often fade.",
+ "readthrough": {
+  "reporters": [
+   {
+    "symbol": "CEG",
+    "time": "before open 2026-11-09",
+    "move": "+1.95%"
+   }
+  ],
+  "rows": [
+   {
+    "symbol": "NRG",
+    "group": "AI power & cooling",
+    "linkedTo": [
+     "CEG"
+    ],
+    "last": "92.55",
+    "gap": 4.83,
+    "pmHigh": "95.00",
+    "pmLow": "88.50"
+   },
+   {
+    "symbol": "GEV",
+    "group": "AI cloud & capex",
+    "linkedTo": [
+     "CEG"
+    ],
+    "last": "794.31",
+    "gap": 2.61,
+    "pmHigh": "798.00",
+    "pmLow": "760.00"
+   },
+   {
+    "symbol": "ETN",
+    "group": "AI power & cooling",
+    "linkedTo": [
+     "CEG"
+    ],
+    "last": "349.00",
+    "gap": 2.13,
+    "pmHigh": "350.00",
+    "pmLow": "337.41"
+   },
+   {
+    "symbol": "PWR",
+    "group": "AI power & cooling",
+    "linkedTo": [
+     "CEG"
+    ],
+    "last": "552.00",
+    "gap": 2.05,
+    "pmHigh": "554.00",
+    "pmLow": "536.56"
+   },
+   {
+    "symbol": "VRT",
+    "group": "AI cloud & capex",
+    "linkedTo": [
+     "CEG"
+    ],
+    "last": "186.25",
+    "gap": 1.85,
+    "pmHigh": "188.00",
+    "pmLow": "178.23"
+   },
+   {
+    "symbol": "VST",
+    "group": "AI power & cooling",
+    "linkedTo": [
+     "CEG"
+    ],
+    "last": "126.47",
+    "gap": 1.34,
+    "pmHigh": "127.50",
+    "pmLow": "123.02"
+   }
+  ],
+  "reportUrl": "https://claude.ai/artifact/XSmsugS1Sv2dWpMhcvEZqT",
+  "reportName": "Market & Sector Movers Report",
+  "note": "Constellation's beat and raise drives the biggest gaps: NRG +4.8%, GEV +2.6%, ETN +2.1%, PWR +2.1%."
+ },
+ "flows": [
   {
-   "symbol": "MSFT / CRWV",
-   "move": "MSFT −0.9%",
-   "text": "Microsoft plans to use fewer neoclouds; a CoreWeave bond yield topped 16% on AI credit stress.",
-   "source": "CNBC",
-   "time": "1:40 PM",
-   "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html"
+   "symbol": "XLI",
+   "name": "Industrials",
+   "premarket": 1.43,
+   "yesterday": 0.12,
+   "d5": -2.83,
+   "d20": -3.89
   },
   {
-   "symbol": "TSLA",
-   "move": "+4.2%",
-   "text": "Musk says Tesla will wind down Cybertruck production in Texas next year to ramp the Cybercab.",
-   "source": "CNBC",
-   "time": "10:06 AM",
-   "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html"
+   "symbol": "XLB",
+   "name": "Materials",
+   "premarket": 1.35,
+   "yesterday": -0.73,
+   "d5": -1.5,
+   "d20": 5.1
   },
   {
-   "symbol": "LLY / HIMS",
-   "move": "LLY −0.6%",
-   "text": "Eli Lilly picked Hims & Hers to sell its obesity drugs, days before Hims reports.",
-   "source": "Yahoo Finance",
-   "time": "2:40 PM",
-   "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-picks-hims-hers-194024042.html"
+   "symbol": "XLY",
+   "name": "Consumer discretionary",
+   "premarket": 1.34,
+   "yesterday": -0.05,
+   "d5": 1.91,
+   "d20": 4.19
   },
   {
-   "symbol": "OpenAI / Anthropic",
-   "move": "private",
-   "text": "OpenAI reportedly closed $11B at a $1.25T valuation; Anthropic (which built me) presses ahead with an IPO targeting $1.5T, which some investors call a stretch.",
-   "source": "Investing.com / FT",
-   "time": "4:07 PM",
-   "url": "https://www.investing.com/news/stock-market-news/openai-closes-11-billion-funding-at-125-trillion-valuation--report-5009147"
+   "symbol": "IWM",
+   "name": "Small caps",
+   "premarket": 1.23,
+   "yesterday": 0.99,
+   "d5": -2.03,
+   "d20": -1.89
+  },
+  {
+   "symbol": "XLV",
+   "name": "Health care",
+   "premarket": 1.17,
+   "yesterday": -0.06,
+   "d5": -0.04,
+   "d20": 8.19
+  },
+  {
+   "symbol": "XLF",
+   "name": "Financials",
+   "premarket": 1.01,
+   "yesterday": -0.59,
+   "d5": 1.15,
+   "d20": 4.44
+  },
+  {
+   "symbol": "XLRE",
+   "name": "Real estate",
+   "premarket": 0.98,
+   "yesterday": -0.68,
+   "d5": 1.92,
+   "d20": 5.74
+  },
+  {
+   "symbol": "XLC",
+   "name": "Communication",
+   "premarket": 0.92,
+   "yesterday": 0.43,
+   "d5": 4.89,
+   "d20": -5.06
+  },
+  {
+   "symbol": "XLU",
+   "name": "Utilities (power)",
+   "premarket": 0.86,
+   "yesterday": -0.39,
+   "d5": -0.69,
+   "d20": 4.15
+  },
+  {
+   "symbol": "ARKK",
+   "name": "High-growth tech",
+   "premarket": 0.61,
+   "yesterday": 3.16,
+   "d5": -6.55,
+   "d20": -15.8
+  },
+  {
+   "symbol": "IGV",
+   "name": "Software",
+   "premarket": 0.44,
+   "yesterday": -0.13,
+   "d5": -5.19,
+   "d20": -12.24
+  },
+  {
+   "symbol": "XLK",
+   "name": "Technology",
+   "premarket": 0.28,
+   "yesterday": 1.45,
+   "d5": -8.23,
+   "d20": -17.12
+  },
+  {
+   "symbol": "XLP",
+   "name": "Consumer staples",
+   "premarket": 0.27,
+   "yesterday": -1.28,
+   "d5": 0.74,
+   "d20": 7.97
+  },
+  {
+   "symbol": "SMH",
+   "name": "Semiconductors",
+   "premarket": -0.22,
+   "yesterday": 3.62,
+   "d5": -11.2,
+   "d20": -23.1
+  },
+  {
+   "symbol": "XLE",
+   "name": "Energy",
+   "premarket": -0.6,
+   "yesterday": -0.02,
+   "d5": -12.0,
+   "d20": -5.32
   }
  ],
- "read": "Chop after hot payrolls (165K vs 59K): SPY peaked 9:50 (742.21), then faded to 735.29 (+0.3%). Morning setups: NVDA, AMD, MU calls sides hit at the open then faded; NET, ABNB, VRT puts sides triggered but missed targets; VST held all day (+10.6%). Money left chips after 9:50 for health care, staples, utilities. No red event Monday; CEG reports premarket.",
- "tomorrow": [],
- "readthroughNext": [
+ "scenario": "Scenario in play: if Iran talks restart on Tehran's shorter timetable (an Iran deal), the report expects refiners (VLO, MPC, PSX) to fall hardest, then COP and OXY, with airlines and consumer names leading.",
+ "earnings": [
   {
    "symbol": "CEG",
-   "time": "before open 2026-11-09",
-   "related": [
+   "move": "+2.0%",
+   "result": "Adj. operating EPS $5.06 vs $3.89 expected; revenue $9.55B vs $9.35B; 2026 adj. EPS guide raised and narrowed to $12.50–12.80 vs $12.22 consensus; 20-year nuclear deals with Amazon (690 MW) and Google (~890 MW); conditional $5B DOE loan guarantee.",
+   "meaning": "Data center power contracts are intact after the ballot losses, a real-news beat that lifts NRG, GEV and the power chain; the premarket gain has already faded from about +5%.",
+   "source": "Investing.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-shares-4-premarket-trade-123515757.html"
+  },
+  {
+   "source": "Zacks",
+   "symbol": "KKR",
+   "move": "+1.4%",
+   "result": "Adj. EPS $1.78 vs $1.58 expected; revenue $1.86B, about 6% above consensus.",
+   "meaning": "A clean beat for private markets; helps financials (XLF +1.0%) but is not an AI read-through.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kkr-co-inc-kkr-q3-121002771.html"
+  },
+  {
+   "symbol": "B",
+   "move": "+2.4%",
+   "result": "Barrick beat on Q3 adjusted profit (+37% y/y) and reaffirmed 2026 production guidance.",
+   "meaning": "Gold miners ride gold +1.3% (4,129.40); a materials lift alongside XLB +1.4%.",
+   "source": "Investing.com",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/barrick-mining-beats-q3-profit-114346551.html"
+  },
+  {
+   "symbol": "BRK.B",
+   "move": "−0.4%",
+   "result": "Q3 operating earnings −6% y/y on lower insurance results; cash about $357B; buybacks stepped up.",
+   "meaning": "Little read-through; steady.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/09/stock-market-movers-live-updates.html"
+  }
+ ],
+ "flowNote": "Money is going into the broad, cost- and rate-sensitive market as oil falls: industrials (XLI +1.4%), materials (XLB +1.4%), consumer discretionary (XLY +1.3%), small caps (IWM +1.2%) and health care (XLV +1.2%, helped by Citi's upgrade). In AI, it is going to contracted power (CEG's beat; NRG +4.8%) and the hyperscalers (AMZN +3.0%). It is leaving energy (XLE −0.6% with Brent −4%) and semiconductors (SMH −0.2%, Nvidia −5.5%), while tech (XLK +0.3%) and software (IGV +0.4%) lag the index.",
+ "inPlay": [
+  {
+   "symbol": "NVDA",
+   "linkedTo": "Own news (board probe)",
+   "setup": "Gap and go (down) / premarket low break",
+   "why": "−5.5% after the board opened an independent probe into reports Huang was targeted by a foreign intelligence effort; House chairs want a reply by Nov 11. New information, so a full fill is less likely.",
+   "gap": "−5.45%",
+   "pmHigh": "181.00",
+   "pmLow": "174.49",
+   "prevHigh": "194.90",
+   "prevLow": "185.22",
+   "prevClose": "186.64",
+   "momentum": "5d −8.8%, ~12% below 20d, ~15% below 50d; rel vol 1.59",
+   "options": "Weekly ±6.6% by Nov 11, spread 29.9% (stale PM), vol/OI 1,651/1,634; usually the most liquid chain",
+   "calls": "Reclaims 181.00 and holds above it",
+   "puts": "Loses 174.49 and holds below it",
+   "target": "calls side: the 185.22 gap edge, then the 186.64 close; puts side: extension below 174.49",
+   "thesis": "The report's AI-chip leader, now carrying event risk into its Nov 17 report"
+  },
+  {
+   "symbol": "CEG",
+   "linkedTo": "Own report",
+   "setup": "Gap and go (up) / break and retest",
+   "why": "Beat and raised (adj. EPS $5.06 vs $3.89; 2026 guide $12.50–12.80 vs $12.22) with new Amazon and Google nuclear deals. Real news, but the gap already faded from 263.16.",
+   "gap": "+1.97%",
+   "pmHigh": "263.16",
+   "pmLow": "248.68",
+   "prevHigh": "252.72",
+   "prevLow": "243.38",
+   "prevClose": "249.95",
+   "momentum": "5d −4.7%, ~5% below 20d, ~7% below 50d; rel vol 1.53",
+   "options": "No chain in feed; check spread and OI after 9:30",
+   "calls": "Holds above 252.72 (Friday's high) on a retest",
+   "puts": "Loses 248.68 and holds below",
+   "target": "calls side: retest of 263.16; puts side: the 243.38 Friday low",
+   "thesis": "The report's power test: CEG reaffirmed data center contracts after the ballot losses"
+  },
+  {
+   "symbol": "NRG",
+   "linkedTo": "CEG",
+   "setup": "Gap fill / sympathy play",
+   "why": "+4.8%, the biggest CEG read-through gap; NRG's own report was due this morning but was not found at writing, so treat the gap as sympathy until it is.",
+   "gap": "+4.83%",
+   "pmHigh": "95.00",
+   "pmLow": "88.50",
+   "prevHigh": "90.04",
+   "prevLow": "82.31",
+   "prevClose": "88.29",
+   "momentum": "5d −8.1%, ~8% below 20d, ~13% below 50d; rel vol 2.42",
+   "options": "No chain in feed; check spread and OI after 9:30",
+   "calls": "Breaks and holds above 95.00",
+   "puts": "Fails below 92.55 and loses 90.04",
+   "target": "fills toward 90.04, then the 88.29 close; calls side: extension above 95.00"
+  },
+  {
+   "symbol": "AMD",
+   "linkedTo": "Analyst upgrade",
+   "setup": "Premarket high/low break",
+   "why": "+3.3% on Oppenheimer's upgrade to outperform ($600 target), which sees data center sales more than doubling; an opinion, not new numbers.",
+   "gap": "+3.32%",
+   "pmHigh": "471.54",
+   "pmLow": "441.56",
+   "prevHigh": "459.80",
+   "prevLow": "433.30",
+   "prevClose": "449.04",
+   "momentum": "5d −11.1%, ~15% below 20d, ~18% below 50d; rel vol 1.76",
+   "options": "Weekly ±7.3% by Nov 11, spread 46.9% (stale PM), vol/OI 233/180; confirm liquidity after 9:30",
+   "calls": "Breaks and holds above 471.54",
+   "puts": "Loses 459.80 (Friday's high) and holds below",
+   "target": "calls side: extension above 471.54; puts side: fills toward the 449.04 close",
+   "thesis": "The report's highest-beta chip read-through, bouncing without Nvidia"
+  },
+  {
+   "symbol": "AMZN",
+   "linkedTo": "Analyst note",
+   "setup": "Gap fill / premarket high break",
+   "why": "+3.0% after JPMorgan named it a top AI pick (AWS growth seen above 40% in 2027 and 2028); a note, not new numbers.",
+   "gap": "+3.02%",
+   "pmHigh": "267.95",
+   "pmLow": "258.11",
+   "prevHigh": "264.18",
+   "prevLow": "258.53",
+   "prevClose": "259.30",
+   "momentum": "5d +7.9%, ~2% above 20d and 50d; rel vol 0.88",
+   "options": "Weekly ±2.6% by Nov 11, spread stale PM, vol/OI 407/1,991",
+   "calls": "Breaks and holds above 267.95",
+   "puts": "Loses 264.18 (Friday's high)",
+   "target": "fills toward 264.18, then the 259.30 close; calls side: extension above 267.95",
+   "thesis": "Owner of built capacity, the side the report's data-center-limits row favors"
+  }
+ ],
+ "swings": [
+  {
+   "symbol": "VRT",
+   "linkedTo": "AI power after CEG",
+   "setup": "Sector rotation (rebound)",
+   "why": "CEG's contracts and raised guide test whether power and cooling can recover from the ballot-measure selloff (5d −21.4%).",
+   "trend": "~15% below 20d, ~23% below 50d; 5d −21.4%, 20d −24.7%",
+   "options": "3–6 wk ±18.6% by Dec 18, spread 7.0%, vol/OI 236/1,932; no VRT earnings in the window; Nvidia (Nov 17) is",
+   "confirm": "Closes above 192.14 (Friday's high)",
+   "invalidate": "Closes below 178.23",
+   "thesis": "The report's capex-chain supplier most exposed to the data-center-limits row"
+  },
+  {
+   "symbol": "NVDA",
+   "linkedTo": "Board probe and Nov 17 report",
+   "setup": "Trend pullback or breakdown into earnings",
+   "why": "The probe, a Nov 11 House reply deadline, a Nov 18 briefing and the Nov 17 report all fall in the window.",
+   "trend": "~12% below 20d, ~15% below 50d; 5d −8.8%, 20d −18.6%",
+   "options": "3–6 wk ±15.8% by Dec 18, spread 17.6% (stale PM), vol/OI 727/18,536; earnings Nov 17 inside the window",
+   "confirm": "Rebound side: closes back above 185.22 (Friday's low)",
+   "invalidate": "Rebound fails on a close below 174.49",
+   "thesis": "Nvidia's report is the AI cycle's next verdict in the report"
+  },
+  {
+   "symbol": "CEG",
+   "linkedTo": "Own report",
+   "setup": "Post-earnings drift",
+   "why": "Second raise this year and new 20-year hyperscaler contracts; the drift tests whether policy fears outweigh contracted demand.",
+   "trend": "~5% below 20d, ~7% below 50d; 5d −4.7%, 20d −16.1%",
+   "options": "No chain in feed; check 3–6 week spreads after 9:30; no earnings in the window",
+   "confirm": "Closes above 263.16 (today's premarket high)",
+   "invalidate": "Closes below 243.38 (Friday's low)"
+  }
+ ],
+ "snapshot": {
+  "focus": [
+   "Nvidia −5.5% premarket (176.47) as its board probes CEO Huang's tie to an alleged spy",
+   "Futures up on cheaper oil: Dow +~500 pts, SPY +0.7%, IWM +1.2%; Brent −4.1% to 94.30",
+   "Constellation beats and raises: adj. EPS $5.06 vs $3.89; 2026 guide $12.50–12.80",
+   "AI power bid on CEG: NRG +4.8%, GEV +2.6%, ETN +2.1%, PWR +2.1%, VRT +1.9%",
+   "Hyperscalers up: AMZN +3.0%, META +2.6%, GOOGL +2.5%, MSFT +2.1%; AMD +3.3% on upgrade",
+   "CPI tomorrow 8:30 (core 0.2% expected) and CoreWeave after the close; no red events today"
+  ],
+  "bigPicture": [
+   "The market is rewarding owners of built capacity and contracted power (hyperscalers, CEG) and still punishing the leveraged AI tail and anything with headline risk (NVDA, CRWV).",
+   "Cheaper oil (Brent −4% on Iran talk-timetable headlines) is lifting the broad, rate- and cost-sensitive market: industrials, materials, discretionary and small caps lead premarket.",
+   "Wall Street is turning cautious on positioning, not demand: Citi cut US equities to neutral on AI sentiment and moved global health care to overweight.",
+   "Rates still cap any rebound: December hike odds sit near 70–80% (report), and Tuesday's CPI is the last before the Dec 9 meeting."
+  ],
+  "takeaway": "A broad, oil-driven bounce with Nvidia as the exception and no data today. The tape is paying for contracted power and hyperscalers, not for the leveraged AI tail; with CPI and CoreWeave tomorrow, let the first 15 minutes show whether gaps like CEG's (already faded from 263) and NRG's hold before trusting them."
+ },
+ "sectors": [
+  {
+   "sector": "AI infrastructure",
+   "tone": "Power bid on CEG",
+   "bias": "up",
+   "text": "Constellation beat (adj. EPS $5.06 vs $3.89), raised its 2026 guide to $12.50–12.80 vs $12.22 expected and added 20-year nuclear deals with Amazon (690 MW) and Google (~890 MW). NRG +4.8%, GEV +2.6%, ETN +2.1%, PWR +2.1%, VRT +1.9%, VST +1.3%; the group is still 5–15% below its 20-day averages.",
+   "names": [
+    "CEG",
+    "NRG",
     "VRT",
     "GEV",
     "ETN",
-    "PWR",
-    "VST",
-    "NRG"
+    "PWR"
    ]
+  },
+  {
+   "sector": "AI cloud",
+   "tone": "Hyperscalers bid",
+   "bias": "up",
+   "text": "JPMorgan named Amazon and Meta top AI picks (AWS growth seen above 40% in 2027–28): AMZN +3.0%, META +2.6%, GOOGL +2.5%, MSFT +2.1%. The leveraged tail lags: CRWV −3.1% a day before its report, with CNBC on its 'doom cycle' credit worry.",
+   "names": [
+    "AMZN",
+    "META",
+    "MSFT",
+    "GOOGL",
+    "CRWV",
+    "ORCL"
+   ]
+  },
+  {
+   "sector": "AI chips and memory",
+   "tone": "Nvidia drag",
+   "bias": "mixed",
+   "text": "NVDA −5.5% on the board's probe into Huang; Panmure says the hit is contained to Nvidia for now. Others rise: AMD +3.3% (Oppenheimer to outperform, $600 target), AVGO +2.8%, TSM +1.4%, MU +0.6%. SMH −0.2% after +3.6% Friday and −23% over a month.",
+   "names": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "MU",
+    "TSM"
+   ]
+  },
+  {
+   "sector": "AI software",
+   "tone": "Lagging the bounce",
+   "bias": "mixed",
+   "text": "IGV +0.4% premarket against SPY +0.7%, and −12.2% over a month; no big software reporter today. Disney and Adobe agreed to co-develop custom AI models. PLTR flat.",
+   "names": [
+    "PLTR",
+    "ADBE",
+    "NOW",
+    "MSFT"
+   ]
+  },
+  {
+   "sector": "Oil & gas",
+   "tone": "Oil slides",
+   "bias": "down",
+   "text": "WTI −3.5% to 87.63 and Brent −4.1% to 94.30 after Tehran proposed a two-day timetable to restart talks and Trump called renewed strikes 'highly unlikely' if talks progress, though Rubio sees no breakthrough. XLE −0.6% premarket, −12% over 5 days; Occidental reports after the close.",
+   "names": [
+    "OXY",
+    "XOM",
+    "CVX",
+    "COP",
+    "VLO"
+   ]
+  }
+ ],
+ "likelyMovers": [
+  {
+   "symbol": "NVDA",
+   "sector": "AI chips",
+   "tailwind": "Headwind: board probe into Huang; House reply due Nov 11, earnings Nov 17",
+   "momentum": "−5.5% PM; PM 181.00–174.49; 5d −8.8%, ~12% below 20d, ~15% below 50d; rel vol 1.59",
+   "up": "Reclaims 181.00 and works toward the 185.22 Friday low",
+   "down": "Loses 174.49 and holds below"
+  },
+  {
+   "symbol": "CEG",
+   "sector": "AI power",
+   "tailwind": "Beat and raise; Amazon and Google nuclear deals; $5B DOE loan guarantee (conditional)",
+   "momentum": "+2.0% PM (faded from 263.16); PM 263.16–248.68; 5d −4.7%, ~5% below 20d; rel vol 1.53",
+   "up": "Holds above 252.72 (Friday's high) and retests 263.16",
+   "down": "Loses 248.68 and fills toward 243.38"
+  },
+  {
+   "symbol": "NRG",
+   "sector": "AI power",
+   "tailwind": "Biggest CEG read-through gap; own report scheduled today (not confirmed at writing)",
+   "momentum": "+4.8% PM; PM 95.00–88.50; 5d −8.1%, ~8% below 20d; rel vol 2.42",
+   "up": "Breaks 95.00",
+   "down": "Loses 90.04 (gap edge) and fills toward 88.29"
+  },
+  {
+   "symbol": "AMD",
+   "sector": "AI chips",
+   "tailwind": "Oppenheimer upgrade to outperform ($600 target), sees data center sales more than doubling",
+   "momentum": "+3.3% PM; PM 471.54–441.56; 5d −11.1%, ~15% below 20d; rel vol 1.76",
+   "up": "Breaks 471.54",
+   "down": "Loses 459.80 (Friday's high) and fills toward 449.04"
+  },
+  {
+   "symbol": "AMZN",
+   "sector": "AI cloud",
+   "tailwind": "JPMorgan top AI pick; AWS seen growing 40%+ in 2027 and 2028",
+   "momentum": "+3.0% PM; PM 267.95–258.11; 5d +7.9%, ~2% above 20d and 50d; rel vol 0.88",
+   "up": "Breaks 267.95",
+   "down": "Loses 264.18 (Friday's high) and fills toward 259.30"
+  },
+  {
+   "symbol": "VRT",
+   "sector": "AI infrastructure",
+   "tailwind": "CEG read-through; most liquid options in AI power",
+   "momentum": "+1.9% PM; PM 188.00–178.23; 5d −21.4%, ~15% below 20d, ~23% below 50d; rel vol 1.15",
+   "up": "Breaks 188.00 toward 192.14",
+   "down": "Loses 182.86 (Friday's close) toward 178.23"
+  },
+  {
+   "symbol": "CRWV",
+   "sector": "AI cloud (leveraged)",
+   "tailwind": "Headwind: reports Tue after close (implied ±20.7–21.2%); 16%+ bond yields",
+   "momentum": "−3.1% PM; PM 45.97–44.10; 5d −15.4%, ~22% below 20d, ~39% below 50d; rel vol 0.89",
+   "up": "Reclaims 46.40 (Friday's close)",
+   "down": "Loses 44.10 toward 43.10"
+  },
+  {
+   "symbol": "META",
+   "sector": "AI cloud",
+   "tailwind": "JPMorgan top AI pick on AI-driven ad gains",
+   "momentum": "+2.6% PM; PM 629.65–608.02; 5d −0.8%, ~8% below 20d; rel vol 0.63",
+   "up": "Breaks 629.65",
+   "down": "Loses 625.60 (Friday's high) and fills toward 610.15"
   }
  ]
 }
