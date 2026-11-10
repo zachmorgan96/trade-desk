@@ -725,7 +725,145 @@
      "down": "Loses 342.08 (yesterday's close)"
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-10",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:36",
+   "generated": "2026-11-10T16:36:25.168672-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "19.46",
+     "change": "▼ -0.46 (-2.31%) · open -8.77%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.20",
+     "change": "▼ -0.86 (-0.80%) · open -0.09%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.983%",
+     "change": "▲ +0.119 (+2.45%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "86.48",
+     "change": "▼ -0.37 (-0.43%) · open +2.23%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "751.09",
+     "change": "▼ -1.60 (-0.21%) · open +0.43%",
+     "asOf": "4:36 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "675.83",
+     "change": "▼ -3.52 (-0.52%) · open +0.49%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Core CPI m/m",
+     "actual": "",
+     "forecast": "0.2%",
+     "previous": "0.3%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "CPI m/m",
+     "actual": "",
+     "forecast": "0.3%",
+     "previous": "0.6%"
+    }
+   ],
+   "macro": [
+    {
+     "source": "Investing.com",
+     "time": "4:09 PM",
+     "text": "Wall St ends lower on hot CPI and Waller: S&P −0.36%, Nasdaq −0.74%; 2-yr 4.731% (+18.4 bp), 10-yr 4.992%; 50 bp hike odds near 10%.",
+     "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-techled-rebound-cpi-in-focus-5013763"
+    },
+    {
+     "source": "FT",
+     "time": "3:19 PM",
+     "text": "Oil falls below $90 as Trump pulls back from threat to strike Iran; WTI 86.48.",
+     "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
+    },
+    {
+     "source": "CNBC",
+     "time": "3:28 PM",
+     "text": "White House vows to press ahead with tariffs despite midterm backlash over rising prices.",
+     "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html"
+    },
+    {
+     "source": "FT",
+     "time": "2:58 PM",
+     "text": "US regulator postpones Wall Street push to trade AI computing futures.",
+     "url": "https://www.ft.com/content/269b0245-44c4-4e34-94df-202bef642539"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "CRWV",
+     "move": "AH slightly up",
+     "text": "Q3 revenue $3.66B vs $3.55B expected; loss $1.27/sh vs $1.16 expected. 2026 revenue guide raised to $13.0–13.3B; capex $37–39B; backlog $132.5B.",
+     "source": "CNBC",
+     "time": "4:35 PM",
+     "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+    },
+    {
+     "symbol": "NVDA",
+     "move": "about −5.5%",
+     "text": "Huang scandal deepens: Wachtell Lipton hired to lead the probe, price-target cuts, possible tougher China export rules. Earnings Nov 17.",
+     "source": "CNBC",
+     "time": "3:01 PM",
+     "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html"
+    },
+    {
+     "symbol": "MSFT",
+     "move": "about −2%",
+     "text": "Fell midday on an Anthropic challenge to Office (I'm built by Anthropic). Anthropic IPO priced $70–78, trading Nov 19.",
+     "source": "CNBC",
+     "time": "1:29 PM",
+     "url": "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html"
+    },
+    {
+     "symbol": "B",
+     "move": "about −6%",
+     "text": "Barrick filed an S-1 to IPO American Barrick with a planned NYSE listing.",
+     "source": "GlobeNewswire",
+     "time": "4:18 PM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/barrick-announces-american-barrick-1-211800194.html"
+    }
+   ],
+   "read": "Hot-CPI chop: SPY high 10:05 (752.14), range break failed, low 12:40, closed −0.36%; 2-yr +18 bp. Setups: NVDA puts side ran (low 165.89, about −5.5%); AMD calls side to 539.25 then faded (+1.3%); CRWV both sides; OXY puts then calls (+2.0%); TTWO calls (+8.3%). Money rotated within chips (AMD, AVGO up; NVDA down). No red events Wed.",
+   "tomorrow": [],
+   "readthroughNext": [
+    {
+     "symbol": "CRWV",
+     "time": "after close 2026-11-10",
+     "related": [
+      "NBIS",
+      "ORCL",
+      "NVDA",
+      "VRT"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-10T08:34:18.684853-05:00"
+ "updated": "2026-11-10T16:38:36.941458-05:00"
 }

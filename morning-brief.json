@@ -1,82 +1,46 @@
 {
  "version": 1,
  "date": "2026-11-10",
- "slot": "morning",
- "slotLabel": "Morning brief",
- "time": "08:31",
- "generated": "2026-11-10T08:31:09.060916-05:00",
+ "slot": "close",
+ "slotLabel": "Close review",
+ "time": "16:36",
+ "generated": "2026-11-10T16:36:25.168672-05:00",
  "prices": [
   {
    "name": "VIX",
-   "last": "20.29",
-   "change": "▲ +0.37 (+1.86%)",
-   "asOf": "8:16 AM ET"
+   "last": "19.46",
+   "change": "▼ -0.46 (-2.31%) · open -8.77%",
+   "asOf": "4:15 PM ET"
   },
   {
    "name": "US10 (10-yr note futures)",
-   "last": "106.77",
-   "change": "▼ -0.30 (-0.28%)",
-   "asOf": "8:21 AM ET"
+   "last": "106.20",
+   "change": "▼ -0.86 (-0.80%) · open -0.09%",
+   "asOf": "4:26 PM ET"
   },
   {
    "name": "US10Y yield",
-   "last": "4.864%",
-   "change": "• +0.000 (+0.00%)",
-   "asOf": "?"
+   "last": "4.983%",
+   "change": "▲ +0.119 (+2.45%)",
+   "asOf": "2:55 PM ET"
   },
   {
    "name": "Crude oil (WTI)",
-   "last": "84.92",
-   "change": "▼ -1.93 (-2.22%)",
-   "asOf": "8:21 AM ET"
+   "last": "86.48",
+   "change": "▼ -0.37 (-0.43%) · open +2.23%",
+   "asOf": "4:26 PM ET"
   },
   {
    "name": "SPY",
-   "last": "750.16",
-   "change": "▼ -2.53 (-0.34%)",
-   "asOf": "8:31 AM ET · premarket"
+   "last": "751.09",
+   "change": "▼ -1.60 (-0.21%) · open +0.43%",
+   "asOf": "4:36 PM ET"
   },
   {
    "name": "QQQ",
-   "last": "672.87",
-   "change": "▼ -6.48 (-0.95%)",
-   "asOf": "8:31 AM ET · premarket"
-  },
-  {
-   "name": "US2Y yield (futures)",
-   "last": "4.75",
-   "change": "• +0.00 (+0.00%)",
-   "asOf": "?"
-  },
-  {
-   "name": "US30Y yield",
-   "last": "5.256%",
-   "change": "• +0.000 (+0.00%)",
-   "asOf": "?"
-  },
-  {
-   "name": "Brent crude",
-   "last": "90.11",
-   "change": "▼ -2.46 (-2.66%)",
-   "asOf": "8:21 AM ET"
-  },
-  {
-   "name": "US dollar index",
-   "last": "101.81",
-   "change": "▲ +0.15 (+0.15%)",
-   "asOf": "8:21 AM ET"
-  },
-  {
-   "name": "Gold",
-   "last": "4,080.90",
-   "change": "▼ -33.60 (-0.82%)",
-   "asOf": "8:21 AM ET"
-  },
-  {
-   "name": "IWM (small caps)",
-   "last": "280.11",
-   "change": "▼ -2.40 (-0.85%)",
-   "asOf": "8:31 AM ET · premarket"
+   "last": "675.83",
+   "change": "▼ -3.52 (-0.52%) · open +0.49%",
+   "asOf": "4:36 PM ET"
   }
  ],
  "events": [
@@ -99,626 +63,76 @@
  ],
  "macro": [
   {
-   "source": "BLS",
-   "time": "Tue 8:30 AM",
-   "text": "October CPI +0.4% m/m (0.3% expected; Sept 0.6%), core +0.3% (0.2% expected). Shelter +0.3%, energy +0.7%, gasoline +1.0%. No 12-month rate this month.",
-   "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
-  },
-  {
-   "source": "CNBC",
-   "time": "Tue 4:00 AM",
-   "text": "Fed's Waller leans to a December hike even on a soft CPI and says 50 bp 'should be considered' if inflation runs hot; FedWatch had >80% odds of 25 bp before the print.",
-   "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
-  },
-  {
-   "source": "CNBC",
-   "time": "Tue 5:38 AM",
-   "text": "Brent below $90 for the first time since August (90.11, −2.7%; WTI 84.92) as Trump says the Iran war could end 'fairly soon' and calls new strikes 'highly unlikely'.",
-   "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
-  },
-  {
    "source": "Investing.com",
-   "time": "Tue 8:06 AM",
-   "text": "Bonds: 10-year 4.90% (+0.7%) before CPI; our 10-year and 30-year feeds show yesterday's 4.864% and 5.256%. Dollar index 101.81 (+0.2%), gold 4,080.90 (−0.8%).",
+   "time": "4:09 PM",
+   "text": "Wall St ends lower on hot CPI and Waller: S&P −0.36%, Nasdaq −0.74%; 2-yr 4.731% (+18.4 bp), 10-yr 4.992%; 50 bp hike odds near 10%.",
    "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-techled-rebound-cpi-in-focus-5013763"
   },
   {
-   "source": "CNBC",
-   "time": "Tue 7:00 AM",
-   "text": "Trump says the FBI is investigating Nvidia CEO Huang's affair with an alleged Chinese spy; BofA dropped NVDA from its top-picks list; House reply due Nov 11.",
-   "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html"
+   "source": "FT",
+   "time": "3:19 PM",
+   "text": "Oil falls below $90 as Trump pulls back from threat to strike Iran; WTI 86.48.",
+   "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
   },
   {
    "source": "CNBC",
-   "time": "Tue 7:57 AM",
-   "text": "Anthropic (which built me) set its IPO at $70–78 a share, up to $64.35B raised, valuation up to $1.405T; trading Nov 19 as ANT. AMD, AVGO, GOOGL, MU, MSFT, NVDA and TSM buy $26B alongside.",
-   "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+   "time": "3:28 PM",
+   "text": "White House vows to press ahead with tariffs despite midterm backlash over rising prices.",
+   "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html"
+  },
+  {
+   "source": "FT",
+   "time": "2:58 PM",
+   "text": "US regulator postpones Wall Street push to trade AI computing futures.",
+   "url": "https://www.ft.com/content/269b0245-44c4-4e34-94df-202bef642539"
   }
  ],
- "bigNames": [],
- "read": "Risk-off after a hot CPI: October CPI rose 0.4% (0.3% expected) and core 0.3% (0.2% expected). SPY −0.3% (750.16), QQQ −1.0% (672.87), IWM −0.9% (280.11). VIX 20.29 is yesterday's close. Waller already backs a December hike and said 50 bp should be considered on hot data. No more red events today; CoreWeave reports after the close. Wait for the 15-minute range and for yields to settle.",
- "readthrough": {
-  "reporters": [
-   {
-    "symbol": "OXY",
-    "time": "after close 2026-11-09",
-    "move": "-1.26%"
-   }
-  ],
-  "rows": [
-   {
-    "symbol": "VLO",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "347.90",
-    "gap": -2.48,
-    "pmHigh": "353.35",
-    "pmLow": "346.00"
-   },
-   {
-    "symbol": "MPC",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "383.09",
-    "gap": -1.74,
-    "pmHigh": "385.99",
-    "pmLow": "383.09"
-   },
-   {
-    "symbol": "BKR",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "47.83",
-    "gap": -1.28,
-    "pmHigh": "48.45",
-    "pmLow": "47.83"
-   },
-   {
-    "symbol": "COP",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "133.02",
-    "gap": -1.08,
-    "pmHigh": "134.18",
-    "pmLow": "132.50"
-   },
-   {
-    "symbol": "HAL",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "31.55",
-    "gap": -1.04,
-    "pmHigh": "31.80",
-    "pmLow": "31.47"
-   },
-   {
-    "symbol": "PSX",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "250.70",
-    "gap": -0.92,
-    "pmHigh": "252.89",
-    "pmLow": "249.30"
-   },
-   {
-    "symbol": "CVX",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "209.11",
-    "gap": -0.79,
-    "pmHigh": "210.75",
-    "pmLow": "209.00"
-   },
-   {
-    "symbol": "XOM",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "163.44",
-    "gap": -0.78,
-    "pmHigh": "164.97",
-    "pmLow": "162.94"
-   },
-   {
-    "symbol": "SLB",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "50.07",
-    "gap": -0.62,
-    "pmHigh": "50.18",
-    "pmLow": "49.12"
-   },
-   {
-    "symbol": "EOG",
-    "group": "Oil & gas",
-    "linkedTo": [
-     "OXY"
-    ],
-    "last": "147.71",
-    "gap": -0.49,
-    "pmHigh": "147.91",
-    "pmLow": "147.71"
-   }
-  ],
-  "reportUrl": "https://claude.ai/artifact/XSmsugS1Sv2dWpMhcvEZqT",
-  "reportName": "Market & Sector Movers Report",
-  "note": "Brent below $90, not Occidental's beat, drives the biggest gaps: refiners VLO and MPC lead the drop."
- },
- "flows": [
-  {
-   "symbol": "XLF",
-   "name": "Financials",
-   "premarket": 0.38,
-   "yesterday": 1.45,
-   "d5": 0.75,
-   "d20": 5.34
-  },
-  {
-   "symbol": "XLRE",
-   "name": "Real estate",
-   "premarket": 0.38,
-   "yesterday": 1.45,
-   "d5": 2.29,
-   "d20": 6.49
-  },
-  {
-   "symbol": "XLP",
-   "name": "Consumer staples",
-   "premarket": 0.35,
-   "yesterday": 0.9,
-   "d5": 0.07,
-   "d20": 7.68
-  },
-  {
-   "symbol": "XLC",
-   "name": "Communication",
-   "premarket": 0.34,
-   "yesterday": 2.45,
-   "d5": 7.08,
-   "d20": -3.67
-  },
-  {
-   "symbol": "XLY",
-   "name": "Consumer discretionary",
-   "premarket": 0.28,
-   "yesterday": 2.92,
-   "d5": 2.41,
-   "d20": 7.78
-  },
-  {
-   "symbol": "XLV",
-   "name": "Health care",
-   "premarket": 0.24,
-   "yesterday": 1.91,
-   "d5": 2.02,
-   "d20": 9.5
-  },
-  {
-   "symbol": "XLU",
-   "name": "Utilities (power)",
-   "premarket": 0.08,
-   "yesterday": 1.53,
-   "d5": 0.27,
-   "d20": 5.19
-  },
-  {
-   "symbol": "XLB",
-   "name": "Materials",
-   "premarket": -0.17,
-   "yesterday": 1.91,
-   "d5": -1.36,
-   "d20": 7.08
-  },
-  {
-   "symbol": "XLI",
-   "name": "Industrials",
-   "premarket": -0.43,
-   "yesterday": 3.82,
-   "d5": -0.48,
-   "d20": -0.15
-  },
-  {
-   "symbol": "IGV",
-   "name": "Software",
-   "premarket": -0.5,
-   "yesterday": 2.61,
-   "d5": -0.43,
-   "d20": -8.82
-  },
-  {
-   "symbol": "IWM",
-   "name": "Small caps",
-   "premarket": -0.69,
-   "yesterday": 3.23,
-   "d5": 1.21,
-   "d20": 1.66
-  },
-  {
-   "symbol": "XLE",
-   "name": "Energy",
-   "premarket": -0.82,
-   "yesterday": 0.52,
-   "d5": -7.9,
-   "d20": -6.17
-  },
-  {
-   "symbol": "XLK",
-   "name": "Technology",
-   "premarket": -1.28,
-   "yesterday": 3.73,
-   "d5": -1.92,
-   "d20": -12.98
-  },
-  {
-   "symbol": "ARKK",
-   "name": "High-growth tech",
-   "premarket": -1.87,
-   "yesterday": 4.66,
-   "d5": 0.03,
-   "d20": -10.27
-  },
-  {
-   "symbol": "SMH",
-   "name": "Semiconductors",
-   "premarket": -2.12,
-   "yesterday": 5.05,
-   "d5": -4.11,
-   "d20": -17.53
-  }
- ],
- "scenario": "Scenario in play: if the Fed signals a December hike (hot CPI plus Waller), the report expects banks and cash to lead and CRWV, NBIS, ORCL and high-multiple software to lag.",
- "earnings": [
-  {
-   "symbol": "OXY",
-   "move": "−1.3%",
-   "result": "Adj. EPS $1.91 vs $1.43 expected; revenue $6.77B vs $6.73B; output 1.427M boe/d, above guidance midpoint; operating cash flow $4.1B; debt cut to $10B. Midstream income fell to $55M from $1.3B.",
-   "meaning": "A clean beat drowned out by oil: Brent below $90 pulls OXY and refiners down with it, so the read-through table is about crude, not Occidental.",
-   "source": "Zacks / Oilprice.com",
-   "url": "https://finance.yahoo.com/energy/articles/occidental-cuts-debt-10-billion-025000403.html"
-  },
-  {
-   "symbol": "SANM",
-   "move": "+10.9%",
-   "result": "Non-GAAP EPS $4.43 vs its own $3.05–3.35 guide; FY2027 revenue guide $17.5–19.5B vs $16.61B expected; EPS $15.50–17.50 vs $14.07.",
-   "meaning": "An AI-server contract maker raising the bar: a supplier-side sign that the cloud and AI build is still ordering for 2027.",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html"
-  },
-  {
-   "symbol": "TDG",
-   "move": "+1.3%",
-   "result": "Adj. EPS $12.44 vs ~$12.30 expected; sales $2.99B (+23%, 14% organic). FY2027 sales guide $11.95–12.15B vs ~$11.87B expected.",
-   "meaning": "Steady aerospace aftermarket beat; supports industrials but no AI read-through.",
-   "source": "MT Newswires",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/transdigm-apos-fiscal-q4-adjusted-120054669.html"
-  },
-  {
-   "symbol": "TTWO",
-   "move": "+2.8%",
-   "result": "Adj. EPS $1.00 vs $0.94 expected; revenue $1.60B vs $1.58B.",
-   "meaning": "A modest beat; the gap has already halved from the 218.74 premarket high.",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html"
-  },
-  {
-   "symbol": "HIMS",
-   "move": "−1.4%",
-   "result": "Q4 revenue guide $875–895M vs $953.8M expected; adj. EBITDA guide $70–90M vs $105.8M.",
-   "meaning": "A guide miss on top of the FDA's GLP-1 vision warning; weak momentum (5d −9%).",
-   "source": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html"
-  }
- ],
- "flowNote": "Money is going into defensives and banks: financials (XLF +0.4%), real estate (XLRE +0.4%), staples (XLP +0.4%), health care (XLV +0.2%) and communication (XLC +0.3%) are the only green sectors after the hot CPI. It is leaving the rate-sensitive AI trade after yesterday's +5% chip rally: semiconductors (SMH −2.1%) and high-growth tech (ARKK −1.9%) lead the losses, then technology (XLK −1.3%), small caps (IWM −0.7%) and software (IGV −0.5%). Energy (XLE −0.8%) is down with Brent below $90. A hike in December now looks more likely, and that rewards banks and punishes debt-funded AI builders.",
- "inPlay": [
-  {
-   "symbol": "NVDA",
-   "linkedTo": "Own news (FBI probe) + hot CPI",
-   "setup": "Premarket low break / opening range breakout",
-   "why": "Trump says the FBI is investigating Huang's affair with an alleged Chinese spy; BofA dropped NVDA from its top-picks list; the House reply is due Nov 11. Fell 4.3% yesterday while SOX rose ~7%.",
-   "gap": "−1.51%",
-   "pmHigh": "183.09",
-   "pmLow": "175.60",
-   "prevHigh": "179.92",
-   "prevLow": "170.24",
-   "prevClose": "178.67",
-   "momentum": "5d −11.6%, ~15% below 20d, ~18% below 50d; rel vol 3.9",
-   "options": "Weekly ±4.1% by Nov 11, spread 10.9% (pre-CPI quote), vol/OI 55,815/10,376; the most liquid chain",
-   "calls": "Reclaims 178.67 (yesterday's close) and holds above it.",
-   "puts": "Loses 175.60 and holds below it.",
-   "target": "calls side: 179.92 (yesterday's high); puts side: toward the 170.24 low",
-   "thesis": "The report's AI-chip leader carrying headline risk into its Nov 17 report"
-  },
+ "bigNames": [
   {
    "symbol": "CRWV",
-   "linkedTo": "Own report tonight + hot CPI",
-   "setup": "Opening range breakout (15 min)",
-   "why": "Reports after the close (report: implied ±20.7–21.2%) with bonds above 16% yields; a hot CPI raises its funding cost the same day.",
-   "gap": "−3.12%",
-   "pmHigh": "50.38",
-   "pmLow": "47.40",
-   "prevHigh": "50.10",
-   "prevLow": "45.15",
-   "prevClose": "48.98",
-   "momentum": "5d −2.3%, ~15% below 20d, ~35% below 50d; rel vol 0.71",
-   "options": "Weekly (Nov 13) straddle ~18% on last trades; vol/OI 2,694/1,524; bid-ask blank pre-open, so check after 9:30",
-   "calls": "Breaks the 15-minute high and reclaims 48.98.",
-   "puts": "Breaks the 15-minute low and loses 47.40.",
-   "target": "calls side: 50.10, then 50.38; puts side: toward the 45.15 low",
-   "thesis": "The report's leveraged AI cloud name, first to feel a December hike"
+   "move": "AH slightly up",
+   "text": "Q3 revenue $3.66B vs $3.55B expected; loss $1.27/sh vs $1.16 expected. 2026 revenue guide raised to $13.0–13.3B; capex $37–39B; backlog $132.5B.",
+   "source": "CNBC",
+   "time": "4:35 PM",
+   "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
   },
-  {
-   "symbol": "AMD",
-   "linkedTo": "Hot CPI after +13.4% day",
-   "setup": "Gap fill / premarket low break",
-   "why": "Gave back part of yesterday's +13.4% on the hot CPI; no new company news, so the −2.1% gap could fill. Anchor investor in Anthropic's IPO (I'm built by Anthropic).",
-   "gap": "−2.10%",
-   "pmHigh": "511.00",
-   "pmLow": "495.05",
-   "prevHigh": "515.18",
-   "prevLow": "468.21",
-   "prevClose": "508.58",
-   "momentum": "5d +8.9%, ~3% below 20d, ~7% below 50d; rel vol 1.85",
-   "options": "Weekly ±5.2% by Nov 11, spread 24.9% (pre-open), vol/OI 3,611/1,945",
-   "calls": "Holds above 495.05 and reclaims 508.58.",
-   "puts": "Loses 495.05 and holds below it.",
-   "target": "calls side: fills toward 508.58, then 515.18; puts side: toward 468.21 over time",
-   "thesis": "The report's highest-beta chip read-through, now testing the hike row"
-  },
-  {
-   "symbol": "OXY",
-   "linkedTo": "Own report + Brent below $90",
-   "setup": "Gap and go (down) / break and retest",
-   "why": "Beat (adj. EPS $1.91 vs $1.43) and cut debt to $10B, but Brent fell below $90 on Iran de-escalation talk. A beat in a falling commodity.",
-   "gap": "−1.26%",
-   "pmHigh": "56.19",
-   "pmLow": "55.06",
-   "prevHigh": "56.20",
-   "prevLow": "54.97",
-   "prevClose": "55.76",
-   "momentum": "5d −8.2%, ~9% below 20d, ~7% below 50d; rel vol 1.23",
-   "options": "Weekly (Nov 13) straddle ~4.8% on last trades, vol/OI 1,909/2,001; check spread after 9:30",
-   "calls": "Reclaims 55.76 (yesterday's close) on its beat.",
-   "puts": "Loses 54.97 (yesterday's low).",
-   "target": "calls side: 56.19–56.20; puts side: extension below 54.97",
-   "thesis": "The report's Iran-deal row: COP and OXY fall after refiners"
-  },
-  {
-   "symbol": "TTWO",
-   "linkedTo": "Own report",
-   "setup": "Gap and go (up) / VWAP reclaim or rejection",
-   "why": "Beat (adj. EPS $1.00 vs $0.94; revenue $1.60B vs $1.58B); the gap has faded from +5.5% to +2.8% since CPI.",
-   "gap": "+2.82%",
-   "pmHigh": "218.74",
-   "pmLow": "213.25",
-   "prevHigh": "217.00",
-   "prevLow": "206.36",
-   "prevClose": "207.40",
-   "momentum": "5d +8.0%, ~2% above 20d, at 50d; rel vol 2.19",
-   "options": "Weekly (Nov 13) straddle ~8% on last trades, vol/OI 362/436; thinner, check spread after 9:30",
-   "calls": "Holds 213.25 and breaks 218.74.",
-   "puts": "Loses 213.25 and fills toward 207.40.",
-   "target": "calls side: extension above 218.74; puts side: 207.40 (yesterday's close)"
-  }
- ],
- "swings": [
   {
    "symbol": "NVDA",
-   "linkedTo": "FBI probe, House reply Nov 11, earnings Nov 17",
-   "setup": "Trend breakdown or rebound into earnings",
-   "why": "The probe, the House deadline, the Nov 17 report and the Nov 18 briefing all fall in the window; NVDA is lagging the chip bounce.",
-   "trend": "~15% below 20d, ~18% below 50d; 5d −11.6%, 20d −21.1%",
-   "options": "3–6 wk ±14.4% by Dec 18, spread 16.9% (pre-CPI quote), vol/OI 3,878/5,693; earnings Nov 17 inside the window",
-   "confirm": "Rebound side: closes above 183.09 (today's premarket high).",
-   "invalidate": "Closes below 170.24 (yesterday's low).",
-   "thesis": "Nvidia's report is the AI cycle's next verdict in the report"
+   "move": "about −5.5%",
+   "text": "Huang scandal deepens: Wachtell Lipton hired to lead the probe, price-target cuts, possible tougher China export rules. Earnings Nov 17.",
+   "source": "CNBC",
+   "time": "3:01 PM",
+   "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html"
   },
   {
-   "symbol": "AMD",
-   "linkedTo": "Chip rebound vs. hike risk",
-   "setup": "Sector rotation (rebound)",
-   "why": "Yesterday's +13.4% with the SOX up ~7% looked like a capitulation bounce (Baird); a December hike is the risk to it.",
-   "trend": "~3% below 20d, ~7% below 50d; 5d +8.9%, 20d −14.4%",
-   "options": "3–6 wk ±13.6% by Dec 4, spread 19.6%, vol/OI 126/521; no AMD earnings in the window, Nvidia's (Nov 17) is",
-   "confirm": "Closes above 515.18 (yesterday's high).",
-   "invalidate": "Closes below 468.21 (yesterday's low).",
-   "thesis": "The report's 'memory and logic orders' row, tested by AMAT Thursday"
+   "symbol": "MSFT",
+   "move": "about −2%",
+   "text": "Fell midday on an Anthropic challenge to Office (I'm built by Anthropic). Anthropic IPO priced $70–78, trading Nov 19.",
+   "source": "CNBC",
+   "time": "1:29 PM",
+   "url": "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html"
   },
   {
-   "symbol": "AMZN",
-   "linkedTo": "Hyperscaler leadership",
-   "setup": "Trend pullback to the 20-day average",
-   "why": "The owner of built capacity the market keeps paying for (JPMorgan top AI pick yesterday); now pulling back from Monday's 275.34 high.",
-   "trend": "~5% above 20d and 50d; 5d +8.7%, 20d +2.9%",
-   "options": "3–6 wk ±7.1% by Dec 4, spread 46.1% (pre-open), vol/OI 696/1,482; no earnings in the window",
-   "confirm": "Holds above 266.01 and closes back above 275.34.",
-   "invalidate": "Closes below its 20-day average (~254, about 5% below)."
+   "symbol": "B",
+   "move": "about −6%",
+   "text": "Barrick filed an S-1 to IPO American Barrick with a planned NYSE listing.",
+   "source": "GlobeNewswire",
+   "time": "4:18 PM",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/barrick-announces-american-barrick-1-211800194.html"
   }
  ],
- "snapshot": {
-  "focus": [
-   "Hot CPI: headline +0.4% (0.3% expected), core +0.3% (0.2% expected)",
-   "Futures fall after the print: SPY −0.3%, QQQ −1.0%, IWM −0.9%",
-   "Waller backs a December hike and opened the door to 50 bp on hot data",
-   "Chips give back Monday's +7% SOX bounce: AMD −2.1%, MU −3.0%, AVGO −2.0%",
-   "Sanmina +10.9% on a FY27 guide well above estimates; CoreWeave reports tonight",
-   "Brent below $90 (90.11, −2.7%) on Iran de-escalation; OXY beat but −1.3%"
-  ],
-  "bigPicture": [
-   "A hot core CPI on top of Waller's hike talk puts the market's main worry, a December hike, back in charge; rate-sensitive AI and small caps fall first.",
-   "Yesterday's +7% chip rally looked like capitulation, but one day does not make a bottom; today checks whether it survives higher rate odds.",
-   "Defensives and banks are the only sectors bid: XLF, XLRE, XLP and XLV are green and have led over the past month.",
-   "Cheaper oil (Brent −2.7%) eases one inflation channel but did not stop core from beating; energy keeps losing money (XLE −7.9% over 5 days)."
-  ],
-  "takeaway": "The CPI result is known; what matters now is the Fed's response. A hot core with Waller already talking 50 bp makes the leveraged AI names (CRWV tonight) and yesterday's chip bounce the most exposed. Banks and defensives are the side money is choosing. Let the first 15 minutes and the 2-year yield set direction before trusting any premarket gap."
- },
- "sectors": [
+ "read": "Hot-CPI chop: SPY high 10:05 (752.14), range break failed, low 12:40, closed −0.36%; 2-yr +18 bp. Setups: NVDA puts side ran (low 165.89, about −5.5%); AMD calls side to 539.25 then faded (+1.3%); CRWV both sides; OXY puts then calls (+2.0%); TTWO calls (+8.3%). Money rotated within chips (AMD, AVGO up; NVDA down). No red events Wed.",
+ "tomorrow": [],
+ "readthroughNext": [
   {
-   "sector": "AI chips and memory",
-   "tone": "Bounce tested by CPI",
-   "bias": "down",
-   "text": "After yesterday's ~7% SOX rally, the hot core print hits the highest-beta names: MU −3.0%, AMD −2.1%, AVGO −2.0%, NVDA −1.5% (FBI probe), TSM −0.7% despite October sales +59.7%. SMH −2.1% premarket.",
-   "names": [
-    "NVDA",
-    "AMD",
-    "MU",
-    "AVGO",
-    "TSM"
-   ]
-  },
-  {
-   "sector": "AI cloud",
-   "tone": "Leveraged tail exposed",
-   "bias": "down",
-   "text": "Hyperscalers hold up (AMZN −0.2%), but the debt-funded names fall on the hike risk: CRWV −3.1% before tonight's report, NBIS −2.8% before Thursday's. Bernstein raised its view of Oracle's AI opportunity.",
-   "names": [
-    "CRWV",
+   "symbol": "CRWV",
+   "time": "after close 2026-11-10",
+   "related": [
     "NBIS",
     "ORCL",
-    "AMZN",
-    "MSFT"
+    "NVDA",
+    "VRT"
    ]
-  },
-  {
-   "sector": "AI infrastructure",
-   "tone": "Giving back Monday",
-   "bias": "down",
-   "text": "Power and cooling give back part of yesterday's CEG-driven rally: VRT −4.7%, CEG −2.8% with no new news. Sanmina +10.9% on a FY27 guide well above estimates shows server builders still have orders.",
-   "names": [
-    "VRT",
-    "CEG",
-    "SANM",
-    "NRG",
-    "GEV"
-   ]
-  },
-  {
-   "sector": "AI software",
-   "tone": "Lagging, rate-sensitive",
-   "bias": "down",
-   "text": "IGV −0.5% before the print and −8.8% over a month; high-multiple software is on the report's losing side of a hike. IBM and Microsoft announced an industry AI agent platform; Qualys −7% on its outlook.",
-   "names": [
-    "PLTR",
-    "NOW",
-    "MSFT",
-    "ORCL",
-    "QLYS"
-   ]
-  },
-  {
-   "sector": "Oil & gas",
-   "tone": "Oil below $90",
-   "bias": "down",
-   "text": "Brent fell below $90 for the first time since August (90.11, −2.7%; WTI 84.92) on Trump's 'fairly soon' Iran comment. Refiners lead the drop (VLO −2.5%, MPC −1.7%); OXY beat but trades −1.3%. XLE −7.9% over 5 days.",
-   "names": [
-    "OXY",
-    "VLO",
-    "MPC",
-    "XOM",
-    "COP"
-   ]
-  },
-  {
-   "sector": "Financials",
-   "tone": "Hike beneficiary",
-   "bias": "up",
-   "text": "Banks are the report's winners if the Fed signals a December hike: XLF +0.4% after the print, JPM +0.9%. Diamondback and KKR agreed to buy Deep Blue Midland Basin.",
-   "names": [
-    "JPM",
-    "XLF",
-    "KKR"
-   ]
-  }
- ],
- "likelyMovers": [
-  {
-   "symbol": "CRWV",
-   "sector": "AI cloud (leveraged)",
-   "tailwind": "Headwind: reports tonight (implied ±20.7–21.2%) on CPI day; 16%+ bond yields; hike risk",
-   "momentum": "−3.1% PM; PM 50.38–47.40; 5d −2.3%, ~15% below 20d, ~35% below 50d; rel vol 0.71",
-   "up": "Reclaims 48.98 (yesterday's close)",
-   "down": "Loses 47.40 toward 45.15"
-  },
-  {
-   "symbol": "NVDA",
-   "sector": "AI chips",
-   "tailwind": "Headwind: FBI probe, BofA cut from top picks; House reply Nov 11, earnings Nov 17",
-   "momentum": "−1.5% PM; PM 183.09–175.60; 5d −11.6%, ~15% below 20d, ~18% below 50d; rel vol 3.9",
-   "up": "Reclaims 178.67 and works toward 179.92",
-   "down": "Loses 175.60 toward 170.24"
-  },
-  {
-   "symbol": "AMD",
-   "sector": "AI chips",
-   "tailwind": "Yesterday +13.4% on capitulation bounce; Anthropic IPO anchor; hot CPI is the risk",
-   "momentum": "−2.1% PM; PM 511.00–495.05; 5d +8.9%, ~3% below 20d; rel vol 1.85",
-   "up": "Holds 495.05 and reclaims 508.58",
-   "down": "Loses 495.05 and holds below"
-  },
-  {
-   "symbol": "SANM",
-   "sector": "AI infrastructure",
-   "tailwind": "FY27 guide $17.5–19.5B revenue vs $16.61B expected; options thin",
-   "momentum": "+10.9% PM (faded from 179.50); PM 179.50–166.00; 5d −6.0%, ~10% below 20d; rel vol 1.74",
-   "up": "Holds 166.00 and retests 179.50",
-   "down": "Loses 166.00 and fills toward 153.90"
-  },
-  {
-   "symbol": "VRT",
-   "sector": "AI infrastructure",
-   "tailwind": "Headwind: gives back Monday's rally on CPI; no company news",
-   "momentum": "−4.7% PM; PM 204.62–190.48; 5d −10.6%, ~6% below 20d, ~15% below 50d; rel vol 0.87",
-   "up": "Holds 190.48 and fills toward 200.47",
-   "down": "Loses 188.01 (yesterday's low)"
-  },
-  {
-   "symbol": "MU",
-   "sector": "AI memory",
-   "tailwind": "Headwind: highest-beta chip on hot CPI; Anthropic IPO anchor",
-   "momentum": "−3.0% PM; PM 744.95–710.23; 5d −12.1%, ~15% below 20d, ~23% below 50d; rel vol 1.05",
-   "up": "Reclaims 733.15 (yesterday's close)",
-   "down": "Loses 710.23 toward 689.65"
-  },
-  {
-   "symbol": "OXY",
-   "sector": "Oil & gas",
-   "tailwind": "Beat (adj. EPS $1.91 vs $1.43) against Brent below $90",
-   "momentum": "−1.3% PM; PM 56.19–55.06; 5d −8.2%, ~9% below 20d; rel vol 1.23",
-   "up": "Reclaims 55.76",
-   "down": "Loses 54.97"
-  },
-  {
-   "symbol": "TTWO",
-   "sector": "Communication",
-   "tailwind": "Beat: adj. EPS $1.00 vs $0.94",
-   "momentum": "+2.8% PM (faded from 218.74); 5d +8.0%, ~2% above 20d; rel vol 2.19",
-   "up": "Breaks 218.74",
-   "down": "Loses 213.25 toward 207.40"
-  },
-  {
-   "symbol": "JPM",
-   "sector": "Financials",
-   "tailwind": "Banks gain if the Fed hikes; XLF the top sector after the print",
-   "momentum": "+0.9% PM; PM 346.38–342.00; 5d +0.4%, ~1% above 20d; rel vol 0.94",
-   "up": "Breaks 346.38",
-   "down": "Loses 342.08 (yesterday's close)"
   }
  ]
 }
