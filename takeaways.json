@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-09T17:03:16.714896-05:00",
+ "updated": "2026-11-09T22:39:28.515228-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -315,7 +315,7 @@
        "last": 749.14,
        "vsOpen": 0.969,
        "vsPrevClose": 1.884,
-       "vwap": 747.54,
+       "vwap": 746.06,
        "aboveVwap": true,
        "vwapCrosses": 0
       },
