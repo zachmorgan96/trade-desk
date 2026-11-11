@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-10T16:38:47.631420-05:00",
+ "updated": "2026-11-10T20:19:03.767867-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -21,17 +21,17 @@
   "rows": [
    {
     "clue": "SPY broke the first 30-min range by 10:30, and SPY and QQQ agreed",
-    "days": 37,
+    "days": 36,
     "counts": {
      "trend-up": 11,
      "trend-down": 8,
      "reversal-up": 1,
      "reversal-down": 2,
-     "chop": 15
+     "chop": 14
     },
-    "trendRate": 51,
-    "chopRate": 41,
-    "followedLeanRate": 46
+    "trendRate": 53,
+    "chopRate": 39,
+    "followedLeanRate": 47
    },
    {
     "clue": "No break of the first 30-min range by 10:30",
@@ -77,16 +77,16 @@
    },
    {
     "clue": "SPY and QQQ disagreed at 10:30",
-    "days": 21,
+    "days": 22,
     "counts": {
      "trend-up": 3,
      "trend-down": 4,
      "reversal-up": 1,
      "reversal-down": 3,
-     "chop": 10
+     "chop": 11
     },
-    "trendRate": 33,
-    "chopRate": 48,
+    "trendRate": 32,
+    "chopRate": 50,
     "followedLeanRate": 14
    },
    {
@@ -278,7 +278,7 @@
       },
       "qqq": {
        "last": 679.07,
-       "vsOpen": 1.203,
+       "vsOpen": 0.969,
        "vsPrevClose": -0.041,
        "vwap": 673.49,
        "aboveVwap": true,
@@ -321,11 +321,11 @@
       },
       "qqq": {
        "last": 676.5,
-       "vsOpen": 0.82,
+       "vsOpen": 0.587,
        "vsPrevClose": -0.42,
-       "vwap": 675.01,
-       "aboveVwap": true,
-       "vwapCrosses": 0
+       "vwap": 677.42,
+       "aboveVwap": false,
+       "vwapCrosses": 1
       },
       "rsp": {
        "last": 219.43,
@@ -350,7 +350,7 @@
        "vsPrevClose": 2.529,
        "bpChange": 12.3
       },
-      "agree": true,
+      "agree": false,
       "breadthGap": -0.283,
       "orBreak": "up",
       "gapFilled": false
