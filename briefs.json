@@ -623,7 +623,136 @@
      "down": "Loses 122.17 toward 120.23"
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-11",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:35",
+   "generated": "2026-11-11T16:35:54.662939-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "17.49",
+     "change": "▼ -1.97 (-10.12%) · open -4.22%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.08",
+     "change": "▼ -0.17 (-0.16%) · open +0.01%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.998%",
+     "change": "▲ +0.015 (+0.30%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "86.39",
+     "change": "▲ +0.35 (+0.41%) · open -0.95%",
+     "asOf": "4:24 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "760.00",
+     "change": "▲ +10.08 (+1.34%) · open +0.42%",
+     "asOf": "4:35 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "690.04",
+     "change": "▲ +15.28 (+2.26%) · open +0.40%",
+     "asOf": "4:35 PM ET"
+    }
+   ],
+   "events": [],
+   "macro": [
+    {
+     "source": "Investing.com",
+     "time": "4:14 PM",
+     "text": "Wall Street ends higher, Nasdaq adds over 1.5% as AI trade comes back to life; VIX 17.49 (-10%).",
+     "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-tick-higher-after-wall-st-slips-on-hot-cpi-nvidia-losses-5017417"
+    },
+    {
+     "source": "FT",
+     "time": "4:04 PM",
+     "text": "US tech stocks rally as AI trade revives.",
+     "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd"
+    },
+    {
+     "source": "Investing.com",
+     "time": "3:40 PM",
+     "text": "Anthropic (which built me) IPO bankers mull raising the valuation to at least $1.5T, per FT.",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-bankers-mull-raising-ipo-valuation-to-min-15t--ft-432SI-5019795"
+    },
+    {
+     "source": "CNBC",
+     "time": "11:59 AM",
+     "text": "Bessent moved to a military base amid 'growing threats' from Iran; WTI ended 86.39 (+0.4%), off its morning high.",
+     "url": "https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "CRWV",
+     "move": "about +25%",
+     "text": "Best day since April 2025 after the Q3 beat-and-raise; CEO says AI demand outpaces world capacity.",
+     "source": "CNBC",
+     "time": "4:11 PM",
+     "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html"
+    },
+    {
+     "symbol": "MU",
+     "move": "about +12.5%",
+     "text": "Memory led on CoreWeave's demand comments; Bernstein says Micron, down 30% in a week, could nearly double.",
+     "source": "Benzinga",
+     "time": "4:25 PM",
+     "url": "https://finance.yahoo.com/technology/ai/articles/micron-sandisk-soar-coreweave-ceo-212511602.html"
+    },
+    {
+     "symbol": "ORCL",
+     "move": "about +9%",
+     "text": "CoreWeave's funding plan eased AI debt fears; CFO promised $30B+ free cash flow by fiscal 2029.",
+     "source": "TIKR",
+     "time": "2:44 PM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-cfo-promises-30-billion-174406178.html"
+    },
+    {
+     "symbol": "META",
+     "move": "about -2%",
+     "text": "Infrastructure head Santosh Janardhan to leave in early 2027; a former AWS cloud executive succeeds him.",
+     "source": "CNBC",
+     "time": "1:57 PM",
+     "url": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html"
+    }
+   ],
+   "read": "Tone held: AI gap-up on CoreWeave. Lows 9:35-9:50, turn by 10:00; SPY broke 30-min range up 10:55, high 1:45, +1.32%. Calls side won: CRWV (+25%), NBIS, MU (+12%), AMD (puts first, then 567.65); NVDA lost PM low and lagged (+2.9%); VRT both sides. Money to chips/ORCL, out of MSFT, META, AMZN. Tomorrow: UK GDP 2 AM, NBIS reports pre-open.",
+   "tomorrow": [
+    {
+     "time": "2:00 AM",
+     "currency": "GBP",
+     "event": "GDP m/m",
+     "forecast": "0.0%",
+     "previous": "0.1%"
+    }
+   ],
+   "readthroughNext": [
+    {
+     "symbol": "NBIS",
+     "time": "before open 2026-11-12",
+     "related": [
+      "CRWV",
+      "ORCL",
+      "NVDA",
+      "VRT"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-11T08:22:43.629840-05:00"
+ "updated": "2026-11-11T16:37:48.455664-05:00"
 }
