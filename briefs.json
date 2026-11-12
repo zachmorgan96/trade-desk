@@ -627,7 +627,141 @@
      "down": "Loses 1440.47 (yesterday's high)"
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-12",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:36",
+   "generated": "2026-11-12T16:36:29.627327-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "18.70",
+     "change": "▲ +1.21 (+6.92%) · open -0.90%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "105.31",
+     "change": "▼ -0.72 (-0.68%) · open -0.58%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "5.103%",
+     "change": "▲ +0.105 (+2.10%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "88.89",
+     "change": "▲ +2.36 (+2.73%) · open +2.68%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "757.98",
+     "change": "▼ -1.83 (-0.24%) · open +0.53%",
+     "asOf": "4:36 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "689.38",
+     "change": "▼ -1.00 (-0.14%) · open +1.35%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "2:00 AM",
+     "currency": "GBP",
+     "event": "GDP m/m",
+     "actual": "",
+     "forecast": "0.0%",
+     "previous": "0.1%"
+    }
+   ],
+   "macro": [
+    {
+     "source": "CNBC",
+     "time": "4:30 PM",
+     "text": "S&P 500 -0.35%, Nasdaq -0.39%, Dow -0.36%: Nvidia's drop outweighed energy gains after an 11:30 reversal faded.",
+     "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "2:04 PM",
+     "text": "Oil rises after Trump says 'we don't need a deal with Iran'; WTI ended 88.89 (+2.7%).",
+     "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "9:30 AM",
+     "text": "Cleveland Fed's Hammack backs further hikes in small steps, sees no need for a half point; 2-year 4.76% (+3 bp).",
+     "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+    },
+    {
+     "source": "Investing.com",
+     "time": "4:17 PM",
+     "text": "Anthropic (which built me) IPO demand reported at six times the shares available.",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-ipo-demand-jumps-to-six-times-available-shares-5023216"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "NVDA",
+     "move": "-4.3%",
+     "text": "Jensen Huang resigned; CFO Colette Kress interim CEO, Harvey Jones board chair. Down as much as 14% before recovering.",
+     "source": "CNBC",
+     "time": "4:17 PM",
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+    },
+    {
+     "symbol": "CSCO",
+     "move": "+4% after hours",
+     "text": "Adj. EPS $1.40 vs $1.33, revenue $18.5B vs $18.1B; guide above; hyperscaler AI revenue seen at $9B this fiscal year.",
+     "source": "CNBC",
+     "time": "4:20 PM",
+     "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
+    },
+    {
+     "symbol": "CBRS",
+     "move": "+18% after hours",
+     "text": "Core revenue $230.9M vs $214.7M; Q4 guide $310-330M vs $271M; Microsoft deal, revenue from Q1 2027.",
+     "source": "CNBC",
+     "time": "4:33 PM",
+     "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
+    },
+    {
+     "symbol": "AMAT",
+     "move": "about +3% after hours",
+     "text": "Q4 revenue $10.41B vs $10.30B; Q1 guide about $11.10B vs $10.89B on AI chip demand.",
+     "source": "Investing.com",
+     "time": "4:19 PM",
+     "url": "https://www.investing.com/news/stock-market-news/applied-materials-forecasts-quarterly-revenue-above-estimates-on-strong-ai-chip-demand-5023205"
+    }
+   ],
+   "read": "Morning read held only at the open: Huang resigned pre-bell and 9:30 was the low (NVDA 149.29). Dip bought; SPY high 11:20 (763.04), faded to -0.34%, chop. Puts side at the open, then calls: NVDA, NBIS, CRWV; AMD and MU calls side. Money to AMD/AVGO and energy; defensives faded. Cisco, Cerebras, AMAT beat after hours. Tomorrow: PPI 8:30 AM.",
+   "tomorrow": [
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Core PPI m/m",
+     "forecast": "0.3%",
+     "previous": "0.7%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "PPI m/m",
+     "forecast": "0.4%",
+     "previous": "1.3%"
+    }
+   ],
+   "readthroughNext": []
   }
  ],
- "updated": "2026-11-12T08:24:36.933014-05:00"
+ "updated": "2026-11-12T16:38:50.669975-05:00"
 }
