@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:23:03+00:00",
+ "updated": "2026-11-12T02:20:07+00:00",
  "source": "Nasdaq earnings calendar",
  "minMarketCap": 10000000000.0,
  "days": {
@@ -410,7 +410,7 @@
     "marketCap": 35756995000.0,
     "quarter": "Sep/2026",
     "epsForecast": null,
-    "estimates": 0,
+    "estimates": 1,
     "lastYearEps": null,
     "eps": null,
     "surprise": null
@@ -422,7 +422,7 @@
     "marketCap": 31372038100.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.63,
-    "estimates": 0,
+    "estimates": 1,
     "lastYearEps": null,
     "eps": 0.31,
     "surprise": null
@@ -659,7 +659,7 @@
     "marketCap": 22250248200.0,
     "quarter": "Sep/2026",
     "epsForecast": -0.13,
-    "estimates": 1,
+    "estimates": 0,
     "lastYearEps": null
    },
    {
@@ -679,7 +679,7 @@
     "marketCap": 14393624600.0,
     "quarter": "Sep/2026",
     "epsForecast": null,
-    "estimates": 1,
+    "estimates": 3,
     "lastYearEps": 0.06
    },
    {
@@ -908,7 +908,7 @@
     "marketCap": 206443594000.0,
     "quarter": "Sep/2026",
     "epsForecast": null,
-    "estimates": 1,
+    "estimates": 0,
     "lastYearEps": null
    },
    {
@@ -1347,7 +1347,7 @@
     "marketCap": 10851175400.0,
     "quarter": "Sep/2026",
     "epsForecast": null,
-    "estimates": 0,
+    "estimates": 1,
     "lastYearEps": 2.56
    }
   ]
