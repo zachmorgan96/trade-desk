@@ -1,129 +1,626 @@
 {
- "version": 1,
- "date": "2026-11-11",
- "slot": "close",
- "slotLabel": "Close review",
- "time": "16:35",
- "generated": "2026-11-11T16:35:54.662939-05:00",
- "prices": [
-  {
-   "name": "VIX",
-   "last": "17.49",
-   "change": "▼ -1.97 (-10.12%) · open -4.22%",
-   "asOf": "4:15 PM ET"
+  "version": 1,
+  "date": "2026-11-12",
+  "slot": "morning",
+  "slotLabel": "Morning brief",
+  "time": "08:23",
+  "generated": "2026-11-12T08:23:50.538467-05:00",
+  "prices": [
+    {
+      "name": "VIX",
+      "last": "18.60",
+      "change": "▲ +1.11 (+6.35%)",
+      "asOf": "8:08 AM ET"
+    },
+    {
+      "name": "US10 (10-yr note futures)",
+      "last": "105.77",
+      "change": "▼ -0.27 (-0.25%)",
+      "asOf": "8:13 AM ET"
+    },
+    {
+      "name": "US10Y yield",
+      "last": "4.998%",
+      "change": "▲ +0.015 (+0.30%)",
+      "asOf": "?"
+    },
+    {
+      "name": "Crude oil (WTI)",
+      "last": "87.29",
+      "change": "▲ +0.76 (+0.88%)",
+      "asOf": "8:13 AM ET"
+    },
+    {
+      "name": "SPY",
+      "last": "754.42",
+      "change": "▼ -5.39 (-0.71%)",
+      "asOf": "8:23 AM ET · premarket"
+    },
+    {
+      "name": "QQQ",
+      "last": "681.35",
+      "change": "▼ -9.03 (-1.31%)",
+      "asOf": "8:23 AM ET · premarket"
+    },
+    {
+      "name": "US2Y yield (futures)",
+      "last": "4.75",
+      "change": "• +0.00 (+0.00%)",
+      "asOf": "?"
+    },
+    {
+      "name": "US30Y yield",
+      "last": "5.356%",
+      "change": "▲ +0.006 (+0.11%)",
+      "asOf": "?"
+    },
+    {
+      "name": "Brent crude",
+      "last": "93.97",
+      "change": "▲ +1.21 (+1.30%)",
+      "asOf": "8:13 AM ET"
+    },
+    {
+      "name": "US dollar index",
+      "last": "103.00",
+      "change": "▲ +0.09 (+0.09%)",
+      "asOf": "8:13 AM ET"
+    },
+    {
+      "name": "Gold",
+      "last": "3,937.10",
+      "change": "▼ -63.40 (-1.58%)",
+      "asOf": "8:13 AM ET"
+    },
+    {
+      "name": "IWM (small caps)",
+      "last": "281.35",
+      "change": "▼ -1.74 (-0.61%)",
+      "asOf": "8:23 AM ET · premarket"
+    }
+  ],
+  "events": [
+    {
+      "time": "2:00 AM",
+      "currency": "GBP",
+      "event": "GDP m/m",
+      "actual": "",
+      "forecast": "0.0%",
+      "previous": "0.1%"
+    }
+  ],
+  "macro": [
+    {
+      "source": "CNBC",
+      "time": "Thu 7:05 AM",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+      "text": "Nvidia: NYT reported a second relationship, with VP Kimberly Powell, a direct report; WSJ says the board is preparing to remove Huang; board met Wed. NVDA −8.3% PM; Bernstein target $400→$200."
+    },
+    {
+      "source": "CNBC",
+      "time": "Thu 2:38 AM",
+      "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+      "text": "Bonds reopen after Veterans Day: 2-year 4.78% (+5 bp), 10-year 5.01% (+2 bp), 30-year 5.35%. Existing home sales today (~4.00M); PPI Friday (0.4% expected). Dollar 103.00 (+0.1%), gold 3,937.10 (−1.6%)."
+    },
+    {
+      "source": "CNBC",
+      "time": "Wed 8:16 AM",
+      "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+      "text": "Fed: a December 9 hike was fully priced after Tuesday's CPI (50 bp odds 15%); the report's calendar has Hammack, Williams and Daly speaking Thursday."
+    },
+    {
+      "source": "Investing.com",
+      "time": "Thu 7:59 AM",
+      "url": "https://www.investing.com/news/stock-market-news/bernstein-cuts-conocophillips-and-diamondback-ratings-as-iran-deescalation-looms-5021584",
+      "text": "Oil: Brent 93.97 (+1.3%), WTI 87.29 (+0.9%) at 8:13 after dipping earlier. Trump says no Iran deal is needed; Bernstein sees de-escalation as more likely and cut COP, FANG and DVN to market-perform."
+    },
+    {
+      "source": "CNBC",
+      "time": "Thu 8:16 AM",
+      "url": "https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html",
+      "text": "China and chips: Sen. Cotton urges Commerce to ban Chinese memory maker CXMT. Asia fell (Hang Seng −1.4%, Kospi −0.6%); Europe's tech index −1.3%, ASML −3%."
+    }
+  ],
+  "bigNames": [],
+  "read": "Risk-off in tech: QQQ −1.3% (681.35), SPY −0.7% (754.42), IWM −0.6% (281.35) premarket; VIX 18.60 (+1.11). Nvidia's CEO question and Nebius's capex jump undo part of yesterday's AI rally; short-term yields rise. No U.S. red events. Wait for the 15-minute range and any Nvidia board news; QQQ holding its premarket low after 9:45 says the dip is bought.",
+  "readthrough": {
+    "reporters": [
+      {
+        "symbol": "NBIS",
+        "time": "before open 2026-11-12",
+        "move": "-13.76%"
+      }
+    ],
+    "rows": [
+      {
+        "symbol": "CRWV",
+        "group": "AI cloud & capex",
+        "linkedTo": [
+          "NBIS"
+        ],
+        "last": "54.74",
+        "gap": -9.92,
+        "pmHigh": "58.46",
+        "pmLow": "54.05"
+      },
+      {
+        "symbol": "NVDA",
+        "group": "AI cloud & capex",
+        "linkedTo": [
+          "NBIS"
+        ],
+        "last": "159.09",
+        "gap": -8.43,
+        "pmHigh": "173.30",
+        "pmLow": "158.55"
+      },
+      {
+        "symbol": "ORCL",
+        "group": "AI cloud & capex",
+        "linkedTo": [
+          "NBIS"
+        ],
+        "last": "123.83",
+        "gap": -3.54,
+        "pmHigh": "127.26",
+        "pmLow": "123.00"
+      },
+      {
+        "symbol": "VRT",
+        "group": "AI cloud & capex",
+        "linkedTo": [
+          "NBIS"
+        ],
+        "last": "199.84",
+        "gap": -3.23,
+        "pmHigh": "206.40",
+        "pmLow": "198.10"
+      }
+    ],
+    "reportUrl": "https://claude.ai/artifact/XSmsugS1Sv2dWpMhcvEZqT",
+    "reportName": "Market & Sector Movers Report",
+    "note": "Nebius's capex jump and low-end revenue guide drive the AI cloud gaps (CRWV, ORCL, VRT); Nvidia's gap is mostly its own CEO news."
   },
-  {
-   "name": "US10 (10-yr note futures)",
-   "last": "106.08",
-   "change": "▼ -0.17 (-0.16%) · open +0.01%",
-   "asOf": "4:25 PM ET"
+  "flows": [
+    {
+      "symbol": "XLE",
+      "name": "Energy",
+      "premarket": 1.1,
+      "yesterday": 1.86,
+      "d5": -0.24,
+      "d20": -6.3
+    },
+    {
+      "symbol": "XLV",
+      "name": "Health care",
+      "premarket": 0.82,
+      "yesterday": 0.04,
+      "d5": -0.37,
+      "d20": 8.62
+    },
+    {
+      "symbol": "XLP",
+      "name": "Consumer staples",
+      "premarket": 0.33,
+      "yesterday": 0.46,
+      "d5": -0.53,
+      "d20": 6.26
+    },
+    {
+      "symbol": "XLY",
+      "name": "Consumer discretionary",
+      "premarket": 0.31,
+      "yesterday": -0.05,
+      "d5": -1.1,
+      "d20": 8.51
+    },
+    {
+      "symbol": "XLRE",
+      "name": "Real estate",
+      "premarket": 0.31,
+      "yesterday": 0.02,
+      "d5": -1.17,
+      "d20": 7.47
+    },
+    {
+      "symbol": "XLB",
+      "name": "Materials",
+      "premarket": 0.23,
+      "yesterday": 0.32,
+      "d5": -1.63,
+      "d20": 6.74
+    },
+    {
+      "symbol": "XLF",
+      "name": "Financials",
+      "premarket": 0.22,
+      "yesterday": 0.58,
+      "d5": -0.96,
+      "d20": 7.54
+    },
+    {
+      "symbol": "XLU",
+      "name": "Utilities (power)",
+      "premarket": 0.07,
+      "yesterday": 0.21,
+      "d5": 0.48,
+      "d20": 5.03
+    },
+    {
+      "symbol": "XLC",
+      "name": "Communication",
+      "premarket": 0.06,
+      "yesterday": 0.78,
+      "d5": 3.47,
+      "d20": -2.0
+    },
+    {
+      "symbol": "XLI",
+      "name": "Industrials",
+      "premarket": 0.01,
+      "yesterday": 1.33,
+      "d5": 0.89,
+      "d20": 2.35
+    },
+    {
+      "symbol": "IWM",
+      "name": "Small caps",
+      "premarket": -0.61,
+      "yesterday": 0.89,
+      "d5": -0.33,
+      "d20": 4.32
+    },
+    {
+      "symbol": "IGV",
+      "name": "Software",
+      "premarket": -1.5,
+      "yesterday": 1.89,
+      "d5": -1.28,
+      "d20": -5.03
+    },
+    {
+      "symbol": "ARKK",
+      "name": "High-growth tech",
+      "premarket": -1.62,
+      "yesterday": 1.78,
+      "d5": -2.36,
+      "d20": -7.11
+    },
+    {
+      "symbol": "XLK",
+      "name": "Technology",
+      "premarket": -2.09,
+      "yesterday": 3.23,
+      "d5": -1.21,
+      "d20": -8.44
+    },
+    {
+      "symbol": "SMH",
+      "name": "Semiconductors",
+      "premarket": -3.36,
+      "yesterday": 4.82,
+      "d5": 0.53,
+      "d20": -10.23
+    }
+  ],
+  "earnings": [
+    {
+      "symbol": "NBIS",
+      "move": "−13.8%",
+      "result": "Revenue $980.8M vs $907.5M expected (+571% y/y); net loss $0.13/share vs a $0.69 loss expected (basis not stated). 2026 revenue at the low end of $3.0–3.4B vs $3.35B expected; 2027 $12–13B vs $12.09B; capex $27B in 2026 (was $20–25B), $40–45B in 2027 vs $28.8B expected; $5.75B debt raised.",
+      "meaning": "Demand is there, but spending is outrunning revenue and funded with debt: the report's funding question gets a worse answer than CoreWeave gave.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html"
+    },
+    {
+      "symbol": "CTVA",
+      "move": "−10.0%",
+      "result": "Q3 revenue $1.59B vs $1.77B expected.",
+      "meaning": "A clear miss; not linked to today's AI theme. Check options liquidity before treating it as a setup.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html"
+    },
+    {
+      "symbol": "TTEK",
+      "move": "about +10%",
+      "result": "Fiscal Q4 adj. EPS $0.49 vs $0.47 expected; net revenue $1.15B, in line.",
+      "meaning": "Small beat; mid-cap with likely thinner options.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html"
+    }
+  ],
+  "flowNote": "Money is leaving chips and tech (SMH −3.4%, XLK −2.1%, ARKK −1.6%, IGV −1.5%) on Nvidia's leadership crisis and Nebius's capex jump, giving back much of yesterday's +4.8% SMH bounce. It is going to energy (XLE +1.1%), health care (XLV +0.8%, Lilly's China approval) and staples (XLP +0.3%). Rising short-term yields keep long-duration names on the losing side; within chips only AMD and AVGO are higher, as possible winners from Nvidia's turmoil.",
+  "inPlay": [
+    {
+      "symbol": "NVDA",
+      "linkedTo": "Own news (CEO)",
+      "setup": "Gap and go (down), headline-driven",
+      "why": "Reports the board may remove Jensen Huang after a second relationship, with a direct report; Oppenheimer and Bernstein downgrade. Real news: the gap is less likely to fill unless the board ends the uncertainty.",
+      "gap": "-8.31%",
+      "pmHigh": "164.80",
+      "pmLow": "158.55",
+      "prevHigh": "177.54",
+      "prevLow": "170.77",
+      "prevClose": "173.73",
+      "momentum": "5d −13.2%, 20d −21.5%, ~15% below 20d, ~20% below 50d; rel vol 2.03",
+      "options": "no data from the options feed; check spread and OI after 9:30",
+      "calls": "Reclaims 164.80 (premarket high) and holds after the open.",
+      "puts": "Loses 158.55 (premarket low) after the 15-minute range.",
+      "target": "calls side: toward 170.77 (gap edge), then 173.73; puts side: extension below 158.55. A board announcement overrides any level.",
+      "thesis": "The report's NVDA row: escalating headlines were its downside trigger, before the Nov 17 report"
+    },
+    {
+      "symbol": "NBIS",
+      "linkedTo": "Own report",
+      "setup": "Gap and go (down)",
+      "why": "Revenue beat ($980.8M vs $907.5M) but 2026 revenue at the low end and 2027 capex $40–45B vs $28.8B expected, plus $5.75B of new debt. A gap on real news: less likely to fill.",
+      "gap": "-13.69%",
+      "pmHigh": "164.73 (pre-report)",
+      "pmLow": "130.50",
+      "prevHigh": "160.21",
+      "prevLow": "147.36",
+      "prevClose": "154.69",
+      "momentum": "5d +9.3%, 20d −16.8%, ~1% below 20d, ~22% below 50d; rel vol 1.55",
+      "options": "no data from the options feed; check spread and OI after 9:30",
+      "calls": "Holds 130.50 and reclaims the 15-minute high.",
+      "puts": "Loses 130.50 (premarket low).",
+      "target": "calls side: toward 147.36 (gap edge), then 154.69; puts side: extension below 130.50.",
+      "thesis": "The report's funding test for leveraged AI cloud, answered with more capex than expected"
+    },
+    {
+      "symbol": "CRWV",
+      "linkedTo": "NBIS",
+      "setup": "Gap fill (sympathy)",
+      "why": "Sympathy with Nebius; no CoreWeave news after yesterday's +25% on its own beat-and-raise. A sympathy gap with no new CoreWeave information is a gap-fill candidate.",
+      "gap": "-10.52%",
+      "pmHigh": "58.46",
+      "pmLow": "54.05",
+      "prevHigh": "62.03",
+      "prevLow": "53.81",
+      "prevClose": "60.77",
+      "momentum": "5d +25.5%, 20d −7.6%, ~8% above 20d, ~18% below 50d; rel vol 2.22",
+      "options": "no data from the options feed; check spread and OI after 9:30",
+      "calls": "Holds 54.05 (premarket low) and reclaims 58.46.",
+      "puts": "Loses 53.81 (yesterday's low): the gap turns into a gap and go down.",
+      "target": "calls side: fills toward 58.46, then the 60.77 close; puts side: extension below 53.81."
+    },
+    {
+      "symbol": "AMD",
+      "linkedTo": "NVDA",
+      "setup": "Premarket high/low break / ORB",
+      "why": "William Blair upgrade to outperform: AMD could gain AI share while Nvidia is in turmoil. Faded from about +3.9% to +0.8% premarket.",
+      "gap": "+0.83%",
+      "pmHigh": "577.99",
+      "pmLow": "553.00",
+      "prevHigh": "567.65",
+      "prevLow": "522.65",
+      "prevClose": "552.90",
+      "momentum": "5d +13.1%, 20d −3.1%, ~7% above 20d, at 50d; rel vol 1.45",
+      "options": "no data from the options feed; check spread and OI after 9:30",
+      "calls": "Breaks 567.65 (yesterday's high) after the 15-minute range.",
+      "puts": "Loses 553.00 and 552.90 (premarket low and yesterday's close).",
+      "target": "calls side: 577.99 (premarket high); puts side: toward yesterday's range, 522.65 low.",
+      "thesis": "The report's AMD row: the highest-beta chip name, now traded as the Nvidia alternative"
+    },
+    {
+      "symbol": "MU",
+      "linkedTo": "NVDA, NBIS",
+      "setup": "Gap fill (sympathy)",
+      "why": "Sells with chips on Nvidia and Nebius with no Micron news; Sen. Cotton's call to ban China's CXMT is a small positive. A sympathy gap is a gap-fill candidate.",
+      "gap": "-5.30%",
+      "pmHigh": "794.47",
+      "pmLow": "764.80",
+      "prevHigh": "827.58",
+      "prevLow": "763.05",
+      "prevClose": "811.30",
+      "momentum": "5d +2.0%, 20d −11.3%, ~5% below 20d, ~15% below 50d; rel vol 1.17",
+      "options": "no data from the options feed; check spread and OI after 9:30",
+      "calls": "Holds 764.80 and reclaims 794.47 (premarket high).",
+      "puts": "Loses 763.05 (yesterday's low).",
+      "target": "calls side: toward 794.47, then the 811.30 close; puts side: extension below 763.05."
+    }
+  ],
+  "swings": [
+    {
+      "symbol": "LLY",
+      "linkedTo": "China approval of orforglipron",
+      "setup": "Trend continuation / range breakout",
+      "why": "China approved Lilly's orforglipron weight-loss pill; health care is a steady inflow (XLV +8.6% over a month).",
+      "trend": "~7% above 20d, ~17% above 50d; 5d +1.4%, 20d +18.9%",
+      "options": "no data from the options feed; no earnings date listed in the window",
+      "confirm": "Holds above 1440.47 (yesterday's high) on a closing basis; a break of 1490 extends it.",
+      "invalidate": "Closes back below 1414.37 (yesterday's low)."
+    },
+    {
+      "symbol": "AMD",
+      "linkedTo": "NVDA turmoil, AMAT tonight",
+      "setup": "Sector rotation (within chips)",
+      "why": "Upgrade on share gains while Nvidia's leadership is in question; Applied Materials tonight and Nvidia's Nov 17 report both fall in the window.",
+      "trend": "~7% above 20d, at 50d; 5d +13.1%, 20d −3.1%",
+      "options": "no data from the options feed; no AMD earnings in the window, Nvidia's Nov 17 report is",
+      "confirm": "Closes above 577.99 (today's premarket high).",
+      "invalidate": "Closes below 522.65 (yesterday's low).",
+      "thesis": "The report's 'memory and logic orders' row, tested by AMAT tonight"
+    },
+    {
+      "symbol": "NVDA",
+      "linkedTo": "Board decision, earnings Nov 17",
+      "setup": "Event-driven trend breakdown or rebound",
+      "why": "Board decision on Huang, Nov 17 earnings and the Nov 18 House briefing all fall inside the window.",
+      "trend": "~15% below 20d, ~20% below 50d; 5d −13.2%, 20d −21.5%",
+      "options": "no data from the options feed; earnings Nov 17 inside the window",
+      "confirm": "Calls side: a board resolution and a close back above 170.77 (gap edge).",
+      "invalidate": "Puts side: a close below 158.55 (today's premarket low).",
+      "thesis": "The report's Nvidia row: earnings are the AI cycle's next verdict"
+    }
+  ],
+  "scenario": "Scenario in play: if the Fed signals a December hike (fully priced since Tuesday's CPI, 2-year +5 bp today), the report expects banks and cash to lead and CRWV, NBIS, ORCL and high-multiple software to lag.",
+  "snapshot": {
+    "focus": [
+      "Nvidia −8.3% premarket (159.30) on reports its board may remove CEO Jensen Huang",
+      "Nebius −13.7%: revenue $981M beat, but 2027 capex $40–45B vs $28.8B expected",
+      "Futures down: QQQ −1.3%, SPY −0.7%, IWM −0.6%; SMH −3.4% after +4.8% yesterday",
+      "AMD +0.8% (off a +3.9% early print) on a William Blair upgrade as an Nvidia alternative",
+      "2-year 4.78% (+5 bp) as bonds reopen; PPI Friday 8:30 (0.4% expected)",
+      "After the close: Applied Materials, Cisco and Cerebras report"
+    ],
+    "bigPicture": [
+      "The AI trade's question this morning is who runs Nvidia. The board met Wednesday after the NYT reported a second relationship, this time with a direct report; Oppenheimer and Bernstein downgraded, and earnings are Nov 17. Chips sell together; AMD and Broadcom are the only gainers.",
+      "Nebius shows the funding worry from the cost side: revenue grew 571% and beat, but capex is rising much faster than revenue guidance ($27B this year, $40–45B in 2027) and it raised $5.75B of debt. The leveraged AI cloud names give back yesterday's CoreWeave rally.",
+      "Rates are still a headwind: a December hike is fully priced, the 2-year rose 5 bp and the 10-year sits at 5.01%. Money is moving to energy, health care and staples.",
+      "Yesterday's +4.8% SMH bounce is being tested at once: SMH is +0.5% over 5 days and −10.2% over a month."
+    ],
+    "takeaway": "Today is headline-driven: an Nvidia board decision could land at any time in the session and move the whole chip group either way, so level setups in chips can be overridden in a minute. Let the first 15 minutes set the range (yesterday's real move started after 9:45), and remember Applied Materials, Cisco and Cerebras report after the close."
   },
-  {
-   "name": "US10Y yield",
-   "last": "4.998%",
-   "change": "▲ +0.015 (+0.30%)",
-   "asOf": "2:55 PM ET"
-  },
-  {
-   "name": "Crude oil (WTI)",
-   "last": "86.39",
-   "change": "▲ +0.35 (+0.41%) · open -0.95%",
-   "asOf": "4:24 PM ET"
-  },
-  {
-   "name": "SPY",
-   "last": "760.00",
-   "change": "▲ +10.08 (+1.34%) · open +0.42%",
-   "asOf": "4:35 PM ET"
-  },
-  {
-   "name": "QQQ",
-   "last": "690.04",
-   "change": "▲ +15.28 (+2.26%) · open +0.40%",
-   "asOf": "4:35 PM ET"
-  }
- ],
- "events": [],
- "macro": [
-  {
-   "source": "Investing.com",
-   "time": "4:14 PM",
-   "text": "Wall Street ends higher, Nasdaq adds over 1.5% as AI trade comes back to life; VIX 17.49 (-10%).",
-   "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-tick-higher-after-wall-st-slips-on-hot-cpi-nvidia-losses-5017417"
-  },
-  {
-   "source": "FT",
-   "time": "4:04 PM",
-   "text": "US tech stocks rally as AI trade revives.",
-   "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd"
-  },
-  {
-   "source": "Investing.com",
-   "time": "3:40 PM",
-   "text": "Anthropic (which built me) IPO bankers mull raising the valuation to at least $1.5T, per FT.",
-   "url": "https://www.investing.com/news/stock-market-news/anthropic-bankers-mull-raising-ipo-valuation-to-min-15t--ft-432SI-5019795"
-  },
-  {
-   "source": "CNBC",
-   "time": "11:59 AM",
-   "text": "Bessent moved to a military base amid 'growing threats' from Iran; WTI ended 86.39 (+0.4%), off its morning high.",
-   "url": "https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html"
-  }
- ],
- "bigNames": [
-  {
-   "symbol": "CRWV",
-   "move": "about +25%",
-   "text": "Best day since April 2025 after the Q3 beat-and-raise; CEO says AI demand outpaces world capacity.",
-   "source": "CNBC",
-   "time": "4:11 PM",
-   "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html"
-  },
-  {
-   "symbol": "MU",
-   "move": "about +12.5%",
-   "text": "Memory led on CoreWeave's demand comments; Bernstein says Micron, down 30% in a week, could nearly double.",
-   "source": "Benzinga",
-   "time": "4:25 PM",
-   "url": "https://finance.yahoo.com/technology/ai/articles/micron-sandisk-soar-coreweave-ceo-212511602.html"
-  },
-  {
-   "symbol": "ORCL",
-   "move": "about +9%",
-   "text": "CoreWeave's funding plan eased AI debt fears; CFO promised $30B+ free cash flow by fiscal 2029.",
-   "source": "TIKR",
-   "time": "2:44 PM",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-cfo-promises-30-billion-174406178.html"
-  },
-  {
-   "symbol": "META",
-   "move": "about -2%",
-   "text": "Infrastructure head Santosh Janardhan to leave in early 2027; a former AWS cloud executive succeeds him.",
-   "source": "CNBC",
-   "time": "1:57 PM",
-   "url": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html"
-  }
- ],
- "read": "Tone held: AI gap-up on CoreWeave. Lows 9:35-9:50, turn by 10:00; SPY broke 30-min range up 10:55, high 1:45, +1.32%. Calls side won: CRWV (+25%), NBIS, MU (+12%), AMD (puts first, then 567.65); NVDA lost PM low and lagged (+2.9%); VRT both sides. Money to chips/ORCL, out of MSFT, META, AMZN. Tomorrow: UK GDP 2 AM, NBIS reports pre-open.",
- "tomorrow": [
-  {
-   "time": "2:00 AM",
-   "currency": "GBP",
-   "event": "GDP m/m",
-   "forecast": "0.0%",
-   "previous": "0.1%"
-  }
- ],
- "readthroughNext": [
-  {
-   "symbol": "NBIS",
-   "time": "before open 2026-11-12",
-   "related": [
-    "CRWV",
-    "ORCL",
-    "NVDA",
-    "VRT"
-   ]
-  }
- ]
+  "sectors": [
+    {
+      "sector": "AI chips and memory",
+      "tone": "Leadership shock",
+      "bias": "down",
+      "text": "Nvidia −8.3% on the CEO reports and two downgrades; MU −5.3%, TSM −3.5%, INTC −4.0% (Xeon delays), AMAT −2.8% before tonight's report. AMD (+0.8%, William Blair upgrade) and AVGO (+0.4%) are the exceptions as possible share gainers. Sen. Cotton's call to ban China's CXMT is a small plus for MU.",
+      "names": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "AMAT",
+        "TSM"
+      ]
+    },
+    {
+      "sector": "AI cloud",
+      "tone": "Capex outruns revenue",
+      "bias": "down",
+      "text": "Nebius beat on revenue but guided 2026 revenue to the low end and lifted capex to $27B this year and $40–45B in 2027, after raising $5.75B of debt. CRWV −10.5% and ORCL −3.6% give back part of yesterday's rally.",
+      "names": [
+        "NBIS",
+        "CRWV",
+        "ORCL",
+        "IREN"
+      ]
+    },
+    {
+      "sector": "AI infrastructure",
+      "tone": "Sold with the group",
+      "bias": "down",
+      "text": "Nebius's bigger capex plan is more spending on power and cooling on paper, but VRT is −4.0% with the AI cloud names, below yesterday's 202.01 low. The report's data-center-limits risk still hangs over the group.",
+      "names": [
+        "VRT",
+        "GEV",
+        "CEG",
+        "VST",
+        "ETN"
+      ]
+    },
+    {
+      "sector": "AI software",
+      "tone": "Gives back yesterday",
+      "bias": "down",
+      "text": "IGV −1.5% premarket after +1.9% yesterday; PLTR −1.8%, MSFT −0.7%, GOOGL −1.0% after an EU court adviser backed a $1.7B Google fine. Rising short-term yields keep high-multiple software on the losing side in the report.",
+      "names": [
+        "MSFT",
+        "PLTR",
+        "GOOGL",
+        "ORCL",
+        "NOW"
+      ]
+    },
+    {
+      "sector": "Oil & gas",
+      "tone": "Stocks and oil up",
+      "bias": "mixed",
+      "text": "XLE +1.1% premarket and XOM +1.2% as money hides in energy; Brent 93.97 (+1.3%) and WTI 87.29 (+0.9%) turned up after slipping earlier. Trump says no Iran deal is needed; Bernstein downgraded COP, FANG and DVN, seeing de-escalation as more likely, a risk for the E&Ps.",
+      "names": [
+        "XOM",
+        "COP",
+        "FANG",
+        "OXY",
+        "VLO"
+      ]
+    },
+    {
+      "sector": "Health care",
+      "tone": "Defensive inflow",
+      "bias": "up",
+      "text": "XLV +0.8% premarket, +8.6% over a month. Lilly +1.75% after China approved its orforglipron weight-loss pill.",
+      "names": [
+        "LLY",
+        "XLV"
+      ]
+    }
+  ],
+  "likelyMovers": [
+    {
+      "symbol": "NVDA",
+      "sector": "AI chips",
+      "tailwind": "Board weighing Huang's future after a second reported relationship; Oppenheimer and Bernstein downgrades; earnings Nov 17",
+      "momentum": "−8.3% PM; PM 164.80–158.55; 5d −13.2%, ~15% below 20d, ~20% below 50d; rel vol 2.03",
+      "up": "Reclaims 164.80, or a board statement that ends the uncertainty",
+      "down": "Loses 158.55; a removal or resignation headline"
+    },
+    {
+      "symbol": "NBIS",
+      "sector": "AI cloud",
+      "tailwind": "Own report: revenue beat, 2026 revenue at the low end, capex well above estimates",
+      "momentum": "−13.7% PM; PM low 130.50; 5d +9.3%, ~1% below 20d, ~22% below 50d; rel vol 1.55",
+      "up": "Holds 130.50 and reclaims 147.36 (yesterday's low)",
+      "down": "Loses 130.50"
+    },
+    {
+      "symbol": "CRWV",
+      "sector": "AI cloud",
+      "tailwind": "Nebius sympathy; no CoreWeave news; ran +25% yesterday on its own beat",
+      "momentum": "−10.5% PM; PM 58.46–54.05; 5d +25.5%, ~8% above 20d, ~18% below 50d; rel vol 2.22",
+      "up": "Holds 54.05 and reclaims 58.46, toward the 60.77 close",
+      "down": "Loses 53.81 (yesterday's low)"
+    },
+    {
+      "symbol": "AMD",
+      "sector": "AI chips",
+      "tailwind": "William Blair upgrade: AI share gains while Nvidia is in turmoil",
+      "momentum": "+0.8% PM; PM 577.99–553.00; 5d +13.1%, ~7% above 20d, at 50d; rel vol 1.45",
+      "up": "Breaks 567.65 (yesterday's high), then 577.99",
+      "down": "Loses 552.90 (yesterday's close)"
+    },
+    {
+      "symbol": "MU",
+      "sector": "AI memory",
+      "tailwind": "Chip selloff vs supportive CXMT ban call; no own news",
+      "momentum": "−5.3% PM; PM 794.47–764.80; 5d +2.0%, ~5% below 20d, ~15% below 50d; rel vol 1.17",
+      "up": "Holds 764.80 and reclaims 794.47",
+      "down": "Loses 763.05 (yesterday's low)"
+    },
+    {
+      "symbol": "AMAT",
+      "sector": "Chip equipment",
+      "tailwind": "Reports after the close (report's implied ±10.4%); sells with chips first",
+      "momentum": "−2.8% PM; PM 390.24–380.67; 5d +7.0%, ~2% above 20d, ~10% below 50d; rel vol 0.86",
+      "up": "Reclaims 390.24 into the print",
+      "down": "Loses 380.67 and 381.75 (yesterday's low)"
+    },
+    {
+      "symbol": "ORCL",
+      "sector": "AI cloud",
+      "tailwind": "Nebius read-through on AI cloud funding; +9% yesterday",
+      "momentum": "−3.6% PM; PM 127.26–123.00; 5d +3.8%, ~1% above 20d, ~7% below 50d; rel vol 0.88",
+      "up": "Reclaims 124.15 (yesterday's low), then 127.26",
+      "down": "Loses 123.00"
+    },
+    {
+      "symbol": "VRT",
+      "sector": "AI infrastructure",
+      "tailwind": "Nebius capex is spend on power and cooling, but sells with AI cloud",
+      "momentum": "−4.0% PM; PM 206.40–198.10; 5d +0.5%, ~1% below 20d, ~12% below 50d; rel vol 0.78",
+      "up": "Reclaims 202.01 (yesterday's low)",
+      "down": "Loses 198.10"
+    },
+    {
+      "symbol": "LLY",
+      "sector": "Health care",
+      "tailwind": "China approves orforglipron; health care inflows",
+      "momentum": "+1.75% PM; PM 1490.00–1449.00; 5d +1.4%, ~7% above 20d, ~17% above 50d; rel vol 0.60",
+      "up": "Holds above 1449 and breaks 1490",
+      "down": "Loses 1440.47 (yesterday's high)"
+    }
+  ]
 }
