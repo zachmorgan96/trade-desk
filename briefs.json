@@ -628,7 +628,140 @@
      "down": "Loses 506.12 (premarket low)"
     }
    ]
+  },
+  {
+   "version": 1,
+   "date": "2026-11-13",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:36",
+   "generated": "2026-11-13T16:36:27.674371-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "19.30",
+     "change": "▲ +0.60 (+3.21%) · open +5.35%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "105.20",
+     "change": "▼ -0.25 (-0.24%) · open +0.06%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "5.154%",
+     "change": "▲ +0.051 (+1.00%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "89.08",
+     "change": "▲ +0.34 (+0.38%) · open -0.38%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "749.58",
+     "change": "▼ -7.54 (-1.00%) · open -1.24%",
+     "asOf": "4:36 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "673.87",
+     "change": "▼ -14.30 (-2.08%) · open -2.13%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Core PPI m/m",
+     "actual": "",
+     "forecast": "0.3%",
+     "previous": "0.7%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "PPI m/m",
+     "actual": "",
+     "forecast": "0.4%",
+     "previous": "1.3%"
+    }
+   ],
+   "macro": [
+    {
+     "source": "CNBC",
+     "time": "Fri 10:44 AM",
+     "text": "October PPI +0.3% (0.4% expected), 6.5% a year, highest in nearly four years; December hike stays fully priced.",
+     "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
+    },
+    {
+     "source": "FT",
+     "time": "Fri 2:06 PM",
+     "text": "US Treasuries set for their worst week since 'liberation day'; 10-year near 5.15%.",
+     "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
+    },
+    {
+     "source": "FT",
+     "time": "Fri 2:45 PM",
+     "text": "Global oil markets swing to surplus as Gulf shipments rebound; WTI 89.08.",
+     "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823"
+    },
+    {
+     "source": "CNBC",
+     "time": "Fri 4:18 PM",
+     "text": "Fed survey: AI risks are the biggest threat to the financial system.",
+     "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "Fri 4:28 PM",
+     "text": "FAA issues nationwide ground stop citing communication issues at multiple air-traffic control facilities.",
+     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "NVDA",
+     "move": "−2.0%",
+     "text": "Longest weekly losing streak since 2012, ~$1.7T of value gone; third affair allegation reported; Lutnick under scrutiny. Earnings Nov 17.",
+     "source": "CNBC",
+     "time": "Fri 4:27 PM",
+     "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+    },
+    {
+     "symbol": "UAL / DAL / AAL",
+     "move": "after close",
+     "text": "FAA nationwide ground stop at about 4:10 PM over air-traffic communication issues; airlines react Monday.",
+     "source": "CNBC",
+     "time": "Fri 4:28 PM",
+     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+    },
+    {
+     "symbol": "MSFT",
+     "move": "−0.5%",
+     "text": "Microsoft 'deeply sorry' for the ~24-hour Outlook and Teams outage; easing, recovery timeline uncertain. Cerebras announced a Microsoft cloud deal.",
+     "source": "BBC",
+     "time": "Fri 4:14 PM",
+     "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o"
+    },
+    {
+     "symbol": "AMZN",
+     "move": "−1.3%",
+     "text": "Reported 600-megawatt computing power deal with Fermi (market chatter, unconfirmed).",
+     "source": "MT Newswires",
+     "time": "Fri 4:21 PM",
+     "url": "https://finance.yahoo.com/technology/articles/market-chatter-amazon-strikes-600-211958668.html"
+    }
+   ],
+   "read": "Chip unwind held: SPY's 9:30 print (760.12) was the high, the low came at 11:35 (745.20), then a grind back to 754.25 (−0.38%); QQQ −1.20%. AMD, AVGO, CSCO took the puts side all day; NVDA fell to 158.39, then closed on 162.71 (162.85); CRWV and CBRS broke down, then reversed up. Money left SMH (−3.0%) for XLP, XLC, XLE. FAA ground stop after close. No red events Monday; NVDA reports Tue.",
+   "tomorrow": [],
+   "readthroughNext": []
   }
  ],
- "updated": "2026-11-13T10:17:45.110006-05:00"
+ "updated": "2026-11-13T16:38:55.024584-05:00"
 }
