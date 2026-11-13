@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-12T16:39:45.520894-05:00",
+ "updated": "2026-11-12T20:58:07.443782-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -213,18 +213,18 @@
      "open": 753.98,
      "high": 763.04,
      "low": 753.67,
-     "close": 757.2,
+     "close": 757.19,
      "prevClose": 759.81,
-     "change": -0.344,
-     "openToClose": 0.427,
+     "change": -0.345,
+     "openToClose": 0.426,
      "rangePct": 1.233,
      "usualRangePct": 1.201,
      "rangeVsUsual": 1.03,
      "closeLocation": 0.38,
      "highAt": "11:20",
      "lowAt": "09:30",
-     "vwapCrosses": 3,
-     "pctAboveVwapAfter10": 60
+     "vwapCrosses": 5,
+     "pctAboveVwapAfter10": 58
     },
     "expectedMovePct": 1.102,
     "actualMoveVsExpected": 0.31,
@@ -269,9 +269,9 @@
     "clues": {
      "10:00": {
       "spy": {
-       "last": 757.72,
-       "vsOpen": 0.496,
-       "vsPrevClose": -0.275,
+       "last": 757.68,
+       "vsOpen": 0.491,
+       "vsPrevClose": -0.28,
        "vwap": 756.1,
        "aboveVwap": true,
        "vwapCrosses": 0
@@ -308,14 +308,14 @@
        "bpChange": 7.4
       },
       "agree": true,
-      "breadthGap": -0.983
+      "breadthGap": -0.978
      },
      "10:30": {
       "spy": {
        "last": 757.46,
        "vsOpen": 0.462,
        "vsPrevClose": -0.309,
-       "vwap": 756.62,
+       "vwap": 756.47,
        "aboveVwap": true,
        "vwapCrosses": 2
       },
@@ -356,7 +356,7 @@
       "gapFilled": false
      }
     },
-    "summary": "Chop. SPY closed -0.34% on the day (+0.43% from the open). High-to-low it moved 1.23%, about a normal range (1.0x the last 20 days). It broke the first 30 minutes' range up at 10:55 and that break did not hold. It crossed VWAP 3 times.",
+    "summary": "Chop. SPY closed -0.34% on the day (+0.43% from the open). High-to-low it moved 1.23%, about a normal range (1.0x the last 20 days). It broke the first 30 minutes' range up at 10:55 and that break did not hold. It crossed VWAP 5 times.",
     "usEvents": []
    },
    "written": {
