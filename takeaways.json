@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-13T18:10:43.770191-05:00",
+ "updated": "2026-11-13T20:30:29.018750-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -274,9 +274,9 @@
    }
   ],
   "swing": {
-   "confirmed": 12,
+   "confirmed": 11,
    "invalidated": 17,
-   "waiting": 6,
+   "waiting": 7,
    "expired": 0
   },
   "rules": {
@@ -306,8 +306,8 @@
      "closeLocation": 0.61,
      "highAt": "09:30",
      "lowAt": "11:35",
-     "vwapCrosses": 1,
-     "pctAboveVwapAfter10": 40
+     "vwapCrosses": 3,
+     "pctAboveVwapAfter10": 67
     },
     "expectedMovePct": 1.178,
     "actualMoveVsExpected": 0.32,
@@ -363,7 +363,7 @@
        "last": 681.16,
        "vsOpen": -1.068,
        "vsPrevClose": -1.019,
-       "vwap": 685.05,
+       "vwap": 685.29,
        "aboveVwap": false,
        "vwapCrosses": 0
       },
@@ -398,7 +398,7 @@
        "last": 750.07,
        "vsOpen": -1.316,
        "vsPrevClose": -0.931,
-       "vwap": 754.18,
+       "vwap": 752.45,
        "aboveVwap": false,
        "vwapCrosses": 0
       },
@@ -406,7 +406,7 @@
        "last": 675.22,
        "vsOpen": -1.93,
        "vsPrevClose": -1.882,
-       "vwap": 676.8,
+       "vwap": 676.42,
        "aboveVwap": false,
        "vwapCrosses": 0
       },
@@ -439,7 +439,7 @@
       "gapFilled": true
      }
     },
-    "summary": "Chop. SPY closed -0.38% on the day (-0.77% from the open). High-to-low it moved 1.97%, a bigger range than usual (1.6x the last 20 days). It broke the first 30 minutes' range down at 10:05 and that break did not hold. It crossed VWAP 1 times.",
+    "summary": "Chop. SPY closed -0.38% on the day (-0.77% from the open). High-to-low it moved 1.97%, a bigger range than usual (1.6x the last 20 days). It broke the first 30 minutes' range down at 10:05 and that break did not hold. It crossed VWAP 3 times.",
     "usEvents": [
      {
       "time": "8:30 AM",
@@ -548,7 +548,7 @@
       "open": 356.54,
       "high": 358.47,
       "low": 337.67,
-      "close": 346.62,
+      "close": 346.64,
       "openToClose": -2.78,
       "gapPct": -2.15,
       "gapFilled": false,
@@ -609,20 +609,20 @@
       "target": "calls side: toward 54.83 (premarket low); puts side: extension below 50.17",
       "ticker": "CRWV",
       "family": "Break and retest",
-      "open": 54.51,
+      "open": 56.01,
       "high": 56.36,
       "low": 49.25,
       "close": 53.11,
-      "openToClose": -2.57,
-      "gapPct": -3.69,
+      "openToClose": -5.18,
+      "gapPct": -1.04,
       "gapFilled": false,
       "breaks": [
        {
         "side": "down",
         "level": 54.83,
         "time": "09:30",
-        "entry": 54.51,
-        "run": 9.65,
+        "entry": 54.83,
+        "run": 10.18,
         "runBeforeFail": 0.0,
         "failedAt": "09:30",
         "closedBeyond": true
@@ -687,11 +687,8 @@
       "confirmSide": "above",
       "invalidLevel": 357.35,
       "invalidSide": "below",
-      "days": 1,
-      "status": "waiting",
-      "lastDate": "2026-11-13",
-      "lastClose": 370.5,
-      "change": -2.74
+      "days": 0,
+      "status": "waiting"
      },
      {
       "symbol": "NVDA",
@@ -705,11 +702,8 @@
       "confirmSide": "above",
       "invalidLevel": 148.8,
       "invalidSide": "below",
-      "days": 1,
-      "status": "waiting",
-      "lastDate": "2026-11-13",
-      "lastClose": 162.85,
-      "change": -2.01
+      "days": 0,
+      "status": "waiting"
      },
      {
       "symbol": "LLY",
@@ -723,14 +717,11 @@
       "confirmSide": "above",
       "invalidLevel": 1414.37,
       "invalidSide": "below",
-      "days": 1,
-      "status": "waiting",
-      "lastDate": "2026-11-13",
-      "lastClose": 1443.5,
-      "change": 1.14
+      "days": 0,
+      "status": "waiting"
      }
     ],
-    "graded": "2026-11-13T18:10:43.505233-05:00"
+    "graded": "2026-11-13T20:30:28.652594-05:00"
    }
   },
   {
@@ -1096,61 +1087,59 @@
       "setup": "Trend continuation / range breakout",
       "confirm": "Holds above 1440.47 (yesterday's high) on a closing basis; a break of 1490 extends it.",
       "invalidate": "Closes back below 1414.37 (yesterday's low).",
+      "baseClose": 1437.29,
       "ticker": "LLY",
       "family": "Trend move",
-      "baseClose": 1437.29,
       "confirmLevel": 1440.47,
       "confirmSide": "above",
       "invalidLevel": 1414.37,
       "invalidSide": "below",
-      "days": 2,
-      "status": "confirmed",
-      "statusDate": "2026-11-13",
-      "statusClose": 1443.5,
-      "lastDate": "2026-11-13",
-      "lastClose": 1443.5,
-      "change": 0.43
+      "days": 1,
+      "status": "waiting",
+      "lastDate": "2026-11-12",
+      "lastClose": 1427.28,
+      "change": -0.7
      },
      {
       "symbol": "AMD",
       "setup": "Sector rotation (within chips)",
       "confirm": "Closes above 577.99 (today's premarket high).",
       "invalidate": "Closes below 522.65 (yesterday's low).",
+      "baseClose": 552.9,
       "ticker": "AMD",
       "family": "Sector rotation",
-      "baseClose": 552.9,
       "confirmLevel": 577.99,
       "confirmSide": "above",
       "invalidLevel": 522.65,
       "invalidSide": "below",
-      "days": 2,
+      "days": 1,
       "status": "confirmed",
       "statusDate": "2026-11-12",
       "statusClose": 585.3,
-      "lastDate": "2026-11-13",
-      "lastClose": 534.06,
-      "change": -3.41
+      "lastDate": "2026-11-12",
+      "lastClose": 585.3,
+      "change": 5.86
      },
      {
       "symbol": "NVDA",
       "setup": "Event-driven trend breakdown or rebound",
       "confirm": "Calls side: a board resolution and a close back above 170.77 (gap edge).",
       "invalidate": "Puts side: a close below 158.55 (today's premarket low).",
+      "baseClose": 173.73,
       "ticker": "NVDA",
       "family": "Trend move",
-      "baseClose": 173.73,
       "confirmLevel": 170.77,
       "confirmSide": "above",
       "invalidLevel": 158.55,
       "invalidSide": "below",
-      "days": 2,
+      "days": 1,
       "status": "waiting",
-      "lastDate": "2026-11-13",
-      "lastClose": 162.85,
-      "change": -6.26
+      "lastDate": "2026-11-12",
+      "lastClose": 166.19,
+      "change": -4.34
      }
     ],
-    "graded": "2026-11-13T18:10:42.097085-05:00"
+    "graded": "2026-11-13T20:30:29.014948-05:00"
    }
   },
   {
@@ -4007,61 +3996,61 @@
       "setup": "Post-earnings drift",
       "confirm": "Drift lower: closes below 321.00 and the 50-day; recovery: closes back above 335.82",
       "invalidate": "The opposite close of whichever side is taken",
+      "baseClose": 338.32,
       "ticker": "AAPL",
       "family": "Post-earnings drift",
-      "baseClose": 338.32,
       "confirmLevel": 321.0,
       "confirmSide": "below",
       "invalidLevel": null,
       "invalidSide": null,
-      "days": 9,
+      "days": 8,
       "status": "waiting",
-      "lastDate": "2026-11-13",
-      "lastClose": 356.27,
-      "change": 5.31
+      "lastDate": "2026-11-12",
+      "lastClose": 354.88,
+      "change": 4.89
      },
      {
       "symbol": "MU",
       "setup": "Sector rotation / trend reclaim",
       "confirm": "Closes above 892.08 and works toward the ~973 20-day",
       "invalidate": "A close below 825.25",
+      "baseClose": 833.59,
       "ticker": "MU",
       "family": "Sector rotation",
-      "baseClose": 833.59,
       "confirmLevel": 892.08,
       "confirmSide": "above",
       "invalidLevel": 825.25,
       "invalidSide": "below",
-      "days": 9,
+      "days": 8,
       "status": "invalidated",
       "statusDate": "2026-11-04",
       "statusClose": 795.23,
-      "lastDate": "2026-11-13",
-      "lastClose": 778.31,
-      "change": -6.63
+      "lastDate": "2026-11-12",
+      "lastClose": 798.44,
+      "change": -4.22
      },
      {
       "symbol": "AMD",
       "setup": "Post-earnings drift",
       "confirm": "Holds above 512.82 after the report and works toward the ~567 50-day",
       "invalidate": "A post-report close below 466.07",
+      "baseClose": 466.84,
       "ticker": "AMD",
       "family": "Post-earnings drift",
-      "baseClose": 466.84,
       "confirmLevel": 512.82,
       "confirmSide": "above",
       "invalidLevel": 466.07,
       "invalidSide": "below",
-      "days": 9,
+      "days": 8,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 404.4,
-      "lastDate": "2026-11-13",
-      "lastClose": 534.06,
-      "change": 14.4
+      "lastDate": "2026-11-12",
+      "lastClose": 585.3,
+      "change": 25.37
      }
     ],
-    "graded": "2026-11-13T18:10:34.749958-05:00"
+    "graded": "2026-11-13T20:30:29.012477-05:00"
    }
   },
   {
@@ -5304,61 +5293,61 @@
       "setup": "Post-earnings drift",
       "confirm": "Holds 535.00 as support into next week",
       "invalidate": "Close back below 526.14",
+      "baseClose": 531.01,
       "ticker": "MSFT",
       "family": "Post-earnings drift",
-      "baseClose": 531.01,
       "confirmLevel": 535.0,
       "confirmSide": "above",
       "invalidLevel": 526.14,
       "invalidSide": "below",
-      "days": 12,
+      "days": 11,
       "status": "invalidated",
       "statusDate": "2026-10-30",
       "statusClose": 521.91,
-      "lastDate": "2026-11-13",
-      "lastClose": 523.88,
-      "change": -1.34
+      "lastDate": "2026-11-12",
+      "lastClose": 523.0,
+      "change": -1.51
      },
      {
       "symbol": "AMZN",
       "setup": "Earnings event, then drift",
       "confirm": "Gaps and holds above 255.36 (or below 248.77 for the downside)",
       "invalidate": "Gap fades back inside 248.77-255.36 in Friday's first hour",
+      "baseClose": 254.6,
       "ticker": "AMZN",
       "family": "Post-earnings drift",
-      "baseClose": 254.6,
       "confirmLevel": 255.36,
       "confirmSide": "above",
       "invalidLevel": 248.77,
       "invalidSide": "below",
-      "days": 12,
+      "days": 11,
       "status": "invalidated",
       "statusDate": "2026-10-29",
       "statusClose": 243.79,
-      "lastDate": "2026-11-13",
-      "lastClose": 266.66,
-      "change": 4.74
+      "lastDate": "2026-11-12",
+      "lastClose": 267.44,
+      "change": 5.04
      },
      {
       "symbol": "MU",
       "setup": "Trend pullback to the 20/50-day average",
       "confirm": "Holds 943.87 and reclaims 983.23",
       "invalidate": "Close below the 50-day (~950) with follow-through",
+      "baseClose": 983.23,
       "ticker": "MU",
       "family": "Trend pullback",
-      "baseClose": 983.23,
       "confirmLevel": 943.87,
       "confirmSide": "above",
       "invalidLevel": 50.0,
       "invalidSide": "below",
-      "days": 12,
+      "days": 11,
       "status": "waiting",
-      "lastDate": "2026-11-13",
-      "lastClose": 778.31,
-      "change": -20.84
+      "lastDate": "2026-11-12",
+      "lastClose": 798.44,
+      "change": -18.79
      }
     ],
-    "graded": "2026-11-13T18:10:29.695920-05:00"
+    "graded": "2026-11-13T20:30:28.880340-05:00"
    }
   },
   {
