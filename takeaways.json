@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-13T23:09:18.277189-05:00",
+ "updated": "2026-11-14T16:37:35.655564-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -279,11 +279,285 @@
    "waiting": 5,
    "expired": 0
   },
+  "swingIdeas": {
+   "ideas": 26,
+   "listings": 35,
+   "confirmed": 9,
+   "invalidated": 15,
+   "waiting": 2,
+   "expired": 0,
+   "worked": 2,
+   "failed": 0,
+   "open": 6,
+   "families": [
+    {
+     "ideas": 11,
+     "listings": 14,
+     "confirmed": 1,
+     "invalidated": 8,
+     "waiting": 2,
+     "expired": 0,
+     "worked": 0,
+     "failed": 0,
+     "open": 1,
+     "family": "Post-earnings drift"
+    },
+    {
+     "ideas": 7,
+     "listings": 10,
+     "confirmed": 5,
+     "invalidated": 2,
+     "waiting": 0,
+     "expired": 0,
+     "worked": 2,
+     "failed": 0,
+     "open": 2,
+     "family": "Sector rotation"
+    },
+    {
+     "ideas": 4,
+     "listings": 5,
+     "confirmed": 1,
+     "invalidated": 3,
+     "waiting": 0,
+     "expired": 0,
+     "worked": 0,
+     "failed": 0,
+     "open": 1,
+     "family": "Trend pullback"
+    },
+    {
+     "ideas": 4,
+     "listings": 6,
+     "confirmed": 2,
+     "invalidated": 2,
+     "waiting": 0,
+     "expired": 0,
+     "worked": 0,
+     "failed": 0,
+     "open": 2,
+     "family": "Trend move"
+    }
+   ]
+  },
+  "periods": [
+   {
+    "key": "since",
+    "label": "Since 13 Nov (six morning checks)",
+    "days": 1,
+    "day": [
+     {
+      "family": "Gap fill",
+      "n": 2,
+      "followed": 2,
+      "small": 0,
+      "faded": 0,
+      "nobreak": 0,
+      "avgRun": 4.8,
+      "gapN": 2,
+      "gapFilled": 0
+     },
+     {
+      "family": "Gap and go",
+      "n": 2,
+      "followed": 1,
+      "small": 0,
+      "faded": 1,
+      "nobreak": 0,
+      "avgRun": 2.25,
+      "gapN": 2,
+      "gapFilled": 0
+     },
+     {
+      "family": "Premarket level break",
+      "n": 1,
+      "followed": 0,
+      "small": 1,
+      "faded": 0,
+      "nobreak": 0,
+      "avgRun": 0.55,
+      "gapN": 1,
+      "gapFilled": 1
+     },
+     {
+      "family": "Break and retest",
+      "n": 1,
+      "followed": 0,
+      "small": 0,
+      "faded": 1,
+      "nobreak": 0,
+      "avgRun": 0.0,
+      "gapN": 1,
+      "gapFilled": 0
+     }
+    ],
+    "swingIdeas": {
+     "ideas": 1,
+     "listings": 1,
+     "confirmed": 0,
+     "invalidated": 0,
+     "waiting": 1,
+     "expired": 0,
+     "worked": 0,
+     "failed": 0,
+     "open": 0,
+     "families": [
+      {
+       "ideas": 1,
+       "listings": 1,
+       "confirmed": 0,
+       "invalidated": 0,
+       "waiting": 1,
+       "expired": 0,
+       "worked": 0,
+       "failed": 0,
+       "open": 0,
+       "family": "Post-earnings drift"
+      }
+     ]
+    }
+   },
+   {
+    "key": "before",
+    "label": "Before 13 Nov",
+    "days": 11,
+    "day": [
+     {
+      "family": "Gap and go",
+      "n": 24,
+      "followed": 13,
+      "small": 2,
+      "faded": 6,
+      "nobreak": 3,
+      "avgRun": 2.93,
+      "gapN": 24,
+      "gapFilled": 3
+     },
+     {
+      "family": "Gap fill",
+      "n": 16,
+      "followed": 6,
+      "small": 1,
+      "faded": 8,
+      "nobreak": 1,
+      "avgRun": 2.64,
+      "gapN": 16,
+      "gapFilled": 1
+     },
+     {
+      "family": "Premarket level break",
+      "n": 10,
+      "followed": 7,
+      "small": 0,
+      "faded": 3,
+      "nobreak": 0,
+      "avgRun": 2.28,
+      "gapN": 10,
+      "gapFilled": 3
+     },
+     {
+      "family": "Sympathy",
+      "n": 5,
+      "followed": 0,
+      "small": 3,
+      "faded": 2,
+      "nobreak": 0,
+      "avgRun": 0.24,
+      "gapN": 5,
+      "gapFilled": 0
+     },
+     {
+      "family": "Opening range breakout",
+      "n": 5,
+      "followed": 2,
+      "small": 0,
+      "faded": 1,
+      "nobreak": 2,
+      "avgRun": 1.12,
+      "gapN": 5,
+      "gapFilled": 3
+     },
+     {
+      "family": "Break and retest",
+      "n": 1,
+      "followed": 1,
+      "small": 0,
+      "faded": 0,
+      "nobreak": 0,
+      "avgRun": 6.09,
+      "gapN": 0,
+      "gapFilled": 0
+     }
+    ],
+    "swingIdeas": {
+     "ideas": 25,
+     "listings": 34,
+     "confirmed": 9,
+     "invalidated": 15,
+     "waiting": 1,
+     "expired": 0,
+     "worked": 2,
+     "failed": 0,
+     "open": 6,
+     "families": [
+      {
+       "ideas": 10,
+       "listings": 13,
+       "confirmed": 1,
+       "invalidated": 8,
+       "waiting": 1,
+       "expired": 0,
+       "worked": 0,
+       "failed": 0,
+       "open": 1,
+       "family": "Post-earnings drift"
+      },
+      {
+       "ideas": 7,
+       "listings": 10,
+       "confirmed": 5,
+       "invalidated": 2,
+       "waiting": 0,
+       "expired": 0,
+       "worked": 2,
+       "failed": 0,
+       "open": 2,
+       "family": "Sector rotation"
+      },
+      {
+       "ideas": 4,
+       "listings": 5,
+       "confirmed": 1,
+       "invalidated": 3,
+       "waiting": 0,
+       "expired": 0,
+       "worked": 0,
+       "failed": 0,
+       "open": 1,
+       "family": "Trend pullback"
+      },
+      {
+       "ideas": 4,
+       "listings": 6,
+       "confirmed": 2,
+       "invalidated": 2,
+       "waiting": 0,
+       "expired": 0,
+       "worked": 0,
+       "failed": 0,
+       "open": 2,
+       "family": "Trend move"
+      }
+     ]
+    }
+   }
+  ],
   "rules": {
    "followed": 1.0,
    "small": 0.3,
    "gapMin": 0.3,
-   "swingDays": 20
+   "swingDays": 20,
+   "since": "2026-11-13"
   }
  },
  "days": [
@@ -730,7 +1004,7 @@
       "change": 1.14
      }
     ],
-    "graded": "2026-11-13T20:30:28.652594-05:00"
+    "graded": "2026-11-14T16:37:35.640772-05:00"
    }
   },
   {
@@ -1107,6 +1381,14 @@
       "status": "confirmed",
       "statusDate": "2026-11-13",
       "statusClose": 1443.5,
+      "after": {
+       "entry": 1443.5,
+       "riskPct": 2.02,
+       "days": 0,
+       "outcome": "open",
+       "bestPct": 0.0,
+       "worstPct": 0.0
+      },
       "lastDate": "2026-11-13",
       "lastClose": 1443.5,
       "change": 0.43
@@ -1127,6 +1409,15 @@
       "status": "confirmed",
       "statusDate": "2026-11-12",
       "statusClose": 585.3,
+      "after": {
+       "entry": 585.3,
+       "riskPct": 10.7,
+       "days": 1,
+       "outcome": "open",
+       "bestPct": 0.0,
+       "worstPct": -11.15,
+       "nowPct": -8.75
+      },
       "lastDate": "2026-11-13",
       "lastClose": 534.06,
       "change": -3.41
@@ -1150,7 +1441,7 @@
       "change": -6.26
      }
     ],
-    "graded": "2026-11-13T20:30:29.014948-05:00"
+    "graded": "2026-11-14T16:37:35.474805-05:00"
    }
   },
   {
@@ -1569,6 +1860,15 @@
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 60.77,
+      "after": {
+       "entry": 60.77,
+       "riskPct": 19.81,
+       "days": 2,
+       "outcome": "open",
+       "bestPct": 0.0,
+       "worstPct": -18.97,
+       "nowPct": -12.57
+      },
       "lastDate": "2026-11-13",
       "lastClose": 53.13,
       "change": 9.03
@@ -1609,12 +1909,21 @@
       "status": "confirmed",
       "statusDate": "2026-11-12",
       "statusClose": 585.3,
+      "after": {
+       "entry": 585.3,
+       "riskPct": 15.43,
+       "days": 1,
+       "outcome": "open",
+       "bestPct": 0.0,
+       "worstPct": -11.15,
+       "nowPct": -8.75
+      },
       "lastDate": "2026-11-13",
       "lastClose": 534.06,
       "change": 3.66
      }
     ],
-    "graded": "2026-11-13T18:10:41.789750-05:00"
+    "graded": "2026-11-14T16:37:35.281782-05:00"
    }
   },
   {
@@ -2032,6 +2341,16 @@
       "status": "confirmed",
       "statusDate": "2026-11-10",
       "statusClose": 515.21,
+      "after": {
+       "entry": 515.21,
+       "riskPct": 9.12,
+       "days": 3,
+       "outcome": "worked",
+       "outcomeDate": "2026-11-11",
+       "bestPct": 10.18,
+       "worstPct": 0.0,
+       "nowPct": 3.66
+      },
       "lastDate": "2026-11-13",
       "lastClose": 534.06,
       "change": 5.01
@@ -2052,12 +2371,21 @@
       "status": "confirmed",
       "statusDate": "2026-11-10",
       "statusClose": 270.87,
+      "after": {
+       "entry": 270.87,
+       "riskPct": 6.23,
+       "days": 3,
+       "outcome": "open",
+       "bestPct": 1.48,
+       "worstPct": -2.57,
+       "nowPct": -1.55
+      },
       "lastDate": "2026-11-13",
       "lastClose": 266.66,
       "change": -0.1
      }
     ],
-    "graded": "2026-11-13T18:10:41.371919-05:00"
+    "graded": "2026-11-14T16:37:35.279600-05:00"
    }
   },
   {
@@ -2415,6 +2743,15 @@
       "status": "confirmed",
       "statusDate": "2026-11-09",
       "statusClose": 200.47,
+      "after": {
+       "entry": 200.47,
+       "riskPct": 11.09,
+       "days": 4,
+       "outcome": "open",
+       "bestPct": 6.99,
+       "worstPct": -5.97,
+       "nowPct": 0.8
+      },
       "lastDate": "2026-11-13",
       "lastClose": 202.07,
       "change": 10.51
@@ -2455,12 +2792,21 @@
       "status": "confirmed",
       "statusDate": "2026-11-09",
       "statusClose": 276.09,
+      "after": {
+       "entry": 276.09,
+       "riskPct": 11.85,
+       "days": 4,
+       "outcome": "open",
+       "bestPct": 3.22,
+       "worstPct": -4.45,
+       "nowPct": 1.49
+      },
       "lastDate": "2026-11-13",
       "lastClose": 280.2,
       "change": 12.1
      }
     ],
-    "graded": "2026-11-13T18:10:40.530297-05:00"
+    "graded": "2026-11-14T16:37:35.275047-05:00"
    }
   },
   {
@@ -2890,12 +3236,22 @@
       "status": "confirmed",
       "statusDate": "2026-11-09",
       "statusClose": 319.48,
+      "after": {
+       "entry": 319.48,
+       "riskPct": 9.19,
+       "days": 4,
+       "outcome": "worked",
+       "outcomeDate": "2026-11-11",
+       "bestPct": 11.7,
+       "worstPct": -0.87,
+       "nowPct": 8.62
+      },
       "lastDate": "2026-11-13",
       "lastClose": 347.01,
       "change": 19.03
      }
     ],
-    "graded": "2026-11-13T18:10:39.405882-05:00"
+    "graded": "2026-11-14T16:37:34.949362-05:00"
    }
   },
   {
@@ -3252,6 +3608,15 @@
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 355.63,
+      "after": {
+       "entry": 355.63,
+       "riskPct": 4.12,
+       "days": 2,
+       "outcome": "open",
+       "bestPct": 1.46,
+       "worstPct": -0.34,
+       "nowPct": 0.18
+      },
       "lastDate": "2026-11-13",
       "lastClose": 356.27,
       "change": 1.93
@@ -3297,7 +3662,7 @@
       "change": 1.31
      }
     ],
-    "graded": "2026-11-13T18:10:37.859712-05:00"
+    "graded": "2026-11-14T16:37:34.730852-05:00"
    }
   },
   {
@@ -3670,12 +4035,21 @@
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 60.77,
+      "after": {
+       "entry": 60.77,
+       "riskPct": null,
+       "days": 2,
+       "outcome": null,
+       "bestPct": 0.0,
+       "worstPct": -18.97,
+       "nowPct": -12.57
+      },
       "lastDate": "2026-11-13",
       "lastClose": 53.13,
       "change": -1.14
      }
     ],
-    "graded": "2026-11-13T18:10:37.065877-05:00"
+    "graded": "2026-11-14T16:37:34.725825-05:00"
    }
   },
   {
@@ -4061,7 +4435,7 @@
       "change": 14.4
      }
     ],
-    "graded": "2026-11-13T20:30:29.012477-05:00"
+    "graded": "2026-11-14T16:37:34.420579-05:00"
    }
   },
   {
@@ -4464,7 +4838,7 @@
       "change": -12.03
      }
     ],
-    "graded": "2026-11-13T18:10:33.421207-05:00"
+    "graded": "2026-11-14T16:37:34.415988-05:00"
    }
   },
   {
@@ -4888,7 +5262,7 @@
       "change": -23.78
      }
     ],
-    "graded": "2026-11-13T18:10:31.910229-05:00"
+    "graded": "2026-11-14T16:37:34.093225-05:00"
    }
   },
   {
@@ -5360,7 +5734,7 @@
       "change": -20.84
      }
     ],
-    "graded": "2026-11-13T20:30:28.880340-05:00"
+    "graded": "2026-11-14T16:37:33.918999-05:00"
    }
   },
   {
