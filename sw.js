@@ -1,7 +1,7 @@
 // Trade Desk service worker (home-screen web app). The app shell is served from the cache and refreshed in the
 // background (the page itself is fetched fresh when online); the news cache and the morning brief are fetched fresh and fall back to the last copy offline.
 // tools/publish-pages.py stamps VERSION with the source commit, so every publish refreshes the cache.
-const VERSION='td-32ddcb3';
+const VERSION='td-0137aa7';
 const SHELL=['./','./index.html','./manifest.webmanifest','./icons/icon-180.png','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(VERSION).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==VERSION).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
@@ -27,3 +27,16 @@ self.addEventListener('fetch',e=>{
   const fresh=fetch(e.request).then(r=>{if(r.ok){const copy=r.clone();caches.open(VERSION).then(c=>c.put(e.request,copy));}return r;}).catch(()=>cached);
   return cached||fresh;}));
 });
+// Notifications from the assistant (agents/assistant/push.py): a short encrypted message {title, body, url, tag}.
+// Shown as a system notification; open app windows are told so the Assistant tab can pick up what was sent.
+// url is a page inside the app ("#marketbrief", "#assistant"); anything else is ignored.
+const pageOf=u=>typeof u==='string'&&/^#[a-z]{1,20}$/.test(u)?u:'';
+self.addEventListener('push',e=>{let d={};try{d=e.data?e.data.json():{};}catch{}
+ const url=pageOf(d.url);
+ e.waitUntil(Promise.all([
+  self.registration.showNotification(String(d.title||'Trade Desk').slice(0,80),{body:String(d.body||'').slice(0,240),tag:String(d.tag||'trade-desk').slice(0,40),icon:'icons/icon-192.png',badge:'icons/icon-192.png',data:{url}}),
+  self.clients.matchAll({type:'window',includeUncontrolled:true}).then(cs=>cs.forEach(c=>c.postMessage({type:'td-push',url})))]));});
+self.addEventListener('notificationclick',e=>{e.notification.close();const url=pageOf(e.notification.data&&e.notification.data.url);
+ e.waitUntil(self.clients.matchAll({type:'window',includeUncontrolled:true}).then(cs=>{
+  if(cs.length){cs[0].postMessage({type:'td-open',url});return cs[0].focus();}
+  return self.clients.openWindow('./'+url);}));});
