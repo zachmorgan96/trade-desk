@@ -1,6 +1,6 @@
 {
- "name": "Trade Desk",
- "short_name": "Trade Desk",
+ "name": "Trader Lookout",
+ "short_name": "Trader Lookout",
  "description": "Options trading journal and planner.",
  "start_url": "./",
  "scope": "./",
