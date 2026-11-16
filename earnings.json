@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T01:30:21+00:00",
+ "updated": "2026-11-16T02:12:40+00:00",
  "source": "Nasdaq earnings calendar",
  "minMarketCap": 10000000000.0,
  "days": {
@@ -717,7 +717,9 @@
     "quarter": "Sep/2026",
     "epsForecast": 0.45,
     "estimates": 1,
-    "lastYearEps": 0.44,
+    "lastYearEps": null,
+    "eps": 0.46,
+    "surprise": 2.22,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-08-03",
@@ -735,12 +737,14 @@
    {
     "symbol": "SMFG",
     "name": "Sumitomo Mitsui Financial Group Inc",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 155527037000.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.24,
     "estimates": 1,
-    "lastYearEps": 0.59,
+    "lastYearEps": null,
+    "eps": 0.5,
+    "surprise": 108.33,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-31",
@@ -758,12 +762,14 @@
    {
     "symbol": "MFG",
     "name": "Mizuho Financial Group, Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 125986341000.0,
     "quarter": "Sep/2026",
     "epsForecast": 0.21,
     "estimates": 1,
-    "lastYearEps": 0.2,
+    "lastYearEps": null,
+    "eps": 0.24,
+    "surprise": 14.29,
     "last": {
      "quarter": "Jun 2026",
      "date": "2026-07-30",
@@ -786,7 +792,9 @@
     "quarter": "Sep/2026",
     "epsForecast": 3.94,
     "estimates": 1,
-    "lastYearEps": 3.21
+    "lastYearEps": null,
+    "eps": 3.21,
+    "surprise": null
    },
    {
     "symbol": "WF",
@@ -796,7 +804,9 @@
     "quarter": "Sep/2026",
     "epsForecast": null,
     "estimates": 0,
-    "lastYearEps": 3.57
+    "lastYearEps": null,
+    "eps": 3.57,
+    "surprise": null
    },
    {
     "symbol": "FRHC",
@@ -805,8 +815,10 @@
     "marketCap": 10079088600.0,
     "quarter": "Sep/2026",
     "epsForecast": null,
-    "estimates": 0,
-    "lastYearEps": 0.63
+    "estimates": 1,
+    "lastYearEps": null,
+    "eps": 0.63,
+    "surprise": null
    }
   ],
   "2026-11-16": [
