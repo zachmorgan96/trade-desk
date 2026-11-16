@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-16T16:39:57.980976-05:00",
+ "updated": "2026-11-16T16:46:03.729033-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -604,8 +604,8 @@
      "closeLocation": 0.17,
      "highAt": "09:30",
      "lowAt": "14:45",
-     "vwapCrosses": 6,
-     "pctAboveVwapAfter10": 12
+     "vwapCrosses": 4,
+     "pctAboveVwapAfter10": 1
     },
     "expectedMovePct": 1.216,
     "actualMoveVsExpected": 1.56,
@@ -653,7 +653,7 @@
        "last": 746.51,
        "vsOpen": -0.421,
        "vsPrevClose": -1.043,
-       "vwap": 748.24,
+       "vwap": 748.35,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -661,7 +661,7 @@
        "last": 667.76,
        "vsOpen": -0.491,
        "vsPrevClose": -1.785,
-       "vwap": 669.24,
+       "vwap": 669.82,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -696,7 +696,7 @@
        "last": 744.08,
        "vsOpen": -0.744,
        "vsPrevClose": -1.364,
-       "vwap": 746.91,
+       "vwap": 747.36,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -704,7 +704,7 @@
        "last": 664.11,
        "vsOpen": -1.034,
        "vsPrevClose": -2.321,
-       "vwap": 667.75,
+       "vwap": 666.21,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -737,7 +737,7 @@
       "gapFilled": false
      }
     },
-    "summary": "Sell-off all day. SPY closed -1.90% on the day (-1.28% from the open). High-to-low it moved 1.56%, a bigger range than usual (1.3x the last 20 days). It broke the first 30 minutes' range down at 10:05 and that break held into the close. It crossed VWAP 6 times (lots of crossing is a chop sign).",
+    "summary": "Sell-off all day. SPY closed -1.90% on the day (-1.28% from the open). High-to-low it moved 1.56%, a bigger range than usual (1.3x the last 20 days). It broke the first 30 minutes' range down at 10:05 and that break held into the close. It crossed VWAP 4 times.",
     "usEvents": [
      {
       "time": "12:00 PM",
@@ -919,12 +919,12 @@
       "target": "Calls side: extension above 238.83; puts side: 233.33 (gap edge), then 227.82",
       "ticker": "TTWO",
       "family": "Gap and go",
-      "open": 233.82,
-      "high": 235.94,
+      "open": 232.65,
+      "high": 232.82,
       "low": 212.15,
       "close": 213.48,
-      "openToClose": -8.7,
-      "gapPct": 2.63,
+      "openToClose": -8.24,
+      "gapPct": 2.12,
       "gapFilled": true,
       "gapFilledAt": "09:30",
       "breaks": [
@@ -1034,7 +1034,7 @@
       "change": 2.5
      }
     ],
-    "graded": "2026-11-16T16:37:28.708469-05:00"
+    "graded": "2026-11-16T16:46:02.166694-05:00"
    }
   },
   {
@@ -1482,7 +1482,7 @@
       "change": 0.31
      }
     ],
-    "graded": "2026-11-16T16:37:33.286874-05:00"
+    "graded": "2026-11-16T16:46:03.724877-05:00"
    }
   },
   {
@@ -2406,7 +2406,7 @@
       "change": -2.12
      }
     ],
-    "graded": "2026-11-16T16:37:32.984450-05:00"
+    "graded": "2026-11-16T16:46:03.551853-05:00"
    }
   },
   {
@@ -2868,7 +2868,7 @@
       "change": -3.44
      }
     ],
-    "graded": "2026-11-16T16:37:32.981951-05:00"
+    "graded": "2026-11-16T16:46:03.550037-05:00"
    }
   },
   {
@@ -3289,7 +3289,7 @@
       "change": 11.15
      }
     ],
-    "graded": "2026-11-16T16:37:32.979121-05:00"
+    "graded": "2026-11-16T16:46:03.547998-05:00"
    }
   },
   {
@@ -4145,7 +4145,7 @@
       "change": -1.41
      }
     ],
-    "graded": "2026-11-16T16:37:31.551881-05:00"
+    "graded": "2026-11-16T16:46:03.090713-05:00"
    }
   },
   {
@@ -4532,7 +4532,7 @@
       "change": -7.18
      }
     ],
-    "graded": "2026-11-16T16:37:30.571923-05:00"
+    "graded": "2026-11-16T16:46:02.962415-05:00"
    }
   },
   {
@@ -4918,7 +4918,7 @@
       "change": 8.02
      }
     ],
-    "graded": "2026-11-16T16:37:30.135178-05:00"
+    "graded": "2026-11-16T16:46:02.655704-05:00"
    }
   },
   {
