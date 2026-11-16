@@ -3489,7 +3489,181 @@
      ["2026-11-13",445.69,451.04,435.39,450.0,1499100]
     ]
    }
+  },
+  {
+   "version": 1,
+   "date": "2026-11-16",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:36",
+   "generated": "2026-11-16T16:36:07.042427-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "22.91",
+     "change": "▲ +3.61 (+18.70%) · open +9.77%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "105.39",
+     "change": "▲ +0.20 (+0.19%) · open +0.06%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "5.121%",
+     "change": "▼ -0.033 (-0.64%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "85.30",
+     "change": "▼ -3.26 (-3.68%) · open -2.01%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "740.12",
+     "change": "▼ -14.25 (-1.89%) · open -1.27%",
+     "asOf": "4:36 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "661.98",
+     "change": "▼ -17.91 (-2.63%) · open -1.35%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "8:30 AM",
+     "currency": "CAD",
+     "event": "CPI m/m",
+     "actual": "",
+     "forecast": "0.3%",
+     "previous": "0.1%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "CAD",
+     "event": "Median CPI y/y",
+     "actual": "",
+     "forecast": "2.0%",
+     "previous": "1.9%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "CAD",
+     "event": "Trimmed CPI y/y",
+     "actual": "",
+     "forecast": "1.9%",
+     "previous": "1.8%"
+    },
+    {
+     "time": "12:00 PM",
+     "currency": "USD",
+     "event": "Fed Chairman Warsh Speaks",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "5:50 PM",
+     "currency": "AUD",
+     "event": "RBA Gov Bullock Speaks",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "9:00 PM",
+     "currency": "NZD",
+     "event": "Inflation Expectations q/q",
+     "actual": "",
+     "forecast": "",
+     "previous": "2.34%"
+    }
+   ],
+   "macro": [
+    {
+     "source": "CNBC",
+     "time": "Mon 12:22 PM",
+     "text": "Nvidia fallout: Commerce targets loophole for China's use of overseas data centers; chip losses deepen.",
+     "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "Mon 1:46 PM",
+     "text": "Fed Chair Warsh stresses AI's importance to the economy but says it could 'disappoint'; no comment on rates.",
+     "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "Mon 3:51 PM",
+     "text": "U.S. crude falls to about $85 on recovering Middle East exports; WTI closed 85.30 (−3.7%).",
+     "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
+    },
+    {
+     "source": "FT",
+     "time": "Mon 4:02 PM",
+     "text": "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade; VIX 22.91.",
+     "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "NVDA / AMD / AVGO",
+     "move": "−4.1% / −5.6% / −4.0%",
+     "text": "Commerce moves to close a loophole on China's use of overseas data centers; chip losses deepened after midday.",
+     "source": "CNBC",
+     "time": "Mon 12:22 PM",
+     "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html"
+    },
+    {
+     "symbol": "MU",
+     "move": "−7.6%",
+     "text": "A judge let a DRAM supply lawsuit proceed, on top of the chip selloff.",
+     "source": "GuruFocus",
+     "time": "Mon 1:20 PM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-sink-nearly-7-182012075.html"
+    },
+    {
+     "symbol": "CVX",
+     "move": "",
+     "text": "Chevron nears a ~$5B deal for Blackstone-backed Gulf producer Beacon (FT).",
+     "source": "FT",
+     "time": "Mon 4:20 PM",
+     "url": "https://www.ft.com/content/92e1c14a-f836-40b0-8d9e-0ed1c1d2fea9"
+    },
+    {
+     "symbol": "JPM / BAC",
+     "move": "",
+     "text": "Chase, Bank of America and other big-bank customers report online-banking outages after the close.",
+     "source": "MarketWatch",
+     "time": "Mon 4:16 PM",
+     "url": "https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8"
+    }
+   ],
+   "read": "The pre-Nvidia chip de-risking call held and got worse: the 9:45 bounce (QQQ 672.14, NVDA 163.00) was the high, SPY broke its 30-min range down at 10:05 and lows came late (QQQ 660.48 at 3:35). Chips −5.1%, deepened by the midday Commerce China report and Warsh's AI warning. Setups bounced to gap edges, then puts sides all day; HUM swing confirmed. Retail sales 8:30 AM, Nvidia after the close.",
+   "tomorrow": [
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Core Retail Sales m/m",
+     "forecast": "0.4%",
+     "previous": "0.9%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Retail Sales m/m",
+     "forecast": "0.2%",
+     "previous": "0.8%"
+    }
+   ],
+   "readthroughNext": []
   }
  ],
- "updated": "2026-11-16T08:26:36.267689-05:00"
+ "updated": "2026-11-16T16:40:01.762490-05:00"
 }
