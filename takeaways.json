@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T21:12:54.333755-05:00",
+ "updated": "2026-11-16T15:33:21.637958-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -10,10 +10,10 @@
   "chop": "Chop (up and down, going nowhere)"
  },
  "patterns": {
-  "days": 74,
+  "days": 75,
   "counts": {
    "trend-up": 15,
-   "trend-down": 17,
+   "trend-down": 18,
    "reversal-up": 4,
    "reversal-down": 6,
    "chop": 32
@@ -21,17 +21,17 @@
   "rows": [
    {
     "clue": "SPY broke the first 30-min range by 10:30, and SPY and QQQ agreed",
-    "days": 37,
+    "days": 38,
     "counts": {
      "trend-up": 11,
-     "trend-down": 8,
+     "trend-down": 9,
      "reversal-up": 1,
      "reversal-down": 2,
      "chop": 15
     },
-    "trendRate": 51,
-    "chopRate": 41,
-    "followedLeanRate": 46
+    "trendRate": 53,
+    "chopRate": 39,
+    "followedLeanRate": 47
    },
    {
     "clue": "No break of the first 30-min range by 10:30",
@@ -119,17 +119,17 @@
    },
    {
     "clue": "Gap of 0.2%+ still open at 10:30",
-    "days": 45,
+    "days": 46,
     "counts": {
      "trend-up": 11,
-     "trend-down": 8,
+     "trend-down": 9,
      "reversal-up": 0,
      "reversal-down": 4,
      "chop": 22
     },
-    "trendRate": 42,
-    "chopRate": 49,
-    "followedLeanRate": 31
+    "trendRate": 43,
+    "chopRate": 48,
+    "followedLeanRate": 33
    },
    {
     "clue": "Gap of 0.2%+ already filled by 10:30",
@@ -147,17 +147,17 @@
    },
    {
     "clue": "Broad market: equal-weight S&P keeping up with SPY (within 0.1%)",
-    "days": 44,
+    "days": 45,
     "counts": {
      "trend-up": 5,
-     "trend-down": 15,
+     "trend-down": 16,
      "reversal-up": 3,
      "reversal-down": 2,
      "chop": 19
     },
-    "trendRate": 45,
-    "chopRate": 43,
-    "followedLeanRate": 34
+    "trendRate": 47,
+    "chopRate": 42,
+    "followedLeanRate": 36
    },
    {
     "clue": "Narrow market: equal-weight S&P lagging SPY by 0.2%+",
@@ -175,69 +175,69 @@
    },
    {
     "clue": "VIX confirming stocks at 10:30 (SPY up with VIX down, or SPY down with VIX up)",
-    "days": 41,
+    "days": 42,
     "counts": {
      "trend-up": 7,
-     "trend-down": 11,
+     "trend-down": 12,
      "reversal-up": 1,
      "reversal-down": 2,
      "chop": 20
     },
-    "trendRate": 44,
-    "chopRate": 49,
-    "followedLeanRate": 32
+    "trendRate": 45,
+    "chopRate": 48,
+    "followedLeanRate": 33
    },
    {
     "clue": "High-impact U.S. news that day",
-    "days": 6,
+    "days": 7,
     "counts": {
      "trend-up": 0,
-     "trend-down": 0,
+     "trend-down": 1,
      "reversal-up": 1,
      "reversal-down": 0,
      "chop": 5
     },
-    "trendRate": 0,
-    "chopRate": 83,
-    "followedLeanRate": 0
+    "trendRate": 14,
+    "chopRate": 71,
+    "followedLeanRate": 14
    }
   ]
  },
  "setupStats": {
-  "days": 12,
+  "days": 13,
   "day": [
    {
     "family": "Gap and go",
-    "n": 26,
-    "followed": 14,
+    "n": 27,
+    "followed": 15,
     "small": 2,
     "faded": 7,
     "nobreak": 3,
-    "avgRun": 2.87,
-    "gapN": 26,
-    "gapFilled": 3
+    "avgRun": 3.1,
+    "gapN": 27,
+    "gapFilled": 4
    },
    {
     "family": "Gap fill",
-    "n": 18,
-    "followed": 8,
+    "n": 19,
+    "followed": 9,
     "small": 1,
     "faded": 8,
     "nobreak": 1,
-    "avgRun": 2.89,
-    "gapN": 18,
+    "avgRun": 2.82,
+    "gapN": 19,
     "gapFilled": 1
    },
    {
     "family": "Premarket level break",
-    "n": 11,
-    "followed": 7,
+    "n": 14,
+    "followed": 9,
     "small": 1,
-    "faded": 3,
+    "faded": 4,
     "nobreak": 0,
-    "avgRun": 2.12,
-    "gapN": 11,
-    "gapFilled": 4
+    "avgRun": 1.84,
+    "gapN": 14,
+    "gapFilled": 6
    },
    {
     "family": "Sympathy",
@@ -263,28 +263,28 @@
    },
    {
     "family": "Break and retest",
-    "n": 2,
+    "n": 3,
     "followed": 1,
-    "small": 0,
+    "small": 1,
     "faded": 1,
     "nobreak": 0,
-    "avgRun": 3.04,
-    "gapN": 1,
+    "avgRun": 2.35,
+    "gapN": 2,
     "gapFilled": 0
    }
   ],
   "swing": {
    "confirmed": 11,
    "invalidated": 19,
-   "waiting": 5,
+   "waiting": 7,
    "expired": 0
   },
   "swingIdeas": {
-   "ideas": 26,
-   "listings": 35,
+   "ideas": 28,
+   "listings": 37,
    "confirmed": 9,
    "invalidated": 15,
-   "waiting": 2,
+   "waiting": 4,
    "expired": 0,
    "worked": 2,
    "failed": 0,
@@ -303,11 +303,11 @@
      "family": "Post-earnings drift"
     },
     {
-     "ideas": 7,
-     "listings": 10,
+     "ideas": 8,
+     "listings": 11,
      "confirmed": 5,
      "invalidated": 2,
-     "waiting": 0,
+     "waiting": 1,
      "expired": 0,
      "worked": 2,
      "failed": 0,
@@ -315,11 +315,11 @@
      "family": "Sector rotation"
     },
     {
-     "ideas": 4,
-     "listings": 5,
+     "ideas": 5,
+     "listings": 6,
      "confirmed": 1,
      "invalidated": 3,
-     "waiting": 0,
+     "waiting": 1,
      "expired": 0,
      "worked": 0,
      "failed": 0,
@@ -344,59 +344,59 @@
    {
     "key": "since",
     "label": "Since 13 Nov (six morning checks)",
-    "days": 1,
+    "days": 2,
     "day": [
      {
-      "family": "Gap fill",
-      "n": 2,
+      "family": "Premarket level break",
+      "n": 4,
       "followed": 2,
+      "small": 1,
+      "faded": 1,
+      "nobreak": 0,
+      "avgRun": 0.73,
+      "gapN": 4,
+      "gapFilled": 3
+     },
+     {
+      "family": "Gap fill",
+      "n": 3,
+      "followed": 3,
       "small": 0,
       "faded": 0,
       "nobreak": 0,
-      "avgRun": 4.8,
-      "gapN": 2,
+      "avgRun": 3.71,
+      "gapN": 3,
       "gapFilled": 0
      },
      {
       "family": "Gap and go",
-      "n": 2,
-      "followed": 1,
+      "n": 3,
+      "followed": 2,
       "small": 0,
       "faded": 1,
       "nobreak": 0,
-      "avgRun": 2.25,
-      "gapN": 2,
-      "gapFilled": 0
-     },
-     {
-      "family": "Premarket level break",
-      "n": 1,
-      "followed": 0,
-      "small": 1,
-      "faded": 0,
-      "nobreak": 0,
-      "avgRun": 0.55,
-      "gapN": 1,
+      "avgRun": 4.24,
+      "gapN": 3,
       "gapFilled": 1
      },
      {
       "family": "Break and retest",
-      "n": 1,
+      "n": 2,
       "followed": 0,
-      "small": 0,
+      "small": 1,
       "faded": 1,
       "nobreak": 0,
-      "avgRun": 0.0,
-      "gapN": 1,
+      "avgRun": 0.48,
+      "gapN": 2,
       "gapFilled": 0
      }
     ],
     "swingIdeas": {
-     "ideas": 1,
-     "listings": 1,
+     "ideas": 3,
+     "listings": 3,
      "confirmed": 0,
      "invalidated": 0,
-     "waiting": 1,
+     "waiting": 3,
      "expired": 0,
      "worked": 0,
      "failed": 0,
@@ -413,6 +413,30 @@
        "failed": 0,
        "open": 0,
        "family": "Post-earnings drift"
+      },
+      {
+       "ideas": 1,
+       "listings": 1,
+       "confirmed": 0,
+       "invalidated": 0,
+       "waiting": 1,
+       "expired": 0,
+       "worked": 0,
+       "failed": 0,
+       "open": 0,
+       "family": "Trend pullback"
+      },
+      {
+       "ideas": 1,
+       "listings": 1,
+       "confirmed": 0,
+       "invalidated": 0,
+       "waiting": 1,
+       "expired": 0,
+       "worked": 0,
+       "failed": 0,
+       "open": 0,
+       "family": "Sector rotation"
       }
      ]
     }
@@ -561,6 +585,434 @@
   }
  },
  "days": [
+  {
+   "measured": {
+    "date": "2026-11-16",
+    "type": "trend-down",
+    "typeLabel": "Sell-off all day",
+    "spy": {
+     "open": 749.66,
+     "high": 749.82,
+     "low": 738.07,
+     "close": 739.37,
+     "prevClose": 754.37,
+     "change": -1.988,
+     "openToClose": -1.373,
+     "rangePct": 1.558,
+     "usualRangePct": 1.207,
+     "rangeVsUsual": 1.29,
+     "closeLocation": 0.11,
+     "highAt": "09:30",
+     "lowAt": "14:45",
+     "vwapCrosses": 4,
+     "pctAboveVwapAfter10": 1
+    },
+    "expectedMovePct": 1.216,
+    "actualMoveVsExpected": 1.63,
+    "rangeVsExpected": 1.28,
+    "openingRange": {
+     "high": 749.82,
+     "low": 746.45,
+     "widthPct": 0.447,
+     "widthVsExpected": 0.37,
+     "widthVsUsual": 0.37,
+     "breakout": {
+      "side": "down",
+      "time": "10:05",
+      "held": true
+     }
+    },
+    "gap": {
+     "pct": -0.624,
+     "filled": false,
+     "filledAt": null
+    },
+    "levels": [
+     {
+      "name": "Yesterday's high",
+      "price": 760.12,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's low",
+      "price": 747.88,
+      "touched": true,
+      "result": "broke and closed below"
+     },
+     {
+      "name": "Yesterday's close",
+      "price": 754.37,
+      "touched": false,
+      "result": "not reached"
+     }
+    ],
+    "clues": {
+     "10:00": {
+      "spy": {
+       "last": 746.51,
+       "vsOpen": -0.421,
+       "vsPrevClose": -1.043,
+       "vwap": 748.35,
+       "aboveVwap": false,
+       "vwapCrosses": 2
+      },
+      "qqq": {
+       "last": 667.76,
+       "vsOpen": -0.491,
+       "vsPrevClose": -1.785,
+       "vwap": 669.82,
+       "aboveVwap": false,
+       "vwapCrosses": 2
+      },
+      "rsp": {
+       "last": 220.41,
+       "vsOpen": -0.362,
+       "vsPrevClose": -0.339
+      },
+      "iwm": {
+       "last": 275.16,
+       "vsOpen": -0.34,
+       "vsPrevClose": -0.858
+      },
+      "vix": {
+       "last": 21.04,
+       "vsPrevClose": 9.016
+      },
+      "oil": {
+       "last": 86.88,
+       "vsPrevClose": -1.897
+      },
+      "tnx": {
+       "last": 5.129,
+       "vsPrevClose": -0.485,
+       "bpChange": -2.5
+      },
+      "agree": true,
+      "breadthGap": 0.059
+     },
+     "10:30": {
+      "spy": {
+       "last": 744.08,
+       "vsOpen": -0.744,
+       "vsPrevClose": -1.364,
+       "vwap": 747.36,
+       "aboveVwap": false,
+       "vwapCrosses": 2
+      },
+      "qqq": {
+       "last": 664.11,
+       "vsOpen": -1.034,
+       "vsPrevClose": -2.321,
+       "vwap": 666.21,
+       "aboveVwap": false,
+       "vwapCrosses": 2
+      },
+      "rsp": {
+       "last": 220.14,
+       "vsOpen": -0.484,
+       "vsPrevClose": -0.461
+      },
+      "iwm": {
+       "last": 274.23,
+       "vsOpen": -0.677,
+       "vsPrevClose": -1.193
+      },
+      "vix": {
+       "last": 21.65,
+       "vsPrevClose": 12.176
+      },
+      "oil": {
+       "last": 86.57,
+       "vsPrevClose": -2.247
+      },
+      "tnx": {
+       "last": 5.113,
+       "vsPrevClose": -0.795,
+       "bpChange": -4.1
+      },
+      "agree": true,
+      "breadthGap": 0.26,
+      "orBreak": "down",
+      "gapFilled": false
+     }
+    },
+    "summary": "Sell-off all day. SPY closed -1.99% on the day (-1.37% from the open). High-to-low it moved 1.56%, a bigger range than usual (1.3x the last 20 days). It broke the first 30 minutes' range down at 10:05 and that break held into the close. It crossed VWAP 4 times.",
+    "usEvents": [
+     {
+      "time": "12:00 PM",
+      "currency": "USD",
+      "event": "Fed Chairman Warsh Speaks",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+     }
+    ]
+   },
+   "written": null,
+   "setups": {
+    "day": [
+     {
+      "symbol": "NVDA",
+      "setup": "Premarket low break / gap and go (down)",
+      "pmHigh": "162.97",
+      "pmLow": "155.60",
+      "prevClose": "162.85",
+      "gap": "−3.5%",
+      "target": "Puts side: toward 148.80 (Thursday's low); calls side: 158.39 (gap edge), then 162.85",
+      "ticker": "NVDA",
+      "family": "Premarket level break",
+      "open": 159.0,
+      "high": 163.0,
+      "low": 155.01,
+      "close": 155.65,
+      "openToClose": -2.11,
+      "gapPct": -2.36,
+      "gapFilled": true,
+      "gapFilledAt": "09:45",
+      "breaks": [
+       {
+        "side": "up",
+        "level": 162.97,
+        "time": "09:45",
+        "entry": 162.97,
+        "run": 0.02,
+        "runBeforeFail": 0.0,
+        "failedAt": "09:45",
+        "closedBeyond": false
+       },
+       {
+        "side": "down",
+        "level": 155.6,
+        "time": "13:15",
+        "entry": 155.6,
+        "run": 0.38,
+        "runBeforeFail": 0.0,
+        "failedAt": "13:15",
+        "closedBeyond": false
+       }
+      ],
+      "best": "up",
+      "result": "faded"
+     },
+     {
+      "symbol": "AMD",
+      "setup": "Gap fill (no news) / premarket range break",
+      "pmHigh": "518.30",
+      "pmLow": "503.05",
+      "prevClose": "534.06",
+      "gap": "−5.3%",
+      "target": "Calls side: 520.01 (gap edge), then 534.06; puts side: extension below 503.05",
+      "ticker": "AMD",
+      "family": "Gap fill",
+      "open": 503.45,
+      "high": 526.2,
+      "low": 501.45,
+      "close": 504.7,
+      "openToClose": 0.25,
+      "gapPct": -5.73,
+      "gapFilled": false,
+      "breaks": [
+       {
+        "side": "up",
+        "level": 518.3,
+        "time": "09:35",
+        "entry": 518.3,
+        "run": 1.52,
+        "runBeforeFail": 1.52,
+        "failedAt": "09:55",
+        "closedBeyond": false
+       },
+       {
+        "side": "down",
+        "level": 503.05,
+        "time": "09:30",
+        "entry": 503.05,
+        "run": 0.32,
+        "runBeforeFail": 0.0,
+        "failedAt": "09:30",
+        "closedBeyond": false
+       }
+      ],
+      "best": "up",
+      "result": "followed"
+     },
+     {
+      "symbol": "MU",
+      "setup": "Premarket low break / gap fill",
+      "pmHigh": "752.00",
+      "pmLow": "728.20",
+      "prevClose": "778.31",
+      "gap": "−6.3%",
+      "target": "Calls side: 750.25–752.00 (gap edge and premarket high), then 778.31; puts side: extension below 728.20",
+      "ticker": "MU",
+      "family": "Premarket level break",
+      "open": 735.06,
+      "high": 739.12,
+      "low": 717.4,
+      "close": 720.16,
+      "openToClose": -2.03,
+      "gapPct": -5.56,
+      "gapFilled": false,
+      "breaks": [
+       {
+        "side": "down",
+        "level": 728.2,
+        "time": "09:30",
+        "entry": 728.2,
+        "run": 1.48,
+        "runBeforeFail": 1.33,
+        "failedAt": "09:35",
+        "closedBeyond": true
+       }
+      ],
+      "best": "down",
+      "result": "followed"
+     },
+     {
+      "symbol": "CRWV",
+      "setup": "Break and retest of 49.24 (Friday's low)",
+      "pmHigh": "51.56",
+      "pmLow": "48.59",
+      "prevClose": "53.13",
+      "gap": "−6.9%",
+      "target": "Puts side: extension below 48.59; calls side: 51.56 (premarket high), then 53.13",
+      "ticker": "CRWV",
+      "family": "Break and retest",
+      "open": 49.5,
+      "high": 52.06,
+      "low": 48.59,
+      "close": 49.58,
+      "openToClose": 0.17,
+      "gapPct": -6.83,
+      "gapFilled": false,
+      "breaks": [
+       {
+        "side": "up",
+        "level": 51.56,
+        "time": "09:40",
+        "entry": 51.56,
+        "run": 0.97,
+        "runBeforeFail": 0.97,
+        "failedAt": "09:45",
+        "closedBeyond": false
+       }
+      ],
+      "best": "up",
+      "result": "small"
+     },
+     {
+      "symbol": "TTWO",
+      "setup": "Gap and go / gap fill",
+      "pmHigh": "238.83",
+      "pmLow": "231.15",
+      "prevClose": "227.82",
+      "gap": "+3.1%",
+      "target": "Calls side: extension above 238.83; puts side: 233.33 (gap edge), then 227.82",
+      "ticker": "TTWO",
+      "family": "Gap and go",
+      "open": 232.65,
+      "high": 232.82,
+      "low": 212.15,
+      "close": 213.96,
+      "openToClose": -8.03,
+      "gapPct": 2.12,
+      "gapFilled": true,
+      "gapFilledAt": "09:30",
+      "breaks": [
+       {
+        "side": "down",
+        "level": 231.15,
+        "time": "09:30",
+        "entry": 231.15,
+        "run": 8.22,
+        "runBeforeFail": 8.22,
+        "failedAt": null,
+        "closedBeyond": true
+       }
+      ],
+      "best": "down",
+      "result": "followed"
+     },
+     {
+      "symbol": "LLY",
+      "setup": "Premarket high break / opening range breakout",
+      "pmHigh": "1459.98",
+      "pmLow": "1443.45",
+      "prevClose": "1443.50",
+      "gap": "+0.6%",
+      "target": "Calls side: extension above 1459.98; puts side: 1443.50 (close), then 1419.77",
+      "ticker": "LLY",
+      "family": "Premarket level break",
+      "open": 1453.75,
+      "high": 1475.25,
+      "low": 1433.42,
+      "close": 1433.61,
+      "openToClose": -1.39,
+      "gapPct": 0.71,
+      "gapFilled": true,
+      "gapFilledAt": "13:10",
+      "breaks": [
+       {
+        "side": "up",
+        "level": 1459.98,
+        "time": "09:30",
+        "entry": 1459.98,
+        "run": 1.05,
+        "runBeforeFail": 1.05,
+        "failedAt": "09:35",
+        "closedBeyond": false
+       },
+       {
+        "side": "down",
+        "level": 1443.45,
+        "time": "13:10",
+        "entry": 1443.45,
+        "run": 0.69,
+        "runBeforeFail": 0.18,
+        "failedAt": "13:15",
+        "closedBeyond": true
+       }
+      ],
+      "best": "up",
+      "result": "followed"
+     }
+    ],
+    "swing": [
+     {
+      "symbol": "LLY",
+      "setup": "Trend continuation after a pullback toward the 20 EMA",
+      "confirm": "Closes above 1459.98 (today's premarket high).",
+      "invalidate": "Closes below 1414.37 (Wednesday's low).",
+      "baseClose": 1443.5,
+      "ticker": "LLY",
+      "family": "Trend pullback",
+      "confirmLevel": 1459.98,
+      "confirmSide": "above",
+      "invalidLevel": 1414.37,
+      "invalidSide": "below",
+      "days": 0,
+      "status": "waiting"
+     },
+     {
+      "symbol": "HUM",
+      "setup": "Sector rotation / range breakout",
+      "confirm": "Closes above 460.25 (today's premarket high).",
+      "invalidate": "Closes below 450.00 (Friday's close): the upgrade gap fails.",
+      "baseClose": 450.0,
+      "ticker": "HUM",
+      "family": "Sector rotation",
+      "confirmLevel": 460.25,
+      "confirmSide": "above",
+      "invalidLevel": 450.0,
+      "invalidSide": "below",
+      "days": 0,
+      "status": "waiting"
+     }
+    ],
+    "graded": "2026-11-16T15:33:19.956235-05:00"
+   }
+  },
   {
    "measured": {
     "date": "2026-11-13",
@@ -1004,7 +1456,7 @@
       "change": 1.14
      }
     ],
-    "graded": "2026-11-15T21:12:54.330294-05:00"
+    "graded": "2026-11-16T15:33:21.633863-05:00"
    }
   },
   {
@@ -1441,7 +1893,7 @@
       "change": -6.26
      }
     ],
-    "graded": "2026-11-15T21:12:54.091144-05:00"
+    "graded": "2026-11-16T15:33:21.502601-05:00"
    }
   },
   {
@@ -1923,7 +2375,7 @@
       "change": 3.66
      }
     ],
-    "graded": "2026-11-15T21:12:53.761044-05:00"
+    "graded": "2026-11-16T15:33:21.500795-05:00"
    }
   },
   {
@@ -2385,7 +2837,7 @@
       "change": -0.1
      }
     ],
-    "graded": "2026-11-15T21:12:53.759541-05:00"
+    "graded": "2026-11-16T15:33:21.498927-05:00"
    }
   },
   {
@@ -2806,7 +3258,7 @@
       "change": 12.1
      }
     ],
-    "graded": "2026-11-15T21:12:53.757721-05:00"
+    "graded": "2026-11-16T15:33:21.496868-05:00"
    }
   },
   {
@@ -3662,7 +4114,7 @@
       "change": 1.31
      }
     ],
-    "graded": "2026-11-15T21:12:53.118176-05:00"
+    "graded": "2026-11-16T15:33:21.014620-05:00"
    }
   },
   {
@@ -4049,7 +4501,7 @@
       "change": -1.14
      }
     ],
-    "graded": "2026-11-15T21:12:52.881539-05:00"
+    "graded": "2026-11-16T15:33:20.848040-05:00"
    }
   },
   {
@@ -4435,7 +4887,7 @@
       "change": 14.4
      }
     ],
-    "graded": "2026-11-15T21:12:52.429142-05:00"
+    "graded": "2026-11-16T15:33:20.500427-05:00"
    }
   },
   {
