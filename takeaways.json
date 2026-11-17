@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-17T14:14:01.204288-05:00",
+ "updated": "2026-11-17T15:36:37.779124-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -10,28 +10,28 @@
   "chop": "Chop (up and down, going nowhere)"
  },
  "patterns": {
-  "days": 75,
+  "days": 76,
   "counts": {
    "trend-up": 15,
    "trend-down": 18,
    "reversal-up": 4,
    "reversal-down": 6,
-   "chop": 32
+   "chop": 33
   },
   "rows": [
    {
     "clue": "SPY broke the first 30-min range by 10:30, and SPY and QQQ agreed",
-    "days": 38,
+    "days": 39,
     "counts": {
      "trend-up": 11,
      "trend-down": 9,
      "reversal-up": 1,
      "reversal-down": 2,
-     "chop": 15
+     "chop": 16
     },
-    "trendRate": 53,
-    "chopRate": 39,
-    "followedLeanRate": 47
+    "trendRate": 51,
+    "chopRate": 41,
+    "followedLeanRate": 46
    },
    {
     "clue": "No break of the first 30-min range by 10:30",
@@ -49,17 +49,17 @@
    },
    {
     "clue": "SPY crossed VWAP 3+ times by 10:30",
-    "days": 24,
+    "days": 25,
     "counts": {
      "trend-up": 3,
      "trend-down": 8,
      "reversal-up": 2,
      "reversal-down": 3,
-     "chop": 8
+     "chop": 9
     },
-    "trendRate": 46,
-    "chopRate": 33,
-    "followedLeanRate": 29
+    "trendRate": 44,
+    "chopRate": 36,
+    "followedLeanRate": 28
    },
    {
     "clue": "SPY on one side of VWAP all morning (0-1 crosses by 10:30)",
@@ -105,31 +105,31 @@
    },
    {
     "clue": "First 30 minutes tight (under 27% of a usual day's range)",
-    "days": 14,
+    "days": 15,
     "counts": {
      "trend-up": 2,
      "trend-down": 5,
      "reversal-up": 1,
      "reversal-down": 1,
-     "chop": 5
+     "chop": 6
     },
-    "trendRate": 50,
-    "chopRate": 36,
-    "followedLeanRate": 36
+    "trendRate": 47,
+    "chopRate": 40,
+    "followedLeanRate": 33
    },
    {
     "clue": "Gap of 0.2%+ still open at 10:30",
-    "days": 46,
+    "days": 47,
     "counts": {
      "trend-up": 11,
      "trend-down": 9,
      "reversal-up": 0,
      "reversal-down": 4,
-     "chop": 22
+     "chop": 23
     },
     "trendRate": 43,
-    "chopRate": 48,
-    "followedLeanRate": 33
+    "chopRate": 49,
+    "followedLeanRate": 32
    },
    {
     "clue": "Gap of 0.2%+ already filled by 10:30",
@@ -147,17 +147,17 @@
    },
    {
     "clue": "Broad market: equal-weight S&P keeping up with SPY (within 0.1%)",
-    "days": 45,
+    "days": 46,
     "counts": {
      "trend-up": 5,
      "trend-down": 16,
      "reversal-up": 3,
      "reversal-down": 2,
-     "chop": 19
+     "chop": 20
     },
-    "trendRate": 47,
-    "chopRate": 42,
-    "followedLeanRate": 36
+    "trendRate": 46,
+    "chopRate": 43,
+    "followedLeanRate": 35
    },
    {
     "clue": "Narrow market: equal-weight S&P lagging SPY by 0.2%+",
@@ -175,69 +175,69 @@
    },
    {
     "clue": "VIX confirming stocks at 10:30 (SPY up with VIX down, or SPY down with VIX up)",
-    "days": 42,
+    "days": 43,
     "counts": {
      "trend-up": 7,
      "trend-down": 12,
      "reversal-up": 1,
      "reversal-down": 2,
-     "chop": 20
+     "chop": 21
     },
-    "trendRate": 45,
-    "chopRate": 48,
+    "trendRate": 44,
+    "chopRate": 49,
     "followedLeanRate": 33
    },
    {
     "clue": "High-impact U.S. news that day",
-    "days": 7,
+    "days": 8,
     "counts": {
      "trend-up": 0,
      "trend-down": 1,
      "reversal-up": 1,
      "reversal-down": 0,
-     "chop": 5
+     "chop": 6
     },
-    "trendRate": 14,
-    "chopRate": 71,
-    "followedLeanRate": 14
+    "trendRate": 12,
+    "chopRate": 75,
+    "followedLeanRate": 12
    }
   ]
  },
  "setupStats": {
-  "days": 13,
+  "days": 14,
   "day": [
    {
     "family": "Gap and go",
-    "n": 27,
+    "n": 30,
     "followed": 15,
     "small": 2,
-    "faded": 7,
-    "nobreak": 3,
-    "avgRun": 3.1,
-    "gapN": 27,
-    "gapFilled": 4
+    "faded": 9,
+    "nobreak": 4,
+    "avgRun": 2.86,
+    "gapN": 30,
+    "gapFilled": 6
    },
    {
     "family": "Gap fill",
-    "n": 19,
+    "n": 20,
     "followed": 9,
-    "small": 1,
+    "small": 2,
     "faded": 8,
     "nobreak": 1,
-    "avgRun": 2.82,
-    "gapN": 19,
-    "gapFilled": 1
+    "avgRun": 2.7,
+    "gapN": 20,
+    "gapFilled": 2
    },
    {
     "family": "Premarket level break",
-    "n": 14,
-    "followed": 9,
+    "n": 16,
+    "followed": 10,
     "small": 1,
-    "faded": 4,
+    "faded": 5,
     "nobreak": 0,
-    "avgRun": 1.84,
-    "gapN": 14,
-    "gapFilled": 6
+    "avgRun": 1.82,
+    "gapN": 16,
+    "gapFilled": 8
    },
    {
     "family": "Sympathy",
@@ -344,39 +344,39 @@
    {
     "key": "since",
     "label": "Since 13 Nov (six morning checks)",
-    "days": 2,
+    "days": 3,
     "day": [
      {
       "family": "Premarket level break",
-      "n": 4,
-      "followed": 2,
+      "n": 6,
+      "followed": 3,
       "small": 1,
-      "faded": 1,
+      "faded": 2,
       "nobreak": 0,
-      "avgRun": 0.73,
-      "gapN": 4,
+      "avgRun": 1.05,
+      "gapN": 6,
+      "gapFilled": 5
+     },
+     {
+      "family": "Gap and go",
+      "n": 6,
+      "followed": 2,
+      "small": 0,
+      "faded": 3,
+      "nobreak": 1,
+      "avgRun": 2.54,
+      "gapN": 6,
       "gapFilled": 3
      },
      {
       "family": "Gap fill",
-      "n": 3,
+      "n": 4,
       "followed": 3,
-      "small": 0,
+      "small": 1,
       "faded": 0,
       "nobreak": 0,
-      "avgRun": 3.71,
-      "gapN": 3,
-      "gapFilled": 0
-     },
-     {
-      "family": "Gap and go",
-      "n": 3,
-      "followed": 2,
-      "small": 0,
-      "faded": 1,
-      "nobreak": 0,
-      "avgRun": 4.24,
-      "gapN": 3,
+      "avgRun": 2.93,
+      "gapN": 4,
       "gapFilled": 1
      },
      {
@@ -585,6 +585,371 @@
   }
  },
  "days": [
+  {
+   "measured": {
+    "date": "2026-11-17",
+    "type": "chop",
+    "typeLabel": "Chop (up and down, going nowhere)",
+    "spy": {
+     "open": 738.3,
+     "high": 739.76,
+     "low": 727.0,
+     "close": 731.72,
+     "prevClose": 739.95,
+     "change": -1.112,
+     "openToClose": -0.891,
+     "rangePct": 1.724,
+     "usualRangePct": 1.255,
+     "rangeVsUsual": 1.37,
+     "closeLocation": 0.37,
+     "highAt": "09:55",
+     "lowAt": "10:50",
+     "vwapCrosses": 10,
+     "pctAboveVwapAfter10": 10
+    },
+    "expectedMovePct": 1.443,
+    "actualMoveVsExpected": 0.77,
+    "rangeVsExpected": 1.2,
+    "openingRange": {
+     "high": 739.76,
+     "low": 737.47,
+     "widthPct": 0.309,
+     "widthVsExpected": 0.21,
+     "widthVsUsual": 0.25,
+     "breakout": {
+      "side": "down",
+      "time": "10:10",
+      "held": true
+     }
+    },
+    "gap": {
+     "pct": -0.223,
+     "filled": false,
+     "filledAt": null
+    },
+    "levels": [
+     {
+      "name": "Yesterday's high",
+      "price": 749.82,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's low",
+      "price": 738.07,
+      "touched": true,
+      "result": "broke and closed below"
+     },
+     {
+      "name": "Yesterday's close",
+      "price": 739.95,
+      "touched": false,
+      "result": "not reached"
+     }
+    ],
+    "clues": {
+     "10:00": {
+      "spy": {
+       "last": 739.33,
+       "vsOpen": 0.14,
+       "vsPrevClose": -0.084,
+       "vwap": 738.35,
+       "aboveVwap": true,
+       "vwapCrosses": 3
+      },
+      "qqq": {
+       "last": 662.47,
+       "vsOpen": -0.087,
+       "vsPrevClose": 0.109,
+       "vwap": 661.36,
+       "aboveVwap": true,
+       "vwapCrosses": 3
+      },
+      "rsp": {
+       "last": 218.68,
+       "vsOpen": 0.188,
+       "vsPrevClose": -0.114
+      },
+      "iwm": {
+       "last": 272.46,
+       "vsOpen": 0.114,
+       "vsPrevClose": -0.176
+      },
+      "vix": {
+       "last": 22.45,
+       "vsPrevClose": -2.008
+      },
+      "oil": {
+       "last": 86.86,
+       "vsPrevClose": 1.33
+      },
+      "tnx": {
+       "last": 5.152,
+       "vsPrevClose": 0.605,
+       "bpChange": 3.1
+      },
+      "agree": false,
+      "breadthGap": 0.048
+     },
+     "10:30": {
+      "spy": {
+       "last": 736.63,
+       "vsOpen": -0.226,
+       "vsPrevClose": -0.449,
+       "vwap": 737.95,
+       "aboveVwap": false,
+       "vwapCrosses": 4
+      },
+      "qqq": {
+       "last": 658.42,
+       "vsOpen": -0.698,
+       "vsPrevClose": -0.503,
+       "vwap": 659.71,
+       "aboveVwap": false,
+       "vwapCrosses": 4
+      },
+      "rsp": {
+       "last": 218.41,
+       "vsOpen": 0.064,
+       "vsPrevClose": -0.238
+      },
+      "iwm": {
+       "last": 271.73,
+       "vsOpen": -0.154,
+       "vsPrevClose": -0.443
+      },
+      "vix": {
+       "last": 22.98,
+       "vsPrevClose": 0.306
+      },
+      "oil": {
+       "last": 86.4,
+       "vsPrevClose": 0.793
+      },
+      "tnx": {
+       "last": 5.135,
+       "vsPrevClose": 0.273,
+       "bpChange": 1.4
+      },
+      "agree": true,
+      "breadthGap": 0.29,
+      "orBreak": "down",
+      "gapFilled": false
+     }
+    },
+    "summary": "Chop. SPY closed -1.11% on the day (-0.89% from the open). High-to-low it moved 1.72%, a bigger range than usual (1.4x the last 20 days). It broke the first 30 minutes' range down at 10:10 and that break held into the close. It crossed VWAP 10 times (lots of crossing is a chop sign).",
+    "usEvents": [
+     {
+      "time": "8:30 AM",
+      "currency": "USD",
+      "event": "Core Retail Sales m/m",
+      "actual": "",
+      "forecast": "0.4%",
+      "previous": "0.9%"
+     },
+     {
+      "time": "8:30 AM",
+      "currency": "USD",
+      "event": "Retail Sales m/m",
+      "actual": "",
+      "forecast": "0.1%",
+      "previous": "0.8%"
+     }
+    ]
+   },
+   "written": null,
+   "setups": {
+    "day": [
+     {
+      "symbol": "NVDA",
+      "setup": "Premarket range break / opening range breakout",
+      "pmHigh": "158.43",
+      "pmLow": "154.23",
+      "prevClose": "156.14",
+      "gap": "+1.2%",
+      "target": "Calls side: 163.20 (Monday's high); puts side: extension below 154.23. Anything still open at 4 PM carries the report.",
+      "ticker": "NVDA",
+      "family": "Premarket level break",
+      "open": 156.91,
+      "high": 157.46,
+      "low": 150.33,
+      "close": 153.93,
+      "openToClose": -1.9,
+      "gapPct": 0.49,
+      "gapFilled": true,
+      "gapFilledAt": "09:30",
+      "breaks": [
+       {
+        "side": "down",
+        "level": 154.23,
+        "time": "10:05",
+        "entry": 154.23,
+        "run": 2.53,
+        "runBeforeFail": 0.0,
+        "failedAt": "10:05",
+        "closedBeyond": true
+       }
+      ],
+      "best": "down",
+      "result": "faded"
+     },
+     {
+      "symbol": "COHR",
+      "setup": "Gap and go / gap fill",
+      "pmHigh": "228.50",
+      "pmLow": "198.02",
+      "prevClose": "203.43",
+      "gap": "+9.2%",
+      "target": "Calls side: extension above 228.50; puts side: fills toward 208.15 (Monday's high), then the 203.43 close.",
+      "ticker": "COHR",
+      "family": "Gap and go",
+      "open": 214.91,
+      "high": 217.2,
+      "low": 200.53,
+      "close": 208.94,
+      "openToClose": -2.78,
+      "gapPct": 5.64,
+      "gapFilled": true,
+      "gapFilledAt": "10:45",
+      "breaks": [],
+      "result": "nobreak"
+     },
+     {
+      "symbol": "LITE",
+      "setup": "Gap and go / gap fill",
+      "pmHigh": "593.99",
+      "pmLow": "535.36",
+      "prevClose": "546.00",
+      "gap": "+5.1%",
+      "target": "Calls side: extension above 593.99; puts side: fills toward 562.25 (Monday's high), then the 546.00 close.",
+      "ticker": "LITE",
+      "family": "Gap and go",
+      "open": 567.33,
+      "high": 575.46,
+      "low": 534.69,
+      "close": 555.71,
+      "openToClose": -2.05,
+      "gapPct": 3.91,
+      "gapFilled": true,
+      "gapFilledAt": "10:40",
+      "breaks": [
+       {
+        "side": "down",
+        "level": 535.36,
+        "time": "10:50",
+        "entry": 535.36,
+        "run": 0.13,
+        "runBeforeFail": 0.0,
+        "failedAt": "10:50",
+        "closedBeyond": false
+       }
+      ],
+      "best": "down",
+      "result": "faded"
+     },
+     {
+      "symbol": "AMD",
+      "setup": "Premarket high break / gap fill",
+      "pmHigh": "520.86",
+      "pmLow": "497.29",
+      "prevClose": "504.28",
+      "gap": "+1.9%",
+      "target": "Calls side: 526.20 (Monday's high); puts side: 504.28 (gap fill), then 501.30 and 497.29.",
+      "ticker": "AMD",
+      "family": "Premarket level break",
+      "open": 511.6,
+      "high": 511.85,
+      "low": 480.5,
+      "close": 493.57,
+      "openToClose": -3.52,
+      "gapPct": 1.45,
+      "gapFilled": true,
+      "gapFilledAt": "09:30",
+      "breaks": [
+       {
+        "side": "down",
+        "level": 497.29,
+        "time": "10:30",
+        "entry": 497.29,
+        "run": 3.38,
+        "runBeforeFail": 3.38,
+        "failedAt": "11:00",
+        "closedBeyond": true
+       }
+      ],
+      "best": "down",
+      "result": "followed"
+     },
+     {
+      "symbol": "HD",
+      "setup": "Gap and go (down) / gap fill",
+      "pmHigh": "353.00",
+      "pmLow": "336.01",
+      "prevClose": "347.51",
+      "gap": "−1.9%",
+      "target": "Calls side: 346.13, then the 347.51 close; puts side: extension below 336.01.",
+      "ticker": "HD",
+      "family": "Gap and go",
+      "open": 335.57,
+      "high": 346.9,
+      "low": 334.44,
+      "close": 339.68,
+      "openToClose": 1.22,
+      "gapPct": -3.44,
+      "gapFilled": false,
+      "breaks": [
+       {
+        "side": "down",
+        "level": 336.01,
+        "time": "09:30",
+        "entry": 335.57,
+        "run": 0.34,
+        "runBeforeFail": 0.0,
+        "failedAt": "09:30",
+        "closedBeyond": false
+       }
+      ],
+      "best": "down",
+      "result": "faded"
+     },
+     {
+      "symbol": "DIS",
+      "setup": "Gap fill / opening range breakout",
+      "pmHigh": "121.98",
+      "pmLow": "114.93",
+      "prevClose": "118.70",
+      "gap": "−1.4%",
+      "target": "Calls side: 117.78, then the 118.70 close; puts side: extension below 114.93.",
+      "ticker": "DIS",
+      "family": "Gap fill",
+      "open": 118.25,
+      "high": 122.72,
+      "low": 116.13,
+      "close": 116.57,
+      "openToClose": -1.42,
+      "gapPct": -0.37,
+      "gapFilled": true,
+      "gapFilledAt": "09:30",
+      "breaks": [
+       {
+        "side": "up",
+        "level": 121.98,
+        "time": "09:50",
+        "entry": 121.98,
+        "run": 0.61,
+        "runBeforeFail": 0.61,
+        "failedAt": "09:55",
+        "closedBeyond": false
+       }
+      ],
+      "best": "up",
+      "result": "small"
+     }
+    ],
+    "swing": [],
+    "graded": "2026-11-17T15:36:36.516322-05:00"
+   }
+  },
   {
    "measured": {
     "date": "2026-11-16",
@@ -1034,7 +1399,7 @@
       "change": 2.5
      }
     ],
-    "graded": "2026-11-17T14:14:01.200749-05:00"
+    "graded": "2026-11-17T15:36:37.773559-05:00"
    }
   },
   {
@@ -1482,7 +1847,7 @@
       "change": 0.31
      }
     ],
-    "graded": "2026-11-17T14:14:00.976375-05:00"
+    "graded": "2026-11-17T15:36:37.685683-05:00"
    }
   },
   {
@@ -2406,7 +2771,7 @@
       "change": -2.12
      }
     ],
-    "graded": "2026-11-17T14:14:00.648332-05:00"
+    "graded": "2026-11-17T15:36:37.475277-05:00"
    }
   },
   {
@@ -2868,7 +3233,7 @@
       "change": -3.44
      }
     ],
-    "graded": "2026-11-17T14:14:00.646932-05:00"
+    "graded": "2026-11-17T15:36:37.472979-05:00"
    }
   },
   {
@@ -3289,7 +3654,7 @@
       "change": 11.15
      }
     ],
-    "graded": "2026-11-17T14:14:00.645222-05:00"
+    "graded": "2026-11-17T15:36:37.470463-05:00"
    }
   },
   {
@@ -4145,7 +4510,7 @@
       "change": -1.41
      }
     ],
-    "graded": "2026-11-17T14:13:59.969162-05:00"
+    "graded": "2026-11-17T15:36:37.242690-05:00"
    }
   },
   {
@@ -4532,7 +4897,7 @@
       "change": -7.18
      }
     ],
-    "graded": "2026-11-17T14:13:59.791739-05:00"
+    "graded": "2026-11-17T15:36:37.155204-05:00"
    }
   },
   {
@@ -4918,7 +5283,7 @@
       "change": 8.02
      }
     ],
-    "graded": "2026-11-17T14:13:59.324887-05:00"
+    "graded": "2026-11-17T15:36:36.951755-05:00"
    }
   },
   {
