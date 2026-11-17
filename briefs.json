@@ -3010,7 +3010,189 @@
      ["2026-11-16",119.6,119.6,117.78,118.7,12692800]
     ]
    }
+  },
+  {
+   "version": 1,
+   "date": "2026-11-17",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:36",
+   "generated": "2026-11-17T16:36:15.731451-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "25.46",
+     "change": "▲ +2.55 (+11.13%) · open +10.60%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "105.56",
+     "change": "▲ +0.12 (+0.12%) · open +0.27%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "5.103%",
+     "change": "▼ -0.018 (-0.35%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "85.66",
+     "change": "▼ -0.06 (-0.07%) · open -1.72%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "734.15",
+     "change": "▼ -5.80 (-0.78%) · open -0.57%",
+     "asOf": "4:36 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "660.50",
+     "change": "▼ -1.25 (-0.19%) · open -0.39%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Core Retail Sales m/m",
+     "actual": "",
+     "forecast": "0.4%",
+     "previous": "0.9%"
+    },
+    {
+     "time": "8:30 AM",
+     "currency": "USD",
+     "event": "Retail Sales m/m",
+     "actual": "",
+     "forecast": "0.1%",
+     "previous": "0.8%"
+    }
+   ],
+   "macro": [
+    {
+     "source": "Investing.com",
+     "time": "Tue 4:14 PM",
+     "text": "S&P 500 −1.0% to 7,340.77, lowest close since July; Dow −1.6%, Nasdaq −0.7%. October retail sales +0.2% vs 0.1% expected.",
+     "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-muted-as-nvidia-earnings-loom-amid-ai-jitters-5031353"
+    },
+    {
+     "source": "CNBC",
+     "time": "Tue 3:28 PM",
+     "text": "VIX hit 27.7 at the worst of the selling; SPY put/call volume 1.5, highest since early April; IGV options ~4x normal volume.",
+     "url": "https://www.cnbc.com/2026/11/17/wall-streets-fear-gauge-is-surging-again-and-this-time-its-not-just-about-ai-jitters.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "Tue 4:24 PM",
+     "text": "Widespread outages hit banks, air travel (FAA ground stop), the NSA network and Apple services.",
+     "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "Tue 8:40 AM",
+     "text": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months; FOMC minutes Wednesday 2 PM.",
+     "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "NVDA",
+     "move": "−0.4%; ~+3% AH",
+     "text": "Revenue $115.84B vs $109.10B, adj. EPS $2.68 vs $2.48, data center $107.6B; Q4 guide ~$130B vs $125.1B; gross margin 74.9%. China rental rule is the main risk.",
+     "source": "CNBC",
+     "time": "Tue 4:35 PM",
+     "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+    },
+    {
+     "symbol": "CRM / IGV",
+     "move": "−9.5% / −3.3%",
+     "text": "Salesforce led S&P decliners in a software selloff ahead of the Anthropic IPO (I'm built by Anthropic); ORCL, PANW −4%, MSFT, PLTR −3%.",
+     "source": "CNBC",
+     "time": "Tue 3:44 PM",
+     "url": "https://www.cnbc.com/2026/11/17/stocks-moving-the-most-today-live-updates.html"
+    },
+    {
+     "symbol": "AAPL / JPM",
+     "move": "−0.6% / −2.4%",
+     "text": "Outages hit Apple's iCloud and App Store (an internal update), banks and air travel.",
+     "source": "CNBC",
+     "time": "Tue 4:24 PM",
+     "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"
+    },
+    {
+     "symbol": "APP / CRTO",
+     "move": "",
+     "text": "AppLovin in talks to acquire ad-tech peer Criteo, Reuters reports.",
+     "source": "Investing.com",
+     "time": "Tue 3:45 PM",
+     "url": "https://www.investing.com/news/stock-market-news/applovin-in-talks-to-acquire-adtech-peer-criteo-reuters-reports-5033941"
+    }
+   ],
+   "read": "Cautious pre-Nvidia day held: opening bounces sold, puts side triggered in NVDA, COHR, LITE, AMD; DIS calls side ran to 122.72 then faded. All bottomed 10:50 (SPY 727) on a software selloff and outages; chips recovered, defensives closed at lows. SPY −1.0%, VIX 25.5. Nvidia beat after hours (~+3%): a chip gap must hold its first retest. Next: FOMC minutes 2 PM.",
+   "tomorrow": [
+    {
+     "time": "2:00 AM",
+     "currency": "GBP",
+     "event": "CPI y/y",
+     "forecast": "3.6%",
+     "previous": "3.5%"
+    },
+    {
+     "time": "10:00 AM",
+     "currency": "GBP",
+     "event": "BOE Gov Bailey Speaks",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "2:00 PM",
+     "currency": "USD",
+     "event": "FOMC Meeting Minutes",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "7:30 PM",
+     "currency": "AUD",
+     "event": "Employment Change",
+     "forecast": "25.5K",
+     "previous": "-39.3K"
+    },
+    {
+     "time": "7:30 PM",
+     "currency": "AUD",
+     "event": "Unemployment Rate",
+     "forecast": "4.7%",
+     "previous": "4.7%"
+    }
+   ],
+   "readthroughNext": [
+    {
+     "symbol": "NVDA",
+     "time": "after close 2026-11-17",
+     "related": [
+      "AMD",
+      "AVGO",
+      "MRVL",
+      "MU",
+      "SKHY",
+      "TSM",
+      "INTC",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "KLAC",
+      "ANET"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-17T08:23:39.287673-05:00"
+ "updated": "2026-11-17T16:39:21.521993-05:00"
 }

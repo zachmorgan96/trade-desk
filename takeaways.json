@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-17T15:36:37.779124-05:00",
+ "updated": "2026-11-17T16:40:41.381113-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -225,8 +225,8 @@
     "faded": 8,
     "nobreak": 1,
     "avgRun": 2.7,
-    "gapN": 20,
-    "gapFilled": 2
+    "gapN": 19,
+    "gapFilled": 1
    },
    {
     "family": "Premarket level break",
@@ -287,8 +287,8 @@
    "waiting": 2,
    "expired": 0,
    "worked": 3,
-   "failed": 0,
-   "open": 6,
+   "failed": 1,
+   "open": 5,
    "families": [
     {
      "ideas": 11,
@@ -310,8 +310,8 @@
      "waiting": 0,
      "expired": 0,
      "worked": 2,
-     "failed": 0,
-     "open": 3,
+     "failed": 1,
+     "open": 2,
      "family": "Sector rotation"
     },
     {
@@ -376,8 +376,8 @@
       "faded": 0,
       "nobreak": 0,
       "avgRun": 2.93,
-      "gapN": 4,
-      "gapFilled": 1
+      "gapN": 3,
+      "gapFilled": 0
      },
      {
       "family": "Break and retest",
@@ -399,8 +399,8 @@
      "waiting": 1,
      "expired": 0,
      "worked": 0,
-     "failed": 0,
-     "open": 1,
+     "failed": 1,
+     "open": 0,
      "families": [
       {
        "ideas": 1,
@@ -434,8 +434,8 @@
        "waiting": 0,
        "expired": 0,
        "worked": 0,
-       "failed": 0,
-       "open": 1,
+       "failed": 1,
+       "open": 0,
        "family": "Sector rotation"
       }
      ]
@@ -591,24 +591,24 @@
     "type": "chop",
     "typeLabel": "Chop (up and down, going nowhere)",
     "spy": {
-     "open": 738.3,
+     "open": 738.39,
      "high": 739.76,
      "low": 727.0,
-     "close": 731.72,
+     "close": 732.39,
      "prevClose": 739.95,
-     "change": -1.112,
-     "openToClose": -0.891,
+     "change": -1.022,
+     "openToClose": -0.813,
      "rangePct": 1.724,
      "usualRangePct": 1.255,
      "rangeVsUsual": 1.37,
-     "closeLocation": 0.37,
+     "closeLocation": 0.42,
      "highAt": "09:55",
      "lowAt": "10:50",
-     "vwapCrosses": 10,
-     "pctAboveVwapAfter10": 10
+     "vwapCrosses": 13,
+     "pctAboveVwapAfter10": 14
     },
     "expectedMovePct": 1.443,
-    "actualMoveVsExpected": 0.77,
+    "actualMoveVsExpected": 0.71,
     "rangeVsExpected": 1.2,
     "openingRange": {
      "high": 739.76,
@@ -623,7 +623,7 @@
      }
     },
     "gap": {
-     "pct": -0.223,
+     "pct": -0.211,
      "filled": false,
      "filledAt": null
     },
@@ -651,9 +651,9 @@
      "10:00": {
       "spy": {
        "last": 739.33,
-       "vsOpen": 0.14,
+       "vsOpen": 0.127,
        "vsPrevClose": -0.084,
-       "vwap": 738.35,
+       "vwap": 738.58,
        "aboveVwap": true,
        "vwapCrosses": 3
       },
@@ -667,12 +667,12 @@
       },
       "rsp": {
        "last": 218.68,
-       "vsOpen": 0.188,
+       "vsOpen": 0.294,
        "vsPrevClose": -0.114
       },
       "iwm": {
        "last": 272.46,
-       "vsOpen": 0.114,
+       "vsOpen": 0.158,
        "vsPrevClose": -0.176
       },
       "vix": {
@@ -689,14 +689,14 @@
        "bpChange": 3.1
       },
       "agree": false,
-      "breadthGap": 0.048
+      "breadthGap": 0.167
      },
      "10:30": {
       "spy": {
        "last": 736.63,
-       "vsOpen": -0.226,
+       "vsOpen": -0.238,
        "vsPrevClose": -0.449,
-       "vwap": 737.95,
+       "vwap": 737.67,
        "aboveVwap": false,
        "vwapCrosses": 4
       },
@@ -704,18 +704,18 @@
        "last": 658.42,
        "vsOpen": -0.698,
        "vsPrevClose": -0.503,
-       "vwap": 659.71,
+       "vwap": 660.87,
        "aboveVwap": false,
        "vwapCrosses": 4
       },
       "rsp": {
        "last": 218.41,
-       "vsOpen": 0.064,
+       "vsOpen": 0.17,
        "vsPrevClose": -0.238
       },
       "iwm": {
        "last": 271.73,
-       "vsOpen": -0.154,
+       "vsOpen": -0.11,
        "vsPrevClose": -0.443
       },
       "vix": {
@@ -732,12 +732,12 @@
        "bpChange": 1.4
       },
       "agree": true,
-      "breadthGap": 0.29,
+      "breadthGap": 0.408,
       "orBreak": "down",
       "gapFilled": false
      }
     },
-    "summary": "Chop. SPY closed -1.11% on the day (-0.89% from the open). High-to-low it moved 1.72%, a bigger range than usual (1.4x the last 20 days). It broke the first 30 minutes' range down at 10:10 and that break held into the close. It crossed VWAP 10 times (lots of crossing is a chop sign).",
+    "summary": "Chop. SPY closed -1.02% on the day (-0.81% from the open). High-to-low it moved 1.72%, a bigger range than usual (1.4x the last 20 days). It broke the first 30 minutes' range down at 10:10 and that break held into the close. It crossed VWAP 13 times (lots of crossing is a chop sign).",
     "usEvents": [
      {
       "time": "8:30 AM",
@@ -757,7 +757,15 @@
      }
     ]
    },
-   "written": null,
+   "written": {
+    "briefLean": "Cautious and range-bound before Nvidia's report after the close: a chip bounce inside a downtrend that should be proven by a retest, with retail sales at 8:30 the only red event.",
+    "verdict": "partly",
+    "whatHappened": "SPY opened 738.39 (gap −0.2%), made its high 739.76 at 9:55, then broke the 30-minute range down at 10:10 and that break held. The low came at 10:50 (727.00, with QQQ, SMH and IWM bottoming in the same bar); it bounced partway and closed 732.39 (−1.02%), with 13 VWAP crosses.",
+    "why": "A broad software selloff (IGV −3.3%, Salesforce −9.5%) before this week's Anthropic IPO, nationwide tech outages and heavy put buying (VIX to about 27.7 at the low, SPY put/call 1.5) sank the market; the 10-year was up 3 bp to 5.15% at 10:00 after a slightly firm retail sales print (+0.2% vs 0.1%). Chips recovered most of the drop before Nvidia's report, while financials, utilities, health care and staples closed at their lows.",
+    "earliestClue": "The clues disagreed at 10:00 (SPY and QQQ above VWAP, VIX down 2%, but the 10-year up 3 bp and QQQ already below its open); by 10:30 they agreed: SPY and QQQ under VWAP, the opening range broken down and the gap unfilled.",
+    "lesson": "Before a big after-hours report, a narrow opening range that breaks at 10:10 can flush hard into late morning and then chop; the down break was right, but the chip names gave back the move after 10:50, so the first target was the place to be paid, not the close.",
+    "by": "Close review routine"
+   },
    "setups": {
     "day": [
      {
@@ -770,12 +778,12 @@
       "target": "Calls side: 163.20 (Monday's high); puts side: extension below 154.23. Anything still open at 4 PM carries the report.",
       "ticker": "NVDA",
       "family": "Premarket level break",
-      "open": 156.91,
+      "open": 156.62,
       "high": 157.46,
       "low": 150.33,
-      "close": 153.93,
-      "openToClose": -1.9,
-      "gapPct": 0.49,
+      "close": 155.46,
+      "openToClose": -0.75,
+      "gapPct": 0.31,
       "gapFilled": true,
       "gapFilledAt": "09:30",
       "breaks": [
@@ -787,7 +795,7 @@
         "run": 2.53,
         "runBeforeFail": 0.0,
         "failedAt": "10:05",
-        "closedBeyond": true
+        "closedBeyond": false
        }
       ],
       "best": "down",
@@ -806,8 +814,8 @@
       "open": 214.91,
       "high": 217.2,
       "low": 200.53,
-      "close": 208.94,
-      "openToClose": -2.78,
+      "close": 210.94,
+      "openToClose": -1.85,
       "gapPct": 5.64,
       "gapFilled": true,
       "gapFilledAt": "10:45",
@@ -827,8 +835,8 @@
       "open": 567.33,
       "high": 575.46,
       "low": 534.69,
-      "close": 555.71,
-      "openToClose": -2.05,
+      "close": 560.27,
+      "openToClose": -1.24,
       "gapPct": 3.91,
       "gapFilled": true,
       "gapFilledAt": "10:40",
@@ -860,8 +868,8 @@
       "open": 511.6,
       "high": 511.85,
       "low": 480.5,
-      "close": 493.57,
-      "openToClose": -3.52,
+      "close": 503.69,
+      "openToClose": -1.55,
       "gapPct": 1.45,
       "gapFilled": true,
       "gapFilledAt": "09:30",
@@ -874,7 +882,7 @@
         "run": 3.38,
         "runBeforeFail": 3.38,
         "failedAt": "11:00",
-        "closedBeyond": true
+        "closedBeyond": false
        }
       ],
       "best": "down",
@@ -890,20 +898,20 @@
       "target": "Calls side: 346.13, then the 347.51 close; puts side: extension below 336.01.",
       "ticker": "HD",
       "family": "Gap and go",
-      "open": 335.57,
+      "open": 335.07,
       "high": 346.9,
       "low": 334.44,
-      "close": 339.68,
+      "close": 339.16,
       "openToClose": 1.22,
-      "gapPct": -3.44,
+      "gapPct": -3.58,
       "gapFilled": false,
       "breaks": [
        {
         "side": "down",
         "level": 336.01,
         "time": "09:30",
-        "entry": 335.57,
-        "run": 0.34,
+        "entry": 335.07,
+        "run": 0.19,
         "runBeforeFail": 0.0,
         "failedAt": "09:30",
         "closedBeyond": false
@@ -922,14 +930,12 @@
       "target": "Calls side: 117.78, then the 118.70 close; puts side: extension below 114.93.",
       "ticker": "DIS",
       "family": "Gap fill",
-      "open": 118.25,
+      "open": 118.85,
       "high": 122.72,
       "low": 116.13,
-      "close": 116.57,
-      "openToClose": -1.42,
-      "gapPct": -0.37,
-      "gapFilled": true,
-      "gapFilledAt": "09:30",
+      "close": 116.94,
+      "openToClose": -1.61,
+      "gapPct": 0.13,
       "breaks": [
        {
         "side": "up",
@@ -947,7 +953,7 @@
      }
     ],
     "swing": [],
-    "graded": "2026-11-17T15:36:36.516322-05:00"
+    "graded": "2026-11-17T16:40:22.403116-05:00"
    }
   },
   {
@@ -1364,11 +1370,11 @@
       "confirmSide": "above",
       "invalidLevel": 1414.37,
       "invalidSide": "below",
-      "days": 1,
+      "days": 2,
       "status": "waiting",
-      "lastDate": "2026-11-16",
-      "lastClose": 1431.67,
-      "change": -0.82
+      "lastDate": "2026-11-17",
+      "lastClose": 1415.55,
+      "change": -1.94
      },
      {
       "symbol": "HUM",
@@ -1382,24 +1388,26 @@
       "confirmSide": "above",
       "invalidLevel": 450.0,
       "invalidSide": "below",
-      "days": 1,
+      "days": 2,
       "status": "confirmed",
       "statusDate": "2026-11-16",
       "statusClose": 461.25,
       "after": {
        "entry": 461.25,
        "riskPct": 2.44,
-       "days": 0,
-       "outcome": "open",
+       "days": 1,
+       "outcome": "failed",
+       "outcomeDate": "2026-11-17",
        "bestPct": 0.0,
-       "worstPct": 0.0
+       "worstPct": -6.39,
+       "nowPct": -3.88
       },
-      "lastDate": "2026-11-16",
-      "lastClose": 461.25,
-      "change": 2.5
+      "lastDate": "2026-11-17",
+      "lastClose": 443.34,
+      "change": -1.48
      }
     ],
-    "graded": "2026-11-17T15:36:37.773559-05:00"
+    "graded": "2026-11-17T16:40:24.999486-05:00"
    }
   },
   {
@@ -1802,13 +1810,13 @@
       "confirmSide": "above",
       "invalidLevel": 357.35,
       "invalidSide": "below",
-      "days": 2,
+      "days": 3,
       "status": "invalidated",
       "statusDate": "2026-11-16",
       "statusClose": 350.25,
-      "lastDate": "2026-11-16",
-      "lastClose": 350.25,
-      "change": -8.06
+      "lastDate": "2026-11-17",
+      "lastClose": 349.23,
+      "change": -8.33
      },
      {
       "symbol": "NVDA",
@@ -1822,11 +1830,11 @@
       "confirmSide": "above",
       "invalidLevel": 148.8,
       "invalidSide": "below",
-      "days": 2,
+      "days": 3,
       "status": "waiting",
-      "lastDate": "2026-11-16",
-      "lastClose": 156.14,
-      "change": -6.05
+      "lastDate": "2026-11-17",
+      "lastClose": 155.46,
+      "change": -6.46
      },
      {
       "symbol": "LLY",
@@ -1840,14 +1848,14 @@
       "confirmSide": "above",
       "invalidLevel": 1414.37,
       "invalidSide": "below",
-      "days": 2,
+      "days": 3,
       "status": "waiting",
-      "lastDate": "2026-11-16",
-      "lastClose": 1431.67,
-      "change": 0.31
+      "lastDate": "2026-11-17",
+      "lastClose": 1415.55,
+      "change": -0.82
      }
     ],
-    "graded": "2026-11-17T15:36:37.685683-05:00"
+    "graded": "2026-11-17T16:40:24.774355-05:00"
    }
   },
   {
@@ -2704,22 +2712,22 @@
       "confirmSide": "above",
       "invalidLevel": 48.73,
       "invalidSide": "below",
-      "days": 4,
+      "days": 5,
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 60.77,
       "after": {
        "entry": 60.77,
        "riskPct": 19.81,
-       "days": 3,
+       "days": 4,
        "outcome": "open",
        "bestPct": 0.0,
-       "worstPct": -20.04,
-       "nowPct": -17.92
+       "worstPct": -22.91,
+       "nowPct": -17.9
       },
-      "lastDate": "2026-11-16",
-      "lastClose": 49.88,
-      "change": 2.36
+      "lastDate": "2026-11-17",
+      "lastClose": 49.89,
+      "change": 2.38
      },
      {
       "symbol": "NVDA",
@@ -2733,13 +2741,13 @@
       "confirmSide": "above",
       "invalidLevel": 165.89,
       "invalidSide": "below",
-      "days": 4,
+      "days": 5,
       "status": "invalidated",
       "statusDate": "2026-11-13",
       "statusClose": 162.85,
-      "lastDate": "2026-11-16",
-      "lastClose": 156.14,
-      "change": -7.55
+      "lastDate": "2026-11-17",
+      "lastClose": 155.46,
+      "change": -7.95
      },
      {
       "symbol": "AMD",
@@ -2753,25 +2761,25 @@
       "confirmSide": "above",
       "invalidLevel": 495.0,
       "invalidSide": "below",
-      "days": 4,
+      "days": 5,
       "status": "confirmed",
       "statusDate": "2026-11-12",
       "statusClose": 585.3,
       "after": {
        "entry": 585.3,
        "riskPct": 15.43,
-       "days": 2,
+       "days": 3,
        "outcome": "open",
        "bestPct": 0.0,
-       "worstPct": -14.35,
-       "nowPct": -13.84
+       "worstPct": -17.91,
+       "nowPct": -13.99
       },
-      "lastDate": "2026-11-16",
-      "lastClose": 504.28,
-      "change": -2.12
+      "lastDate": "2026-11-17",
+      "lastClose": 503.41,
+      "change": -2.29
      }
     ],
-    "graded": "2026-11-17T15:36:37.475277-05:00"
+    "graded": "2026-11-17T16:40:24.352676-05:00"
    }
   },
   {
@@ -3165,13 +3173,13 @@
       "confirmSide": "above",
       "invalidLevel": 170.24,
       "invalidSide": "below",
-      "days": 5,
+      "days": 6,
       "status": "invalidated",
       "statusDate": "2026-11-10",
       "statusClose": 168.89,
-      "lastDate": "2026-11-16",
-      "lastClose": 156.14,
-      "change": -12.61
+      "lastDate": "2026-11-17",
+      "lastClose": 155.46,
+      "change": -12.99
      },
      {
       "symbol": "AMD",
@@ -3185,23 +3193,23 @@
       "confirmSide": "above",
       "invalidLevel": 468.21,
       "invalidSide": "below",
-      "days": 5,
+      "days": 6,
       "status": "confirmed",
       "statusDate": "2026-11-10",
       "statusClose": 515.21,
       "after": {
        "entry": 515.21,
        "riskPct": 9.12,
-       "days": 4,
+       "days": 5,
        "outcome": "worked",
        "outcomeDate": "2026-11-11",
        "bestPct": 10.18,
        "worstPct": 0.0,
-       "nowPct": -2.12
+       "nowPct": -2.29
       },
-      "lastDate": "2026-11-16",
-      "lastClose": 504.28,
-      "change": -0.85
+      "lastDate": "2026-11-17",
+      "lastClose": 503.41,
+      "change": -1.02
      },
      {
       "symbol": "AMZN",
@@ -3215,25 +3223,25 @@
       "confirmSide": "above",
       "invalidLevel": 254.0,
       "invalidSide": "below",
-      "days": 5,
+      "days": 6,
       "status": "confirmed",
       "statusDate": "2026-11-10",
       "statusClose": 270.87,
       "after": {
        "entry": 270.87,
        "riskPct": 6.23,
-       "days": 4,
+       "days": 5,
        "outcome": "open",
        "bestPct": 1.48,
-       "worstPct": -5.24,
-       "nowPct": -4.84
+       "worstPct": -6.23,
+       "nowPct": -4.79
       },
-      "lastDate": "2026-11-16",
-      "lastClose": 257.75,
-      "change": -3.44
+      "lastDate": "2026-11-17",
+      "lastClose": 257.89,
+      "change": -3.39
      }
     ],
-    "graded": "2026-11-17T15:36:37.472979-05:00"
+    "graded": "2026-11-17T16:40:24.350557-05:00"
    }
   },
   {
@@ -3587,22 +3595,22 @@
       "confirmSide": "above",
       "invalidLevel": 178.23,
       "invalidSide": "below",
-      "days": 6,
+      "days": 7,
       "status": "confirmed",
       "statusDate": "2026-11-09",
       "statusClose": 200.47,
       "after": {
        "entry": 200.47,
        "riskPct": 11.09,
-       "days": 5,
+       "days": 6,
        "outcome": "open",
        "bestPct": 6.99,
-       "worstPct": -6.76,
-       "nowPct": -5.89
+       "worstPct": -8.25,
+       "nowPct": -5.04
       },
-      "lastDate": "2026-11-16",
-      "lastClose": 188.67,
-      "change": 3.18
+      "lastDate": "2026-11-17",
+      "lastClose": 190.37,
+      "change": 4.11
      },
      {
       "symbol": "NVDA",
@@ -3616,13 +3624,13 @@
       "confirmSide": "above",
       "invalidLevel": 174.49,
       "invalidSide": "below",
-      "days": 6,
+      "days": 7,
       "status": "invalidated",
       "statusDate": "2026-11-10",
       "statusClose": 168.89,
-      "lastDate": "2026-11-16",
-      "lastClose": 156.14,
-      "change": -16.34
+      "lastDate": "2026-11-17",
+      "lastClose": 155.46,
+      "change": -16.71
      },
      {
       "symbol": "CEG",
@@ -3636,25 +3644,25 @@
       "confirmSide": "above",
       "invalidLevel": 243.38,
       "invalidSide": "below",
-      "days": 6,
+      "days": 7,
       "status": "confirmed",
       "statusDate": "2026-11-09",
       "statusClose": 276.09,
       "after": {
        "entry": 276.09,
        "riskPct": 11.85,
-       "days": 5,
+       "days": 6,
        "outcome": "open",
        "bestPct": 3.22,
        "worstPct": -4.45,
-       "nowPct": 0.63
+       "nowPct": -2.9
       },
-      "lastDate": "2026-11-16",
-      "lastClose": 277.82,
-      "change": 11.15
+      "lastDate": "2026-11-17",
+      "lastClose": 268.07,
+      "change": 7.25
      }
     ],
-    "graded": "2026-11-17T15:36:37.470463-05:00"
+    "graded": "2026-11-17T16:40:24.347968-05:00"
    }
   },
   {
@@ -4452,22 +4460,22 @@
       "confirmSide": "above",
       "invalidLevel": 340.99,
       "invalidSide": "below",
-      "days": 8,
+      "days": 9,
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 355.63,
       "after": {
        "entry": 355.63,
        "riskPct": 4.12,
-       "days": 3,
+       "days": 4,
        "outcome": "open",
        "bestPct": 1.46,
-       "worstPct": -1.21,
-       "nowPct": -0.8
+       "worstPct": -1.68,
+       "nowPct": -1.05
       },
-      "lastDate": "2026-11-16",
-      "lastClose": 352.78,
-      "change": 0.94
+      "lastDate": "2026-11-17",
+      "lastClose": 351.91,
+      "change": 0.69
      },
      {
       "symbol": "AMZN",
@@ -4481,13 +4489,13 @@
       "confirmSide": "above",
       "invalidLevel": 263.85,
       "invalidSide": "below",
-      "days": 8,
+      "days": 9,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 260.21,
-      "lastDate": "2026-11-16",
-      "lastClose": 257.75,
-      "change": -3.11
+      "lastDate": "2026-11-17",
+      "lastClose": 257.89,
+      "change": -3.06
      },
      {
       "symbol": "TSLA",
@@ -4501,16 +4509,16 @@
       "confirmSide": "above",
       "invalidLevel": 362.7,
       "invalidSide": "below",
-      "days": 8,
+      "days": 9,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 343.69,
-      "lastDate": "2026-11-16",
-      "lastClose": 379.74,
-      "change": -1.41
+      "lastDate": "2026-11-17",
+      "lastClose": 380.11,
+      "change": -1.32
      }
     ],
-    "graded": "2026-11-17T15:36:37.242690-05:00"
+    "graded": "2026-11-17T16:40:23.762949-05:00"
    }
   },
   {
@@ -4839,13 +4847,13 @@
       "confirmSide": "above",
       "invalidLevel": 470.75,
       "invalidSide": "below",
-      "days": 9,
+      "days": 10,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 404.4,
-      "lastDate": "2026-11-16",
-      "lastClose": 504.28,
-      "change": 4.21
+      "lastDate": "2026-11-17",
+      "lastClose": 503.41,
+      "change": 4.03
      },
      {
       "symbol": "TSLA",
@@ -4859,13 +4867,13 @@
       "confirmSide": "above",
       "invalidLevel": 352.0,
       "invalidSide": "below",
-      "days": 9,
+      "days": 10,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 343.69,
-      "lastDate": "2026-11-16",
-      "lastClose": 379.74,
-      "change": -4.71
+      "lastDate": "2026-11-17",
+      "lastClose": 380.11,
+      "change": -4.61
      },
      {
       "symbol": "CRWV",
@@ -4879,25 +4887,25 @@
       "confirmSide": "above",
       "invalidLevel": null,
       "invalidSide": null,
-      "days": 9,
+      "days": 10,
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 60.77,
       "after": {
        "entry": 60.77,
        "riskPct": null,
-       "days": 3,
+       "days": 4,
        "outcome": null,
        "bestPct": 0.0,
-       "worstPct": -20.04,
-       "nowPct": -17.92
+       "worstPct": -22.91,
+       "nowPct": -17.9
       },
-      "lastDate": "2026-11-16",
-      "lastClose": 49.88,
-      "change": -7.18
+      "lastDate": "2026-11-17",
+      "lastClose": 49.89,
+      "change": -7.16
      }
     ],
-    "graded": "2026-11-17T15:36:37.155204-05:00"
+    "graded": "2026-11-17T16:40:23.549354-05:00"
    }
   },
   {
@@ -5236,11 +5244,11 @@
       "confirmSide": "below",
       "invalidLevel": null,
       "invalidSide": null,
-      "days": 10,
+      "days": 11,
       "status": "waiting",
-      "lastDate": "2026-11-16",
-      "lastClose": 352.78,
-      "change": 4.27
+      "lastDate": "2026-11-17",
+      "lastClose": 351.91,
+      "change": 4.02
      },
      {
       "symbol": "MU",
@@ -5254,13 +5262,13 @@
       "confirmSide": "above",
       "invalidLevel": 825.25,
       "invalidSide": "below",
-      "days": 10,
+      "days": 11,
       "status": "invalidated",
       "statusDate": "2026-11-04",
       "statusClose": 795.23,
-      "lastDate": "2026-11-16",
-      "lastClose": 719.02,
-      "change": -13.74
+      "lastDate": "2026-11-17",
+      "lastClose": 712.42,
+      "change": -14.54
      },
      {
       "symbol": "AMD",
@@ -5274,16 +5282,16 @@
       "confirmSide": "above",
       "invalidLevel": 466.07,
       "invalidSide": "below",
-      "days": 10,
+      "days": 11,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 404.4,
-      "lastDate": "2026-11-16",
-      "lastClose": 504.28,
-      "change": 8.02
+      "lastDate": "2026-11-17",
+      "lastClose": 503.41,
+      "change": 7.83
      }
     ],
-    "graded": "2026-11-17T15:36:36.951755-05:00"
+    "graded": "2026-11-17T16:40:23.108300-05:00"
    }
   },
   {
