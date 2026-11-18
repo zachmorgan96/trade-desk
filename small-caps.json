@@ -1,11 +1,11 @@
 {
  "date": "2026-11-18",
- "scanned": "2026-11-18T08:25:07-05:00",
+ "scanned": "2026-11-18T08:35:06-05:00",
  "session": "premarket",
- "plan": "No theme this morning. The biotech names moving share an industry label but not a reason, and none of them has fresh news. The clearest reasons are earnings: BRBR and IIIV both reported results with a fiscal 2027 outlook, and HIHO reported second quarter results. Be careful: the scan shows no premarket volume for any name, so relative volume cannot be judged yet, and GP and CNXU carry High dilution flags.",
+ "plan": "No theme this morning: the industry groups in the scan do not share a reason for the move. The clearest reasons are company earnings at BRBR, IIIV and HIHO, and HIHO and GMM carry the real premarket volume at 5.3x and 6.97x a normal day. Be careful with AKAN and GMM: tiny floats, no news, and AKAN has a High dilution flag. The scan counts 3 halts today, and BRBR and IIIV have traded very little so far.",
  "counts": {
-  "up20": 1,
-  "up10": 14,
+  "up20": 2,
+  "up10": 15,
   "halts": 3,
   "haltedSymbols": [
    "ADAC",
@@ -14,35 +14,122 @@
   ]
  },
  "iwm": {
-  "price": 268.05,
-  "move": -0.35
+  "price": 268.1617,
+  "move": -0.3
  },
  "themes": [],
  "names": [
   {
+   "symbol": "HIHO",
+   "name": "Highway Holdings Limited",
+   "move": 14.61,
+   "price": 1.4097,
+   "prevClose": 1.23,
+   "marketCap": 5690811,
+   "float": 2943936,
+   "volume": 9344436,
+   "volumeVsNormal": 5.3,
+   "avgVolume": 1763003,
+   "shortPctFloat": 0.33999999999999997,
+   "shortDate": "2026-10-30",
+   "daysToCover": 0.74,
+   "industry": "Metal Fabrication",
+   "premarket": {
+    "high": 1.65,
+    "low": 1.19,
+    "volume": 9344436,
+    "day": "2026-11-18"
+   },
+   "dilution": {
+    "level": "Low",
+    "reason": "No registration to sell shares in 12 months. Prospectus filings (424B) could not be checked today",
+    "monthsOfCash": null,
+    "filings": []
+   },
+   "halts": [],
+   "news": [
+    {
+     "time": "Wed 6:00 AM",
+     "source": "PR Newswire",
+     "title": "HIGHWAY HOLDINGS RETURNS TO STRONG REVENUE GROWTH AND OPERATING PROFITABILITY IN SECOND QUARTER FISCAL YEAR 2027",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/highway-holdings-returns-strong-revenue-110000542.html"
+    }
+   ],
+   "role": "On its own · earnings",
+   "theme": "Earnings",
+   "catalyst": "Reported a return to revenue growth and operating profit in its fiscal second quarter.",
+   "long": "Holds above 1.65 (premarket high) after the first 15 minutes.",
+   "cancel": "Loses VWAP and 1.23 (previous close).",
+   "note": "Premarket volume is 5.3x a normal day on a 2.9M float."
+  },
+  {
+   "symbol": "GMM",
+   "name": "Global Mofy AI Limited",
+   "move": 21.58,
+   "price": 1.69,
+   "prevClose": 1.39,
+   "marketCap": 80273904,
+   "float": 559949,
+   "volume": 13304476,
+   "volumeVsNormal": 6.97,
+   "avgVolume": 1909129,
+   "shortPctFloat": 0.11999999,
+   "shortDate": "2026-10-30",
+   "daysToCover": 0.43,
+   "industry": "Information Technology Services",
+   "premarket": {
+    "high": 2.11,
+    "low": 1.42,
+    "volume": 13304476,
+    "day": "2026-11-18"
+   },
+   "dilution": {
+    "level": "Watch",
+    "reason": "Filed to register shares for sale (F-3, 6 Mar). Prospectus filings (424B) could not be checked today",
+    "monthsOfCash": null,
+    "filings": [
+     {
+      "form": "F-3",
+      "date": "2026-03-06"
+     },
+     {
+      "form": "F-3",
+      "date": "2026-01-28"
+     }
+    ]
+   },
+   "halts": [],
+   "news": [],
+   "role": "On its own · no news",
+   "theme": "Low float, no news",
+   "long": "Reclaims and holds 2.11 (premarket high).",
+   "cancel": "Loses VWAP and 1.42 (premarket low).",
+   "note": "Float of 559.9K with volume at 6.97x normal. Registered shares for sale (F-3, 6 Mar)."
+  },
+  {
    "symbol": "BRBR",
    "name": "BellRing Brands, Inc.",
-   "move": 15.84,
-   "price": 12.76,
+   "move": 16.66,
+   "price": 12.85,
    "prevClose": 11.01,
    "marketCap": 1280222976,
    "float": 108372440,
-   "volume": 0,
-   "volumeVsNormal": null,
+   "volume": 72339,
+   "volumeVsNormal": 0.02,
    "avgVolume": 3626464,
    "shortPctFloat": 14.499999999999998,
    "shortDate": "2026-10-30",
    "daysToCover": 3.52,
    "industry": "Packaged Foods",
    "premarket": {
-    "high": 12.91,
+    "high": 12.95,
     "low": 10.87,
-    "volume": 0,
+    "volume": 72339,
     "day": "2026-11-18"
    },
    "dilution": {
     "level": "Low",
-    "reason": "No filings to sell shares in 12 months",
+    "reason": "No registration to sell shares in 12 months. Prospectus filings (424B) could not be checked today",
     "monthsOfCash": null,
     "filings": []
    },
@@ -61,24 +148,24 @@
      "link": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-fiscal-q4-earnings-121655127.html"
     },
     {
+     "time": "Wed 7:10 AM",
+     "source": "Zacks",
+     "title": "BellRing Brands (BRBR) Q4 Earnings and Revenues Beat Estimates",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-brbr-q4-earnings-121001589.html"
+    },
+    {
      "time": "Wed 7:01 AM",
      "source": "GlobeNewswire",
      "title": "BellRing Brands Announces CFO Transition",
      "link": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-announces-cfo-transition-120100028.html"
-    },
-    {
-     "time": "Wed 7:00 AM",
-     "source": "GlobeNewswire",
-     "title": "BellRing Brands Reports Results for the Fourth Quarter and Fiscal Year 2026; Provides Fiscal Year 2027 Outlook",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-reports-results-fourth-120000227.html"
     }
    ],
    "role": "On its own · earnings",
    "theme": "Earnings",
-   "catalyst": "Reported fourth quarter and fiscal 2026 results with a fiscal 2027 outlook, and announced a CFO transition.",
-   "long": "Holds above 12.91 (premarket high) after the first 15 minutes.",
-   "cancel": "Loses VWAP and 10.87 (premarket low).",
-   "note": "Short interest 14.5% of float as of 2026-10-30."
+   "catalyst": "Fiscal Q4 earnings and revenue beat estimates, it issued a fiscal 2027 outlook and announced a CFO transition.",
+   "long": "Holds above 12.95 (premarket high) after the first 15 minutes.",
+   "cancel": "Loses VWAP and 11.01 (previous close).",
+   "note": "Only 72.3K shares traded premarket, 0.02x a normal day."
   },
   {
    "symbol": "IIIV",
@@ -88,8 +175,8 @@
    "prevClose": 18.71,
    "marketCap": 650792000,
    "float": 12916195,
-   "volume": 0,
-   "volumeVsNormal": null,
+   "volume": 1378,
+   "volumeVsNormal": 0.0,
    "avgVolume": 428109,
    "shortPctFloat": 46.45,
    "shortDate": "2026-10-30",
@@ -98,12 +185,12 @@
    "premarket": {
     "high": 21.4,
     "low": 20.9,
-    "volume": 0,
+    "volume": 1378,
     "day": "2026-11-18"
    },
    "dilution": {
     "level": "Low",
-    "reason": "No filings to sell shares in 12 months",
+    "reason": "No registration to sell shares in 12 months. Prospectus filings (424B) could not be checked today",
     "monthsOfCash": null,
     "filings": []
    },
@@ -124,139 +211,110 @@
    ],
    "role": "On its own · earnings",
    "theme": "Earnings",
-   "catalyst": "Reported fourth quarter and fiscal 2026 results after Tuesday's close, with a fiscal 2027 outlook.",
+   "catalyst": "Fiscal Q4 earnings and revenue rose and it issued a fiscal 2027 outlook after Tuesday's close.",
    "long": "Holds above 21.4 (premarket high) after the first 15 minutes.",
    "cancel": "Loses VWAP and 20.9 (premarket low).",
-   "note": "Short interest 46.5% of float as of 2026-10-30, days to cover 8.35."
+   "note": "Short interest 46.5% of float, but only 1.4K shares traded premarket."
   },
   {
-   "symbol": "HIHO",
-   "name": "Highway Holdings Limited",
-   "move": 17.8,
-   "price": 1.4489,
-   "prevClose": 1.23,
-   "marketCap": 5690811,
-   "float": 2943936,
-   "volume": 0,
-   "volumeVsNormal": null,
-   "avgVolume": 1763003,
-   "shortPctFloat": 0.33999999999999997,
+   "symbol": "AKAN",
+   "name": "Akanda Corp.",
+   "move": 30.0,
+   "price": 2.665,
+   "prevClose": 2.05,
+   "marketCap": 5410907,
+   "float": 709911,
+   "volume": 2463581,
+   "volumeVsNormal": 0.58,
+   "avgVolume": 4233664,
+   "shortPctFloat": 8.1099994,
    "shortDate": "2026-10-30",
-   "daysToCover": 0.74,
-   "industry": "Metal Fabrication",
+   "daysToCover": 0.55,
+   "industry": "Drug Manufacturers - Specialty & Generic",
    "premarket": {
-    "high": 1.65,
-    "low": 1.19,
-    "volume": 0,
-    "day": "2026-11-18"
-   },
-   "dilution": {
-    "level": "Low",
-    "reason": "No filings to sell shares in 12 months",
-    "monthsOfCash": null,
-    "filings": []
-   },
-   "halts": [],
-   "news": [
-    {
-     "time": "Wed 6:00 AM",
-     "source": "PR Newswire",
-     "title": "HIGHWAY HOLDINGS RETURNS TO STRONG REVENUE GROWTH AND OPERATING PROFITABILITY IN SECOND QUARTER FISCAL YEAR 2027",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/highway-holdings-returns-strong-revenue-110000542.html"
-    }
-   ],
-   "role": "On its own · earnings",
-   "theme": "Earnings",
-   "catalyst": "Reported revenue growth and operating profit for the second quarter of fiscal 2027.",
-   "long": "Holds above 1.65 (premarket high) after the first 15 minutes.",
-   "cancel": "Loses VWAP and 1.19 (premarket low).",
-   "note": "Market cap $5.7M with a 2.9M float."
-  },
-  {
-   "symbol": "GP",
-   "name": "GreenPower Motor Company Inc.",
-   "move": 13.78,
-   "price": 2.981,
-   "prevClose": 2.62,
-   "marketCap": 6392074,
-   "float": 878501,
-   "volume": 0,
-   "volumeVsNormal": null,
-   "avgVolume": 4680501,
-   "shortPctFloat": 1.77,
-   "shortDate": "2026-10-30",
-   "daysToCover": 0.04,
-   "industry": "Farm & Heavy Construction Machinery",
-   "premarket": {
-    "high": 3.4499,
-    "low": 2.59,
-    "volume": 0,
+    "high": 2.85,
+    "low": 1.9166,
+    "volume": 2463581,
     "day": "2026-11-18"
    },
    "dilution": {
     "level": "High",
-    "reason": "About 1 months of cash at the last report",
-    "monthsOfCash": 0.6,
-    "filings": []
+    "reason": "Filed to register shares for sale (F-1/A, 6 Nov). About 1 months of cash at the last report. Prospectus filings (424B) could not be checked today",
+    "monthsOfCash": 0.9,
+    "filings": [
+     {
+      "form": "F-1/A",
+      "date": "2026-11-06"
+     },
+     {
+      "form": "F-1/A",
+      "date": "2026-10-19"
+     },
+     {
+      "form": "F-1",
+      "date": "2026-10-01"
+     },
+     {
+      "form": "F-1/A",
+      "date": "2026-03-20"
+     },
+     {
+      "form": "F-1/A",
+      "date": "2026-03-04"
+     }
+    ]
    },
    "halts": [],
-   "news": [
-    {
-     "time": "Wed 6:35 AM",
-     "source": "MT Newswires",
-     "title": "Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Wednesday; GreenPower Motor, Nebius Group to Advance",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mostly-113554695.html"
-    }
-   ],
-   "role": "On its own · social media attention",
-   "theme": "Social buzz",
-   "catalyst": "Named among Wallstreetbets names moving higher premarket; no company news.",
-   "long": "Holds above 3.4499 (premarket high) after the first 15 minutes.",
-   "cancel": "Loses VWAP and 2.59 (premarket low).",
-   "note": "Float 878.5K. High dilution flag: about 1 month of cash at the last report."
+   "news": [],
+   "role": "On its own · no news",
+   "theme": "Low float, no news",
+   "long": "Reclaims and holds 2.85 (premarket high).",
+   "cancel": "Loses VWAP and 2.05 (previous close).",
+   "note": "Float of 709.9K. Registered shares for sale (F-1/A, 6 Nov) with about 1 month of cash."
   },
   {
-   "symbol": "CNXU",
-   "name": "Conexeu Sciences Inc.",
-   "move": 11.0,
-   "price": 2.22,
-   "prevClose": 2.0,
-   "marketCap": 61663396,
-   "float": 16467352,
-   "volume": 0,
-   "volumeVsNormal": null,
-   "avgVolume": 280509,
-   "shortPctFloat": null,
+   "symbol": "CUE",
+   "name": "Cue Biopharma, Inc.",
+   "move": 14.84,
+   "price": 3.25,
+   "prevClose": 2.83,
+   "marketCap": 23657450,
+   "float": 7320100,
+   "volume": 426435,
+   "volumeVsNormal": 1.36,
+   "avgVolume": 314101,
+   "shortPctFloat": 11.65,
    "shortDate": "2026-10-30",
-   "daysToCover": 1.17,
+   "daysToCover": 5.12,
    "industry": "Biotechnology",
    "premarket": {
-    "high": 2.41,
-    "low": 1.8543,
-    "volume": 0,
+    "high": 3.44,
+    "low": 3.06,
+    "volume": 426435,
     "day": "2026-11-18"
    },
    "dilution": {
-    "level": "High",
-    "reason": "About 2 months of cash at the last report",
-    "monthsOfCash": 2.2,
-    "filings": []
+    "level": "Watch",
+    "reason": "Filed to register shares for sale (S-3, 12 Aug). Prospectus filings (424B) could not be checked today",
+    "monthsOfCash": 13.6,
+    "filings": [
+     {
+      "form": "S-3",
+      "date": "2026-08-12"
+     },
+     {
+      "form": "S-3",
+      "date": "2026-06-18"
+     }
+    ]
    },
    "halts": [],
-   "news": [
-    {
-     "time": "Tue 8:30 AM",
-     "source": "GlobeNewswire",
-     "title": "Conexeu Sciences Announces Early-Stage Development of W.A.F.E.R.™ Sheet and W.A.F.E.R.™ Lattice, Fabricated Formats of Its Investigational CXU™ Platform",
-     "link": "https://finance.yahoo.com/healthcare/articles/conexeu-sciences-announces-early-stage-133000551.html"
-    }
-   ],
-   "role": "Day 2 · product development news",
-   "theme": "Biotech news",
-   "catalyst": "Tuesday morning it announced early-stage development of new formats of its CXU platform.",
-   "long": "Holds above 2.41 (premarket high) after the first 15 minutes.",
-   "cancel": "Loses VWAP and 2.0 (previous close).",
-   "note": "High dilution flag: about 2 months of cash at the last report."
+   "news": [],
+   "role": "On its own · no news",
+   "theme": "Biotech, no news",
+   "long": "Holds above 3.44 (premarket high) after the first 15 minutes.",
+   "cancel": "Loses VWAP and 3.06 (premarket low).",
+   "note": "Volume 1.36x normal; short interest 11.7% of float."
   }
  ],
  "note": "Facts from public sources. Short interest is published twice a month. Not advice."
