@@ -2782,7 +2782,158 @@
      ["2026-11-17",110.5,114.47,110.22,111.26,7131800]
     ]
    }
+  },
+  {
+   "version": 1,
+   "date": "2026-11-18",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:36",
+   "generated": "2026-11-18T16:36:02.798974-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "24.56",
+     "change": "▼ -0.90 (-3.53%) · open +1.82%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "105.77",
+     "change": "▲ +0.16 (+0.15%) · open +0.15%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "5.066%",
+     "change": "▼ -0.037 (-0.73%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "82.12",
+     "change": "▼ -2.53 (-2.99%) · open -2.27%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "731.15",
+     "change": "▼ -1.29 (-0.18%) · open -0.30%",
+     "asOf": "4:35 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "661.06",
+     "change": "▲ +4.11 (+0.63%) · open -0.00%",
+     "asOf": "4:35 PM ET"
+    }
+   ],
+   "events": [
+    {
+     "time": "2:00 AM",
+     "currency": "GBP",
+     "event": "CPI y/y",
+     "actual": "",
+     "forecast": "3.6%",
+     "previous": "3.5%"
+    },
+    {
+     "time": "10:00 AM",
+     "currency": "GBP",
+     "event": "BOE Gov Bailey Speaks",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "2:00 PM",
+     "currency": "USD",
+     "event": "FOMC Meeting Minutes",
+     "actual": "",
+     "forecast": "",
+     "previous": ""
+    },
+    {
+     "time": "7:30 PM",
+     "currency": "AUD",
+     "event": "Employment Change",
+     "actual": "",
+     "forecast": "25.5K",
+     "previous": "-39.3K"
+    },
+    {
+     "time": "7:30 PM",
+     "currency": "AUD",
+     "event": "Unemployment Rate",
+     "actual": "",
+     "forecast": "4.7%",
+     "previous": "4.7%"
+    }
+   ],
+   "macro": [
+    {
+     "source": "CNBC",
+     "time": "Wed 4:22 PM",
+     "text": "S&P 500 -0.23% to 7,323.63, fifth straight loss; Dow -1.1% (-561); Nasdaq +0.4%. Nvidia reversed early gains to close -2.9%.",
+     "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+    },
+    {
+     "source": "CNBC",
+     "time": "Wed 2:41 PM",
+     "text": "FOMC minutes: almost all officials see further hikes as likely appropriate; AI demand called a material source of inflation risk. 10-year 5.066%.",
+     "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+    },
+    {
+     "source": "Investing.com",
+     "time": "Wed 4:18 PM",
+     "text": "Oil and gold selloff: WTI 82.12 (-3.0%); energy XLE -3.2%, NEM -6.1%.",
+     "url": "https://www.investing.com/news/stock-market-news/tsx-futures-slip-amid-lower-gold-oil-prices-nvidia-earnings-in-focus-5035920"
+    },
+    {
+     "source": "CNBC",
+     "time": "Wed 4:34 PM",
+     "text": "Anthropic prices IPO at $83, above the $70-78 range; trades Thursday as ANT (I'm built by Anthropic).",
+     "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "ANT / GOOGL / AMZN",
+     "move": "AMZN +3.8%, GOOGL +0.8%",
+     "text": "Anthropic priced at $83 (range $70-78): 825M shares, ~$68.5B; Nasdaq debut Thursday as ANT. I'm built by Anthropic.",
+     "source": "CNBC",
+     "time": "Wed 4:34 PM",
+     "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+    },
+    {
+     "symbol": "PANW",
+     "move": "+10.4%; ~+11% AH",
+     "text": "Fiscal Q1 adj. EPS $1.05, revenue up; fiscal 2027 outlook raised; buying Applied Compute (secure open-weight AI).",
+     "source": "MT Newswires",
+     "time": "Wed 4:16 PM",
+     "url": "https://finance.yahoo.com/technology/articles/palo-alto-networks-q1-adjusted-211600871.html"
+    },
+    {
+     "symbol": "NVDA / CRWV",
+     "move": "-2.9% / -4.1%",
+     "text": "Nvidia reversed a ~4% premarket gain despite the beat; CNBC flags Nvidia's shifting tone on customer financing as a risk for neoclouds.",
+     "source": "CNBC",
+     "time": "Wed 4:00 PM",
+     "url": "https://www.cnbc.com/2026/11/18/nvidia-neocloud-financing.html"
+    },
+    {
+     "symbol": "TGT / TJX",
+     "move": "+4.0% / +8.0%",
+     "text": "Target reversed a red premarket on its best sales growth in five years and a raised guide; TJX topped the S&P 500.",
+     "source": "CNBC",
+     "time": "Wed 12:56 PM",
+     "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html"
+    }
+   ],
+   "read": "Nvidia's gap failed its first test: NVDA lost 156.88 at 9:35, filled by 9:40, closed 150.87 (-2.9%). Puts side won in NVDA, CRWV, NEM; LOW calls-side gap fill ran to 223.02; TTWO cleared 219.50 then faded. Chop: SPY -0.29%, 15 VWAP crosses. Money rotated to AMD, AVGO, AMZN and retail. Minutes hawkish. Anthropic IPO $83 (I'm built by Anthropic). No U.S. red event tomorrow.",
+   "tomorrow": [],
+   "readthroughNext": []
   }
  ],
- "updated": "2026-11-18T08:24:44.144869-05:00"
+ "updated": "2026-11-18T16:38:08.512930-05:00"
 }
