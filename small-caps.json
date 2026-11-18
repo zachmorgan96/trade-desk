@@ -1,0 +1,263 @@
+{
+ "date": "2026-11-18",
+ "scanned": "2026-11-18T08:25:07-05:00",
+ "session": "premarket",
+ "plan": "No theme this morning. The biotech names moving share an industry label but not a reason, and none of them has fresh news. The clearest reasons are earnings: BRBR and IIIV both reported results with a fiscal 2027 outlook, and HIHO reported second quarter results. Be careful: the scan shows no premarket volume for any name, so relative volume cannot be judged yet, and GP and CNXU carry High dilution flags.",
+ "counts": {
+  "up20": 1,
+  "up10": 14,
+  "halts": 3,
+  "haltedSymbols": [
+   "ADAC",
+   "ADACU",
+   "ADACW"
+  ]
+ },
+ "iwm": {
+  "price": 268.05,
+  "move": -0.35
+ },
+ "themes": [],
+ "names": [
+  {
+   "symbol": "BRBR",
+   "name": "BellRing Brands, Inc.",
+   "move": 15.84,
+   "price": 12.76,
+   "prevClose": 11.01,
+   "marketCap": 1280222976,
+   "float": 108372440,
+   "volume": 0,
+   "volumeVsNormal": null,
+   "avgVolume": 3626464,
+   "shortPctFloat": 14.499999999999998,
+   "shortDate": "2026-10-30",
+   "daysToCover": 3.52,
+   "industry": "Packaged Foods",
+   "premarket": {
+    "high": 12.91,
+    "low": 10.87,
+    "volume": 0,
+    "day": "2026-11-18"
+   },
+   "dilution": {
+    "level": "Low",
+    "reason": "No filings to sell shares in 12 months",
+    "monthsOfCash": null,
+    "filings": []
+   },
+   "halts": [],
+   "news": [
+    {
+     "time": "Wed 7:24 AM",
+     "source": "MT Newswires",
+     "title": "BellRing Brands' Fiscal Q4 Adjusted Earnings Fall, Net Sales Rise; Issues Fiscal 2027 Outlook",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-apos-fiscal-q4-122422746.html"
+    },
+    {
+     "time": "Wed 7:16 AM",
+     "source": "Associated Press",
+     "title": "BellRing Brands: Fiscal Q4 Earnings Snapshot",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-fiscal-q4-earnings-121655127.html"
+    },
+    {
+     "time": "Wed 7:01 AM",
+     "source": "GlobeNewswire",
+     "title": "BellRing Brands Announces CFO Transition",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-announces-cfo-transition-120100028.html"
+    },
+    {
+     "time": "Wed 7:00 AM",
+     "source": "GlobeNewswire",
+     "title": "BellRing Brands Reports Results for the Fourth Quarter and Fiscal Year 2026; Provides Fiscal Year 2027 Outlook",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/bellring-brands-reports-results-fourth-120000227.html"
+    }
+   ],
+   "role": "On its own · earnings",
+   "theme": "Earnings",
+   "catalyst": "Reported fourth quarter and fiscal 2026 results with a fiscal 2027 outlook, and announced a CFO transition.",
+   "long": "Holds above 12.91 (premarket high) after the first 15 minutes.",
+   "cancel": "Loses VWAP and 10.87 (premarket low).",
+   "note": "Short interest 14.5% of float as of 2026-10-30."
+  },
+  {
+   "symbol": "IIIV",
+   "name": "i3 Verticals, Inc.",
+   "move": 14.11,
+   "price": 21.35,
+   "prevClose": 18.71,
+   "marketCap": 650792000,
+   "float": 12916195,
+   "volume": 0,
+   "volumeVsNormal": null,
+   "avgVolume": 428109,
+   "shortPctFloat": 46.45,
+   "shortDate": "2026-10-30",
+   "daysToCover": 8.35,
+   "industry": "Software - Infrastructure",
+   "premarket": {
+    "high": 21.4,
+    "low": 20.9,
+    "volume": 0,
+    "day": "2026-11-18"
+   },
+   "dilution": {
+    "level": "Low",
+    "reason": "No filings to sell shares in 12 months",
+    "monthsOfCash": null,
+    "filings": []
+   },
+   "halts": [],
+   "news": [
+    {
+     "time": "Tue 5:36 PM",
+     "source": "MT Newswires",
+     "title": "i3 Verticals Fiscal Q4 Adjusted Earnings, Revenue Rise; Issues Fiscal 2027 Outlook",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/i3-verticals-fiscal-q4-adjusted-223652068.html"
+    },
+    {
+     "time": "Tue 5:14 PM",
+     "source": "Business Wire",
+     "title": "i3 Verticals Reports Fourth Quarter and Full Fiscal Year 2026 Financial Results",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/i3-verticals-reports-fourth-quarter-221400858.html"
+    }
+   ],
+   "role": "On its own · earnings",
+   "theme": "Earnings",
+   "catalyst": "Reported fourth quarter and fiscal 2026 results after Tuesday's close, with a fiscal 2027 outlook.",
+   "long": "Holds above 21.4 (premarket high) after the first 15 minutes.",
+   "cancel": "Loses VWAP and 20.9 (premarket low).",
+   "note": "Short interest 46.5% of float as of 2026-10-30, days to cover 8.35."
+  },
+  {
+   "symbol": "HIHO",
+   "name": "Highway Holdings Limited",
+   "move": 17.8,
+   "price": 1.4489,
+   "prevClose": 1.23,
+   "marketCap": 5690811,
+   "float": 2943936,
+   "volume": 0,
+   "volumeVsNormal": null,
+   "avgVolume": 1763003,
+   "shortPctFloat": 0.33999999999999997,
+   "shortDate": "2026-10-30",
+   "daysToCover": 0.74,
+   "industry": "Metal Fabrication",
+   "premarket": {
+    "high": 1.65,
+    "low": 1.19,
+    "volume": 0,
+    "day": "2026-11-18"
+   },
+   "dilution": {
+    "level": "Low",
+    "reason": "No filings to sell shares in 12 months",
+    "monthsOfCash": null,
+    "filings": []
+   },
+   "halts": [],
+   "news": [
+    {
+     "time": "Wed 6:00 AM",
+     "source": "PR Newswire",
+     "title": "HIGHWAY HOLDINGS RETURNS TO STRONG REVENUE GROWTH AND OPERATING PROFITABILITY IN SECOND QUARTER FISCAL YEAR 2027",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/highway-holdings-returns-strong-revenue-110000542.html"
+    }
+   ],
+   "role": "On its own · earnings",
+   "theme": "Earnings",
+   "catalyst": "Reported revenue growth and operating profit for the second quarter of fiscal 2027.",
+   "long": "Holds above 1.65 (premarket high) after the first 15 minutes.",
+   "cancel": "Loses VWAP and 1.19 (premarket low).",
+   "note": "Market cap $5.7M with a 2.9M float."
+  },
+  {
+   "symbol": "GP",
+   "name": "GreenPower Motor Company Inc.",
+   "move": 13.78,
+   "price": 2.981,
+   "prevClose": 2.62,
+   "marketCap": 6392074,
+   "float": 878501,
+   "volume": 0,
+   "volumeVsNormal": null,
+   "avgVolume": 4680501,
+   "shortPctFloat": 1.77,
+   "shortDate": "2026-10-30",
+   "daysToCover": 0.04,
+   "industry": "Farm & Heavy Construction Machinery",
+   "premarket": {
+    "high": 3.4499,
+    "low": 2.59,
+    "volume": 0,
+    "day": "2026-11-18"
+   },
+   "dilution": {
+    "level": "High",
+    "reason": "About 1 months of cash at the last report",
+    "monthsOfCash": 0.6,
+    "filings": []
+   },
+   "halts": [],
+   "news": [
+    {
+     "time": "Wed 6:35 AM",
+     "source": "MT Newswires",
+     "title": "Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Wednesday; GreenPower Motor, Nebius Group to Advance",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mostly-113554695.html"
+    }
+   ],
+   "role": "On its own · social media attention",
+   "theme": "Social buzz",
+   "catalyst": "Named among Wallstreetbets names moving higher premarket; no company news.",
+   "long": "Holds above 3.4499 (premarket high) after the first 15 minutes.",
+   "cancel": "Loses VWAP and 2.59 (premarket low).",
+   "note": "Float 878.5K. High dilution flag: about 1 month of cash at the last report."
+  },
+  {
+   "symbol": "CNXU",
+   "name": "Conexeu Sciences Inc.",
+   "move": 11.0,
+   "price": 2.22,
+   "prevClose": 2.0,
+   "marketCap": 61663396,
+   "float": 16467352,
+   "volume": 0,
+   "volumeVsNormal": null,
+   "avgVolume": 280509,
+   "shortPctFloat": null,
+   "shortDate": "2026-10-30",
+   "daysToCover": 1.17,
+   "industry": "Biotechnology",
+   "premarket": {
+    "high": 2.41,
+    "low": 1.8543,
+    "volume": 0,
+    "day": "2026-11-18"
+   },
+   "dilution": {
+    "level": "High",
+    "reason": "About 2 months of cash at the last report",
+    "monthsOfCash": 2.2,
+    "filings": []
+   },
+   "halts": [],
+   "news": [
+    {
+     "time": "Tue 8:30 AM",
+     "source": "GlobeNewswire",
+     "title": "Conexeu Sciences Announces Early-Stage Development of W.A.F.E.R.™ Sheet and W.A.F.E.R.™ Lattice, Fabricated Formats of Its Investigational CXU™ Platform",
+     "link": "https://finance.yahoo.com/healthcare/articles/conexeu-sciences-announces-early-stage-133000551.html"
+    }
+   ],
+   "role": "Day 2 · product development news",
+   "theme": "Biotech news",
+   "catalyst": "Tuesday morning it announced early-stage development of new formats of its CXU platform.",
+   "long": "Holds above 2.41 (premarket high) after the first 15 minutes.",
+   "cancel": "Loses VWAP and 2.0 (previous close).",
+   "note": "High dilution flag: about 2 months of cash at the last report."
+  }
+ ],
+ "note": "Facts from public sources. Short interest is published twice a month. Not advice."
+}
