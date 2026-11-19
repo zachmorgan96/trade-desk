@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-18T16:39:04.056861-05:00",
+ "updated": "2026-11-18T21:40:29.850708-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -77,17 +77,17 @@
    },
    {
     "clue": "SPY and QQQ disagreed at 10:30",
-    "days": 23,
+    "days": 24,
     "counts": {
      "trend-up": 3,
      "trend-down": 4,
      "reversal-up": 1,
      "reversal-down": 3,
-     "chop": 12
+     "chop": 13
     },
-    "trendRate": 30,
-    "chopRate": 52,
-    "followedLeanRate": 13
+    "trendRate": 29,
+    "chopRate": 54,
+    "followedLeanRate": 12
    },
    {
     "clue": "First 30 minutes wide (half or more of a usual day's whole range)",
@@ -604,8 +604,8 @@
      "closeLocation": 0.43,
      "highAt": "09:30",
      "lowAt": "11:20",
-     "vwapCrosses": 15,
-     "pctAboveVwapAfter10": 57
+     "vwapCrosses": 8,
+     "pctAboveVwapAfter10": 28
     },
     "expectedMovePct": 1.604,
     "actualMoveVsExpected": 0.18,
@@ -704,9 +704,9 @@
        "last": 659.76,
        "vsOpen": -0.198,
        "vsPrevClose": 0.427,
-       "vwap": 659.87,
-       "aboveVwap": false,
-       "vwapCrosses": 4
+       "vwap": 659.1,
+       "aboveVwap": true,
+       "vwapCrosses": 3
       },
       "rsp": {
        "last": 215.83,
@@ -731,13 +731,13 @@
        "vsPrevClose": -0.412,
        "bpChange": -2.1
       },
-      "agree": true,
+      "agree": false,
       "breadthGap": 0.482,
       "orBreak": null,
       "gapFilled": true
      }
     },
-    "summary": "Chop. SPY closed -0.29% on the day (-0.41% from the open). High-to-low it moved 1.13%, about a normal range (0.9x the last 20 days). It broke the first 30 minutes' range down at 11:20 and that break did not hold. It crossed VWAP 15 times (lots of crossing is a chop sign).",
+    "summary": "Chop. SPY closed -0.29% on the day (-0.41% from the open). High-to-low it moved 1.13%, about a normal range (0.9x the last 20 days). It broke the first 30 minutes' range down at 11:20 and that break did not hold. It crossed VWAP 8 times (lots of crossing is a chop sign).",
     "usEvents": [
      {
       "time": "2:00 PM",
@@ -913,7 +913,7 @@
      }
     ],
     "swing": [],
-    "graded": "2026-11-18T16:36:28.516809-05:00"
+    "graded": "2026-11-18T21:40:28.921856-05:00"
    }
   },
   {
@@ -2192,7 +2192,7 @@
       "change": -3.12
      }
     ],
-    "graded": "2026-11-18T16:36:30.903901-05:00"
+    "graded": "2026-11-18T21:40:29.842862-05:00"
    }
   },
   {
@@ -3117,7 +3117,7 @@
       "change": 2.9
      }
     ],
-    "graded": "2026-11-18T16:36:30.466315-05:00"
+    "graded": "2026-11-18T21:40:29.681856-05:00"
    }
   },
   {
@@ -3579,7 +3579,7 @@
       "change": 0.3
      }
     ],
-    "graded": "2026-11-18T16:36:30.464338-05:00"
+    "graded": "2026-11-18T21:40:29.679572-05:00"
    }
   },
   {
@@ -4000,7 +4000,7 @@
       "change": 5.12
      }
     ],
-    "graded": "2026-11-18T16:36:30.461988-05:00"
+    "graded": "2026-11-18T21:40:29.677081-05:00"
    }
   },
   {
@@ -4856,7 +4856,7 @@
       "change": -0.38
      }
     ],
-    "graded": "2026-11-18T16:36:29.826830-05:00"
+    "graded": "2026-11-18T21:40:29.478400-05:00"
    }
   },
   {
@@ -5243,7 +5243,7 @@
       "change": -11.0
      }
     ],
-    "graded": "2026-11-18T16:36:29.586992-05:00"
+    "graded": "2026-11-18T21:40:29.401891-05:00"
    }
   },
   {
@@ -5629,7 +5629,7 @@
       "change": 13.56
      }
     ],
-    "graded": "2026-11-18T16:36:29.178250-05:00"
+    "graded": "2026-11-18T21:40:29.188985-05:00"
    }
   },
   {
