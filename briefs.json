@@ -3005,7 +3005,133 @@
      ["2026-11-18",180.47,180.47,167.36,170.98,11305400]
     ]
    }
+  },
+  {
+   "version": 1,
+   "date": "2026-11-19",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:36",
+   "generated": "2026-11-19T16:36:10.665602-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "28.44",
+     "change": "▲ +3.88 (+15.80%) · open +26.51%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "105.89",
+     "change": "▲ +0.11 (+0.10%) · open +0.24%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "5.052%",
+     "change": "▼ -0.014 (-0.28%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "83.19",
+     "change": "▲ +0.88 (+1.07%) · open -0.48%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "714.25",
+     "change": "▼ -15.95 (-2.18%) · open -3.15%",
+     "asOf": "4:36 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "642.40",
+     "change": "▼ -17.11 (-2.59%) · open -4.27%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [],
+   "macro": [
+    {
+     "source": "FT",
+     "time": "Thu 4:02 PM",
+     "text": "Anthropic shares closed 17% above the $83 IPO price after a record listing; first trades near 110-115. I'm built by Anthropic.",
+     "url": "https://www.ft.com/content/2b203097-7c61-464f-810f-962912a133dd"
+    },
+    {
+     "source": "MarketWatch",
+     "time": "Thu 3:33 PM",
+     "text": "Nvidia's stock falls further: it has lost $611 billion in market value in six trading days.",
+     "url": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231"
+    },
+    {
+     "source": "Investing.com",
+     "time": "Thu 3:36 PM",
+     "text": "JPMorgan, Visa and Mastercard say third-party vendors were targeted in a cyberattack.",
+     "url": "https://www.investing.com/news/stock-market-news/jpmorgan-says-thirdparty-vendors-targeted-in-cyberattack-5039129"
+    },
+    {
+     "source": "FT",
+     "time": "Thu 2:25 PM",
+     "text": "Brazil's central bank steps in to stem the real's slide since Lula's re-election.",
+     "url": "https://www.ft.com/content/94379926-211c-4ca6-a53a-f7e4df1a2675"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "ANT",
+     "move": "+16.8% vs $83 IPO",
+     "text": "Closed its record listing at 96.91 after first trades near 110-115 around 11:45; Nvidia, AMD and Micron fell as it traded. I'm built by Anthropic.",
+     "source": "FT",
+     "time": "Thu 4:02 PM",
+     "url": "https://www.ft.com/content/2b203097-7c61-464f-810f-962912a133dd"
+    },
+    {
+     "symbol": "AMD",
+     "move": "-7.7%",
+     "text": "Fell as much as 11.2% by 10:50 after a short seller questioned its China ties; the chipmaker denies the allegations.",
+     "source": "IBTimes via Yahoo",
+     "time": "Thu 4:18 PM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amd-shares-tumble-7-short-211846447.html"
+    },
+    {
+     "symbol": "INTU",
+     "move": "about -12% after hours",
+     "text": "Fiscal Q1 beat but a soft outlook; agreed to sell Mailchimp to Bending Spoons.",
+     "source": "IBD via Yahoo",
+     "time": "Thu 4:23 PM",
+     "url": "https://finance.yahoo.com/m/0223735b-3b14-3a4f-8c8a-91bc4681cda6/intuit-beats-fiscal-q1-goals%2C.html"
+    },
+    {
+     "symbol": "JPM / V / MA",
+     "move": "JPM -1.2%",
+     "text": "JPMorgan, Visa and Mastercard said third-party vendors were targeted in a cyberattack.",
+     "source": "Investing.com",
+     "time": "Thu 3:36 PM",
+     "url": "https://www.investing.com/news/stock-market-news/jpmorgan-says-thirdparty-vendors-targeted-in-cyberattack-5039129"
+    }
+   ],
+   "read": "The morning's IPO-day bounce died at the 9:30 high: SPY broke its opening range down at 10:15, AMD fell 11% by 10:50 on a short report, and ANT's 11:45 open (first prints 110-115, close 96.91) took QQQ down again. SPY closed 715.78 (-1.98%), VIX 28.44. Every sector ETF closed red. MU, AMZN and BE triggered on the puts side, PDD on the calls side; CRWD whipsawed, PANW never triggered.",
+   "tomorrow": [],
+   "readthroughNext": [
+    {
+     "symbol": "INTU",
+     "time": "after close 2026-11-19",
+     "related": [
+      "PLTR",
+      "NOW",
+      "CRM",
+      "SNOW",
+      "DDOG",
+      "MDB",
+      "ADBE",
+      "WDAY",
+      "MSFT"
+     ]
+    }
+   ]
   }
  ],
- "updated": "2026-11-19T08:22:07.711946-05:00"
+ "updated": "2026-11-19T16:39:52.220567-05:00"
 }
