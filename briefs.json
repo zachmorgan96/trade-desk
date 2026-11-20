@@ -3132,7 +3132,117 @@
      ["2026-11-19",160.63,167.13,153.2,153.68,21279200]
     ]
    }
+  },
+  {
+   "version": 1,
+   "date": "2026-11-20",
+   "slot": "close",
+   "slotLabel": "Close review",
+   "time": "16:36",
+   "generated": "2026-11-20T16:36:09.644201-05:00",
+   "prices": [
+    {
+     "name": "VIX",
+     "last": "35.89",
+     "change": "▲ +7.45 (+26.20%) · open +20.88%",
+     "asOf": "4:15 PM ET"
+    },
+    {
+     "name": "US10 (10-yr note futures)",
+     "last": "106.64",
+     "change": "▲ +0.77 (+0.72%) · open +0.29%",
+     "asOf": "4:25 PM ET"
+    },
+    {
+     "name": "US10Y yield",
+     "last": "4.912%",
+     "change": "▼ -0.140 (-2.77%)",
+     "asOf": "2:55 PM ET"
+    },
+    {
+     "name": "Crude oil (WTI)",
+     "last": "83.74",
+     "change": "▲ +1.30 (+1.58%) · open +1.87%",
+     "asOf": "4:26 PM ET"
+    },
+    {
+     "name": "SPY",
+     "last": "693.44",
+     "change": "▼ -22.43 (-3.13%) · open -2.82%",
+     "asOf": "4:35 PM ET"
+    },
+    {
+     "name": "QQQ",
+     "last": "613.88",
+     "change": "▼ -31.16 (-4.83%) · open -3.90%",
+     "asOf": "4:36 PM ET"
+    }
+   ],
+   "events": [],
+   "macro": [
+    {
+     "source": "Investing.com",
+     "time": "Fri 3:25 PM",
+     "text": "S&P 500 and Dow enter correction territory, Nasdaq craters over 4% amid AI rout",
+     "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450"
+    },
+    {
+     "source": "BBC Business",
+     "time": "Fri 3:54 PM",
+     "text": "Trump threatens ban on US firms building AI data centres overseas",
+     "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
+    },
+    {
+     "source": "MarketWatch",
+     "time": "Fri 3:08 PM",
+     "text": "Nvidia's stock heads for a stretch of weekly losses not seen since 2008",
+     "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6"
+    },
+    {
+     "source": "FT Markets",
+     "time": "Fri 10:23 AM",
+     "text": "The AI fever in markets is breaking",
+     "url": "https://www.ft.com/content/b1b2e948-ff5e-48c4-bc3e-f8e75c9e4af1"
+    }
+   ],
+   "bigNames": [
+    {
+     "symbol": "NVDA",
+     "move": "-12.2%",
+     "text": "Rout deepened on a report that the SEC is investigating Nvidia's accounting; longest weekly losing streak since 2008, per MarketWatch.",
+     "source": "Yahoo Finance",
+     "time": "Fri afternoon",
+     "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+    },
+    {
+     "symbol": "AVGO / AMD / MU",
+     "move": "-11.0%",
+     "text": "Broadcom fell on a report that Google cut its plans for Broadcom AI chips; AMD and Micron (about -12.7%) extended losses.",
+     "source": "24/7 Wall St.",
+     "time": "Fri afternoon",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stock-plunges-12-loses-191304321.html"
+    },
+    {
+     "symbol": "ANT",
+     "move": "about -9%",
+     "text": "Anthropic's stock came within 5 cents of its $83 IPO price on day two, then bounced to close at $88.30. I'm built by Anthropic.",
+     "source": "24/7 Wall St.",
+     "time": "Fri 4:17 PM",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-came-within-5-211710460.html"
+    },
+    {
+     "symbol": "AI data centers",
+     "move": "—",
+     "text": "Trump threatened to ban U.S. firms from building AI data centres overseas: a new policy risk for the AI infrastructure trade.",
+     "source": "BBC Business",
+     "time": "Fri 3:54 PM",
+     "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
+    }
+   ],
+   "read": "Risk-off held, but SPY first filled its gap and topped at 10:00 (718.29) before breaking down at 10:20; it closed at the lows, 690.91 (-3.49%), VIX 35.89. Morning setups: AMD, TSM and PLTR puts sides triggered (10:25-10:45); ROST and WMT calls sides worked early; INTU spiked to 300.44 then broke 273.05 at 15:50. Money left chips and software for staples. No red event Monday.",
+   "tomorrow": [],
+   "readthroughNext": []
   }
  ],
- "updated": "2026-11-20T08:22:39.787467-05:00"
+ "updated": "2026-11-20T16:38:39.315410-05:00"
 }
