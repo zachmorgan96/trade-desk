@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-19T21:26:03.317814-05:00",
+ "updated": "2026-11-20T13:39:23.653166-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -1012,11 +1012,14 @@
       "confirmSide": "above",
       "invalidLevel": 342.36,
       "invalidSide": "below",
-      "days": 0,
-      "status": "waiting"
+      "days": 1,
+      "status": "waiting",
+      "lastDate": "2026-11-19",
+      "lastClose": 361.73,
+      "change": 6.42
      }
     ],
-    "graded": "2026-11-19T21:26:02.707889-05:00"
+    "graded": "2026-11-20T13:39:23.649618-05:00"
    }
   },
   {
@@ -4016,7 +4019,7 @@
       "change": -3.58
      }
     ],
-    "graded": "2026-11-19T21:26:03.313122-05:00"
+    "graded": "2026-11-20T13:39:23.456198-05:00"
    }
   },
   {
@@ -4370,22 +4373,22 @@
       "confirmSide": "above",
       "invalidLevel": 178.23,
       "invalidSide": "below",
-      "days": 8,
+      "days": 9,
       "status": "confirmed",
       "statusDate": "2026-11-09",
       "statusClose": 200.47,
       "after": {
        "entry": 200.47,
        "riskPct": 11.09,
-       "days": 7,
+       "days": 8,
        "outcome": "open",
        "bestPct": 6.99,
-       "worstPct": -8.25,
-       "nowPct": -2.99
+       "worstPct": -8.31,
+       "nowPct": -7.72
       },
-      "lastDate": "2026-11-18",
-      "lastClose": 194.48,
-      "change": 6.35
+      "lastDate": "2026-11-19",
+      "lastClose": 184.99,
+      "change": 1.16
      },
      {
       "symbol": "NVDA",
@@ -4419,25 +4422,25 @@
       "confirmSide": "above",
       "invalidLevel": 243.38,
       "invalidSide": "below",
-      "days": 8,
+      "days": 9,
       "status": "confirmed",
       "statusDate": "2026-11-09",
       "statusClose": 276.09,
       "after": {
        "entry": 276.09,
        "riskPct": 11.85,
-       "days": 7,
+       "days": 8,
        "outcome": "open",
        "bestPct": 3.22,
-       "worstPct": -5.19,
-       "nowPct": -4.84
+       "worstPct": -8.98,
+       "nowPct": -8.71
       },
-      "lastDate": "2026-11-18",
-      "lastClose": 262.74,
-      "change": 5.12
+      "lastDate": "2026-11-19",
+      "lastClose": 252.03,
+      "change": 0.83
      }
     ],
-    "graded": "2026-11-19T21:26:03.311131-05:00"
+    "graded": "2026-11-20T13:39:23.454374-05:00"
    }
   },
   {
@@ -5293,7 +5296,7 @@
       "change": -2.8
      }
     ],
-    "graded": "2026-11-19T21:26:03.116513-05:00"
+    "graded": "2026-11-20T13:39:22.892305-05:00"
    }
   },
   {
@@ -5662,25 +5665,25 @@
       "confirmSide": "above",
       "invalidLevel": null,
       "invalidSide": null,
-      "days": 11,
+      "days": 12,
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 60.77,
       "after": {
        "entry": 60.77,
        "riskPct": null,
-       "days": 5,
+       "days": 6,
        "outcome": null,
        "bestPct": 0.0,
-       "worstPct": -23.96,
-       "nowPct": -21.29
+       "worstPct": -27.0,
+       "nowPct": -26.1
       },
-      "lastDate": "2026-11-18",
-      "lastClose": 47.83,
-      "change": -11.0
+      "lastDate": "2026-11-19",
+      "lastClose": 44.91,
+      "change": -16.43
      }
     ],
-    "graded": "2026-11-19T21:26:03.061716-05:00"
+    "graded": "2026-11-20T13:39:22.719503-05:00"
    }
   },
   {
@@ -6066,7 +6069,7 @@
       "change": 4.79
      }
     ],
-    "graded": "2026-11-19T21:26:02.940582-05:00"
+    "graded": "2026-11-20T13:39:22.310137-05:00"
    }
   },
   {
