@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-19T16:40:42.381481-05:00",
+ "updated": "2026-11-19T21:26:03.317814-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -626,8 +626,8 @@
      "closeLocation": 0.01,
      "highAt": "09:30",
      "lowAt": "15:05",
-     "vwapCrosses": 5,
-     "pctAboveVwapAfter10": 1
+     "vwapCrosses": 3,
+     "pctAboveVwapAfter10": 0
     },
     "expectedMovePct": 1.547,
     "actualMoveVsExpected": 1.28,
@@ -694,7 +694,7 @@
       },
       "iwm": {
        "last": 269.65,
-       "vsOpen": -0.528,
+       "vsOpen": -0.531,
        "vsPrevClose": -0.174
       },
       "vix": {
@@ -726,7 +726,7 @@
        "last": 663.46,
        "vsOpen": -1.131,
        "vsPrevClose": 0.599,
-       "vwap": 667.43,
+       "vwap": 671.16,
        "aboveVwap": false,
        "vwapCrosses": 5
       },
@@ -737,7 +737,7 @@
       },
       "iwm": {
        "last": 268.57,
-       "vsOpen": -0.928,
+       "vsOpen": -0.931,
        "vsPrevClose": -0.576
       },
       "vix": {
@@ -745,8 +745,8 @@
        "vsPrevClose": -0.407
       },
       "oil": {
-       "last": 83.27,
-       "vsPrevClose": 0.012
+       "last": 83.28,
+       "vsPrevClose": 0.024
       },
       "tnx": {
        "last": 5.076,
@@ -759,7 +759,7 @@
       "gapFilled": false
      }
     },
-    "summary": "Sell-off all day. SPY closed -1.98% on the day (-2.94% from the open). High-to-low it moved 3.32%, a bigger range than usual (2.5x the last 20 days). It broke the first 30 minutes' range down at 10:15 and that break held into the close. It crossed VWAP 5 times.",
+    "summary": "Sell-off all day. SPY closed -1.98% on the day (-2.94% from the open). High-to-low it moved 3.32%, a bigger range than usual (2.5x the last 20 days). It broke the first 30 minutes' range down at 10:15 and that break held into the close. It crossed VWAP 3 times.",
     "usEvents": []
    },
    "written": {
@@ -818,8 +818,8 @@
       "open": 740.43,
       "high": 760.0,
       "low": 689.28,
-      "close": 689.98,
-      "openToClose": -6.81,
+      "close": 690.12,
+      "openToClose": -6.79,
       "gapPct": 4.99,
       "gapFilled": true,
       "gapFilledAt": "12:00",
@@ -858,12 +858,12 @@
       "target": "Calls side: holds above 274.66; puts side: toward 268.29 (yesterday's high), then 267.74",
       "ticker": "AMZN",
       "family": "Premarket level break",
-      "open": 271.69,
+      "open": 271.5,
       "high": 274.0,
       "low": 256.75,
       "close": 257.14,
-      "openToClose": -5.35,
-      "gapPct": 1.48,
+      "openToClose": -5.29,
+      "gapPct": 1.4,
       "gapFilled": true,
       "gapFilledAt": "10:30",
       "breaks": [
@@ -891,12 +891,12 @@
       "target": "Calls side: holds above 253.79; puts side: fills toward 240.18 (yesterday's high), then 237.03",
       "ticker": "CRWD",
       "family": "Sympathy",
-      "open": 246.71,
+      "open": 246.74,
       "high": 256.73,
       "low": 239.7,
       "close": 243.38,
-      "openToClose": -1.35,
-      "gapPct": 4.09,
+      "openToClose": -1.36,
+      "gapPct": 4.1,
       "gapFilled": false,
       "breaks": [
        {
@@ -913,8 +913,8 @@
         "side": "down",
         "level": 248.4,
         "time": "09:30",
-        "entry": 246.71,
-        "run": 2.84,
+        "entry": 246.74,
+        "run": 2.86,
         "runBeforeFail": 0.0,
         "failedAt": "09:30",
         "closedBeyond": true
@@ -1012,14 +1012,11 @@
       "confirmSide": "above",
       "invalidLevel": 342.36,
       "invalidSide": "below",
-      "days": 1,
-      "status": "waiting",
-      "lastDate": "2026-11-19",
-      "lastClose": 361.73,
-      "change": 6.42
+      "days": 0,
+      "status": "waiting"
      }
     ],
-    "graded": "2026-11-19T16:37:30.515428-05:00"
+    "graded": "2026-11-19T21:26:02.707889-05:00"
    }
   },
   {
@@ -4019,7 +4016,7 @@
       "change": -3.58
      }
     ],
-    "graded": "2026-11-19T16:37:34.635347-05:00"
+    "graded": "2026-11-19T21:26:03.313122-05:00"
    }
   },
   {
@@ -4373,22 +4370,22 @@
       "confirmSide": "above",
       "invalidLevel": 178.23,
       "invalidSide": "below",
-      "days": 9,
+      "days": 8,
       "status": "confirmed",
       "statusDate": "2026-11-09",
       "statusClose": 200.47,
       "after": {
        "entry": 200.47,
        "riskPct": 11.09,
-       "days": 8,
+       "days": 7,
        "outcome": "open",
        "bestPct": 6.99,
-       "worstPct": -8.31,
-       "nowPct": -7.72
+       "worstPct": -8.25,
+       "nowPct": -2.99
       },
-      "lastDate": "2026-11-19",
-      "lastClose": 184.99,
-      "change": 1.16
+      "lastDate": "2026-11-18",
+      "lastClose": 194.48,
+      "change": 6.35
      },
      {
       "symbol": "NVDA",
@@ -4422,25 +4419,25 @@
       "confirmSide": "above",
       "invalidLevel": 243.38,
       "invalidSide": "below",
-      "days": 9,
+      "days": 8,
       "status": "confirmed",
       "statusDate": "2026-11-09",
       "statusClose": 276.09,
       "after": {
        "entry": 276.09,
        "riskPct": 11.85,
-       "days": 8,
+       "days": 7,
        "outcome": "open",
        "bestPct": 3.22,
-       "worstPct": -8.98,
-       "nowPct": -8.71
+       "worstPct": -5.19,
+       "nowPct": -4.84
       },
-      "lastDate": "2026-11-19",
-      "lastClose": 252.03,
-      "change": 0.83
+      "lastDate": "2026-11-18",
+      "lastClose": 262.74,
+      "change": 5.12
      }
     ],
-    "graded": "2026-11-19T16:37:34.632147-05:00"
+    "graded": "2026-11-19T21:26:03.311131-05:00"
    }
   },
   {
@@ -5296,7 +5293,7 @@
       "change": -2.8
      }
     ],
-    "graded": "2026-11-19T16:37:34.039483-05:00"
+    "graded": "2026-11-19T21:26:03.116513-05:00"
    }
   },
   {
@@ -5665,25 +5662,25 @@
       "confirmSide": "above",
       "invalidLevel": null,
       "invalidSide": null,
-      "days": 12,
+      "days": 11,
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 60.77,
       "after": {
        "entry": 60.77,
        "riskPct": null,
-       "days": 6,
+       "days": 5,
        "outcome": null,
        "bestPct": 0.0,
-       "worstPct": -26.34,
-       "nowPct": -26.1
+       "worstPct": -23.96,
+       "nowPct": -21.29
       },
-      "lastDate": "2026-11-19",
-      "lastClose": 44.91,
-      "change": -16.43
+      "lastDate": "2026-11-18",
+      "lastClose": 47.83,
+      "change": -11.0
      }
     ],
-    "graded": "2026-11-19T16:37:33.070998-05:00"
+    "graded": "2026-11-19T21:26:03.061716-05:00"
    }
   },
   {
@@ -6069,7 +6066,7 @@
       "change": 4.79
      }
     ],
-    "graded": "2026-11-19T16:37:31.130701-05:00"
+    "graded": "2026-11-19T21:26:02.940582-05:00"
    }
   },
   {
