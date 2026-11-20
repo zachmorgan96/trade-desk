@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:39:11+00:00",
+ "updated": "2026-11-20T19:44:41+00:00",
  "source": "Nasdaq earnings calendar",
  "minMarketCap": 10000000000.0,
  "days": {
@@ -868,7 +868,7 @@
     "symbol": "DE",
     "name": "Deere & Company",
     "time": "before open",
-    "marketCap": 168486224000.0,
+    "marketCap": 173840990000.0,
     "quarter": "Oct/2026",
     "epsForecast": 4.07,
     "estimates": 1,
@@ -890,7 +890,7 @@
     "symbol": "LI",
     "name": "Li Auto Inc.",
     "time": "before open",
-    "marketCap": 10984564700.0,
+    "marketCap": 11248429100.0,
     "quarter": "Sep/2026",
     "epsForecast": -0.08,
     "estimates": 1,
