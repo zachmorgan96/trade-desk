@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-20T16:39:12.831621-05:00",
+ "updated": "2026-11-20T21:33:06.938276-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -726,7 +726,7 @@
        "last": 632.23,
        "vsOpen": -1.031,
        "vsPrevClose": -1.986,
-       "vwap": 634.93,
+       "vwap": 634.24,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -921,12 +921,12 @@
       "target": "Calls side: holds above 128.70; puts side: fills toward 126.95 (yesterday's high), then 126.04",
       "ticker": "WMT",
       "family": "Premarket level break",
-      "open": 128.46,
+      "open": 127.29,
       "high": 130.52,
-      "low": 127.6,
+      "low": 127.22,
       "close": 128.01,
-      "openToClose": -0.35,
-      "gapPct": 1.92,
+      "openToClose": 0.57,
+      "gapPct": 0.99,
       "gapFilled": false,
       "breaks": [
        {
@@ -1034,7 +1034,7 @@
       "change": -12.77
      }
     ],
-    "graded": "2026-11-20T16:37:04.370611-05:00"
+    "graded": "2026-11-20T21:33:06.238633-05:00"
    }
   },
   {
@@ -1449,7 +1449,7 @@
       "change": 1.0
      }
     ],
-    "graded": "2026-11-20T16:37:07.750339-05:00"
+    "graded": "2026-11-20T21:33:06.933400-05:00"
    }
   },
   {
@@ -5729,7 +5729,7 @@
       "change": -10.22
      }
     ],
-    "graded": "2026-11-20T16:37:06.640324-05:00"
+    "graded": "2026-11-20T21:33:06.806791-05:00"
    }
   },
   {
@@ -6116,7 +6116,7 @@
       "change": -26.48
      }
     ],
-    "graded": "2026-11-20T16:37:05.626640-05:00"
+    "graded": "2026-11-20T21:33:06.725240-05:00"
    }
   },
   {
@@ -6502,7 +6502,7 @@
       "change": -9.09
      }
     ],
-    "graded": "2026-11-20T16:37:05.172396-05:00"
+    "graded": "2026-11-20T21:33:06.522473-05:00"
    }
   },
   {
