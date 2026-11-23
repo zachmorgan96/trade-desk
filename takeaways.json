@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-23T17:05:46.899427-05:00",
+ "updated": "2026-11-23T18:34:11.709179-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -49,31 +49,31 @@
    },
    {
     "clue": "SPY crossed VWAP 3+ times by 10:30",
-    "days": 28,
+    "days": 27,
     "counts": {
      "trend-up": 3,
      "trend-down": 10,
-     "reversal-up": 2,
-     "reversal-down": 3,
-     "chop": 10
-    },
-    "trendRate": 46,
-    "chopRate": 36,
-    "followedLeanRate": 32
-   },
-   {
-    "clue": "SPY on one side of VWAP all morning (0-1 crosses by 10:30)",
-    "days": 27,
-    "counts": {
-     "trend-up": 8,
-     "trend-down": 5,
      "reversal-up": 2,
      "reversal-down": 3,
      "chop": 9
     },
     "trendRate": 48,
     "chopRate": 33,
-    "followedLeanRate": 37
+    "followedLeanRate": 33
+   },
+   {
+    "clue": "SPY on one side of VWAP all morning (0-1 crosses by 10:30)",
+    "days": 28,
+    "counts": {
+     "trend-up": 8,
+     "trend-down": 5,
+     "reversal-up": 2,
+     "reversal-down": 3,
+     "chop": 10
+    },
+    "trendRate": 46,
+    "chopRate": 36,
+    "followedLeanRate": 36
    },
    {
     "clue": "SPY and QQQ disagreed at 10:30",
@@ -224,18 +224,18 @@
     "small": 5,
     "faded": 8,
     "nobreak": 2,
-    "avgRun": 2.74,
+    "avgRun": 2.85,
     "gapN": 26,
     "gapFilled": 6
    },
    {
     "family": "Premarket level break",
     "n": 22,
-    "followed": 11,
-    "small": 2,
+    "followed": 10,
+    "small": 3,
     "faded": 8,
     "nobreak": 1,
-    "avgRun": 1.51,
+    "avgRun": 1.45,
     "gapN": 22,
     "gapFilled": 9
    },
@@ -360,11 +360,11 @@
      {
       "family": "Premarket level break",
       "n": 12,
-      "followed": 4,
-      "small": 2,
+      "followed": 3,
+      "small": 3,
       "faded": 5,
       "nobreak": 1,
-      "avgRun": 0.81,
+      "avgRun": 0.69,
       "gapN": 12,
       "gapFilled": 6
      },
@@ -375,7 +375,7 @@
       "small": 4,
       "faded": 0,
       "nobreak": 1,
-      "avgRun": 2.92,
+      "avgRun": 3.2,
       "gapN": 10,
       "gapFilled": 5
      },
@@ -613,21 +613,21 @@
     "type": "chop",
     "typeLabel": "Chop (up and down, going nowhere)",
     "spy": {
-     "open": 724.33,
+     "open": 724.32,
      "high": 727.98,
      "low": 713.53,
      "close": 722.39,
      "prevClose": 689.81,
      "change": 4.723,
-     "openToClose": -0.268,
+     "openToClose": -0.266,
      "rangePct": 2.095,
      "usualRangePct": 1.618,
      "rangeVsUsual": 1.29,
      "closeLocation": 0.61,
      "highAt": "10:30",
      "lowAt": "09:40",
-     "vwapCrosses": 15,
-     "pctAboveVwapAfter10": 83
+     "vwapCrosses": 18,
+     "pctAboveVwapAfter10": 51
     },
     "expectedMovePct": 2.261,
     "actualMoveVsExpected": 2.09,
@@ -645,7 +645,7 @@
      }
     },
     "gap": {
-     "pct": 5.004,
+     "pct": 5.003,
      "filled": false,
      "filledAt": null
     },
@@ -673,7 +673,7 @@
      "10:00": {
       "spy": {
        "last": 720.99,
-       "vsOpen": -0.461,
+       "vsOpen": -0.46,
        "vsPrevClose": 4.52,
        "vwap": 719.29,
        "aboveVwap": true,
@@ -683,7 +683,7 @@
        "last": 649.46,
        "vsOpen": -0.994,
        "vsPrevClose": 6.74,
-       "vwap": 649.57,
+       "vwap": 649.59,
        "aboveVwap": false,
        "vwapCrosses": 0
       },
@@ -702,8 +702,8 @@
        "vsPrevClose": -21.789
       },
       "oil": {
-       "last": 81.71,
-       "vsPrevClose": -2.703
+       "last": 81.72,
+       "vsPrevClose": -2.691
       },
       "tnx": {
        "last": 4.948,
@@ -711,22 +711,22 @@
        "bpChange": 3.6
       },
       "agree": false,
-      "breadthGap": 0.077
+      "breadthGap": 0.076
      },
      "10:30": {
       "spy": {
        "last": 726.14,
-       "vsOpen": 0.25,
+       "vsOpen": 0.251,
        "vsPrevClose": 5.267,
-       "vwap": 720.86,
+       "vwap": 720.33,
        "aboveVwap": true,
-       "vwapCrosses": 3
+       "vwapCrosses": 1
       },
       "qqq": {
        "last": 655.62,
        "vsOpen": -0.055,
        "vsPrevClose": 7.752,
-       "vwap": 652.89,
+       "vwap": 652.56,
        "aboveVwap": true,
        "vwapCrosses": 3
       },
@@ -754,12 +754,12 @@
        "bpChange": 4.2
       },
       "agree": false,
-      "breadthGap": -0.033,
+      "breadthGap": -0.034,
       "orBreak": "up",
       "gapFilled": false
      }
     },
-    "summary": "Chop. SPY closed +4.72% on the day (-0.27% from the open). High-to-low it moved 2.10%, a bigger range than usual (1.3x the last 20 days). It broke the first 30 minutes' range up at 10:25 and that break did not hold. It crossed VWAP 15 times (lots of crossing is a chop sign).",
+    "summary": "Chop. SPY closed +4.72% on the day (-0.27% from the open). High-to-low it moved 2.10%, a bigger range than usual (1.3x the last 20 days). It broke the first 30 minutes' range up at 10:25 and that break did not hold. It crossed VWAP 18 times (lots of crossing is a chop sign).",
     "usEvents": []
    },
    "written": {
@@ -783,21 +783,21 @@
       "target": "Puts side: fills toward 125.53 (Friday's close); calls side: toward 143.73 (Friday's high)",
       "ticker": "NVDA",
       "family": "Gap fill",
-      "open": 167.04,
+      "open": 163.0,
       "high": 171.5,
       "low": 156.93,
       "close": 165.18,
-      "openToClose": -1.11,
-      "gapPct": 33.07,
+      "openToClose": 1.34,
+      "gapPct": 29.85,
       "gapFilled": false,
       "breaks": [
        {
         "side": "up",
         "level": 138.0,
         "time": "09:30",
-        "entry": 167.04,
-        "run": 2.67,
-        "runBeforeFail": 2.67,
+        "entry": 163.0,
+        "run": 5.21,
+        "runBeforeFail": 5.21,
         "failedAt": null,
         "closedBeyond": true
        }
@@ -899,27 +899,27 @@
       "target": "Calls side: above 345.40; puts side: back toward 318.71 (Friday's close)",
       "ticker": "TSM",
       "family": "Premarket level break",
-      "open": 380.18,
-      "high": 386.9,
+      "open": 379.96,
+      "high": 381.54,
       "low": 361.66,
       "close": 363.34,
-      "openToClose": -4.43,
-      "gapPct": 19.29,
+      "openToClose": -4.37,
+      "gapPct": 19.22,
       "gapFilled": false,
       "breaks": [
        {
         "side": "up",
         "level": 345.4,
         "time": "09:30",
-        "entry": 380.18,
-        "run": 1.77,
-        "runBeforeFail": 1.77,
+        "entry": 379.96,
+        "run": 0.42,
+        "runBeforeFail": 0.42,
         "failedAt": null,
         "closedBeyond": true
        }
       ],
       "best": "up",
-      "result": "followed"
+      "result": "small"
      },
      {
       "symbol": "HPE",
@@ -955,7 +955,7 @@
      }
     ],
     "swing": [],
-    "graded": "2026-11-23T17:05:46.138749-05:00"
+    "graded": "2026-11-23T18:34:10.128251-05:00"
    }
   },
   {
@@ -1396,7 +1396,7 @@
       "change": -11.15
      }
     ],
-    "graded": "2026-11-23T17:05:46.892680-05:00"
+    "graded": "2026-11-23T18:34:11.704730-05:00"
    }
   },
   {
@@ -1811,7 +1811,7 @@
       "change": 3.97
      }
     ],
-    "graded": "2026-11-23T17:05:46.731420-05:00"
+    "graded": "2026-11-23T18:34:11.370655-05:00"
    }
   },
   {
@@ -6091,7 +6091,7 @@
       "change": 0.07
      }
     ],
-    "graded": "2026-11-23T17:05:46.659701-05:00"
+    "graded": "2026-11-23T18:34:11.200689-05:00"
    }
   },
   {
@@ -6478,7 +6478,7 @@
       "change": -10.07
      }
     ],
-    "graded": "2026-11-23T17:05:46.600606-05:00"
+    "graded": "2026-11-23T18:34:10.993056-05:00"
    }
   },
   {
@@ -6864,7 +6864,7 @@
       "change": -2.87
      }
     ],
-    "graded": "2026-11-23T17:05:46.434492-05:00"
+    "graded": "2026-11-23T18:34:10.633271-05:00"
    }
   },
   {
