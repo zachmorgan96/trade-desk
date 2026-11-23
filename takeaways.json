@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-22T21:50:29.265632-05:00",
+ "updated": "2026-11-23T16:38:44.556387-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -10,13 +10,13 @@
   "chop": "Chop (up and down, going nowhere)"
  },
  "patterns": {
-  "days": 79,
+  "days": 80,
   "counts": {
    "trend-up": 15,
    "trend-down": 20,
    "reversal-up": 4,
    "reversal-down": 6,
-   "chop": 34
+   "chop": 35
   },
   "rows": [
    {
@@ -49,17 +49,17 @@
    },
    {
     "clue": "SPY crossed VWAP 3+ times by 10:30",
-    "days": 27,
+    "days": 28,
     "counts": {
      "trend-up": 3,
      "trend-down": 10,
      "reversal-up": 2,
      "reversal-down": 3,
-     "chop": 9
+     "chop": 10
     },
-    "trendRate": 48,
-    "chopRate": 33,
-    "followedLeanRate": 33
+    "trendRate": 46,
+    "chopRate": 36,
+    "followedLeanRate": 32
    },
    {
     "clue": "SPY on one side of VWAP all morning (0-1 crosses by 10:30)",
@@ -77,31 +77,31 @@
    },
    {
     "clue": "SPY and QQQ disagreed at 10:30",
-    "days": 24,
+    "days": 25,
     "counts": {
      "trend-up": 3,
      "trend-down": 4,
      "reversal-up": 1,
      "reversal-down": 3,
-     "chop": 13
+     "chop": 14
     },
-    "trendRate": 29,
-    "chopRate": 54,
+    "trendRate": 28,
+    "chopRate": 56,
     "followedLeanRate": 12
    },
    {
     "clue": "First 30 minutes wide (half or more of a usual day's whole range)",
-    "days": 21,
+    "days": 22,
     "counts": {
      "trend-up": 4,
      "trend-down": 5,
      "reversal-up": 0,
      "reversal-down": 2,
-     "chop": 10
+     "chop": 11
     },
-    "trendRate": 43,
-    "chopRate": 48,
-    "followedLeanRate": 38
+    "trendRate": 41,
+    "chopRate": 50,
+    "followedLeanRate": 36
    },
    {
     "clue": "First 30 minutes tight (under 27% of a usual day's range)",
@@ -119,16 +119,16 @@
    },
    {
     "clue": "Gap of 0.2%+ still open at 10:30",
-    "days": 48,
+    "days": 49,
     "counts": {
      "trend-up": 11,
      "trend-down": 10,
      "reversal-up": 0,
      "reversal-down": 4,
-     "chop": 23
+     "chop": 24
     },
-    "trendRate": 44,
-    "chopRate": 48,
+    "trendRate": 43,
+    "chopRate": 49,
     "followedLeanRate": 33
    },
    {
@@ -147,17 +147,17 @@
    },
    {
     "clue": "Broad market: equal-weight S&P keeping up with SPY (within 0.1%)",
-    "days": 49,
+    "days": 50,
     "counts": {
      "trend-up": 5,
      "trend-down": 18,
      "reversal-up": 3,
      "reversal-down": 2,
-     "chop": 21
+     "chop": 22
     },
-    "trendRate": 47,
-    "chopRate": 43,
-    "followedLeanRate": 37
+    "trendRate": 46,
+    "chopRate": 44,
+    "followedLeanRate": 36
    },
    {
     "clue": "Narrow market: equal-weight S&P lagging SPY by 0.2%+",
@@ -175,17 +175,17 @@
    },
    {
     "clue": "VIX confirming stocks at 10:30 (SPY up with VIX down, or SPY down with VIX up)",
-    "days": 44,
+    "days": 45,
     "counts": {
      "trend-up": 7,
      "trend-down": 13,
      "reversal-up": 1,
      "reversal-down": 2,
-     "chop": 21
+     "chop": 22
     },
-    "trendRate": 45,
-    "chopRate": 48,
-    "followedLeanRate": 34
+    "trendRate": 44,
+    "chopRate": 49,
+    "followedLeanRate": 33
    },
    {
     "clue": "High-impact U.S. news that day",
@@ -204,39 +204,39 @@
   ]
  },
  "setupStats": {
-  "days": 17,
+  "days": 18,
   "day": [
    {
     "family": "Gap and go",
-    "n": 37,
+    "n": 39,
     "followed": 20,
-    "small": 2,
-    "faded": 11,
+    "small": 3,
+    "faded": 12,
     "nobreak": 4,
-    "avgRun": 2.66,
-    "gapN": 37,
+    "avgRun": 2.53,
+    "gapN": 39,
     "gapFilled": 7
    },
    {
     "family": "Gap fill",
-    "n": 25,
-    "followed": 10,
+    "n": 26,
+    "followed": 11,
     "small": 5,
     "faded": 8,
     "nobreak": 2,
-    "avgRun": 2.75,
-    "gapN": 25,
+    "avgRun": 2.74,
+    "gapN": 26,
     "gapFilled": 6
    },
    {
     "family": "Premarket level break",
-    "n": 19,
-    "followed": 10,
+    "n": 22,
+    "followed": 11,
     "small": 2,
-    "faded": 7,
-    "nobreak": 0,
-    "avgRun": 1.58,
-    "gapN": 19,
+    "faded": 8,
+    "nobreak": 1,
+    "avgRun": 1.51,
+    "gapN": 22,
     "gapFilled": 9
    },
    {
@@ -274,32 +274,32 @@
    }
   ],
   "swing": {
-   "confirmed": 13,
+   "confirmed": 14,
    "invalidated": 24,
-   "waiting": 3,
+   "waiting": 2,
    "expired": 0
   },
   "swingIdeas": {
    "ideas": 31,
    "listings": 40,
-   "confirmed": 11,
+   "confirmed": 12,
    "invalidated": 17,
-   "waiting": 3,
+   "waiting": 2,
    "expired": 0,
    "worked": 3,
    "failed": 5,
-   "open": 2,
+   "open": 3,
    "families": [
     {
      "ideas": 14,
      "listings": 17,
-     "confirmed": 2,
+     "confirmed": 3,
      "invalidated": 9,
-     "waiting": 3,
+     "waiting": 2,
      "expired": 0,
      "worked": 0,
      "failed": 1,
-     "open": 1,
+     "open": 2,
      "family": "Post-earnings drift"
     },
     {
@@ -344,39 +344,39 @@
    {
     "key": "since",
     "label": "Since 13 Nov (six morning checks)",
-    "days": 6,
+    "days": 7,
     "day": [
      {
       "family": "Gap and go",
-      "n": 13,
+      "n": 15,
       "followed": 7,
-      "small": 0,
-      "faded": 5,
+      "small": 1,
+      "faded": 6,
       "nobreak": 1,
-      "avgRun": 2.18,
-      "gapN": 13,
+      "avgRun": 1.92,
+      "gapN": 15,
       "gapFilled": 4
      },
      {
       "family": "Premarket level break",
-      "n": 9,
-      "followed": 3,
+      "n": 12,
+      "followed": 4,
       "small": 2,
-      "faded": 4,
-      "nobreak": 0,
-      "avgRun": 0.8,
-      "gapN": 9,
+      "faded": 5,
+      "nobreak": 1,
+      "avgRun": 0.81,
+      "gapN": 12,
       "gapFilled": 6
      },
      {
       "family": "Gap fill",
-      "n": 9,
-      "followed": 4,
+      "n": 10,
+      "followed": 5,
       "small": 4,
       "faded": 0,
       "nobreak": 1,
-      "avgRun": 2.95,
-      "gapN": 9,
+      "avgRun": 2.92,
+      "gapN": 10,
       "gapFilled": 5
      },
      {
@@ -416,24 +416,24 @@
     "swingIdeas": {
      "ideas": 6,
      "listings": 6,
-     "confirmed": 2,
+     "confirmed": 3,
      "invalidated": 2,
-     "waiting": 2,
+     "waiting": 1,
      "expired": 0,
      "worked": 0,
      "failed": 1,
-     "open": 1,
+     "open": 2,
      "families": [
       {
        "ideas": 4,
        "listings": 4,
-       "confirmed": 1,
+       "confirmed": 2,
        "invalidated": 1,
-       "waiting": 2,
+       "waiting": 1,
        "expired": 0,
        "worked": 0,
        "failed": 0,
-       "open": 1,
+       "open": 2,
        "family": "Post-earnings drift"
       },
       {
@@ -607,6 +607,357 @@
   }
  },
  "days": [
+  {
+   "measured": {
+    "date": "2026-11-23",
+    "type": "chop",
+    "typeLabel": "Chop (up and down, going nowhere)",
+    "spy": {
+     "open": 724.33,
+     "high": 727.98,
+     "low": 713.53,
+     "close": 722.39,
+     "prevClose": 689.81,
+     "change": 4.723,
+     "openToClose": -0.268,
+     "rangePct": 2.095,
+     "usualRangePct": 1.618,
+     "rangeVsUsual": 1.29,
+     "closeLocation": 0.61,
+     "highAt": "10:30",
+     "lowAt": "09:40",
+     "vwapCrosses": 15,
+     "pctAboveVwapAfter10": 83
+    },
+    "expectedMovePct": 2.261,
+    "actualMoveVsExpected": 2.09,
+    "rangeVsExpected": 0.93,
+    "openingRange": {
+     "high": 724.8,
+     "low": 713.53,
+     "widthPct": 1.634,
+     "widthVsExpected": 0.72,
+     "widthVsUsual": 1.01,
+     "breakout": {
+      "side": "up",
+      "time": "10:25",
+      "held": false
+     }
+    },
+    "gap": {
+     "pct": 5.004,
+     "filled": false,
+     "filledAt": null
+    },
+    "levels": [
+     {
+      "name": "Yesterday's high",
+      "price": 718.29,
+      "touched": true,
+      "result": "broke and closed above"
+     },
+     {
+      "name": "Yesterday's low",
+      "price": 686.75,
+      "touched": false,
+      "result": "not reached"
+     },
+     {
+      "name": "Yesterday's close",
+      "price": 689.81,
+      "touched": false,
+      "result": "not reached"
+     }
+    ],
+    "clues": {
+     "10:00": {
+      "spy": {
+       "last": 720.99,
+       "vsOpen": -0.461,
+       "vsPrevClose": 4.52,
+       "vwap": 719.29,
+       "aboveVwap": true,
+       "vwapCrosses": 1
+      },
+      "qqq": {
+       "last": 649.46,
+       "vsOpen": -0.994,
+       "vsPrevClose": 6.74,
+       "vwap": 649.57,
+       "aboveVwap": false,
+       "vwapCrosses": 0
+      },
+      "rsp": {
+       "last": 211.51,
+       "vsOpen": -0.384,
+       "vsPrevClose": 1.964
+      },
+      "iwm": {
+       "last": 263.81,
+       "vsOpen": -0.836,
+       "vsPrevClose": 2.806
+      },
+      "vix": {
+       "last": 28.07,
+       "vsPrevClose": -21.789
+      },
+      "oil": {
+       "last": 81.71,
+       "vsPrevClose": -2.703
+      },
+      "tnx": {
+       "last": 4.948,
+       "vsPrevClose": 0.733,
+       "bpChange": 3.6
+      },
+      "agree": false,
+      "breadthGap": 0.077
+     },
+     "10:30": {
+      "spy": {
+       "last": 726.14,
+       "vsOpen": 0.25,
+       "vsPrevClose": 5.267,
+       "vwap": 720.86,
+       "aboveVwap": true,
+       "vwapCrosses": 3
+      },
+      "qqq": {
+       "last": 655.62,
+       "vsOpen": -0.055,
+       "vsPrevClose": 7.752,
+       "vwap": 652.89,
+       "aboveVwap": true,
+       "vwapCrosses": 3
+      },
+      "rsp": {
+       "last": 212.79,
+       "vsOpen": 0.217,
+       "vsPrevClose": 2.579
+      },
+      "iwm": {
+       "last": 265.4,
+       "vsOpen": -0.239,
+       "vsPrevClose": 3.425
+      },
+      "vix": {
+       "last": 26.33,
+       "vsPrevClose": -26.637
+      },
+      "oil": {
+       "last": 80.7,
+       "vsPrevClose": -3.906
+      },
+      "tnx": {
+       "last": 4.954,
+       "vsPrevClose": 0.855,
+       "bpChange": 4.2
+      },
+      "agree": false,
+      "breadthGap": -0.033,
+      "orBreak": "up",
+      "gapFilled": false
+     }
+    },
+    "summary": "Chop. SPY closed +4.72% on the day (-0.27% from the open). High-to-low it moved 2.10%, a bigger range than usual (1.3x the last 20 days). It broke the first 30 minutes' range up at 10:25 and that break did not hold. It crossed VWAP 15 times (lots of crossing is a chop sign).",
+    "usEvents": []
+   },
+   "written": {
+    "briefLean": "A risk-on relief bounce led by chips after seven down days, with the Nvidia gap seen as fillable and a warning to wait for 10:15 because Friday's 10:00 high was a trap.",
+    "verdict": "partly",
+    "whatHappened": "Huang's reinstatement around 8:55 lifted SPY's gap to +5.0% (open 724.33). It dropped to the day's low 713.53 at 9:40, broke the opening range up at 10:25 to the high 727.98 at 10:30, but the break did not hold; it crossed VWAP 15 times and closed 722.39, +4.72% on the day but −0.27% from the open.",
+    "why": "Nvidia's board reinstated Huang before the open, so chips and AI cloud gapped far beyond the premarket read (NVDA +31.5%, SMH +15%). Almost all of it happened overnight: SMH and XLK fell about 2% from the open while health care, utilities and staples gained intraday; oil fell 3.7% and VIX eased to 26.6.",
+    "earliestClue": "At 10:00 SPY and QQQ were both below their opens (−0.5% and −1.0%) and disagreed on VWAP (SPY above, QQQ below), with the gap nowhere near filled: a huge gap that neither extended nor faded, the chop signature. At 10:30 they still disagreed.",
+    "lesson": "When news before the open makes the gap two times what premarket showed, expect the session to digest it inside a wide range; the first drop and the first breakout are both likely traps, so wait for a range edge to hold on a retest.",
+    "by": "Close review routine"
+   },
+   "setups": {
+    "day": [
+     {
+      "symbol": "NVDA",
+      "setup": "Gap fill",
+      "pmHigh": "138.00",
+      "pmLow": "133.57",
+      "prevClose": "125.53",
+      "gap": "+8.82%",
+      "target": "Puts side: fills toward 125.53 (Friday's close); calls side: toward 143.73 (Friday's high)",
+      "ticker": "NVDA",
+      "family": "Gap fill",
+      "open": 167.04,
+      "high": 171.5,
+      "low": 156.93,
+      "close": 165.18,
+      "openToClose": -1.11,
+      "gapPct": 33.07,
+      "gapFilled": false,
+      "breaks": [
+       {
+        "side": "up",
+        "level": 138.0,
+        "time": "09:30",
+        "entry": 167.04,
+        "run": 2.67,
+        "runBeforeFail": 2.67,
+        "failedAt": null,
+        "closedBeyond": true
+       }
+      ],
+      "best": "up",
+      "result": "followed"
+     },
+     {
+      "symbol": "ZS",
+      "setup": "Gap and go",
+      "pmHigh": "235.76",
+      "pmLow": "210.50",
+      "prevClose": "194.82",
+      "gap": "+20.50%",
+      "target": "Calls side: above 235.76; puts side: back toward 210.50, then 206.20 (Friday's high)",
+      "ticker": "ZS",
+      "family": "Gap and go",
+      "open": 239.24,
+      "high": 247.9,
+      "low": 218.88,
+      "close": 229.3,
+      "openToClose": -4.15,
+      "gapPct": 22.8,
+      "gapFilled": false,
+      "breaks": [
+       {
+        "side": "up",
+        "level": 235.76,
+        "time": "09:30",
+        "entry": 239.24,
+        "run": 3.62,
+        "runBeforeFail": 0.0,
+        "failedAt": "09:30",
+        "closedBeyond": false
+       }
+      ],
+      "best": "up",
+      "result": "faded"
+     },
+     {
+      "symbol": "CRWD",
+      "setup": "Gap and go",
+      "pmHigh": "227.77",
+      "pmLow": "205.45",
+      "prevClose": "229.44",
+      "gap": "−7.17%",
+      "target": "Puts side: extends below 205.45; calls side: toward 227.30 (Friday's low, the gap edge), then 229.44",
+      "ticker": "CRWD",
+      "family": "Gap and go",
+      "open": 217.99,
+      "high": 225.51,
+      "low": 200.53,
+      "close": 208.96,
+      "openToClose": -4.14,
+      "gapPct": -4.99,
+      "gapFilled": false,
+      "breaks": [
+       {
+        "side": "down",
+        "level": 205.45,
+        "time": "10:05",
+        "entry": 205.45,
+        "run": 2.39,
+        "runBeforeFail": 0.62,
+        "failedAt": "10:10",
+        "closedBeyond": false
+       }
+      ],
+      "best": "down",
+      "result": "small"
+     },
+     {
+      "symbol": "UNH",
+      "setup": "Premarket high/low break",
+      "pmHigh": "340.03",
+      "pmLow": "315.00",
+      "prevClose": "339.85",
+      "gap": "−6.27%",
+      "target": "Puts side: extends below 315.00; calls side: toward 338.24 (Friday's low, the gap edge)",
+      "ticker": "UNH",
+      "family": "Premarket level break",
+      "open": 322.3,
+      "high": 336.96,
+      "low": 319.13,
+      "close": 336.24,
+      "openToClose": 4.33,
+      "gapPct": -5.16,
+      "gapFilled": false,
+      "breaks": [],
+      "result": "nobreak"
+     },
+     {
+      "symbol": "TSM",
+      "setup": "Premarket high/low break",
+      "pmHigh": "345.40",
+      "pmLow": "337.01",
+      "prevClose": "318.71",
+      "gap": "+6.76%",
+      "target": "Calls side: above 345.40; puts side: back toward 318.71 (Friday's close)",
+      "ticker": "TSM",
+      "family": "Premarket level break",
+      "open": 380.18,
+      "high": 386.9,
+      "low": 361.66,
+      "close": 363.34,
+      "openToClose": -4.43,
+      "gapPct": 19.29,
+      "gapFilled": false,
+      "breaks": [
+       {
+        "side": "up",
+        "level": 345.4,
+        "time": "09:30",
+        "entry": 380.18,
+        "run": 1.77,
+        "runBeforeFail": 1.77,
+        "failedAt": null,
+        "closedBeyond": true
+       }
+      ],
+      "best": "up",
+      "result": "followed"
+     },
+     {
+      "symbol": "HPE",
+      "setup": "Premarket high/low break",
+      "pmHigh": "44.39",
+      "pmLow": "42.72",
+      "prevClose": "40.91",
+      "gap": "+7.97%",
+      "target": "Calls side: above 44.84 (Friday's high); puts side: back toward 40.91 (Friday's close)",
+      "ticker": "HPE",
+      "family": "Premarket level break",
+      "open": 51.0,
+      "high": 51.0,
+      "low": 45.22,
+      "close": 48.31,
+      "openToClose": -5.27,
+      "gapPct": 24.66,
+      "gapFilled": false,
+      "breaks": [
+       {
+        "side": "up",
+        "level": 44.39,
+        "time": "09:30",
+        "entry": 51.0,
+        "run": 0.0,
+        "runBeforeFail": 0.0,
+        "failedAt": null,
+        "closedBeyond": true
+       }
+      ],
+      "best": "up",
+      "result": "faded"
+     }
+    ],
+    "swing": [],
+    "graded": "2026-11-23T16:36:56.352253-05:00"
+   }
+  },
   {
    "measured": {
     "date": "2026-11-20",
@@ -999,11 +1350,21 @@
       "confirmSide": "above",
       "invalidLevel": 123.27,
       "invalidSide": "below",
-      "days": 1,
-      "status": "waiting",
-      "lastDate": "2026-11-20",
-      "lastClose": 127.95,
-      "change": 1.52
+      "days": 2,
+      "status": "confirmed",
+      "statusDate": "2026-11-23",
+      "statusClose": 129.58,
+      "after": {
+       "entry": 129.58,
+       "riskPct": 4.87,
+       "days": 0,
+       "outcome": "open",
+       "bestPct": 0.0,
+       "worstPct": 0.0
+      },
+      "lastDate": "2026-11-23",
+      "lastClose": 129.58,
+      "change": 2.81
      },
      {
       "symbol": "INTU",
@@ -1017,24 +1378,25 @@
       "confirmSide": "below",
       "invalidLevel": 302.59,
       "invalidSide": "above",
-      "days": 1,
+      "days": 2,
       "status": "confirmed",
       "statusDate": "2026-11-20",
       "statusClose": 270.44,
       "after": {
        "entry": 270.44,
        "riskPct": 11.89,
-       "days": 0,
+       "days": 1,
        "outcome": "open",
        "bestPct": 0.0,
-       "worstPct": 0.0
+       "worstPct": -4.34,
+       "nowPct": -1.86
       },
-      "lastDate": "2026-11-20",
-      "lastClose": 270.44,
-      "change": -12.77
+      "lastDate": "2026-11-23",
+      "lastClose": 275.46,
+      "change": -11.15
      }
     ],
-    "graded": "2026-11-22T21:50:29.261655-05:00"
+    "graded": "2026-11-23T16:36:58.611599-05:00"
    }
   },
   {
@@ -1442,14 +1804,14 @@
       "confirmSide": "above",
       "invalidLevel": 342.36,
       "invalidSide": "below",
-      "days": 2,
+      "days": 3,
       "status": "waiting",
-      "lastDate": "2026-11-20",
-      "lastClose": 343.32,
-      "change": 1.0
+      "lastDate": "2026-11-23",
+      "lastClose": 353.43,
+      "change": 3.97
      }
     ],
-    "graded": "2026-11-22T21:50:28.830057-05:00"
+    "graded": "2026-11-23T16:36:58.090525-05:00"
    }
   },
   {
@@ -5671,22 +6033,22 @@
       "confirmSide": "above",
       "invalidLevel": 340.99,
       "invalidSide": "below",
-      "days": 12,
+      "days": 13,
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 355.63,
       "after": {
        "entry": 355.63,
        "riskPct": 4.12,
-       "days": 7,
+       "days": 8,
        "outcome": "open",
        "bestPct": 1.46,
        "worstPct": -4.24,
-       "nowPct": -3.68
+       "nowPct": -1.84
       },
-      "lastDate": "2026-11-20",
-      "lastClose": 342.56,
-      "change": -1.99
+      "lastDate": "2026-11-23",
+      "lastClose": 349.08,
+      "change": -0.12
      },
      {
       "symbol": "AMZN",
@@ -5700,13 +6062,13 @@
       "confirmSide": "above",
       "invalidLevel": 263.85,
       "invalidSide": "below",
-      "days": 12,
+      "days": 13,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 260.21,
-      "lastDate": "2026-11-20",
-      "lastClose": 246.82,
-      "change": -7.22
+      "lastDate": "2026-11-23",
+      "lastClose": 255.39,
+      "change": -4.0
      },
      {
       "symbol": "TSLA",
@@ -5720,16 +6082,16 @@
       "confirmSide": "above",
       "invalidLevel": 362.7,
       "invalidSide": "below",
-      "days": 12,
+      "days": 13,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 343.69,
-      "lastDate": "2026-11-20",
-      "lastClose": 345.82,
-      "change": -10.22
+      "lastDate": "2026-11-23",
+      "lastClose": 385.46,
+      "change": 0.07
      }
     ],
-    "graded": "2026-11-22T21:50:28.670670-05:00"
+    "graded": "2026-11-23T16:36:57.897015-05:00"
    }
   },
   {
@@ -6058,13 +6420,13 @@
       "confirmSide": "above",
       "invalidLevel": 470.75,
       "invalidSide": "below",
-      "days": 13,
+      "days": 14,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 404.4,
-      "lastDate": "2026-11-20",
-      "lastClose": 424.39,
-      "change": -12.3
+      "lastDate": "2026-11-23",
+      "lastClose": 453.46,
+      "change": -6.29
      },
      {
       "symbol": "TSLA",
@@ -6078,13 +6440,13 @@
       "confirmSide": "above",
       "invalidLevel": 352.0,
       "invalidSide": "below",
-      "days": 13,
+      "days": 14,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 343.69,
-      "lastDate": "2026-11-20",
-      "lastClose": 345.82,
-      "change": -13.22
+      "lastDate": "2026-11-23",
+      "lastClose": 385.46,
+      "change": -3.27
      },
      {
       "symbol": "CRWV",
@@ -6098,25 +6460,25 @@
       "confirmSide": "above",
       "invalidLevel": null,
       "invalidSide": null,
-      "days": 13,
+      "days": 14,
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 60.77,
       "after": {
        "entry": 60.77,
        "riskPct": null,
-       "days": 7,
+       "days": 8,
        "outcome": null,
        "bestPct": 0.0,
        "worstPct": -35.36,
-       "nowPct": -34.98
+       "nowPct": -20.47
       },
-      "lastDate": "2026-11-20",
-      "lastClose": 39.51,
-      "change": -26.48
+      "lastDate": "2026-11-23",
+      "lastClose": 48.33,
+      "change": -10.07
      }
     ],
-    "graded": "2026-11-22T21:50:28.463885-05:00"
+    "graded": "2026-11-23T16:36:57.704065-05:00"
    }
   },
   {
@@ -6455,11 +6817,11 @@
       "confirmSide": "below",
       "invalidLevel": null,
       "invalidSide": null,
-      "days": 14,
+      "days": 15,
       "status": "waiting",
-      "lastDate": "2026-11-20",
-      "lastClose": 342.56,
-      "change": 1.25
+      "lastDate": "2026-11-23",
+      "lastClose": 349.08,
+      "change": 3.18
      },
      {
       "symbol": "MU",
@@ -6473,13 +6835,13 @@
       "confirmSide": "above",
       "invalidLevel": 825.25,
       "invalidSide": "below",
-      "days": 14,
+      "days": 15,
       "status": "invalidated",
       "statusDate": "2026-11-04",
       "statusClose": 795.23,
-      "lastDate": "2026-11-20",
-      "lastClose": 594.51,
-      "change": -28.68
+      "lastDate": "2026-11-23",
+      "lastClose": 707.7,
+      "change": -15.1
      },
      {
       "symbol": "AMD",
@@ -6493,16 +6855,16 @@
       "confirmSide": "above",
       "invalidLevel": 466.07,
       "invalidSide": "below",
-      "days": 14,
+      "days": 15,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 404.4,
-      "lastDate": "2026-11-20",
-      "lastClose": 424.39,
-      "change": -9.09
+      "lastDate": "2026-11-23",
+      "lastClose": 453.46,
+      "change": -2.87
      }
     ],
-    "graded": "2026-11-22T21:50:28.120036-05:00"
+    "graded": "2026-11-23T16:36:56.987222-05:00"
    }
   },
   {
