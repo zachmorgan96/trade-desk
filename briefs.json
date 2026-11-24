@@ -3839,6 +3839,40 @@
      ["2026-11-20",143.27,150.0,140.99,141.33,6215600],
      ["2026-11-23",143.22,149.83,142.76,149.09,4624500]
     ]
+   },
+   "pricedIn": {
+    "priced": [
+     {
+      "what": "A Fed rate hike on Dec 9",
+      "why": "A 25 bp hike is about 96% priced (CME FedWatch) and the 2-year yield sits near 4.7%. The hike itself would not be news; the Fed's tone about a second one would be."
+     },
+     {
+      "what": "Strong AI orders",
+      "why": "HPE beat and raised its growth guide to 27–35% and still trades −11.9%; Nvidia gives back 5.5% with no new bad news. Good demand news no longer lifts these stocks."
+     },
+     {
+      "what": "A big move in Dell tonight",
+      "why": "Options imply about ±16%, and Dell is already −6.9% before it reports, on HPE's margin warning."
+     },
+     {
+      "what": "Fear and hedging",
+      "why": "VIX 28.9 with near-term protection costing more than three-month, and 82% of big stocks under their 20-day average: much protection is already bought."
+     }
+    ],
+    "notPriced": [
+     {
+      "what": "AI profit margins holding up",
+      "why": "HPE and Dell were sold on a margin squeeze before Dell has reported. Dell showing margins intact tonight would be new information for the whole group."
+     },
+     {
+      "what": "Wednesday's PCE inflation and GDP (8:30 ET)",
+      "why": "The last big inflation number before Dec 9. With one hike priced, a hot reading puts back-to-back hikes (Williams left them open) into prices; a cool one questions the hike."
+     },
+     {
+      "what": "How well the shopper is holding up",
+      "why": "DKS +16%, DLTR +7.8% and BBY +4.3% on beats: gaps that size say the market had not expected it. More retail reports can still move the group."
+     }
+    ]
    }
   }
  ],
