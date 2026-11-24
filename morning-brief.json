@@ -1,118 +1,285 @@
 {
-  "version": 1,
-  "date": "2026-11-23",
-  "slot": "close",
-  "slotLabel": "Close review",
-  "time": "16:36",
-  "generated": "2026-11-23T16:36:05.750207-05:00",
-  "prices": [
-    {
-      "name": "VIX",
-      "last": "26.62",
-      "change": "▼ -1.82 (-6.40%) · open -0.52%",
-      "asOf": "4:15 PM ET"
-    },
-    {
-      "name": "US10 (10-yr note futures)",
-      "last": "106.62",
-      "change": "▼ -0.22 (-0.20%) · open +0.25%",
-      "asOf": "4:26 PM ET"
-    },
-    {
-      "name": "US10Y yield",
-      "last": "4.918%",
-      "change": "▲ +0.006 (+0.12%)",
-      "asOf": "2:55 PM ET"
-    },
-    {
-      "name": "Crude oil (WTI)",
-      "last": "80.30",
-      "change": "▼ -3.11 (-3.73%) · open -2.12%",
-      "asOf": "4:25 PM ET"
-    },
-    {
-      "name": "SPY",
-      "last": "723.26",
-      "change": "▲ +33.45 (+4.85%) · open -0.15%",
-      "asOf": "4:35 PM ET"
-    },
-    {
-      "name": "QQQ",
-      "last": "650.86",
-      "change": "▲ +42.41 (+6.97%) · open -0.78%",
-      "asOf": "4:35 PM ET"
-    }
+ "version": 1,
+ "date": "2026-11-23",
+ "slot": "close",
+ "slotLabel": "Close review",
+ "time": "16:36",
+ "generated": "2026-11-23T16:36:05.750207-05:00",
+ "prices": [
+  {
+   "name": "VIX",
+   "last": "26.62",
+   "change": "▼ -1.82 (-6.40%) · open -0.52%",
+   "asOf": "4:15 PM ET"
+  },
+  {
+   "name": "US10 (10-yr note futures)",
+   "last": "106.62",
+   "change": "▼ -0.22 (-0.20%) · open +0.25%",
+   "asOf": "4:26 PM ET"
+  },
+  {
+   "name": "US10Y yield",
+   "last": "4.918%",
+   "change": "▲ +0.006 (+0.12%)",
+   "asOf": "2:55 PM ET"
+  },
+  {
+   "name": "Crude oil (WTI)",
+   "last": "80.30",
+   "change": "▼ -3.11 (-3.73%) · open -2.12%",
+   "asOf": "4:25 PM ET"
+  },
+  {
+   "name": "SPY",
+   "last": "723.26",
+   "change": "▲ +33.45 (+4.85%) · open -0.15%",
+   "asOf": "4:35 PM ET"
+  },
+  {
+   "name": "QQQ",
+   "last": "650.86",
+   "change": "▲ +42.41 (+6.97%) · open -0.78%",
+   "asOf": "4:35 PM ET"
+  }
+ ],
+ "events": [],
+ "macro": [
+  {
+   "source": "Yahoo Finance",
+   "time": "Mon 4:27 PM",
+   "text": "Nvidia's board reinstated Jensen Huang as CEO; NVDA +31.5%, nearly $1T added in a day.",
+   "url": "https://finance.yahoo.com/technology/article/nvidia-stock-has-best-day-since-may-2003-gaining-nearly-1t-in-market-cap-after-jensen-huang-is-reinstated-as-ceo-212735744.html"
+  },
+  {
+   "source": "Investing.com",
+   "time": "Mon 4:06 PM",
+   "text": "S&P 500 +4.75% to 7,238.84, Nasdaq +6.47%, Dow +3.02%; energy the only sector lower (WTI −3.7% to 80.30).",
+   "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-rebound-after-rough-week-for-ailinked-shares-5044594"
+  },
+  {
+   "source": "Investing.com",
+   "time": "Mon 3:54 PM",
+   "text": "U.S. to blacklist Megaspeed, a chip firm linked to the Nvidia scandal, a source says.",
+   "url": "https://www.investing.com/news/stock-market-news/us-to-blacklist-megaspeed-chip-firm-linked-to-nvidia-scandal-source-says-5046337"
+  }
+ ],
+ "bigNames": [
+  {
+   "symbol": "NVDA",
+   "move": "+31.5%",
+   "text": "Board reinstated Huang as CEO after input from senior U.S. officials; Kress back to CFO. Opened 167.04, high 171.50, close 165.05.",
+   "source": "Yahoo Finance",
+   "time": "Mon 4:27 PM",
+   "url": "https://finance.yahoo.com/technology/article/nvidia-stock-has-best-day-since-may-2003-gaining-nearly-1t-in-market-cap-after-jensen-huang-is-reinstated-as-ceo-212735744.html"
+  },
+  {
+   "symbol": "HPE",
+   "move": "+17.4% (AH ~−5.6%)",
+   "text": "Q4 revenue $14.5B (+50%), adj. EPS $1.43 vs ~$1.28 expected; server revenue +95%. Q1 guide $14.0–14.6B, adj. EPS $1.30–1.40.",
+   "source": "HPE / Business Wire",
+   "time": "Mon 4:05 PM",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-reports-fiscal-2026-fourth-210500319.html"
+  },
+  {
+   "symbol": "ORCL / CRWV",
+   "move": "+12.3% / +22.3%",
+   "text": "Oracle rose on an update on funding for its OpenAI contract; CoreWeave rallied as investors bet AI spending continues.",
+   "source": "MarketWatch",
+   "time": "Mon 4:24 PM",
+   "url": "https://www.marketwatch.com/story/oracle-and-coreweave-stocks-stage-big-gains-as-investors-bet-the-ai-cash-will-keep-flowing-eeb1aa85?mod=mw_rss_topstories"
+  }
+ ],
+ "read": "Huang's reinstatement (~8:55, after the brief) turned the relief bounce into a +5% gap. NVDA, CRWD, UNH setups triggered; ZS, TSM, HPE failed after the open. SPY chopped: low 713.53 at 9:40, high 727.98 at 10:30, close 722.39 (−0.27% from open). Chips faded intraday (SMH −2% from open); health care, utilities gained. Tomorrow: no U.S. red event; Dell after the close.",
+ "tomorrow": [
+  {
+   "time": "7:30 PM",
+   "currency": "AUD",
+   "event": "CPI m/m",
+   "forecast": "0.4%",
+   "previous": "0.8%"
+  },
+  {
+   "time": "7:30 PM",
+   "currency": "AUD",
+   "event": "CPI y/y",
+   "forecast": "4.7%",
+   "previous": "4.3%"
+  },
+  {
+   "time": "7:30 PM",
+   "currency": "AUD",
+   "event": "Trimmed Mean CPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.3%"
+  }
+ ],
+ "readthroughNext": [],
+ "sentiment": {
+  "asOf": "2026-11-23",
+  "score": 28,
+  "mood": "Fear",
+  "readings": [
+   {
+    "name": "S&P 500 RSI (14-day)",
+    "value": "42",
+    "tone": "calm",
+    "note": "middle of its range"
+   },
+   {
+    "name": "VIX (fear index)",
+    "value": "26.6",
+    "tone": "fear",
+    "note": "raised: traders are nervous"
+   },
+   {
+    "name": "Fear curve (VIX vs 3-month VIX)",
+    "value": "1.04",
+    "tone": "fear",
+    "note": "above 1.00: traders pay more for protection now than later"
+   },
+   {
+    "name": "Big stocks under their 20-day average",
+    "value": "82%",
+    "tone": "fear",
+    "note": "nearly everything is being sold"
+   },
+   {
+    "name": "Junk bonds vs Treasuries, 10 days",
+    "value": "-1.1%",
+    "tone": "calm",
+    "note": "no stress in lending"
+   }
   ],
-  "events": [],
-  "macro": [
-    {
-      "source": "Yahoo Finance",
-      "time": "Mon 4:27 PM",
-      "text": "Nvidia's board reinstated Jensen Huang as CEO; NVDA +31.5%, nearly $1T added in a day.",
-      "url": "https://finance.yahoo.com/technology/article/nvidia-stock-has-best-day-since-may-2003-gaining-nearly-1t-in-market-cap-after-jensen-huang-is-reinstated-as-ceo-212735744.html"
-    },
-    {
-      "source": "Investing.com",
-      "time": "Mon 4:06 PM",
-      "text": "S&P 500 +4.75% to 7,238.84, Nasdaq +6.47%, Dow +3.02%; energy the only sector lower (WTI −3.7% to 80.30).",
-      "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-rebound-after-rough-week-for-ailinked-shares-5044594"
-    },
-    {
-      "source": "Investing.com",
-      "time": "Mon 3:54 PM",
-      "text": "U.S. to blacklist Megaspeed, a chip firm linked to the Nvidia scandal, a source says.",
-      "url": "https://www.investing.com/news/stock-market-news/us-to-blacklist-megaspeed-chip-firm-linked-to-nvidia-scandal-source-says-5046337"
-    }
+  "past": "The last five years had this mood on 112 days in 18 separate stretches: the S&P 500 fund was higher five days later 51% of the time (middle result +0.0% after five days, +0.5% after ten).",
+  "usual": "On an ordinary day it was higher five days later 58% of the time.",
+  "live": "",
+  "trail": [
+   [
+    "2026-10-13",
+    68
+   ],
+   [
+    "2026-10-14",
+    55
+   ],
+   [
+    "2026-10-15",
+    59
+   ],
+   [
+    "2026-10-16",
+    42
+   ],
+   [
+    "2026-10-19",
+    48
+   ],
+   [
+    "2026-10-20",
+    51
+   ],
+   [
+    "2026-10-21",
+    56
+   ],
+   [
+    "2026-10-22",
+    44
+   ],
+   [
+    "2026-10-23",
+    43
+   ],
+   [
+    "2026-10-26",
+    50
+   ],
+   [
+    "2026-10-27",
+    57
+   ],
+   [
+    "2026-10-28",
+    65
+   ],
+   [
+    "2026-10-29",
+    60
+   ],
+   [
+    "2026-10-30",
+    46
+   ],
+   [
+    "2026-11-02",
+    37
+   ],
+   [
+    "2026-11-03",
+    40
+   ],
+   [
+    "2026-11-04",
+    55
+   ],
+   [
+    "2026-11-05",
+    24
+   ],
+   [
+    "2026-11-06",
+    30
+   ],
+   [
+    "2026-11-09",
+    46
+   ],
+   [
+    "2026-11-10",
+    49
+   ],
+   [
+    "2026-11-11",
+    56
+   ],
+   [
+    "2026-11-12",
+    54
+   ],
+   [
+    "2026-11-13",
+    56
+   ],
+   [
+    "2026-11-16",
+    43
+   ],
+   [
+    "2026-11-17",
+    34
+   ],
+   [
+    "2026-11-18",
+    36
+   ],
+   [
+    "2026-11-19",
+    27
+   ],
+   [
+    "2026-11-20",
+    11
+   ],
+   [
+    "2026-11-23",
+    28
+   ]
   ],
-  "bigNames": [
-    {
-      "symbol": "NVDA",
-      "move": "+31.5%",
-      "text": "Board reinstated Huang as CEO after input from senior U.S. officials; Kress back to CFO. Opened 167.04, high 171.50, close 165.05.",
-      "source": "Yahoo Finance",
-      "time": "Mon 4:27 PM",
-      "url": "https://finance.yahoo.com/technology/article/nvidia-stock-has-best-day-since-may-2003-gaining-nearly-1t-in-market-cap-after-jensen-huang-is-reinstated-as-ceo-212735744.html"
-    },
-    {
-      "symbol": "HPE",
-      "move": "+17.4% (AH ~−5.6%)",
-      "text": "Q4 revenue $14.5B (+50%), adj. EPS $1.43 vs ~$1.28 expected; server revenue +95%. Q1 guide $14.0–14.6B, adj. EPS $1.30–1.40.",
-      "source": "HPE / Business Wire",
-      "time": "Mon 4:05 PM",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-reports-fiscal-2026-fourth-210500319.html"
-    },
-    {
-      "symbol": "ORCL / CRWV",
-      "move": "+12.3% / +22.3%",
-      "text": "Oracle rose on an update on funding for its OpenAI contract; CoreWeave rallied as investors bet AI spending continues.",
-      "source": "MarketWatch",
-      "time": "Mon 4:24 PM",
-      "url": "https://www.marketwatch.com/story/oracle-and-coreweave-stocks-stage-big-gains-as-investors-bet-the-ai-cash-will-keep-flowing-eeb1aa85?mod=mw_rss_topstories"
-    }
-  ],
-  "read": "Huang's reinstatement (~8:55, after the brief) turned the relief bounce into a +5% gap. NVDA, CRWD, UNH setups triggered; ZS, TSM, HPE failed after the open. SPY chopped: low 713.53 at 9:40, high 727.98 at 10:30, close 722.39 (−0.27% from open). Chips faded intraday (SMH −2% from open); health care, utilities gained. Tomorrow: no U.S. red event; Dell after the close.",
-  "tomorrow": [
-    {
-      "time": "7:30 PM",
-      "currency": "AUD",
-      "event": "CPI m/m",
-      "forecast": "0.4%",
-      "previous": "0.8%"
-    },
-    {
-      "time": "7:30 PM",
-      "currency": "AUD",
-      "event": "CPI y/y",
-      "forecast": "4.7%",
-      "previous": "4.3%"
-    },
-    {
-      "time": "7:30 PM",
-      "currency": "AUD",
-      "event": "Trimmed Mean CPI m/m",
-      "forecast": "0.3%",
-      "previous": "0.3%"
-    }
-  ],
-  "readthroughNext": []
+  "bounceOn": false,
+  "washed": [],
+  "read": "Friday closed in extreme fear (11 of 100) after seven down days. Today's +4.8% on Nvidia's board bringing Huang back lifted the number to 28: still fear. Between the lines: the whole gain was the gap. From the 9:30 open the S&P fund finished flat and chips fell 2%, so anyone who waited for the open got nothing and early buyers sold into it. That is relief and short-covering, not fresh buying yet. A VIX of 26.6 and four in five big stocks still under their 20-day average say the crowd has not relaxed.",
+  "positioned": "Braced, not bullish. Protection for this month still costs more than protection three months out (1.04), and money moved into health care and utilities during the day. Many who sold last week now hold less than they want, in a market 5% above Friday's close.",
+  "surprise": "A slow climb that never gives them the pullback they are waiting for. It would show as SPY holding today's low (713.5) while the VIX slips under its 3-month level. The opposite tell: a close back under 713.5 would say the gap was only short-covering."
+ }
 }
