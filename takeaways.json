@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-25T16:18:51.824231-05:00",
+ "updated": "2026-11-25T16:39:44.049764-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -635,21 +635,21 @@
     "type": "trend-up",
     "typeLabel": "Rally all day",
     "spy": {
-     "open": 702.63,
+     "open": 703.2,
      "high": 718.43,
      "low": 695.47,
-     "close": 716.71,
+     "close": 716.76,
      "prevClose": 718.78,
-     "change": -0.288,
-     "openToClose": 2.004,
+     "change": -0.281,
+     "openToClose": 1.928,
      "rangePct": 3.194,
      "usualRangePct": 1.705,
      "rangeVsUsual": 1.87,
      "closeLocation": 0.93,
      "highAt": "14:30",
      "lowAt": "09:45",
-     "vwapCrosses": 9,
-     "pctAboveVwapAfter10": 81
+     "vwapCrosses": 7,
+     "pctAboveVwapAfter10": 78
     },
     "expectedMovePct": 1.661,
     "actualMoveVsExpected": 0.17,
@@ -667,7 +667,7 @@
      }
     },
     "gap": {
-     "pct": -2.247,
+     "pct": -2.168,
      "filled": false,
      "filledAt": null
     },
@@ -695,9 +695,9 @@
      "10:00": {
       "spy": {
        "last": 703.53,
-       "vsOpen": 0.129,
+       "vsOpen": 0.048,
        "vsPrevClose": -2.121,
-       "vwap": 699.81,
+       "vwap": 700.16,
        "aboveVwap": true,
        "vwapCrosses": 1
       },
@@ -733,14 +733,14 @@
        "bpChange": -6.8
       },
       "agree": true,
-      "breadthGap": -0.077
+      "breadthGap": 0.004
      },
      "10:30": {
       "spy": {
        "last": 698.61,
-       "vsOpen": -0.572,
+       "vsOpen": -0.653,
        "vsPrevClose": -2.806,
-       "vwap": 699.35,
+       "vwap": 700.61,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -748,7 +748,7 @@
        "last": 610.5,
        "vsOpen": -1.07,
        "vsPrevClose": -4.325,
-       "vwap": 612.97,
+       "vwap": 614.89,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -776,12 +776,12 @@
        "bpChange": -8.4
       },
       "agree": true,
-      "breadthGap": 0.459,
+      "breadthGap": 0.54,
       "orBreak": "up",
       "gapFilled": false
      }
     },
-    "summary": "Rally all day. SPY closed -0.29% on the day (+2.00% from the open). High-to-low it moved 3.19%, a bigger range than usual (1.9x the last 20 days). It broke the first 30 minutes' range up at 10:05 and that break held into the close. It crossed VWAP 9 times (lots of crossing is a chop sign).",
+    "summary": "Rally all day. SPY closed -0.28% on the day (+1.93% from the open). High-to-low it moved 3.19%, a bigger range than usual (1.9x the last 20 days). It broke the first 30 minutes' range up at 10:05 and that break held into the close. It crossed VWAP 7 times (lots of crossing is a chop sign).",
     "usEvents": [
      {
       "time": "8:30 AM",
@@ -801,7 +801,15 @@
      }
     ]
    },
-   "written": null,
+   "written": {
+    "briefLean": "Risk-off: an AI-led sell-off after Dell and Workday were sold on beats, core PCE at 3.3% a year keeping a December hike priced, and the test being whether NVDA, MU and DELL held their premarket lows around 10:00–10:15.",
+    "verdict": "partly",
+    "whatHappened": "SPY gapped −2.2% to open 703.20 and made its low 695.47 at 9:45. It broke the 30-minute range up at 10:05 but sat back under VWAP at 10:30 (698.61, VIX 34.1); the break held, the rally ran to a 718.43 high at 2:30 and SPY closed 716.76 (−0.28%, +1.93% from the open), without filling the gap.",
+    "why": "The morning's drivers (an AI rout, new tariff plans, a firm core PCE) gave the early low, with Nvidia down as much as 9.1%. From around midday dip buyers stepped in ahead of the Thanksgiving break and money rotated out of tech into equal-weight, materials, industrials, financials and small caps; the 10-year yield fell about 6 bp and earnings names sold in the morning (DELL, DE, WDAY) were bought.",
+    "earliestClue": "At 10:00 SPY and QQQ were already above VWAP and the opening range broke up at 10:05, while equal-weight RSP was down less than half as much as SPY: the breadth said the drop was concentrated in tech. The 10:30 dip under VWAP with VIX at 34 muddied it.",
+    "lesson": "On a big gap-down into a holiday with heavy hedging (VIX above 30, fear curve above 1.00), watch the earnings names that were sold on good or known news: when they reverse first, the index low is often in, even if chips lag.",
+    "by": "Close review routine"
+   },
    "setups": {
     "day": [
      {
@@ -850,8 +858,8 @@
       "open": 144.02,
       "high": 150.37,
       "low": 141.17,
-      "close": 149.27,
-      "openToClose": 3.65,
+      "close": 149.29,
+      "openToClose": 3.66,
       "gapPct": -7.31,
       "gapFilled": false,
       "breaks": [
@@ -998,7 +1006,7 @@
       "change": -1.58
      }
     ],
-    "graded": "2026-11-25T16:18:50.733101-05:00"
+    "graded": "2026-11-25T16:36:53.797520-05:00"
    }
   },
   {
@@ -1396,7 +1404,7 @@
       "change": 9.42
      }
     ],
-    "graded": "2026-11-25T16:18:51.816167-05:00"
+    "graded": "2026-11-25T16:36:55.801468-05:00"
    }
   },
   {
@@ -2189,7 +2197,7 @@
       "change": -12.35
      }
     ],
-    "graded": "2026-11-25T16:18:51.814699-05:00"
+    "graded": "2026-11-25T16:36:55.799579-05:00"
    }
   },
   {
@@ -2604,7 +2612,7 @@
       "change": 4.77
      }
     ],
-    "graded": "2026-11-25T16:18:51.463984-05:00"
+    "graded": "2026-11-25T16:36:55.377703-05:00"
    }
   },
   {
@@ -6884,7 +6892,7 @@
       "change": -1.31
      }
     ],
-    "graded": "2026-11-25T16:18:51.399366-05:00"
+    "graded": "2026-11-25T16:36:55.190512-05:00"
    }
   },
   {
@@ -7271,7 +7279,7 @@
       "change": -20.79
      }
     ],
-    "graded": "2026-11-25T16:18:51.314187-05:00"
+    "graded": "2026-11-25T16:36:54.954212-05:00"
    }
   },
   {
@@ -7657,7 +7665,7 @@
       "change": -13.03
      }
     ],
-    "graded": "2026-11-25T16:18:51.148586-05:00"
+    "graded": "2026-11-25T16:36:54.533665-05:00"
    }
   },
   {
