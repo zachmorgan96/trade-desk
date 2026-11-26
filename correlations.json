@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:42:15+00:00",
+ "updated": "2026-11-26T21:06:08+00:00",
  "source": "Yahoo Finance daily closes; correlations of daily changes on common U.S. trading days",
  "pairs": [
   {
@@ -631,7 +631,7 @@
    "xUnit": "%",
    "yUnit": "%",
    "c20": -0.23,
-   "c60": 0.0,
+   "c60": -0.0,
    "c250": 0.05,
    "bigThreshold": 1.47,
    "bigUp": {
@@ -669,7 +669,7 @@
     {
      "date": "2026-11-25",
      "x": -0.653,
-     "y": 0.434
+     "y": 0.572
     }
    ],
    "asOf": "2026-11-25"
