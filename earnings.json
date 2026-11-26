@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:40:08+00:00",
+ "updated": "2026-11-26T19:42:10+00:00",
  "source": "Nasdaq earnings calendar",
  "minMarketCap": 10000000000.0,
  "days": {
@@ -323,14 +323,41 @@
   ],
   "2026-11-25": [
    {
+    "symbol": "DE",
+    "name": "Deere & Company",
+    "time": "time not supplied",
+    "marketCap": 165485298000.0,
+    "quarter": "Oct/2026",
+    "epsForecast": 4.07,
+    "estimates": 9,
+    "lastYearEps": null,
+    "eps": 3.89,
+    "surprise": -4.42,
+    "last": {
+     "quarter": "Jul 2026",
+     "date": "2026-08-20",
+     "eps": 5.1,
+     "forecast": 4.79,
+     "surprise": 6.47
+    },
+    "reaction": {
+     "date": "2026-08-20",
+     "gap": 5.25,
+     "close": 6.94,
+     "guessed": true
+    }
+   },
+   {
     "symbol": "LI",
     "name": "Li Auto Inc.",
-    "time": "before open",
+    "time": "time not supplied",
     "marketCap": 10456837100.0,
     "quarter": "Sep/2026",
     "epsForecast": -0.08,
     "estimates": 1,
-    "lastYearEps": -0.09
+    "lastYearEps": null,
+    "eps": -0.05,
+    "surprise": 37.5
    }
   ],
   "2026-11-26": [],
@@ -355,7 +382,7 @@
     "marketCap": 174515847000.0,
     "quarter": "Sep/2026",
     "epsForecast": null,
-    "estimates": 0,
+    "estimates": 3,
     "lastYearEps": null
    },
    {
@@ -492,7 +519,7 @@
     "time": "before open",
     "marketCap": 104282898000.0,
     "quarter": "Oct/2026",
-    "epsForecast": 1.55,
+    "epsForecast": 1.54,
     "estimates": 3,
     "lastYearEps": 1.39,
     "last": {
@@ -558,7 +585,7 @@
     "time": "before open",
     "marketCap": 261535613000.0,
     "quarter": "Oct/2026",
-    "epsForecast": 2.93,
+    "epsForecast": 2.94,
     "estimates": 4,
     "lastYearEps": 2.76,
     "last": {
@@ -580,7 +607,7 @@
     "time": "before open",
     "marketCap": 188859302000.0,
     "quarter": "Oct/2026",
-    "epsForecast": 1.77,
+    "epsForecast": 1.76,
     "estimates": 3,
     "lastYearEps": 1.57,
     "last": {
@@ -654,7 +681,7 @@
     "time": "after close",
     "marketCap": 27407538200.0,
     "quarter": "Oct/2026",
-    "epsForecast": 5.62,
+    "epsForecast": 5.64,
     "estimates": 12,
     "lastYearEps": 5.14
    },
