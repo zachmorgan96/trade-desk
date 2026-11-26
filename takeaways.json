@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-25T16:39:44.049764-05:00",
+ "updated": "2026-11-25T22:40:20.641713-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -635,13 +635,13 @@
     "type": "trend-up",
     "typeLabel": "Rally all day",
     "spy": {
-     "open": 703.2,
+     "open": 702.63,
      "high": 718.43,
      "low": 695.47,
-     "close": 716.76,
+     "close": 716.71,
      "prevClose": 718.78,
-     "change": -0.281,
-     "openToClose": 1.928,
+     "change": -0.288,
+     "openToClose": 2.004,
      "rangePct": 3.194,
      "usualRangePct": 1.705,
      "rangeVsUsual": 1.87,
@@ -649,7 +649,7 @@
      "highAt": "14:30",
      "lowAt": "09:45",
      "vwapCrosses": 7,
-     "pctAboveVwapAfter10": 78
+     "pctAboveVwapAfter10": 75
     },
     "expectedMovePct": 1.661,
     "actualMoveVsExpected": 0.17,
@@ -667,7 +667,7 @@
      }
     },
     "gap": {
-     "pct": -2.168,
+     "pct": -2.247,
      "filled": false,
      "filledAt": null
     },
@@ -695,9 +695,9 @@
      "10:00": {
       "spy": {
        "last": 703.53,
-       "vsOpen": 0.048,
+       "vsOpen": 0.129,
        "vsPrevClose": -2.121,
-       "vwap": 700.16,
+       "vwap": 699.81,
        "aboveVwap": true,
        "vwapCrosses": 1
       },
@@ -733,14 +733,14 @@
        "bpChange": -6.8
       },
       "agree": true,
-      "breadthGap": 0.004
+      "breadthGap": -0.077
      },
      "10:30": {
       "spy": {
        "last": 698.61,
-       "vsOpen": -0.653,
+       "vsOpen": -0.572,
        "vsPrevClose": -2.806,
-       "vwap": 700.61,
+       "vwap": 700.52,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -748,7 +748,7 @@
        "last": 610.5,
        "vsOpen": -1.07,
        "vsPrevClose": -4.325,
-       "vwap": 614.89,
+       "vwap": 613.34,
        "aboveVwap": false,
        "vwapCrosses": 2
       },
@@ -776,12 +776,12 @@
        "bpChange": -8.4
       },
       "agree": true,
-      "breadthGap": 0.54,
+      "breadthGap": 0.459,
       "orBreak": "up",
       "gapFilled": false
      }
     },
-    "summary": "Rally all day. SPY closed -0.28% on the day (+1.93% from the open). High-to-low it moved 3.19%, a bigger range than usual (1.9x the last 20 days). It broke the first 30 minutes' range up at 10:05 and that break held into the close. It crossed VWAP 7 times (lots of crossing is a chop sign).",
+    "summary": "Rally all day. SPY closed -0.29% on the day (+2.00% from the open). High-to-low it moved 3.19%, a bigger range than usual (1.9x the last 20 days). It broke the first 30 minutes' range up at 10:05 and that break held into the close. It crossed VWAP 7 times (lots of crossing is a chop sign).",
     "usEvents": [
      {
       "time": "8:30 AM",
@@ -858,8 +858,8 @@
       "open": 144.02,
       "high": 150.37,
       "low": 141.17,
-      "close": 149.29,
-      "openToClose": 3.66,
+      "close": 149.27,
+      "openToClose": 3.65,
       "gapPct": -7.31,
       "gapFilled": false,
       "breaks": [
@@ -1006,7 +1006,7 @@
       "change": -1.58
      }
     ],
-    "graded": "2026-11-25T16:36:53.797520-05:00"
+    "graded": "2026-11-25T22:40:19.108060-05:00"
    }
   },
   {
@@ -1404,7 +1404,7 @@
       "change": 9.42
      }
     ],
-    "graded": "2026-11-25T16:36:55.801468-05:00"
+    "graded": "2026-11-25T22:40:20.636535-05:00"
    }
   },
   {
@@ -2197,7 +2197,7 @@
       "change": -12.35
      }
     ],
-    "graded": "2026-11-25T16:36:55.799579-05:00"
+    "graded": "2026-11-25T22:40:20.634947-05:00"
    }
   },
   {
@@ -2612,7 +2612,7 @@
       "change": 4.77
      }
     ],
-    "graded": "2026-11-25T16:36:55.377703-05:00"
+    "graded": "2026-11-25T22:40:20.288176-05:00"
    }
   },
   {
@@ -6892,7 +6892,7 @@
       "change": -1.31
      }
     ],
-    "graded": "2026-11-25T16:36:55.190512-05:00"
+    "graded": "2026-11-25T22:40:20.133742-05:00"
    }
   },
   {
@@ -7279,7 +7279,7 @@
       "change": -20.79
      }
     ],
-    "graded": "2026-11-25T16:36:54.954212-05:00"
+    "graded": "2026-11-25T22:40:19.907341-05:00"
    }
   },
   {
@@ -7665,7 +7665,7 @@
       "change": -13.03
      }
     ],
-    "graded": "2026-11-25T16:36:54.533665-05:00"
+    "graded": "2026-11-25T22:40:19.559569-05:00"
    }
   },
   {
