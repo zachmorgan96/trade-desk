@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T15:50:18.195188-05:00",
+ "updated": "2026-11-27T16:37:17.547385-05:00",
  "source": "Yahoo Finance 5-minute and daily bars; lessons by the close review",
  "types": {
   "trend-up": "Rally all day",
@@ -999,14 +999,14 @@
       "confirmSide": "above",
       "invalidLevel": 139.77,
       "invalidSide": "below",
-      "days": 1,
+      "days": 2,
       "status": "waiting",
-      "lastDate": "2026-11-25",
-      "lastClose": 152.21,
-      "change": -1.58
+      "lastDate": "2026-11-27",
+      "lastClose": 148.53,
+      "change": -3.96
      }
     ],
-    "graded": "2026-11-27T15:50:18.191372-05:00"
+    "graded": "2026-11-27T16:37:17.536491-05:00"
    }
   },
   {
@@ -1397,14 +1397,14 @@
       "confirmSide": "above",
       "invalidLevel": 139.77,
       "invalidSide": "below",
-      "days": 2,
+      "days": 3,
       "status": "waiting",
-      "lastDate": "2026-11-25",
-      "lastClose": 152.21,
-      "change": 9.42
+      "lastDate": "2026-11-27",
+      "lastClose": 148.53,
+      "change": 6.78
      }
     ],
-    "graded": "2026-11-27T15:50:18.190472-05:00"
+    "graded": "2026-11-27T16:37:17.534663-05:00"
    }
   },
   {
@@ -2150,22 +2150,22 @@
       "confirmSide": "above",
       "invalidLevel": 123.27,
       "invalidSide": "below",
-      "days": 4,
+      "days": 5,
       "status": "confirmed",
       "statusDate": "2026-11-23",
       "statusClose": 129.58,
       "after": {
        "entry": 129.58,
        "riskPct": 4.87,
-       "days": 2,
+       "days": 3,
        "outcome": "open",
        "bestPct": 2.79,
        "worstPct": 0.0,
-       "nowPct": 1.82
+       "nowPct": 2.74
       },
-      "lastDate": "2026-11-25",
-      "lastClose": 131.94,
-      "change": 4.68
+      "lastDate": "2026-11-27",
+      "lastClose": 133.13,
+      "change": 5.63
      },
      {
       "symbol": "INTU",
@@ -2179,25 +2179,25 @@
       "confirmSide": "below",
       "invalidLevel": 302.59,
       "invalidSide": "above",
-      "days": 4,
+      "days": 5,
       "status": "confirmed",
       "statusDate": "2026-11-20",
       "statusClose": 270.44,
       "after": {
        "entry": 270.44,
        "riskPct": 11.89,
-       "days": 3,
+       "days": 4,
        "outcome": "open",
        "bestPct": 0.58,
        "worstPct": -7.03,
-       "nowPct": -0.47
+       "nowPct": -0.55
       },
-      "lastDate": "2026-11-25",
-      "lastClose": 271.72,
-      "change": -12.35
+      "lastDate": "2026-11-27",
+      "lastClose": 271.94,
+      "change": -12.28
      }
     ],
-    "graded": "2026-11-27T15:50:18.131879-05:00"
+    "graded": "2026-11-27T16:37:17.356584-05:00"
    }
   },
   {
@@ -2605,14 +2605,14 @@
       "confirmSide": "above",
       "invalidLevel": 342.36,
       "invalidSide": "below",
-      "days": 5,
+      "days": 6,
       "status": "waiting",
-      "lastDate": "2026-11-25",
-      "lastClose": 356.14,
-      "change": 4.77
+      "lastDate": "2026-11-27",
+      "lastClose": 366.76,
+      "change": 7.9
      }
     ],
-    "graded": "2026-11-27T15:50:17.925465-05:00"
+    "graded": "2026-11-27T16:37:16.145662-05:00"
    }
   },
   {
@@ -6834,22 +6834,22 @@
       "confirmSide": "above",
       "invalidLevel": 340.99,
       "invalidSide": "below",
-      "days": 15,
+      "days": 16,
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 355.63,
       "after": {
        "entry": 355.63,
        "riskPct": 4.12,
-       "days": 10,
+       "days": 11,
        "outcome": "open",
        "bestPct": 1.46,
        "worstPct": -4.24,
-       "nowPct": -0.01
+       "nowPct": 0.82
       },
-      "lastDate": "2026-11-25",
-      "lastClose": 355.58,
-      "change": 1.74
+      "lastDate": "2026-11-27",
+      "lastClose": 358.54,
+      "change": 2.58
      },
      {
       "symbol": "AMZN",
@@ -6863,13 +6863,13 @@
       "confirmSide": "above",
       "invalidLevel": 263.85,
       "invalidSide": "below",
-      "days": 15,
+      "days": 16,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 260.21,
-      "lastDate": "2026-11-25",
-      "lastClose": 244.43,
-      "change": -8.12
+      "lastDate": "2026-11-27",
+      "lastClose": 254.12,
+      "change": -4.48
      },
      {
       "symbol": "TSLA",
@@ -6883,16 +6883,16 @@
       "confirmSide": "above",
       "invalidLevel": 362.7,
       "invalidSide": "below",
-      "days": 15,
+      "days": 16,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 343.69,
-      "lastDate": "2026-11-25",
-      "lastClose": 380.14,
-      "change": -1.31
+      "lastDate": "2026-11-27",
+      "lastClose": 400.0,
+      "change": 3.84
      }
     ],
-    "graded": "2026-11-27T15:50:17.853303-05:00"
+    "graded": "2026-11-27T16:37:15.922646-05:00"
    }
   },
   {
@@ -7221,13 +7221,13 @@
       "confirmSide": "above",
       "invalidLevel": 470.75,
       "invalidSide": "below",
-      "days": 16,
+      "days": 17,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 404.4,
-      "lastDate": "2026-11-25",
-      "lastClose": 406.03,
-      "change": -16.09
+      "lastDate": "2026-11-27",
+      "lastClose": 424.54,
+      "change": -12.27
      },
      {
       "symbol": "TSLA",
@@ -7241,13 +7241,13 @@
       "confirmSide": "above",
       "invalidLevel": 352.0,
       "invalidSide": "below",
-      "days": 16,
+      "days": 17,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 343.69,
-      "lastDate": "2026-11-25",
-      "lastClose": 380.14,
-      "change": -4.61
+      "lastDate": "2026-11-27",
+      "lastClose": 400.0,
+      "change": 0.38
      },
      {
       "symbol": "CRWV",
@@ -7261,25 +7261,25 @@
       "confirmSide": "above",
       "invalidLevel": null,
       "invalidSide": null,
-      "days": 16,
+      "days": 17,
       "status": "confirmed",
       "statusDate": "2026-11-11",
       "statusClose": 60.77,
       "after": {
        "entry": 60.77,
        "riskPct": null,
-       "days": 10,
+       "days": 11,
        "outcome": null,
        "bestPct": 0.0,
        "worstPct": -38.46,
-       "nowPct": -29.95
+       "nowPct": -27.35
       },
-      "lastDate": "2026-11-25",
-      "lastClose": 42.57,
-      "change": -20.79
+      "lastDate": "2026-11-27",
+      "lastClose": 44.15,
+      "change": -17.85
      }
     ],
-    "graded": "2026-11-27T15:50:17.781567-05:00"
+    "graded": "2026-11-27T16:37:15.755630-05:00"
    }
   },
   {
@@ -7618,11 +7618,11 @@
       "confirmSide": "below",
       "invalidLevel": null,
       "invalidSide": null,
-      "days": 17,
+      "days": 18,
       "status": "waiting",
-      "lastDate": "2026-11-25",
-      "lastClose": 355.58,
-      "change": 5.1
+      "lastDate": "2026-11-27",
+      "lastClose": 358.54,
+      "change": 5.98
      },
      {
       "symbol": "MU",
@@ -7636,13 +7636,13 @@
       "confirmSide": "above",
       "invalidLevel": 825.25,
       "invalidSide": "below",
-      "days": 17,
+      "days": 18,
       "status": "invalidated",
       "statusDate": "2026-11-04",
       "statusClose": 795.23,
-      "lastDate": "2026-11-25",
-      "lastClose": 601.25,
-      "change": -27.87
+      "lastDate": "2026-11-27",
+      "lastClose": 646.95,
+      "change": -22.39
      },
      {
       "symbol": "AMD",
@@ -7656,16 +7656,16 @@
       "confirmSide": "above",
       "invalidLevel": 466.07,
       "invalidSide": "below",
-      "days": 17,
+      "days": 18,
       "status": "invalidated",
       "statusDate": "2026-11-05",
       "statusClose": 404.4,
-      "lastDate": "2026-11-25",
-      "lastClose": 406.03,
-      "change": -13.03
+      "lastDate": "2026-11-27",
+      "lastClose": 424.54,
+      "change": -9.06
      }
     ],
-    "graded": "2026-11-27T15:50:17.624971-05:00"
+    "graded": "2026-11-27T16:37:15.377809-05:00"
    }
   },
   {
