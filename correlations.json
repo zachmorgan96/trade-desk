@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:06:08+00:00",
+ "updated": "2026-11-27T03:41:03+00:00",
  "source": "Yahoo Finance daily closes; correlations of daily changes on common U.S. trading days",
  "pairs": [
   {
@@ -630,8 +630,8 @@
    "yName": "Bitcoin",
    "xUnit": "%",
    "yUnit": "%",
-   "c20": -0.23,
-   "c60": -0.0,
+   "c20": -0.25,
+   "c60": 0.0,
    "c250": 0.05,
    "bigThreshold": 1.47,
    "bigUp": {
@@ -646,6 +646,11 @@
    },
    "holding": "no clear link right now",
    "lastWeek": [
+    {
+     "date": "2026-11-18",
+     "x": 0.39,
+     "y": -1.723
+    },
     {
      "date": "2026-11-19",
      "x": -2.194,
@@ -665,14 +670,9 @@
      "date": "2026-11-24",
      "x": -1.986,
      "y": 1.055
-    },
-    {
-     "date": "2026-11-25",
-     "x": -0.653,
-     "y": 0.572
     }
    ],
-   "asOf": "2026-11-25"
+   "asOf": "2026-11-24"
   }
  ],
  "errors": []
