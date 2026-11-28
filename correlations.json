@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:50:15+00:00",
+ "updated": "2026-11-28T03:22:40+00:00",
  "source": "Yahoo Finance daily closes; correlations of daily changes on common U.S. trading days",
  "pairs": [
   {
@@ -500,7 +500,7 @@
     },
     {
      "date": "2026-11-27",
-     "x": 0.357,
+     "x": 0.332,
      "y": 1.621
     }
    ],
@@ -518,8 +518,8 @@
    "yName": "Gold",
    "xUnit": "%",
    "yUnit": "%",
-   "c20": -0.01,
-   "c60": -0.14,
+   "c20": -0.02,
+   "c60": -0.15,
    "c250": -0.35,
    "bigThreshold": 0.33,
    "bigUp": {
@@ -556,7 +556,7 @@
     },
     {
      "date": "2026-11-27",
-     "x": 0.357,
+     "x": 0.332,
      "y": 3.753
     }
    ],
@@ -630,14 +630,14 @@
    "yName": "Bitcoin",
    "xUnit": "%",
    "yUnit": "%",
-   "c20": -0.23,
-   "c60": 0.0,
+   "c20": -0.22,
+   "c60": -0.01,
    "c250": 0.05,
-   "bigThreshold": 1.47,
+   "bigThreshold": 1.48,
    "bigUp": {
-    "days": 27,
-    "avg": 0.13,
-    "hitRate": 56
+    "days": 28,
+    "avg": 0.09,
+    "hitRate": 54
    },
    "bigDown": {
     "days": 34,
@@ -646,11 +646,6 @@
    },
    "holding": "no clear link right now",
    "lastWeek": [
-    {
-     "date": "2026-11-19",
-     "x": -2.194,
-     "y": -5.013
-    },
     {
      "date": "2026-11-20",
      "x": -5.673,
@@ -670,9 +665,14 @@
      "date": "2026-11-25",
      "x": -0.653,
      "y": 0.193
+    },
+    {
+     "date": "2026-11-27",
+     "x": 2.691,
+     "y": -1.015
     }
    ],
-   "asOf": "2026-11-25"
+   "asOf": "2026-11-27"
   }
  ],
  "errors": []

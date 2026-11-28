@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:50:10+00:00",
+ "updated": "2026-11-28T03:22:36+00:00",
  "source": "Nasdaq earnings calendar",
  "minMarketCap": 10000000000.0,
  "days": {
@@ -712,7 +712,7 @@
     "marketCap": 13949473800.0,
     "quarter": "Oct/2026",
     "epsForecast": null,
-    "estimates": 0,
+    "estimates": 3,
     "lastYearEps": 0.47
    },
    {
